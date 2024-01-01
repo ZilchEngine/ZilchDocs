@@ -2,7 +2,7 @@
 
 ## Events
 
-Zero Engine’s Event system takes component-based design to new levels of freedom and flexibility. A Zero Engine Event mimics its real-world counterpart: a situation that arises. How your game handles that situation is up to you. When your hero takes damage, the camera following her can shake. When a cannonball reaches the apex of its flight, an audio filter can be applied to the level’s music. Every game object is a potential event dispatcher, and every object’s events are up for grabs. When you work with events from the beginning of a project, you allow yourself greater freedom to rapidly explore new features and ideas with minimal refactoring of your existing code.
+Zero Engine's Event system takes component-based design to new levels of freedom and flexibility. A Zero Engine Event mimics its real-world counterpart: a situation that arises. How your game handles that situation is up to you. When your hero takes damage, the camera following her can shake. When a cannonball reaches the apex of its flight, an audio filter can be applied to the level's music. Every game object is a potential event dispatcher, and every object's events are up for grabs. When you work with events from the beginning of a project, you allow yourself greater freedom to rapidly explore new features and ideas with minimal refactoring of your existing code.
 
 ## Nested Archetypes
 
@@ -14,11 +14,11 @@ Zilch is a high-level programming language developed by us to solve some of the 
 
 ## C++ Plugins
 
-Scripts are awesome, but at the end of the day they can't do everything that life has to offer. Whether it's a library that you want to use or you need to do some heavy lifting for performance reasons, C++ can always get the job done. With a C++ plugin you have all the power you need, wrapped up and ready to use in your game. There’s no complicated setup, just create a new plugin resource and it will make you a Visual Studio solution, pre-hooked with a new component. Changes to your plugin are automatically detected by Zero Engine, and your project updates itself on the spot.
+Scripts are awesome, but at the end of the day they can't do everything that life has to offer. Whether it's a library that you want to use or you need to do some heavy lifting for performance reasons, C++ can always get the job done. With a C++ plugin you have all the power you need, wrapped up and ready to use in your game. There's no complicated setup, just create a new plugin resource and it will make you a Visual Studio solution, pre-hooked with a new component. Changes to your plugin are automatically detected by Zero Engine, and your project updates itself on the spot.
 
 ## Lightweight Game Objects
 
-Zero Engine’s game objects are lightweight and versatile. We call them cogs because they’re 'Game Object Compositions' (and “gocs” doesn’t sound as cool). Cogs can house as many components and child objects as needed, and the engine is incredibly good at making and destroying them, so you never have to worry about object pooling.
+Zero Engine's game objects are lightweight and versatile. We call them cogs because they're 'Game Object Compositions' (and “gocs” doesn't sound as cool). Cogs can house as many components and child objects as needed, and the engine is incredibly good at making and destroying them, so you never have to worry about object pooling.
 
 ## Shader Compositing
 
@@ -26,15 +26,15 @@ Zero Engine's Materials are a component based way to write shaders. Write indivi
 
 ## Scriptable Rendering Pipeline
 
-We're in the business of rapid iteration, and the rendering pipeline is no exception. Zero Engine offers unparalleled control over the aesthetics of your game with the ability for scripts to define a series of tasks for the renderer. Written in script, your rendering pipeline becomes anything you can imagine, make your pipeline change dynamically with a simple condition, or even in response to an Event. Add any rendering technique to your game, including the ones that haven't been invented yet. But there’s no need start from scratch: Zero Engine comes pre-loaded with all the scripts and shaders needed for a modern physically based rendering pipeline. If that’s what you’re looking for, you’re done. If you want more, you can use it as a starting point for customization.
+We're in the business of rapid iteration, and the rendering pipeline is no exception. Zero Engine offers unparalleled control over the aesthetics of your game with the ability for scripts to define a series of tasks for the renderer. Written in script, your rendering pipeline becomes anything you can imagine, make your pipeline change dynamically with a simple condition, or even in response to an Event. Add any rendering technique to your game, including the ones that haven't been invented yet. But there's no need start from scratch: Zero Engine comes pre-loaded with all the scripts and shaders needed for a modern physically based rendering pipeline. If that's what you're looking for, you're done. If you want more, you can use it as a starting point for customization.
 
 ## Scriptable Sound Nodes
 
-Zero Engine features a powerful custom audio system. At its core is the sound node graph, a flexible, fully scriptable structure that controls the flow of audio through your game. Sound nodes can play or generate audio, apply effects, control parameters, and more, and they can be added, removed, and swapped at any time. When the sound node graph is used together with Zero Engine’s built-in event system, it’s easy to apply DSP effects to just the right sounds, just when you need them.
+Zero Engine features a powerful custom audio system. At its core is the sound node graph, a flexible, fully scriptable structure that controls the flow of audio through your game. Sound nodes can play or generate audio, apply effects, control parameters, and more, and they can be added, removed, and swapped at any time. When the sound node graph is used together with Zero Engine's built-in event system, it's easy to apply DSP effects to just the right sounds, just when you need them.
 
 ## In-House Physics
 
-Like most things in the Zero Engine, our physics system is developed by us. That may seem like an unnecessary amount of work, but we want features that pair well with the design and vision for Zero Engine as a whole and we don't want to be held back. Zero Engine’s physics system includes features like collision groups that allow detection without resolution, regions that can apply force effects, and even scriptable joint definitions that run through our constraint solver.
+Like most things in the Zero Engine, our physics system is developed by us. That may seem like an unnecessary amount of work, but we want features that pair well with the design and vision for Zero Engine as a whole and we don't want to be held back. Zero Engine's physics system includes features like collision groups that allow detection without resolution, regions that can apply force effects, and even scriptable joint definitions that run through our constraint solver.
 
 ## One-Click Network Replication
 

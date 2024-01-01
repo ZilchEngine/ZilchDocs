@@ -2,7 +2,7 @@ Zilch comes with a set of templates/macros that allow your C++ classes and funct
 
  #  Internal Binding
 
-The first thing we need to do is create a class that derives from StaticLibrary. That class must be visible to all the places where we’re going to be doing Zilch binding (generally in a header). We can use the ZilchDeclareStaticLibrary macro to declare the entire class and singleton implementation.
+The first thing we need to do is create a class that derives from StaticLibrary. That class must be visible to all the places where we're going to be doing Zilch binding (generally in a header). We can use the ZilchDeclareStaticLibrary macro to declare the entire class and singleton implementation.
 
 Below we have an example of a header file that contains the static library Wallaby and two example classes that might belong to that library. Remember, the name of the library can be anything you want.
 
@@ -134,7 +134,7 @@ A call to `GetLibrary` will automatically build the library. If you place breakp
 
  #  External Binding
 
-If you don’t want your classes to have knowledge about Zilch (for example you do not wish to include Zilch.hpp in your core class headers), you can use our External Binding macros. The external binding has one major limitation which is that you cannot call `ZilchGetDerivedType` on a C++ base class, because the function will not exist. It is possible to mix internal and external binding together, which is especially common when binding types that you cannot change the definition of.
+If you don't want your classes to have knowledge about Zilch (for example you do not wish to include Zilch.hpp in your core class headers), you can use our External Binding macros. The external binding has one major limitation which is that you cannot call `ZilchGetDerivedType` on a C++ base class, because the function will not exist. It is possible to mix internal and external binding together, which is especially common when binding types that you cannot change the definition of.
 
 External binding works the same as internal binding, except the following differences:
 

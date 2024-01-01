@@ -61,7 +61,7 @@ int main()
 ```
 
  #  Running a Zilch script
-As a language meant to be called and run from C++, Zilch has no ‘main entrypoint’ of its own. Instead it is up to the user to instantiate types defined within Zilch scripts and call functions on them (or invoke static methods).
+As a language meant to be called and run from C++, Zilch has no 'main entrypoint' of its own. Instead it is up to the user to instantiate types defined within Zilch scripts and call functions on them (or invoke static methods).
 
 Create a Zilch script with code that we want to test out.
 

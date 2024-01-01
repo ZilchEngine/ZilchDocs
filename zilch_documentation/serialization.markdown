@@ -1,4 +1,4 @@
-When binding Zilch it is common to use reflection to serialize members or properties of a class written in Zilch. This guide shows common approaches that we use to serialize data types. Because C++ classes can be bound using Zilch’s binding library, you can also technically use this to serialize C++ classes (though most game engines provide this functionality themselves).
+When binding Zilch it is common to use reflection to serialize members or properties of a class written in Zilch. This guide shows common approaches that we use to serialize data types. Because C++ classes can be bound using Zilch's binding library, you can also technically use this to serialize C++ classes (though most game engines provide this functionality themselves).
 
 At the end of the day, serialization always comes down to writing out primitives such as integers, floats, strings, and characters, as well as representing larger data structures such as arrays, maps and objects.
 

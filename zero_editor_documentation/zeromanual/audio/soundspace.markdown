@@ -1,4 +1,4 @@
-The [ SoundSpace ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundspace.markdown) is one of the default components of a Space. Its basic purpose is to separate sound areas, which means that a [SoundListener](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundlistener.markdown) in one SoundSpace can’t hear sounds in a different SoundSpace. It also allows the user to control properties like pitch and volume for all sounds in the Space. 
+The [ SoundSpace ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundspace.markdown) is one of the default components of a Space. Its basic purpose is to separate sound areas, which means that a [SoundListener](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundlistener.markdown) in one SoundSpace can't hear sounds in a different SoundSpace. It also allows the user to control properties like pitch and volume for all sounds in the Space. 
 
  # Using SoundSpaces
 

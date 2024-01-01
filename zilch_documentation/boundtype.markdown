@@ -24,7 +24,7 @@ while (range.empty() == false)
 }
 ```
 
-You can also use a built in ‘for each’ helper macro that wraps this behavior:
+You can also use a built in 'for each' helper macro that wraps this behavior:
 
 ```
 ZilchForEach(Property* property, boundType->AllProperties.all())
