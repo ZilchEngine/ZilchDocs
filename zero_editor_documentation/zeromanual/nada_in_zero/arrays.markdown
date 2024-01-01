@@ -261,7 +261,7 @@ Console.WriteLine("array0 after Clear: `array0`");
 Console.WriteLine("array1 after Clear: `array1`");
 ```
 ```name=Console Window
-arrayContainer before Clear: {{1, 2, 3}, {1.61803, 2.71828, 3.14159}}
+arrayContainer before Clear: \{\{1, 2, 3}, {1.61803, 2.71828, 3.14159\}\}
 arrayContainer after Clear: {}
 array0 after Clear: {1, 2, 3}
 array1 after Clear: {1.61803, 2.71828, 3.14159}
