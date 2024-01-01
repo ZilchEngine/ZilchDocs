@@ -6,9 +6,9 @@ Some SoundNodes only generate audio data, like [SoundInstances](https://github.c
 
 All sound objects in the Zero Engine use some type of SoundNode. These nodes are connected together into a tree-like graph, with generating nodes as the topmost branches, and the output node of the [SoundSpace ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundnode/soundspace.markdown) as the root node at the bottom. The SoundNode graph processes audio by starting at the root node and requesting data from its input nodes. These nodes then request data from their inputs, and so on, until the request reaches a generating node which returns audio data that then follows the chain back down the graph. 
 
-There are many types of SoundNodes that can only be created and added to the node graph in ZilchScripts. These SoundNodes are reference counted: they will stay alive as long as the user stores a variable with the SoundNode assigned to it. If it is not stored, the node will be alive as long as it is connected to the graph, but users can no longer access it. 
+There are many types of SoundNodes that can only be created and added to the node graph in NadaScripts. These SoundNodes are reference counted: they will stay alive as long as the user stores a variable with the SoundNode assigned to it. If it is not stored, the node will be alive as long as it is connected to the graph, but users can no longer access it. 
 
-The SoundNodes of built-in objects are also exposed in Zilch, and users can freely edit most of the graph connections, giving them a great deal of flexibility in creating audio. When building connections it is important to remember that nodes closer to the generating node modify the audio before nodes that are further away. For example, to change the pitch of a sound before applying reverb, the PitchNode must be between the SoundInstance and the ReverbNode. 
+The SoundNodes of built-in objects are also exposed in Nada, and users can freely edit most of the graph connections, giving them a great deal of flexibility in creating audio. When building connections it is important to remember that nodes closer to the generating node modify the audio before nodes that are further away. For example, to change the pitch of a sound before applying reverb, the PitchNode must be between the SoundInstance and the ReverbNode. 
 
 The [SoundNode Graph ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundnode/soundnode_graph.markdown) tool can be extremely helpful when editing the graph directly.
 
@@ -20,14 +20,14 @@ WARNING: When using PitchNodes, if a generating node has multiple output connect
 
  # Using SoundNodes
 
-In ZilchScripts, all SoundNodes are created using the appropriate method on the Audio object. The following code block shows how you would create a PitchNode.
+In NadaScripts, all SoundNodes are created using the appropriate method on the Audio object. The following code block shows how you would create a PitchNode.
 ```lang=csharp
 var myPitchNode = Audio.PitchNode();
 ```
 
 There are multiple places in the SoundNode Graph that sound nodes can be attached.  Here is an example of a component that creates and controls a PitchNode for its neighboring [SoundEmitter](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundemitter.markdown):
 ```lang=csharp
-class EmitterPitch : ZilchComponent
+class EmitterPitch : NadaComponent
 {
   [Dependency] var SoundEmitter : SoundEmitter;
   
@@ -71,7 +71,7 @@ NOTE: On some types of SoundNodes changing this value by large amounts at runtim
 
 If the `AutoCollapse` property is set to True, the SoundNode will automatically remove itself from the graph when its last input node is removed. This property is set to False by default. 
 
- ## Zilch Events
+ ## Nada Events
 
 - The `SoundNodeDisconnected` [ SoundEvent ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundevent.markdown) is sent by all SoundNodes when they are is completely disconnected from the graph (when the node has no more inputs or outputs).
 

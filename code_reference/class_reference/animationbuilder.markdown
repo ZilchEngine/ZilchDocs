@@ -12,7 +12,7 @@
  #  Clips : [animationclips](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animationclips.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Clips : AnimationClips
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AnimationBuilder()
 > ``` 
 

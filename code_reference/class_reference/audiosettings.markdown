@@ -18,15 +18,15 @@
  #  LatencySetting : [AudioLatency](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#audiolatency)
 
 > Using the high latency setting can fix some audio problems (such as clicks and static) but can lead to a slight delay in the audio.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LatencySetting : AudioLatency
 
 
 ---  
- #  MinVolumeThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MinVolumeThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Sets the volume threshold at which sounds will be virtualized (they will continue tracking their position and all data but will not process audio). This is a floating point volume number, not decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MinVolumeThreshold : Real
 
 
@@ -34,23 +34,23 @@
  #  MixType : [AudioMixTypes](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#audiomixtypes)
 
 > Sets the number of channels the audio system uses when creating audio. See the enum descriptions. If your selection is different from the output device, it will be automatically translated to match the number of channels needed for output.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MixType : AudioMixTypes
 
 
 ---  
- #  MuteAllAudio : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  MuteAllAudio : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > When true, audio will be processed normally but will be silent.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MuteAllAudio : Boolean
 
 
 ---  
- #  SystemVolume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SystemVolume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > An overall volume modifier that is applied to all audio produced by Zero.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SystemVolume : Real
 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AudioSettings()
 > ``` 
 

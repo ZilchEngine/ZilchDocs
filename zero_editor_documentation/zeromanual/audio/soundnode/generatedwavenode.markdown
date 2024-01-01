@@ -13,7 +13,7 @@ The following code block illustrates how to use a GeneratedWaveNode to make a si
 
 
 ```lang=csharp
-class SimpleSiren : ZilchComponent
+class SimpleSiren : NadaComponent
 {
   // Make sure this object has a SoundEmitter component
   [Dependency] var Emitter : SoundEmitter;

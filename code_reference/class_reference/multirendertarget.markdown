@@ -33,7 +33,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings : BlendSettingsMrt
 
 
@@ -41,7 +41,7 @@
  #  BlendSettings0 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings0 : BlendSettings
 
 
@@ -49,7 +49,7 @@
  #  BlendSettings1 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings1 : BlendSettings
 
 
@@ -57,7 +57,7 @@
  #  BlendSettings2 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings2 : BlendSettings
 
 
@@ -65,7 +65,7 @@
  #  BlendSettings3 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings3 : BlendSettings
 
 
@@ -73,7 +73,7 @@
  #  BlendSettings4 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings4 : BlendSettings
 
 
@@ -81,7 +81,7 @@
  #  BlendSettings5 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings5 : BlendSettings
 
 
@@ -89,7 +89,7 @@
  #  BlendSettings6 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings6 : BlendSettings
 
 
@@ -97,7 +97,7 @@
  #  BlendSettings7 : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings7 : BlendSettings
 
 
@@ -107,7 +107,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget : ColorTargetMrt
 
 
@@ -115,7 +115,7 @@
  #  ColorTarget0 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget0 : RenderTarget
 
 
@@ -123,7 +123,7 @@
  #  ColorTarget1 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget1 : RenderTarget
 
 
@@ -131,7 +131,7 @@
  #  ColorTarget2 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget2 : RenderTarget
 
 
@@ -139,7 +139,7 @@
  #  ColorTarget3 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget3 : RenderTarget
 
 
@@ -147,7 +147,7 @@
  #  ColorTarget4 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget4 : RenderTarget
 
 
@@ -155,7 +155,7 @@
  #  ColorTarget5 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget5 : RenderTarget
 
 
@@ -163,7 +163,7 @@
  #  ColorTarget6 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget6 : RenderTarget
 
 
@@ -171,7 +171,7 @@
  #  ColorTarget7 : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget7 : RenderTarget
 
 

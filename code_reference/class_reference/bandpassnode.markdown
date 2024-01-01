@@ -12,18 +12,18 @@
 
 
 ---  
- #  CentralFrequency : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CentralFrequency : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The center frequency of the band. Frequencies above and below this band will be attenuated.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CentralFrequency : Real
 
 
 ---  
- #  QualityFactor : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  QualityFactor : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The Q number of the band pass filter: higher numbers make the band smaller, while smaller numbers make it wider. The default value is 0.669.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QualityFactor : Real
 
 

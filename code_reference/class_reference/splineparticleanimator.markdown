@@ -19,42 +19,42 @@
 
 
 ---  
- #  AutoCalculateLifetime : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AutoCalculateLifetime : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If checked, the lifetime on the SplineParticleEmitter will be updated to the time it would take to travel the entire path at the current speed.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AutoCalculateLifetime : Boolean
 
 
 ---  
- #  Helix : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Helix : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Helix : Boolean
 
 
 ---  
- #  HelixOffset : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  HelixOffset : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Offset in radians for where the helix starts.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HelixOffset : Real
 
 
 ---  
- #  HelixRadius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  HelixRadius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The radius of the helix.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HelixRadius : Real
 
 
 ---  
- #  HelixWaveLength : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  HelixWaveLength : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > How fast the helix rotates in radians / second.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HelixWaveLength : Real
 
 
@@ -62,31 +62,31 @@
  #  Mode : [SplineAnimatorMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#splineanimatormode)
 
 > The current animate mode.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Mode : SplineAnimatorMode
 
 
 ---  
- #  Speed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Speed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The speed at which the particles move in meters / second.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Speed : Real
 
 
 ---  
- #  SpringDampingRatio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SpringDampingRatio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SpringDampingRatio : Real
 
 
 ---  
- #  SpringFrequencyHz : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SpringFrequencyHz : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Spring properties.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SpringFrequencyHz : Real
 
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SplineParticleAnimator()
 > ``` 
 

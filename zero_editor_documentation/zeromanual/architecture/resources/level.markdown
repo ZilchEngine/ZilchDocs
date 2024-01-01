@@ -62,7 +62,7 @@ function UnPause()
 ```
 
 
-This code snippet gives an example of having two levels exist at once. By giving it a `Space` archetype and `level` to load and then calling the `Pause()` function in a ZilchScript, it will create a new Space and load the new level without destroying the currently existing one. The `Unpause()` function will do the reverse, and destroy the level and Space. 
+This code snippet gives an example of having two levels exist at once. By giving it a `Space` archetype and `level` to load and then calling the `Pause()` function in a NadaScript, it will create a new Space and load the new level without destroying the currently existing one. The `Unpause()` function will do the reverse, and destroy the level and Space. 
 
 ---
 

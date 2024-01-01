@@ -24,98 +24,98 @@
 
 
 ---  
- #  IgnoreBuoyancy : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreBuoyancy : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore buoyancy effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreBuoyancy : Boolean
 
 
 ---  
- #  IgnoreCustom : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreCustom : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore custom effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreCustom : Boolean
 
 
 ---  
- #  IgnoreDrag : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreDrag : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore drag effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreDrag : Boolean
 
 
 ---  
- #  IgnoreFlow : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreFlow : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore flow effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreFlow : Boolean
 
 
 ---  
- #  IgnoreForce : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreForce : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore force effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreForce : Boolean
 
 
 ---  
- #  IgnoreGravity : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreGravity : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore gravity effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreGravity : Boolean
 
 
 ---  
- #  IgnorePointForce : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnorePointForce : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore point force effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnorePointForce : Boolean
 
 
 ---  
- #  IgnorePointGravity : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnorePointGravity : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore point gravity effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnorePointGravity : Boolean
 
 
 ---  
- #  IgnoreThrust : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreThrust : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore thrust effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreThrust : Boolean
 
 
 ---  
- #  IgnoreTorque : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreTorque : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore torque effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreTorque : Boolean
 
 
 ---  
- #  IgnoreVortex : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreVortex : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore vortex effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreVortex : Boolean
 
 
 ---  
- #  IgnoreWind : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IgnoreWind : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to ignore wind effects.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IgnoreWind : Boolean
 
 
@@ -124,13 +124,13 @@
 
 
 ---  
- #  GetIgnoreState : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  GetIgnoreState : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the given effect type be ignored?
 > |Name|Type|Description|
 > |---|---|---|
 > |effectType|[PhysicsEffectType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#physicseffecttype)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetIgnoreState(effectType : PhysicsEffectType) : Boolean
 > ``` 
 
@@ -143,7 +143,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IgnoreSpaceEffects()
 > ``` 
 
@@ -155,8 +155,8 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |effectType|[PhysicsEffectType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#physicseffecttype)| |
-> |ignore|[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |ignore|[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SetIgnoreState(effectType : PhysicsEffectType, ignore : Boolean)
 > ``` 
 

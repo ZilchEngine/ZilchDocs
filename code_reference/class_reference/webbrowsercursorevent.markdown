@@ -14,7 +14,7 @@
  #  Cursor : [Cursor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#cursor)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Cursor : Cursor
 
 

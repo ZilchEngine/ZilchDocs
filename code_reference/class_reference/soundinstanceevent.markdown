@@ -18,7 +18,7 @@
  `read-only`
 
 > The SoundInstance associated with this event.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SoundInstance : SoundInstance
 
 

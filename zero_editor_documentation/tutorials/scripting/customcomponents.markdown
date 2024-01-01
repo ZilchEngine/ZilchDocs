@@ -1,11 +1,11 @@
-This tutorial covers how to create custom components and the basics of scripting in [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown).
+This tutorial covers how to create custom components and the basics of scripting in [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown).
 
 
  #  Learning Objectives
 
 
 - Creating custom components
-- [ Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown) scripting basics
+- [ Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown) scripting basics
 
 
  #  Level Setup
@@ -27,7 +27,7 @@ This tutorial covers how to create custom components and the basics of scripting
 Until now, we have explored components built into Zero Engine. These components are essential building blocks for your games, but you'll also need to write your own components to achieve the custom behavior your game needs.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MyComponent`
+ - Create a NadaScript resource using the Component template template and name it `MyComponent`
 
 Once a component is created, we can add it to objects.
 
@@ -45,24 +45,24 @@ Once a component is created, we can add it to objects.
 
 WARNING: It is common, especially among beginners, to forget to add a component to an object. Make sure to verify that you have accomplished this step if an object isn't behaving as expected.
 
-NOTE: You can click the icon next to a custom component's name in the `Properties Window` to access that component's ZilchScript resource.
+NOTE: You can click the icon next to a custom component's name in the `Properties Window` to access that component's NadaScript resource.
 
 
 ![GoToScript](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/85592.png)
 
 
 
- #  Basic Scripting with Zilch
+ #  Basic Scripting with Nada
 
 
-Upon the creation of a ZilchScript, Zero Engine will open that resource in a new tab: a text editor where you can include all the necessary logic for your component. Let's take a look at what the Component template template gives us:
+Upon the creation of a NadaScript, Zero Engine will open that resource in a new tab: a text editor where you can include all the necessary logic for your component. Let's take a look at what the Component template template gives us:
 
 
 
 ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48227.png)
 
 
-NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown) within the Zero Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
+NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown) within the Zero Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
 
 
  ##  Classes
@@ -78,11 +78,11 @@ A class is an abstract entity that is responsible for a specific set of tasks. N
 *The `MyComponent` script, line 1*
 
 
-The first keyword `class` indicates that we are providing the definition of a class. Notice that this keyword is highlighted in blue. Zero Engine will highlight specific keywords that it recognizes as having significance in the [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown) language, which can be very useful for understanding how the engine is interpreting the script.
+The first keyword `class` indicates that we are providing the definition of a class. Notice that this keyword is highlighted in blue. Zero Engine will highlight specific keywords that it recognizes as having significance in the [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown) language, which can be very useful for understanding how the engine is interpreting the script.
 
 Next, we have `MyComponent`, which is the name we gave this script, confirming that it is the identifier we wish to assign to this class. It is worth mentioning that all classes **must** have a unique name, and you cannot use names already used by Zero Engine.
 
-Next, we have `: Zilch Component`. The colon `:` token is an important one within [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown), and can be interpreted to mean "of type". In this case, we have a `class` named `MyComponent` that is of type `ZilchComponent`. ZilchComponent is a very commonly used class type, and examples of it will be featured extensively here and in later tutorials.
+Next, we have `: Nada Component`. The colon `:` token is an important one within [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown), and can be interpreted to mean "of type". In this case, we have a `class` named `MyComponent` that is of type `NadaComponent`. NadaComponent is a very commonly used class type, and examples of it will be featured extensively here and in later tutorials.
 
 Lastly, on lines 2 and 11 we have the curly brace symbols `{` and `}`. These symbols denote that our class definition is confined to the space between them, which is called the class's **scope**, and all details pertaining to a class have to be described within it.
 
@@ -144,7 +144,7 @@ You may have noticed an interesting line within the scope of the **Initialize** 
 *`MyComponent`, line 5*
 
 
-This line is actually a piece of functionality that has been "commented out". In [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown), you can write comments in code by using the `//` token. This causes that token and everything on the line after it to be considered a **comment** that has no effect on the program's behavior.
+This line is actually a piece of functionality that has been "commented out". In [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown), you can write comments in code by using the `//` token. This causes that token and everything on the line after it to be considered a **comment** that has no effect on the program's behavior.
 
 While comments are very useful to write descriptions and explanations of the functionality of your code, another useful utility is to apply them to temporarily toggle functionality off by commenting lines of code out.
 
@@ -204,7 +204,7 @@ The instruction we just added causes the object to move to the right just slight
 - [variables](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/variables.markdown)
 
  ##  Manual
-- [zilch_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
+- [nada_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
 - [commands](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
 - [resourceadding](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
 - [selectobject](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown)

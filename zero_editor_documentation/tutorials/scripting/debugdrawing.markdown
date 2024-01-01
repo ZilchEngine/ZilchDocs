@@ -2,7 +2,7 @@
  # Learning Objectives
 - Drawing debug primitives
 
-Often when developing a game we may we run into data that is hard to interpret from just printing to the [console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/console.markdown). Values such as [Velocity](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zero-engine-doc) or the direction a [ Cog ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown) is facing are better represented visually than by numerical values. DebugDraw objects are a useful debuging technique that allows us to draw simple primitives to visually represent data in the game itself.
+Often when developing a game we may we run into data that is hard to interpret from just printing to the [console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/console.markdown). Values such as [Velocity](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zero-engine-doc) or the direction a [ Cog ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown) is facing are better represented visually than by numerical values. DebugDraw objects are a useful debuging technique that allows us to draw simple primitives to visually represent data in the game itself.
 
  # Level Setup
 
@@ -15,11 +15,11 @@ Often when developing a game we may we run into data that is hard to interpret f
 - [ Remove Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `DebugLauncher`
+ - Create a NadaScript resource using the Component template template and name it `DebugLauncher`
 
 - Update the `DebugLauncher` class to the following:
 ```name=DebugLauncher, lang=csharp
-class DebugLauncher : ZilchComponent
+class DebugLauncher : NadaComponent
 {
   [Dependency] var RigidBody : RigidBody;
   [Dependency] var Transform : Transform;
@@ -125,10 +125,10 @@ Calling our `DrawDebug` function every frame that the mouse is down allows our d
 There are many types that can be debug drawn, as can be seen in the [Related Materials](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/debugdrawing/.markdown#related_materials)[DebugCircle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/debugcircle.markdown), which will be used to make a clock.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `DebugClock`
+ - Create a NadaScript resource using the Component template template and name it `DebugClock`
 - Update the `DebugClock` class to the following:
 ```name=DebugClock, lang=csharp
-class DebugClock : ZilchComponent
+class DebugClock : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -320,7 +320,7 @@ Here is an example of a built-in debug draw effect in action. You actually see d
  ## Reference
  ### Classes
 - [ Cog ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)
-- [Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/console.markdown)
+- [Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/console.markdown)
 - [RigidBody](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
 - [DebugArc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/debugarc.markdown)
 - [DebugBox](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/debugbox.markdown)

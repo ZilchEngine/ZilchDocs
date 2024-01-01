@@ -22,7 +22,7 @@
  `read-only`
 
 > For assigning child RenderGroups, making this a parent group of everything in the list.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ChildRenderGroups : ChildRenderGroupList
 
 
@@ -30,7 +30,7 @@
  #  GraphicalSortMethod : [GraphicalSortMethod](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#graphicalsortmethod)
 
 > Determines the order that graphicals will be drawn when processed as this RenderGroup.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GraphicalSortMethod : GraphicalSortMethod
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Materials : MaterialList
 
 
@@ -48,7 +48,7 @@
  #  ParentRenderGroup : [rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)
 
 > RenderGroup that this is a sub group of. Also a sub group of all of its parents.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ParentRenderGroup : RenderGroup
 
 
@@ -58,7 +58,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReferencedByList : MaterialList
 
 
@@ -67,25 +67,25 @@
 
 
 ---  
- #  IsSubRenderGroup : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsSubRenderGroup : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns whether or not the given RenderGroup is a sub group of this.
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsSubRenderGroup(renderGroup : RenderGroup) : Boolean
 > ``` 
 
 
 ---  
- #  IsSubRenderGroupOf : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsSubRenderGroupOf : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns whether or not this is a sub group of the given RenderGroup.
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsSubRenderGroupOf(renderGroup : RenderGroup) : Boolean
 > ``` 
 

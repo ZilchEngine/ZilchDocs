@@ -26,7 +26,7 @@ NOTE: **LevelSettings & Hierarchies**  While parenting can often be useful with 
 The LevelSettings object may be accessed from scripts via any component or Cog:
 
 ```name=LevelSettings Access Example, lang=csharp
-class ExampleComponent : ZilchComponent
+class ExampleComponent : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -62,7 +62,7 @@ Physics Effects are built in components that implement a piece of common physics
 The [griddraw](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/griddraw.markdown) component is a simple debug drawing component. It uses Zero's buit in GridDraw component is a simple debug drawing component. It uses Zero's buit in [debugdrawing](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/scripting/debugdrawing.markdown) to create a customizable unit grid in the Level Window.
 
  ## Custom Components
-The LevelSettings object is often a very convenient object on which to attach certain custom Zilch components. Imagine a scenario in which a function is implemented for a friendly AI which needs to return an enemy to attack. If all the enemies exist independent of any other object or component, there may be no immediate path from which to access all enemies from the AI.
+The LevelSettings object is often a very convenient object on which to attach certain custom Nada components. Imagine a scenario in which a function is implemented for a friendly AI which needs to return an enemy to attack. If all the enemies exist independent of any other object or component, there may be no immediate path from which to access all enemies from the AI.
 
 A common technique is to add an `EnemyManager` component to the LevelSettings object which has a member of type `Array[Cog]` called `EnemyList`. By attaching this component to the LevelSettings object all objects, including the enemies, are given access to the `EnemyManager` component. If the enemies are implemented so that they add themselves to the `EnemyList` when they are initialized and remove themselves when they are destroyed, there now exists a reliable way of accessing a complete list of all existing enemies.
 

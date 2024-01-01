@@ -14,18 +14,18 @@
 
 
 ---  
- #  LaunchFullscreen : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  LaunchFullscreen : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If a pre-launch popup should be used to determine how application window is sized.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LaunchFullscreen : Boolean
 
 
 ---  
- #  WindowedResolution : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  WindowedResolution : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > Resolution of application when launched in windowed mode.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WindowedResolution : Integer2
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function WindowLaunchSettings()
 > ``` 
 

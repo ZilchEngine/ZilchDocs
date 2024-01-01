@@ -15,26 +15,26 @@
 
 
 ---  
- #  LocalPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The local space point on the object that the joint is connected to.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalPoint : Real3
 
 
 ---  
- #  TargetPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  TargetPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The point in world space that the object's point is being moved towards.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TargetPoint : Real3
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The world space point on the object that the joint is connected to.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldPoint : Real3
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ManipulatorJoint()
 > ``` 
 

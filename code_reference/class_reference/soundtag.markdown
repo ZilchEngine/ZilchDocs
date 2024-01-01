@@ -31,108 +31,108 @@
 
 
 ---  
- #  CompressorAttack : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CompressorAttack : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The time, in milliseconds, for the filter to ramp to full effect after the input reaches the threshold.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompressorAttack : Real
 
 
 ---  
- #  CompressorKneeWidth : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CompressorKneeWidth : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The knee width of the filter, in decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompressorKneeWidth : Real
 
 
 ---  
- #  CompressorRatio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CompressorRatio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The ratio of the compression applied by the filter.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompressorRatio : Real
 
 
 ---  
- #  CompressorRelease : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CompressorRelease : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The time, in milliseconds, for the filter to ramp from full effect to off after the input drops below the threshold.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompressorRelease : Real
 
 
 ---  
- #  CompressorThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CompressorThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The threshold, in decibels, at which the volume is affected by the filter.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompressorThreshold : Real
 
 
 ---  
- #  Decibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Decibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment, in decibels, applied to all tagged instances.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Decibels : Real
 
 
 ---  
- #  EQBand1Gain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  EQBand1Gain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to frequencies within the band centered at 150 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EQBand1Gain : Real
 
 
 ---  
- #  EQBand2Gain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  EQBand2Gain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to frequencies within the band centered at 600 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EQBand2Gain : Real
 
 
 ---  
- #  EQBand3Gain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  EQBand3Gain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to frequencies within the band centered at 2500 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EQBand3Gain : Real
 
 
 ---  
- #  EQHighPassGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  EQHighPassGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to frequencies above 5000 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EQHighPassGain : Real
 
 
 ---  
- #  EQLowPassGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  EQLowPassGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to frequencies below 80 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EQLowPassGain : Real
 
 
 ---  
- #  InstanceCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  InstanceCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of SoundInstances currently associated with this SoundTag.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InstanceCount : Integer
 
 
 ---  
- #  InstanceLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  InstanceLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > If this value is greater than zero, SoundCues with this SoundTag will only play if the number of tagged SoundInstances is less than this number.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InstanceLimit : Real
 
 
@@ -142,15 +142,15 @@
  `read-only`
 
 > This allows you to get all currently tagged SoundInstances. Using a foreach loop, you can access any SoundInstance functionality on each of the tagged instances.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Instances : SoundInstanceRange
 
 
 ---  
- #  Paused : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Paused : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Setting this property to true will pause all tagged instances. Setting it to false will resume playback.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Paused : Boolean
 
 
@@ -158,31 +158,31 @@
  #  TagForDucking : [soundtag](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundtag.markdown)
 
 > If this property is not null, the selected SoundTag will be used to trigger this SoundTag's compressor.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TagForDucking : SoundTag
 
 
 ---  
- #  UseCompressor : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseCompressor : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If true, the SoundTag's compressor settings will be applied to the tagged SoundInstances.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseCompressor : Boolean
 
 
 ---  
- #  UseEqualizer : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseEqualizer : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If true, the SoundTag's equalizer settings will be applied to the tagged SoundInstances.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseEqualizer : Boolean
 
 
 ---  
- #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to all tagged instances.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Volume : Real
 
 
@@ -196,13 +196,13 @@
 > Sets all equalizer band gain values at once. The parameters are in order from the lowest band to the highest. The last parameter is the number of seconds to interpolate the values over.
 > |Name|Type|Description|
 > |---|---|---|
-> |lowPass|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |band1|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |band2|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |band3|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |highPass|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |timeToInterpolate|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |lowPass|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |band1|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |band2|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |band3|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |highPass|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |timeToInterpolate|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function EQSetAllBands(lowPass : Real, band1 : Real, band2 : Real, band3 : Real, highPass : Real, timeToInterpolate : Real)
 > ``` 
 
@@ -213,9 +213,9 @@
 > Interpolates the SoundTag's Decibels property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |decibels|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |decibels|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateDecibels(decibels : Real, interpolationTime : Real)
 > ``` 
 
@@ -226,9 +226,9 @@
 > Interpolates the SoundTag's Volume property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |value|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateVolume(value : Real, interpolationTime : Real)
 > ``` 
 
@@ -239,7 +239,7 @@
 > Stops all currently tagged SoundInstances.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function StopSounds()
 > ``` 
 
@@ -251,7 +251,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|[soundinstance](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundinstance.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function TagSound(instance : SoundInstance)
 > ``` 
 
@@ -263,7 +263,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|[soundinstance](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundinstance.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function UnTagSound(instance : SoundInstance)
 > ``` 
 

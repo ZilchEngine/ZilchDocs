@@ -37,7 +37,7 @@ The Zero Engine is a professional grade 3D game engine developed in DigiPen's R&
  - Dynamic
 - Audio
  - 3D
-- Scripting (Zilch)
+- Scripting (Nada)
  - Simple
  - Advanced
 

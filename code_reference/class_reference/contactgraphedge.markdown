@@ -16,12 +16,12 @@
 
 
 ---  
- #  ContactPointCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ContactPointCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > How many points of contact were in this collision.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ContactPointCount : Integer
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Returns a range of all contact points in the collision.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ContactPoints : ContactPointRange
 
 
@@ -41,17 +41,17 @@
  `read-only`
 
 > Convenience function to return the first ContactPoint. Some logic only cares about one point of information. In a more general case all points should be iterated over.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FirstPoint : ContactPoint
 
 
 ---  
- #  IsGhost : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsGhost : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Was this a ghost collision?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsGhost : Boolean
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Object : Cog
 
 
@@ -71,7 +71,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OtherObject : Cog
 
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ContactGraphEdge()
 > ``` 
 
@@ -101,7 +101,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[contactgraphedge](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ContactGraphEdge( : ContactGraphEdge)
 > ``` 
 

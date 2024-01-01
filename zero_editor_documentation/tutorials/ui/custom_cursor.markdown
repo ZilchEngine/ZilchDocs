@@ -63,11 +63,11 @@ There's a problem here: the main game level's objects are drawn overtop of the c
  ##  Moving the Cursor
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MouseFollower`
+ - Create a NadaScript resource using the Component template template and name it `MouseFollower`
 - Update the `MouseFollower` script to the following:
 
 ```lang=csharp, name="MouseFollower"
-class MouseFollower : ZilchComponent
+class MouseFollower : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -144,11 +144,11 @@ The [ CameraViewport](https://github.com/zeroengineteam/ZeroDocs/blob/master/cod
 Next, we need a component that, when initialized, will create the cursor space, load the cursor level, and create the custom cursor.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `CustomCursor`
+ - Create a NadaScript resource using the Component template template and name it `CustomCursor`
 - Update the `CustomCursor` script to the following:
 
 ```lang=csharp, name="CustomCursor"
-class CustomCursor : ZilchComponent
+class CustomCursor : NadaComponent
 {
   [Property]
   var CursorLevel : Level = Level.CursorLevel;

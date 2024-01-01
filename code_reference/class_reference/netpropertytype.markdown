@@ -14,12 +14,12 @@
 
 
 ---  
- #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Net property type name.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Name : String
 
 
@@ -33,7 +33,7 @@
 > Resets all configuration settings. (Cannot be modified at game runtime)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ResetConfig()
 > ``` 
 
@@ -45,7 +45,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPropertyConfig|[netpropertyconfig](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SetConfig(netPropertyConfig : NetPropertyConfig)
 > ``` 
 

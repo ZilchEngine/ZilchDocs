@@ -16,7 +16,7 @@
  #  Spline : [spline](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/spline.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Spline : Spline
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SplineEvent()
 > ``` 
 
@@ -46,7 +46,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |spline|[spline](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/spline.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SplineEvent(spline : Spline)
 > ``` 
 
@@ -60,7 +60,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[splineevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splineevent.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SplineEvent( : SplineEvent)
 > ``` 
 

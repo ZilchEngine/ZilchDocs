@@ -18,7 +18,7 @@
  `read-only`
 
 > The info published along with their record. Contains game server specific data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BasicHostInfo : EventBundle
 
 
@@ -28,17 +28,17 @@
  `read-only`
 
 > The IpAddress associated with this record. This is who published it.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IpAddress : IpAddress
 
 
 ---  
- #  Lifetime : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Lifetime : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > How long has this record been alive in seconds?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Lifetime : Real
 
 

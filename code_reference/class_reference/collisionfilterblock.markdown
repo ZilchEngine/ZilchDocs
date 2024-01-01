@@ -20,39 +20,39 @@
  `read-only`
 
 > What type of collision filter block is this?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlockType : CollisionFilterBlockType
 
 
 ---  
- #  EventOverride : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  EventOverride : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > What event name to send out when this block triggers. If left empty the default name will be used (e.g. GroupCollisionStarted).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EventOverride : String
 
 
 ---  
- #  SendEventsToA : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  SendEventsToA : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Does the first object in the filter get this event type sent to it?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SendEventsToA : Boolean
 
 
 ---  
- #  SendEventsToB : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  SendEventsToB : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Does the second object in the filter get this event type sent to it?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SendEventsToB : Boolean
 
 
 ---  
- #  SendEventsToSpace : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  SendEventsToSpace : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Does the active space of the objects get this event type sent to it?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SendEventsToSpace : Boolean
 
 

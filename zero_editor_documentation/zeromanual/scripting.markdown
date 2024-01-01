@@ -1,6 +1,6 @@
 
- # [zilch_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-Scripting is the basis of making gameplay as it is how you define rules for your game and players to follow. If you feel like you need more practice, in depth explanation, or you are not very familiar with programming visit the [zilch_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown) section.
+ # [nada_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+Scripting is the basis of making gameplay as it is how you define rules for your game and players to follow. If you feel like you need more practice, in depth explanation, or you are not very familiar with programming visit the [nada_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown) section.
 
 
  # [Events & Connections](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/scripting/eventsandconnections.markdown)

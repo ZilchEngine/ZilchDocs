@@ -17,37 +17,37 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var All : MetaSelectionRange
 
 
 ---  
- #  Current : [anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)
+ #  Current : [anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Current : AnyHandle
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsEmpty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsEmpty : Boolean
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsNotEmpty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsNotEmpty : Boolean
 
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MetaSelectionRange()
 > ``` 
 
@@ -77,7 +77,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[metaselectionrange](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/metaselectionrange.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MetaSelectionRange(p0 : MetaSelectionRange)
 > ``` 
 
@@ -88,7 +88,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MoveNext()
 > ``` 
 

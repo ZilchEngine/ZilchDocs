@@ -45,11 +45,11 @@ Let's do that now.
  ##  The PlayCue Function
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `KeyboardMovement`
+ - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update `KeyboardMovement` to the following:
 
 ```lang=csharp, name="KeyboardMovement"
-class KeyboardMovement : ZilchComponent
+class KeyboardMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -92,11 +92,11 @@ In order for a sound played by a SoundEmitter to be heard, it needs to be picked
 
 - [ Attach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/architecture/hierarchies.markdown) GameCamera object to Player object
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `SoundController`
+ - Create a NadaScript resource using the Component template template and name it `SoundController`
 - Update `SoundController` to the following:
 
 ```lang=csharp, name="SoundController"
-class SoundController : ZilchComponent
+class SoundController : NadaComponent
 {
   [Dependency]
   var SoundEmitter : SoundEmitter;
@@ -218,11 +218,11 @@ A [ previous tutorial](https://github.com/zeroengineteam/ZeroDocs/blob/master/ze
 The SoundSpace manages all sounds played in a space, but it can also be used to play sounds directly. Let's use the SoundSpace to play some music.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MusicPlayer`
+ - Create a NadaScript resource using the Component template template and name it `MusicPlayer`
 - Update `MusicPlayer` to the following:
 
 ```lang=csharp, name="MusicPlayer"
-class MusicPlayer : ZilchComponent
+class MusicPlayer : NadaComponent
 {
   [Property]
   var MusicCue : SoundCue = SoundCue.BG_Arpeggios;
@@ -246,7 +246,7 @@ Notice how moving the player around has no effect on the volume level of the mus
 - Update `MusicPlayer` to the following:
 
 ```lang=csharp, name="MusicPlayer (continued 1)"
-class MusicPlayer : ZilchComponent
+class MusicPlayer : NadaComponent
 {
   [Property]
   var MusicCue : SoundCue = SoundCue.BG_Arpeggios;
@@ -284,12 +284,12 @@ Now you can control the volume level of the output of the SoundSpace, but the vo
 
  #  SoundInstances
 
-A [ SoundInstance](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundinstance.markdown) is a class object that represents a specific occurrence of a SoundCue being played. It can be manipulated in Zilch, where its interface is very similar to those of both the SoundEmitter and SoundSpace components.
+A [ SoundInstance](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundinstance.markdown) is a class object that represents a specific occurrence of a SoundCue being played. It can be manipulated in Nada, where its interface is very similar to those of both the SoundEmitter and SoundSpace components.
 
 - Update `MusicPlayer` to the following:
 
 ```lang=csharp, name="MusicPlayer (continued 2)"
-class MusicPlayer : ZilchComponent
+class MusicPlayer : NadaComponent
 {
   [Property]
   var MusicCue : SoundCue = SoundCue.BG_Arpeggios;

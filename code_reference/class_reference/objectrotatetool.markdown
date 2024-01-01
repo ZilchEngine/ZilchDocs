@@ -14,34 +14,34 @@
 
 
 ---  
- #  AffectRotation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AffectRotation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > With multiple objects selected, allow their local rotation to be affected while being spacially-rotated (with 'AffectTranslation') about the chosen pivot point.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AffectRotation : Boolean
 
 
 ---  
- #  AffectTranslation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AffectTranslation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > With multiple objects selected, allow their spacial-offest to be rotated about the chosen pivot point, while being locally rotated with 'mAffectRotation'.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AffectTranslation : Boolean
 
 
 ---  
- #  SnapAngle : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SnapAngle : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapAngle : Real
 
 
 ---  
- #  Snapping : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Snapping : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Snapping : Boolean
 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ObjectRotateTool()
 > ``` 
 

@@ -22,15 +22,15 @@
  #  Material : [material](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/material.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Material : Material
 
 
 ---  
- #  OverrideSelections : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  OverrideSelections : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If collider/graphical or other selection logic should be disabled and only selectable via this icon.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OverrideSelections : Boolean
 
 
@@ -38,7 +38,7 @@
  #  ShaderInputs : [shaderinputs](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/shaderinputs.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ShaderInputs : ShaderInputs
 
 
@@ -46,31 +46,31 @@
  #  SpriteSource : [spritesource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/spritesource.markdown)
 
 > Sprite based image to use for icon, will not animate.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SpriteSource : SpriteSource
 
 
 ---  
- #  ViewScale : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ViewScale : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Scalar for how big the icon should appear in the viewport.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewScale : Real
 
 
 ---  
- #  VisibilityEvents : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  VisibilityEvents : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var VisibilityEvents : Boolean
 
 
 ---  
- #  Visible : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Visible : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Visible : Boolean
 
 
@@ -86,7 +86,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SelectionIcon()
 > ``` 
 

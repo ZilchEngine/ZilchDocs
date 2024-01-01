@@ -113,10 +113,10 @@ All of these eases can be visualized on a graph. In Zero, graphs like this may b
 
  # Applying a Custom Ease
 
-After creating a SampleCurve, it can be directly applied to an Action. The following ZilchScript illustrates how to apply a SampleCurve to an Action that translates an object back and forth.
+After creating a SampleCurve, it can be directly applied to an Action. The following NadaScript illustrates how to apply a SampleCurve to an Action that translates an object back and forth.
 
 ```
-class EasedMovement : ZilchComponent
+class EasedMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
   

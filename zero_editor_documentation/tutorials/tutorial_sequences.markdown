@@ -46,7 +46,7 @@ Creating, Uploading, Instantiating, Reverting
 *These tutorials target users with no prior programming experience. Tutorials in this section focus on covering scripting basics and are of very low complexity.  *
 
  ## [ Custom Components](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/customcomponents.markdown)
-ZilchScript, Component Class, Initialize, Update, Scope
+NadaScript, Component Class, Initialize, Update, Scope
 
  ## [ Variables](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/variables.markdown)
 Variable Types, Assignment, Acessing Owner Component Variables, Class Variables, Local Variables, Property Attribute

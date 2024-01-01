@@ -17,10 +17,10 @@
 
 
 ---  
- #  Url : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Url : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > Get and set the url that we make requests to.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Url : String
 
 
@@ -34,7 +34,7 @@
 > Clear headers and post data.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
@@ -45,7 +45,7 @@
 > Run the web request (we should get data back in a WebResponse event).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Run()
 > ``` 
 
@@ -56,9 +56,9 @@
 > Add a header to the web request .
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> |data|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> |data|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SetHeader(name : String, data : String)
 > ``` 
 
@@ -69,8 +69,8 @@
 > Add Post data to the request, this will also change the request to a post request.
 > |Name|Type|Description|
 > |---|---|---|
-> |data|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |data|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SetPostData(data : String)
 > ``` 
 
@@ -83,7 +83,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function WebRequester()
 > ``` 
 

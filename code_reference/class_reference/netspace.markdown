@@ -14,22 +14,22 @@
 
 
 ---  
- #  NetObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  NetObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns the number of net objects in this space (but not including the net space itself).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetObjectCount : Integer
 
 
 ---  
- #  NetUserCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  NetUserCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns the number of net users in this space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetUserCount : Integer
 
 
@@ -45,7 +45,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function NetSpace()
 > ``` 
 

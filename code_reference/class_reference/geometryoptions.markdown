@@ -26,90 +26,90 @@
 
 
 ---  
- #  ChangeBasis : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ChangeBasis : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ChangeBasis : Boolean
 
 
 ---  
- #  CollapsePivots : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  CollapsePivots : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CollapsePivots : Boolean
 
 
 ---  
- #  CreateArchetype : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  CreateArchetype : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CreateArchetype : Boolean
 
 
 ---  
- #  FlipWindingOrder : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  FlipWindingOrder : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FlipWindingOrder : Boolean
 
 
 ---  
- #  GenerateSmoothNormals : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  GenerateSmoothNormals : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GenerateSmoothNormals : Boolean
 
 
 ---  
- #  GenerateTangentSpace : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  GenerateTangentSpace : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GenerateTangentSpace : Boolean
 
 
 ---  
- #  ImportAnimations : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ImportAnimations : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ImportAnimations : Boolean
 
 
 ---  
- #  ImportMeshes : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ImportMeshes : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ImportMeshes : Boolean
 
 
 ---  
- #  ImportTextures : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ImportTextures : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ImportTextures : Boolean
 
 
 ---  
- #  InvertUvYAxis : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  InvertUvYAxis : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InvertUvYAxis : Boolean
 
 
 ---  
- #  OriginOffset : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  OriginOffset : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OriginOffset : Real3
 
 
@@ -117,7 +117,7 @@
  #  PhysicsImport : [PhysicsImport](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#physicsimport)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PhysicsImport : PhysicsImport
 
 
@@ -125,23 +125,23 @@
  #  ScaleConversion : [ScaleConversion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#scaleconversion)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ScaleConversion : ScaleConversion
 
 
 ---  
- #  ScaleFactor : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ScaleFactor : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ScaleFactor : Real
 
 
 ---  
- #  SmoothingAngleDegreesThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SmoothingAngleDegreesThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SmoothingAngleDegreesThreshold : Real
 
 
@@ -149,7 +149,7 @@
  #  XBasisTo : [BasisType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basistype)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var XBasisTo : BasisType
 
 
@@ -157,7 +157,7 @@
  #  YBasisTo : [BasisType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basistype)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var YBasisTo : BasisType
 
 
@@ -165,7 +165,7 @@
  #  ZBasisTo : [BasisType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basistype)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ZBasisTo : BasisType
 
 

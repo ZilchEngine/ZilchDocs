@@ -12,18 +12,18 @@
 
 
 ---  
- #  ScreenPixelPosition : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  ScreenPixelPosition : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ScreenPixelPosition : Integer2
 
 
 ---  
- #  ViewPixelPosition : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  ViewPixelPosition : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewPixelPosition : Integer2
 
 

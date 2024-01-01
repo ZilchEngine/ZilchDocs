@@ -18,17 +18,17 @@
  #  GameSession : [gamesession](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamesession.markdown)
 
 > Returns the game session.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GameSession : GameSession
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsEmpty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Returns true if the event bundle is empty (doesn't contain any events), else false.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsEmpty : Boolean
 
 
@@ -37,13 +37,13 @@
 
 
 ---  
- #  AddEvent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddEvent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Adds the event to back of the event bundle. Returns true if successful, else false (an event of that type has already been added).
 > |Name|Type|Description|
 > |---|---|---|
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddEvent(event : Event) : Boolean
 > ``` 
 
@@ -54,7 +54,7 @@
 > Clears the event bundle.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
@@ -67,7 +67,7 @@
 > Constructors.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EventBundle()
 > ``` 
 
@@ -81,7 +81,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EventBundle(event : Event)
 > ``` 
 
@@ -95,7 +95,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rhs|[eventbundle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/eventbundle.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EventBundle(rhs : EventBundle)
 > ``` 
 
@@ -109,7 +109,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |gameSession|[gamesession](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamesession.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EventBundle(gameSession : GameSession)
 > ``` 
 
@@ -124,7 +124,7 @@
 > |---|---|---|
 > |gameSession|[gamesession](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamesession.markdown)| |
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EventBundle(gameSession : GameSession, event : Event)
 > ``` 
 
@@ -135,31 +135,31 @@
 > Returns all the events that have been added to the event bundle.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetEvents() : EventRange
 > ``` 
 
 
 ---  
- #  RemoveEvent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  RemoveEvent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Removes the event specified from the event bundle. Returns true if successful, else false (an event of that type has already been added).
 > |Name|Type|Description|
 > |---|---|---|
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RemoveEvent(event : Event) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveEvent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  RemoveEvent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Removes the event specified from the event bundle. Returns true if successful, else false (an event of that type has already been added).
 > |Name|Type|Description|
 > |---|---|---|
-> ||[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ||[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveEvent( : String) : Boolean
 > ``` 
 

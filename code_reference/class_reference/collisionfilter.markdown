@@ -16,7 +16,7 @@
  #  CollisionFlag : [CollisionFilterCollisionFlags](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#collisionfiltercollisionflags)
 
 > The collision state between the two types. Controls whether the types skip detection, skip resolution, or resolve as normal.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CollisionFlag : CollisionFilterCollisionFlags
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CollisionGroupA : CollisionGroup
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CollisionGroupB : CollisionGroup
 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CollisionFilter()
 > ``` 
 

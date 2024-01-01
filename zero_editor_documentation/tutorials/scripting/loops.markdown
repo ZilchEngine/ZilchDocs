@@ -1,10 +1,10 @@
-This lesson covers loops in Zilch scripting.
+This lesson covers loops in Nada scripting.
 
  #  Learning Objectives
 
 - When and how to write loops
-- [while](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown) and [for](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown) loops
-- Looping keywords: [continue](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown) and [break](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown)
+- [while](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown) and [for](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown) loops
+- Looping keywords: [continue](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown) and [break](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown)
 - Infinite loops
 - Nested loops
 
@@ -12,11 +12,11 @@ This lesson covers loops in Zilch scripting.
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `LoopExamples`
-- In the `LoopExamples` ZilchScript
+ - Create a NadaScript resource using the Component template template and name it `LoopExamples`
+- In the `LoopExamples` NadaScript
  - Replace the script's contents with the following:
 ```lang=csharp, name="LoopExamples"
-class LoopExamples : ZilchComponent
+class LoopExamples : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -51,7 +51,7 @@ function Cube(number : Real) : Real
 
 The result of `Cube(x)` equals `x` cubed. What about `x` to the fourth power, or the fifth, or the fifteenth? It would be impossible to write a function for every power to which a number could be raised. It is more practical to write a function that raises `x` to the `y` power, where `y` is another function parameter. This function multiplies a given `number` parameter by itself some variable number of times equal to a given `exponent` parameter. Let's begin writing an incomplete version of this function.
 
-- In the `LoopExamples` ZilchScript resource
+- In the `LoopExamples` NadaScript resource
  - Add the following function to the `LoopExamples` class:
 
 ```lang=csharp, name="Incomplete Power Function, step 1"
@@ -107,7 +107,7 @@ function IncompletePower(number : Real, exponent : Integer) : Real
 }
 ```
 
-As its name implies, this function is incomplete, but it should work in some cases. Let's try it out, and compare it to Zilch's built-in exponentiation operator.
+As its name implies, this function is incomplete, but it should work in some cases. Let's try it out, and compare it to Nada's built-in exponentiation operator.
 
 - Add the following code to the `Initialize` function:
 
@@ -142,7 +142,7 @@ A **loop** is a block of code that runs multiple times. Normally, when a program
 
 There are several reasons to use loops. First of all, they serve the central tenet in programming that one should avoid writing the same code multiple times whenever possible. Second, changing a single loop is easier than making the same change to several repeated blocks of code. Third, loops are more visually compact and usually result in smaller file sizes. Finally, there are some problems that are nearly impossible to solve without loops.
 
-Zilch recognizes several different kinds of loops; this lesson will cover two of the most common kinds.
+Nada recognizes several different kinds of loops; this lesson will cover two of the most common kinds.
 
  #  While Loops
 
@@ -209,7 +209,7 @@ WhileLoopPower: 1e-16, x ^ y: 1e-16
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
-The results match. Of course, `WhileLoopPower` still has some severe limitations when compared to Zilch's exponentiation operator, perhaps the largest of which being that its exponent values must be nonnegative Integers.
+The results match. Of course, `WhileLoopPower` still has some severe limitations when compared to Nada's exponentiation operator, perhaps the largest of which being that its exponent values must be nonnegative Integers.
 
  #  Infinite Loops
 
@@ -284,7 +284,7 @@ A **for loop** contains a *loop condition// and a //loop body// just like a `whi
 #  The **loop body** runs next.
 
 # After the loop body runs, the **update statement** is executed.
- - The update statement is usually used to increment the index — typically taking it one step closer to making the loop condition become `false`.
+ - The update statement is usually used to increment the index ï¿½ typically taking it one step closer to making the loop condition become `false`.
 
 #  Then the **loop condition** is checked again.
 
@@ -670,18 +670,18 @@ Rarely, it's actually desirable to create a loop that is intentionally unconditi
 
  #  Related Materials
  ##  Manual
-- [ Looping](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/looping.markdown)
+- [ Looping](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/looping.markdown)
 - [ Create a New 2D Project](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
 - [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [while](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown)
-- [keywords](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown)
+- [while](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown)
+- [keywords](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown)
 
  ##  Tutorials
 - [ Functions Tutorial](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/functions.markdown)
 
  ## Reference
- ### Zilch Base Types
-- [ Math](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/math.markdown)
+ ### Nada Base Types
+- [ Math](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/math.markdown)
 
  ### Commands
 - [ PlayGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#playgame)

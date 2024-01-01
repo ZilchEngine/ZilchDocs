@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MaterialBlock()
 > ``` 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[materialblock](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/materialblock.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MaterialBlock(p0 : MaterialBlock)
 > ``` 
 

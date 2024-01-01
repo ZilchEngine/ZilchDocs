@@ -22,7 +22,7 @@ The `AudioInterpolationDone` event will be sent when a volume interpolation has 
 The following code block illustrates how to make white noise sound like it's moving back and forth.
 
 ```lang=csharp
-class MovingNoise : ZilchComponent
+class MovingNoise : NadaComponent
 {
   // Create and store the PanningNode to change its properties later
   var Panning : PanningNode = Audio.PanningNode();

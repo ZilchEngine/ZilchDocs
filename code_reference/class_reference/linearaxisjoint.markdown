@@ -13,10 +13,10 @@
 
 
 ---  
- #  WorldAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The axis in world space that is constrained.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldAxis : Real3
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function LinearAxisJoint()
 > ``` 
 

@@ -19,37 +19,37 @@
  `read-only`
 
 > Memory format of the stored pixel data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Format : TextureFormat
 
 
 ---  
- #  Height : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Height : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Height of the texture data in pixels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Height : Integer
 
 
 ---  
- #  PixelCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  PixelCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Total number of pixels in texture data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PixelCount : Integer
 
 
 ---  
- #  Width : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Width : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Width of the texture data in pixels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Width : Integer
 
 
@@ -58,26 +58,26 @@
 
 
 ---  
- #  Get : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  Get : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > Returns the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Real4
 > ``` 
 
 
 ---  
- #  Get : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  Get : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > Returns the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |x|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |y|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |x|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |y|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(x : Integer, y : Integer) : Real4
 > ``` 
 
@@ -88,10 +88,10 @@
 > Sets the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |x|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |y|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |value|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |x|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |y|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |value|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Set(x : Integer, y : Integer, value : Real4)
 > ``` 
 
@@ -102,9 +102,9 @@
 > Sets the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |value|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |value|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Real4)
 > ``` 
 
@@ -118,9 +118,9 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |format|[TextureFormat](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureformat)| |
-> |width|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |height|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |width|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |height|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function TextureData(format : TextureFormat, width : Integer, height : Integer)
 > ``` 
 

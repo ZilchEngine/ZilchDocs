@@ -21,10 +21,10 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Is the animGraph animating?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
@@ -32,15 +32,15 @@
  #  ActiveNode : [animationnode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animationnode.markdown)
 
 > The current root animation node.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ActiveNode : AnimationNode
 
 
 ---  
- #  TimeScale : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  TimeScale : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > A scalar to the entire animation graph.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TimeScale : Real
 
 
@@ -56,7 +56,7 @@
 > Constructor / destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AnimationGraph()
 > ``` 
 
@@ -69,7 +69,7 @@
 > |---|---|---|
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
 > |mode|[AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateBasicNode(animation : Animation, mode : AnimationPlayMode) : BasicAnimation
 > ``` 
 
@@ -80,7 +80,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateChainNode() : ChainNode
 > ``` 
 
@@ -91,7 +91,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateCrossBlendNode() : CrossBlend
 > ``` 
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateDirectBlendNode() : DirectBlend
 > ``` 
 
@@ -113,19 +113,19 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateSelectiveNode() : SelectiveNode
 > ``` 
 
 
 ---  
- #  IsPlayingInGraph : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsPlayingInGraph : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsPlayingInGraph(animation : Animation) : Boolean
 > ``` 
 
@@ -136,7 +136,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PrintGraph()
 > ``` 
 
@@ -147,8 +147,8 @@
 > Updates the root node on each from and applies it to the object tree.
 > |Name|Type|Description|
 > |---|---|---|
-> |dt|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |dt|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Update(dt : Real)
 > ``` 
 

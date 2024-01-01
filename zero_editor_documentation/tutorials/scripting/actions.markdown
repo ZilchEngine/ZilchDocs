@@ -18,7 +18,7 @@ Actions are a handy way to animate properties with just a few lines of code. The
 - [Create a New 2D Project](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `SpriteFader`
+ - Create a NadaScript resource using the Component template template and name it `SpriteFader`
 
 
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : GameCamera object
@@ -32,7 +32,7 @@ Actions are a handy way to animate properties with just a few lines of code. The
  - [Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `SpriteFader`
 
  # What Are Actions
-Often in games we find that we wish to smoothly transition a property from its existing value to another target value. This is often done by calculating interpolated values on logic update between an the existing value and the target value using a function such as [Math.Lerp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/math.markdown#lerp-zero-engine-documen). While there are times when it is advantageous to perform these operations in an update function it is more common to want to begin an interpolation operation and have it finish on its own. Actions can do this and more and act as a generic structure to organize in game *actions* that need to occur in sequence or parrallel.
+Often in games we find that we wish to smoothly transition a property from its existing value to another target value. This is often done by calculating interpolated values on logic update between an the existing value and the target value using a function such as [Math.Lerp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/math.markdown#lerp-zero-engine-documen). While there are times when it is advantageous to perform these operations in an update function it is more common to want to begin an interpolation operation and have it finish on its own. Actions can do this and more and act as a generic structure to organize in game *actions* that need to occur in sequence or parrallel.
 
 
  # Property Actions
@@ -49,16 +49,16 @@ Actions.Property(this.Owner.Actions,
 | Action Property Parameters | | |
 | **Example Value** | **Paremeter Type** |**Description** |
 | `this.Owner.Actions` | [ActionSet](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/actionset.markdown) | The ActionSet which will update this action |
-|`@this.Area.Size` |[ PropertyDelegate](https://github.com/zeroengineteam/ZeroDocs/blob/master//zero_editor_documentation/zeromanual/zilch_in_zero/property_delegates.markdown) | Delegate of the property to be modified by the action |
-| `this.TargetValue` | Property type of the [ PropertyDelegate](https://github.com/zeroengineteam/ZeroDocs/blob/master//zero_editor_documentation/zeromanual/zilch_in_zero/property_delegates.markdown) passed into the previous parameter (**i.e.** [Real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown) in this example) | Value to which the action will interpolate the given property |
-| `this.Duration` | [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) | The duration over which the action will be completed |
+|`@this.Area.Size` |[ PropertyDelegate](https://github.com/zeroengineteam/ZeroDocs/blob/master//zero_editor_documentation/zeromanual/nada_in_zero/property_delegates.markdown) | Delegate of the property to be modified by the action |
+| `this.TargetValue` | Property type of the [ PropertyDelegate](https://github.com/zeroengineteam/ZeroDocs/blob/master//zero_editor_documentation/zeromanual/nada_in_zero/property_delegates.markdown) passed into the previous parameter (**i.e.** [Real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown) in this example) | Value to which the action will interpolate the given property |
+| `this.Duration` | [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) | The duration over which the action will be completed |
 | `Ease.Linear` | [Ease](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#ease) | The [Ease](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#ease) function used to calculate the rate of interpolation |
 
  ## Using a Property Action
 Now that we've covered the basics of what a property action is let's try using one:
 - Update the `SpriteFader` script:
 ``` lang=csharp, name=SpriteFader 
-class SpriteFader : ZilchComponent
+class SpriteFader : NadaComponent
 {
   [Dependency] var Sprite : Sprite;
   [Dependency] var Area : Area;
@@ -511,7 +511,7 @@ The final action type is the event action. This allows you to instantiate an eve
 
 - Add the following in the `SpriteFader` class within `SpriteFader`:
 ```name=Event Registration, lang=csharp
-  sends SpriteFaded : ZilchEvent;
+  sends SpriteFaded : NadaEvent;
 ```
 
 - Update the `Initialize` function in `SpriteFader`:
@@ -531,7 +531,7 @@ The final action type is the event action. This allows you to instantiate an eve
 
 - Add the following function to `SpriteFader`:
 ```name=Event Response Function, lang=csharp
-  function OnSpriteFaded(event : ZilchEvent)
+  function OnSpriteFaded(event : NadaEvent)
   {
     Console.WriteLine("Sprite Faded");
   }
@@ -579,7 +579,7 @@ The final action type is the event action. This allows you to instantiate an eve
     
     //Delay the animation loop
     Actions.Delay(this.LoopedSequence, this.Duration);
-    Actions.Event(this.LoopedSequence, this.Space, Events.SpriteFaded, ZilchEvent());
+    Actions.Event(this.LoopedSequence, this.Space, Events.SpriteFaded, NadaEvent());
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
@@ -601,7 +601,7 @@ The final action type is the event action. This allows you to instantiate an eve
 
  ## Manual
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [ PropertyDelegate](https://github.com/zeroengineteam/ZeroDocs/blob/master//zero_editor_documentation/zeromanual/zilch_in_zero/property_delegates.markdown)
+- [ PropertyDelegate](https://github.com/zeroengineteam/ZeroDocs/blob/master//zero_editor_documentation/zeromanual/nada_in_zero/property_delegates.markdown)
 
  ## Reference
  ### Classes
@@ -613,10 +613,10 @@ The final action type is the event action. This allows you to instantiate an eve
 - [actionset](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/actionset.markdown)
 - [Ease](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#ease)
 
- ### Zilch Base Types
-- [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
-- [Real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
-- [Math.Lerp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/math.markdown#lerp-zero-engine-documen)
+ ### Nada Base Types
+- [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+- [Real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+- [Math.Lerp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/math.markdown#lerp-zero-engine-documen)
 
  ### Commands
 - [ PlayGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#playgame)

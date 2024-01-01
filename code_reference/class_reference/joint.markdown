@@ -31,42 +31,42 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this joint is currently active. Used for runtime enabling/disabling of joints.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  AutoSnaps : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AutoSnaps : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this joint will automatically delete itself if any of its constraints reach the max impulse value. This will still send an event if it snaps.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AutoSnaps : Boolean
 
 
 ---  
- #  CollideConnected : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  CollideConnected : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if the two objects connected by this joint can collide. If any joint between this pair does not collide, then the pair does not collide. All joints have to be set to true in order to have the objects collide.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CollideConnected : Boolean
 
 
 ---  
- #  MaxImpulse : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MaxImpulse : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The maximum impulse (instantaneous force) that this joint can apply to correct itself.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxImpulse : Real
 
 
 ---  
- #  SendsEvents : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  SendsEvents : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this joint will send any events. Used for a small efficiency boost and for reducing the number of events.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SendsEvents : Boolean
 
 
@@ -80,8 +80,8 @@
 > Returns the cog associated with an index. Index of 0 is ObjectA, index 1 is ObjectB. Used to write more streamline functions where you index into the objects in a loop.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetCog(index : Integer) : Cog
 > ``` 
 
@@ -93,7 +93,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetOtherObject(cog : Cog) : Cog
 > ``` 
 
@@ -106,7 +106,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Joint()
 > ``` 
 

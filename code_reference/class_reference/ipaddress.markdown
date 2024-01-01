@@ -17,20 +17,20 @@
 
 
 ---  
- #  Hash : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Hash : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Hash : Integer
 
 
 ---  
- #  Host : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Host : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > Returns the valid IP address host as a numeric string, else String()
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Host : String
 
 
@@ -40,45 +40,45 @@
  `read-only`
 
 > Returns the valid IP address protocol version, else InternetProtocol::Unspecified.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InternetProtocol : InternetProtocol
 
 
 ---  
- #  IsValid : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsValid : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Returns true if this is a non-empty IPv4/IPv6 address, else false.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsValid : Boolean
 
 
 ---  
- #  Port : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Port : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Returns the valid IP address port, else 0.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Port : Integer
 
 
 ---  
- #  PortString : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  PortString : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Returns the valid IP address port as a numeric string, else String()
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PortString : String
 
 
 ---  
- #  String : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  String : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Returns the valid IP address as a numeric "host:port" string, else String()
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var String : String
 
 
@@ -92,7 +92,7 @@
 > Clears the IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
@@ -105,7 +105,7 @@
 > Creates an empty IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IpAddress()
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rhs|[ipaddress](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/ipaddress.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IpAddress(rhs : IpAddress)
 > ``` 
 
@@ -132,9 +132,9 @@
 > Creates an empty IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> |host|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> |port|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |host|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> |port|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function IpAddress(host : String, port : Integer)
 > ``` 
 
@@ -147,10 +147,10 @@
 > Creates an empty IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> |host|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> |port|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
+> |host|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> |port|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > |internetProtocol|[InternetProtocol](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#internetprotocol)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IpAddress(host : String, port : Integer, internetProtocol : InternetProtocol)
 > ``` 
 

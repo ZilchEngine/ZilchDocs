@@ -19,22 +19,22 @@
 
 
 ---  
- #  ChannelName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  ChannelName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > The changed net channel.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ChannelName : String
 
 
 ---  
- #  ComponentName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  ComponentName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > The component which declared the changed net property.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ComponentName : String
 
 
@@ -44,7 +44,7 @@
  `read-only`
 
 > The change direction.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Direction : TransmissionDirection
 
 
@@ -54,17 +54,17 @@
  `read-only`
 
 > The changed net object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Object : Cog
 
 
 ---  
- #  PropertyName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  PropertyName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > The changed net property.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PropertyName : String
 
 
@@ -74,17 +74,17 @@
  `read-only`
 
 > The replication phase.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReplicationPhase : ReplicationPhase
 
 
 ---  
- #  Timestamp : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Timestamp : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The time this change occurred.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Timestamp : Real
 
 

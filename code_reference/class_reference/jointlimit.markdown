@@ -16,34 +16,34 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this limit is currently active.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Signifies what atoms on the joint this affects. For internal use.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AtomIds : Integer
 
 
 ---  
- #  LowerLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  LowerLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The lower bound for this limit.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LowerLimit : Real
 
 
 ---  
- #  UpperLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  UpperLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The upper bound for this limit.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UpperLimit : Real
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function JointLimit()
 > ``` 
 

@@ -34,7 +34,7 @@ Control how and from what perspective all rendering is done.
 Adding and configuring lighting in a scene for the default Renderers provided in Zero.
 
  ## [Renderer](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/renderer.markdown)
-Zilch script components that define the entire rendering pipeline of a scene.
+Nada script components that define the entire rendering pipeline of a scene.
  
 
  

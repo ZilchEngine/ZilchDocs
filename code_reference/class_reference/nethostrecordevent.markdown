@@ -18,7 +18,7 @@
  `read-only`
 
 > Host discovered or refreshed (will contain the first host updated if this is a list update).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HostRecord : NetHostRecord
 
 

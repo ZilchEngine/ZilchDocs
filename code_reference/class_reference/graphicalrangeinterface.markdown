@@ -13,12 +13,12 @@
 
 
 ---  
- #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Current number of Graphicals in the list.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Count : Integer
 
 
@@ -33,7 +33,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |graphical|[graphical](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/graphical.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Add(graphical : Graphical)
 > ``` 
 
@@ -44,7 +44,7 @@
 > Remove all Graphicals from the list.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GraphicalRangeInterface()
 > ``` 
 
@@ -71,7 +71,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[graphicalrangeinterface](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GraphicalRangeInterface( : GraphicalRangeInterface)
 > ``` 
 

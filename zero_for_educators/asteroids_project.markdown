@@ -23,13 +23,13 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
  ## Player Movement
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- Create a ZilchScript resource using the Component template template and name it `PlayerMovement`
+- Create a NadaScript resource using the Component template template and name it `PlayerMovement`
  - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `PlayerMovement` to the Player object
 - Upload the Player object to a new archetype called `Player`
 
  ### Properties
 - Define properties of type [Keys](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#keys) in `PlayerMovement` for the forward, backward, left, right, and shoot keys for the player
-- Define properties of type [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) called `Speed` and `RotationSpeed`
+- Define properties of type [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) called `Speed` and `RotationSpeed`
 
  ### Moving
 - Connect to [LogicUpdate](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#logicupdate) in the `PlayerMovement` component.
@@ -38,7 +38,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
  - Check if the `Forward` and `Backward` input keys defined above are down using [Zero.Keyboard.KeyIsDown()](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do)
  - If the `Forward` is down add [Orientation.WorldForward](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/orientation.markdown#worldforward-zero-engine) to `movement`
  - If the `Backward` is down subtract [Orientation.WorldForward](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/orientation.markdown#worldforward-zero-engine) to `movement`
- - [Normalize](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/math.markdown#normalize-zero-engine-do) `movement`
+ - [Normalize](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/math.markdown#normalize-zero-engine-do) `movement`
  - Set [RigidBody.Velocity](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zero-engine-doc) to `movement * this.Speed`
 
  ### Rotating
@@ -47,23 +47,23 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - Check if the `Left` and `Right` input keys defined above are down using [Zero.Keyboard.KeyIsDown()](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do)
  - If the `Left` is down add [Orientation.WorldUp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/orientation.markdown#worldup-zero-engine-docu) to `rotation`
  - If the `Right` is down subtract [Orientation.WorldUp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/orientation.markdown#worldup-zero-engine-docu) to `rotation`
-- Declare a local variable `rotationSpeedRadians` and initialize it to `RotationSpeed` converted [to radians](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/math.markdown#toradians-zero-engine-do).
+- Declare a local variable `rotationSpeedRadians` and initialize it to `RotationSpeed` converted [to radians](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/math.markdown#toradians-zero-engine-do).
 - Use [Transform.RotateWorld()](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown#rotateworld-void) to rotate the object by `rotation * rotationSpeedRadians * event.Dt`
 
  ## Player Shooting
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- Add a ZilchScript resource using the Component template template and name it `ObjectSpawner`
+- Add a NadaScript resource using the Component template template and name it `ObjectSpawner`
  - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `ObjectSpawner` to the Player object
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- Add a ZilchScript resource using the Component template template and name it `CreateOnInput`
+- Add a NadaScript resource using the Component template template and name it `CreateOnInput`
  - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `CreateOnInput` to the Player object
 - Upload the Player object to a new archetype called `Player`
 
  ### Properties
 - In `ObjectSpawner`
  - Define a property of type [Archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown) named `ArchetypeToSpawn`
- - Define a property of type [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) named `InitialVelocity`
- - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown) named `UseRandomDirection` (defaulting to `false`)
+ - Define a property of type [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) named `InitialVelocity`
+ - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown) named `UseRandomDirection` (defaulting to `false`)
 
 - In `CreateOnInput`
  - Define a property of type [Keys](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#keys) in `ObjectSpawner` named `SpawnKey`
@@ -88,7 +88,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
  # The Projectile
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- Create a ZilchScript resource using the Component template template and name it `DestroyOnCollision`
+- Create a NadaScript resource using the Component template template and name it `DestroyOnCollision`
  - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `DestroyOnCollision` to the Projectile object
 - Under the `Sprite` component change the `VertexColor`
 - Upload the Projectile object to a new archetype called `Projectile`
@@ -96,8 +96,8 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
  ## DestroyOnCollision
  ### Properties
 - In `DestroyOnCollision`
- - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown) named `DestroyOwner` (defaulting to `false`)
- - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown) named `DestroyOther` (defaulting to `false`)
+ - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown) named `DestroyOwner` (defaulting to `false`)
+ - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown) named `DestroyOther` (defaulting to `false`)
 
  ### Destroying On Collision
 - In `DestroyOnCollision`
@@ -124,15 +124,15 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `ObjectSpawner` to the AsteroidSpawner object
 
  ### CreateOnInterval Component
-- Add a ZilchScript resource using the Component template template and name it `CreateOnInterval`
+- Add a NadaScript resource using the Component template template and name it `CreateOnInterval`
  - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `CreateOnInterval` to the AsteroidSpawner object
 - Move the AsteroidSpawner object outside the viewport so the GameCamera object can not see it
 - Upload the AsteroidSpawner object to a new archetype called `AsteroidSpawner`
 
  ### Properties
 - In `CreateOnInterval`
- - Define a property of type [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) in `CreateOnInterval` named `SpawnRate`
- - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown) in `CreateOnInterval` named `StartOnInit` defaulting to `true`
+ - Define a property of type [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) in `CreateOnInterval` named `SpawnRate`
+ - Define a property of type [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown) in `CreateOnInterval` named `StartOnInit` defaulting to `true`
  - Define a non-property member variable of type [ActionsSet](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/actionset.markdown) in `CreateOnInterval` named `SpawnSequence`
 
  ### Interval Spawning
@@ -148,7 +148,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
    - Call `StartSpawnSequence`
 
  # The ScreenWrap Component
-- Add a ZilchScript resource using the Component template template and name it `ScreenWrap`
+- Add a NadaScript resource using the Component template template and name it `ScreenWrap`
  - [Add component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `ScreenWrap` to the Asteroid resource and Player resource archetypes
 
  ## ScreenWrapping
@@ -156,7 +156,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - The `ScreenWrap` component should look like this
 
 ```name=ScreenWrap, lang=csharp
-class ScreenWrap : ZilchComponent
+class ScreenWrap : NadaComponent
 {
   [Dependency] var Transform : Transform;
   

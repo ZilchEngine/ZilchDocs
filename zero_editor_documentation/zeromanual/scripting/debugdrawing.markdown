@@ -39,10 +39,10 @@ DebugLine draws a line between two points, a start and an end.  Lines can also b
 |  BoxHeads checkBox | A Boolean that when set to true changes the heads to boxes
 |  DualHeads checkBox | A Boolean that when set to true places Heads on both ends of the line
 
-The following ZilchScript shows how a debug object's member variables may be defined with properties as well as updated according to game logic:
+The following NadaScript shows how a debug object's member variables may be defined with properties as well as updated according to game logic:
 
 ```
-class RotateLine : ZilchComponent
+class RotateLine : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -94,7 +94,7 @@ class RotateLine : ZilchComponent
 
 
 
-![RotateLine](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47261.gif) *The preceding ZilchScript rendered in a 2D level*
+![RotateLine](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47261.gif) *The preceding NadaScript rendered in a 2D level*
 
 
  ## DebugTriangle
@@ -111,7 +111,7 @@ DebugTriangle draws a triangle defined by three vertices (the member variables `
 The following ZIlchScript illustrates in a simple manner how consecutive triangles may be debug drawn:
 
 ```
-class DrawTriangles: ZilchComponent
+class DrawTriangles: NadaComponent
 {
   // The vertices for the triangle pairs
   [Property] var Vertex1: Real3;
@@ -174,7 +174,7 @@ class DrawTriangles: ZilchComponent
 
 
 
-![DebugTris](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47264.png) *The preceding ZilchScript rendered in a 2D level*
+![DebugTris](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47264.png) *The preceding NadaScript rendered in a 2D level*
 
 
  ## Related Materials

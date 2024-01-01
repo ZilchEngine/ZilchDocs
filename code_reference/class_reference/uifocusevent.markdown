@@ -17,7 +17,7 @@
  `read-only`
 
 > The object that has lost focus, or will lose focus (in the case of preview).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LostFocus : UiWidget
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > The object that is gaining focus.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReceivedFocus : UiWidget
 
 

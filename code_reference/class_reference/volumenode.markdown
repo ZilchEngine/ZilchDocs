@@ -12,18 +12,18 @@
 
 
 ---  
- #  Decibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Decibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment, in decibels, that will be applied to the node's input. A value of 0 does not affect the sound; 6 will double the sound's volume, -6 will halve it, and -100 is effectively the same as a Volume of 0.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Decibels : Real
 
 
 ---  
- #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment that will be applied to the node's input. A value of 1 does not affect the sound; 2 will double the sound's volume, 0.5 will halve it, and 0 will make the sound inaudible.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Volume : Real
 
 
@@ -37,9 +37,9 @@
 > Interpolates the Decibels property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |volumeDB|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |volumeDB|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateDecibels(volumeDB : Real, interpolationTime : Real)
 > ``` 
 
@@ -50,9 +50,9 @@
 > Interpolates the Volume property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |volume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |volume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateVolume(volume : Real, interpolationTime : Real)
 > ``` 
 

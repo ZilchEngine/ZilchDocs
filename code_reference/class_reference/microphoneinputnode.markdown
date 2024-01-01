@@ -12,18 +12,18 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Microphone input will only be played while the Active property is set to True.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume modifier applied to all audio data received from the microphone.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Volume : Real
 
 

@@ -21,8 +21,8 @@
 > Get the current BlendSettings for a color target at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(index : Integer) : BlendSettings
 > ``` 
 
@@ -33,9 +33,9 @@
 > Set the BlendSettings for a color target at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > |blendSettings|[blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(index : Integer, blendSettings : BlendSettings)
 > ``` 
 

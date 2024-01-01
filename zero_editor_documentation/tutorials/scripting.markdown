@@ -1,7 +1,7 @@
-Scripting using Zilch in the Zero Engine.
+Scripting using Nada in the Zero Engine.
 
  ## [customcomponents](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/customcomponents.markdown) #beginner_ii 
-ZilchScript, Component Class, Initialize, Update
+NadaScript, Component Class, Initialize, Update
 
  ## [variables](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/variables.markdown) #beginner_ii 
 Variable Types, Assignment, Acessing Owner Component Variables, Class Variables, Local Variables, Scope,  Property Attribute

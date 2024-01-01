@@ -16,34 +16,34 @@
 
 
 ---  
- #  ClampT : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ClampT : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ClampT : Boolean
 
 
 ---  
- #  EmitRadius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  EmitRadius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EmitRadius : Real
 
 
 ---  
- #  SpawnT : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SpawnT : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SpawnT : Real
 
 
 ---  
- #  SpawnTVariance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SpawnTVariance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SpawnTVariance : Real
 
 
@@ -51,7 +51,7 @@
  #  Spline : [spline](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/spline.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Spline : Spline
 
 
@@ -59,7 +59,7 @@
  #  TargetSplineCog : [cogpath](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cogpath.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TargetSplineCog : CogPath
 
 
@@ -75,7 +75,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SplineParticleEmitter()
 > ``` 
 

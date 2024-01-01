@@ -14,11 +14,11 @@ While most resources are directly tied to larger systems within the engine and a
 - [archetypes](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/archetypes.markdown)
 
  # Types of Resources
-Resources vary greatly in type, ranging from audio and visual assets to physics materials and meshes to different types of Zilch files.
+Resources vary greatly in type, ranging from audio and visual assets to physics materials and meshes to different types of Nada files.
 
  ## Code Resources
-- [ZilchScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-- [ZilchFragment (Shaders)](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials/shaders.markdown)
+- [NadaScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [NadaFragment (Shaders)](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials/shaders.markdown)
 
  ## Graphics Resources
 - [Font](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/resources/font.markdown)

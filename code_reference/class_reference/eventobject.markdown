@@ -52,7 +52,7 @@
 | | | |[webbrowsermanager](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/webbrowsermanager.markdown)|
 | | | |[widget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/widget.markdown)|
 | | | |[widgetmanager](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/widgetmanager.markdown)|
-| | | |[zilchobject](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchobject.markdown)|
+| | | |[nadaobject](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadaobject.markdown)|
 
 
  #  Properties

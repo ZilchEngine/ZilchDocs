@@ -13,12 +13,12 @@
 
 
 ---  
- #  MaxGamepadCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  MaxGamepadCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Gets the maximum number of supported gamepads.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxGamepadCount : Integer
 
 
@@ -32,8 +32,8 @@
 > Get the gamepad for a given index from [0, GamepadCount].
 > |Name|Type|Description|
 > |---|---|---|
-> |gamepadIndex|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |gamepadIndex|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetGamePad(gamepadIndex : Integer) : Gamepad
 > ``` 
 
@@ -44,7 +44,7 @@
 > Pause Vibration on all gamepads.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PauseVibration()
 > ``` 
 
@@ -55,7 +55,7 @@
 > Resume vibration on all gamepads.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ResumeVibration()
 > ``` 
 

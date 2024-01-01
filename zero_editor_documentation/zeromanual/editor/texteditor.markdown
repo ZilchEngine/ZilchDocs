@@ -1,4 +1,4 @@
-The Zero Engine's text editor can be used to modify [ZilchScripts](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown), [ ZilchFragments ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials/shaders.markdown), and [TextBlock](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/resources/textblock.markdown) resources.
+The Zero Engine's text editor can be used to modify [NadaScripts](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown), [ NadaFragments ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials/shaders.markdown), and [TextBlock](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/resources/textblock.markdown) resources.
 
  # Usability Features
 

@@ -13,26 +13,26 @@
 
 
 ---  
- #  LeftVolume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  LeftVolume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume multiplier applied to audio in the left channel.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LeftVolume : Real
 
 
 ---  
- #  RightVolume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  RightVolume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume multiplier applied to audio in the right channel.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RightVolume : Real
 
 
 ---  
- #  SumToMono : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  SumToMono : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If this property is true, the audio will be combined into a single channel before being split between the right and left channels. If it is false and the audio has more than two channels, it will be combined into only two channels before being processed.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SumToMono : Boolean
 
 
@@ -46,9 +46,9 @@
 > Interpolates the LeftVolume property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |volume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |volume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateLeftVolume(volume : Real, time : Real)
 > ``` 
 
@@ -59,9 +59,9 @@
 > Interpolates the RightVolume property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |volume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |volume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateRightVolume(volume : Real, time : Real)
 > ``` 
 
@@ -72,10 +72,10 @@
 > Interpolates both left and right volume properties at once. The first parameter is the value to change the LeftVolume to, the second is the RightVolume, and the third is the number of seconds to use for the interpolation.
 > |Name|Type|Description|
 > |---|---|---|
-> |leftVolume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |rightVolume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |leftVolume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |rightVolume|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateVolumes(leftVolume : Real, rightVolume : Real, time : Real)
 > ``` 
 

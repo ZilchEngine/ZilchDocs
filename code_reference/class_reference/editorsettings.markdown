@@ -13,26 +13,26 @@
 
 
 ---  
- #  AutoUpdateContentChanges : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AutoUpdateContentChanges : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AutoUpdateContentChanges : Boolean
 
 
 ---  
- #  ViewCube : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ViewCube : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Show/hide the orientation view cube.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewCube : Boolean
 
 
 ---  
- #  ViewCubeSize : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ViewCubeSize : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Size in pixels of the viewport the view cube is shown in.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewCubeSize : Real
 
 
@@ -48,7 +48,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EditorSettings()
 > ``` 
 

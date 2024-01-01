@@ -46,7 +46,7 @@ Objects which are an instance of an Archetype can be duplicated via copy & paste
 Archetypes are essential for creating objects at runtime. Here is a short example of how one might create instances of an Archetype at runtime.
 
 ```
-class ObjectSpawner : ZilchComponent
+class ObjectSpawner : NadaComponent
 {
   [Property]
   var ObjectArchetype : Archetype = Archetype.MyArchetype;
@@ -109,7 +109,7 @@ It should be noted that based on the above modifications to `Transform` the Arch
 
 ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46844.png)
 
-This is because the properties such as `Transform.Translation`, `Transform.Rotation`, `Transform.Scale`, and `Area.Size` have the `LocalModificationOverride` attribute which prevents that property from normally interacting with archetype updates and reversion. A property with the `LocalModificationOverride` attribute will not be uploaded with other modifications when a modified instance is uploaded to the archetype. Overrridden properties will also not be modified when an instance is reverted to archetype. The `LocalModificationOverride` attribute can be applied to properties in custom Zilch components as well.
+This is because the properties such as `Transform.Translation`, `Transform.Rotation`, `Transform.Scale`, and `Area.Size` have the `LocalModificationOverride` attribute which prevents that property from normally interacting with archetype updates and reversion. A property with the `LocalModificationOverride` attribute will not be uploaded with other modifications when a modified instance is uploaded to the archetype. Overrridden properties will also not be modified when an instance is reverted to archetype. The `LocalModificationOverride` attribute can be applied to properties in custom Nada components as well.
 
  ##  Component Modifications
 Adding, removing, or reordering a component to an Archetype instance modifies it from Archetype.

@@ -12,18 +12,18 @@
 
 
 ---  
- #  Pitch : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Pitch : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The pitch adjustment applied to the node's input. A value of 0 will not affect the sound's pitch; 1 will raise the pitch by an octave and speed up the sound, and -1 will lower the sound by an octave and slow it down. Large pitch changes will likely affect the quality of the sound.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Pitch : Real
 
 
 ---  
- #  Semitones : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Semitones : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The pitch adjustment, in semitones (or half-steps), applied to the node's input. A value of 0 will not affect the sound's pitch; 12 will raise the pitch by an octave and speed up the sound, and -12 will lower the sound by an octave and slow it down. Large pitch changes will likely affect the quality of the sound.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Semitones : Real
 
 
@@ -37,9 +37,9 @@
 > Interpolates the Pitch property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |pitchRatio|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |pitchRatio|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolatePitch(pitchRatio : Real, interpolationTime : Real)
 > ``` 
 
@@ -50,9 +50,9 @@
 > Interpolates the Semitones property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |pitchSemitones|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |pitchSemitones|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |interpolationTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateSemitones(pitchSemitones : Real, interpolationTime : Real)
 > ``` 
 

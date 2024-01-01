@@ -8,9 +8,9 @@ Zero Engine's Event system takes component-based design to new levels of freedom
 
 An archetype defines a game object, its child objects, and even other nested archetypes within the hierarchy. Need to make changes to an Archetype that is nested under multiple of other Archetypes? We've got you covered. Every Archetype will automatically receive updates made to nested Archetypes. Did all those Archetypes have local modifications made to the nested one? We've still got you covered. Zero Engine preserves local modifications when updates are made to an Archetype.
 
-## Zilch
+## Nada
 
-Zilch is a high-level programming language developed by us to solve some of the most interesting problems in game development. Use Zilch to program and customize game scripts, editor tools and commands, and even your shaders. All of that, done in an integrated text editor equipped with full code completion and inline tooltips from documentation. Zilch features extremely fast compilation and patching/hot loading for live game editing.
+Nada is a high-level programming language developed by us to solve some of the most interesting problems in game development. Use Nada to program and customize game scripts, editor tools and commands, and even your shaders. All of that, done in an integrated text editor equipped with full code completion and inline tooltips from documentation. Nada features extremely fast compilation and patching/hot loading for live game editing.
 
 ## C++ Plugins
 

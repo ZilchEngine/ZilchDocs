@@ -13,7 +13,7 @@
  #  Animation : [animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Animation : Animation
 
 
@@ -21,7 +21,7 @@
  #  PlayMode : [AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PlayMode : AnimationPlayMode
 
 

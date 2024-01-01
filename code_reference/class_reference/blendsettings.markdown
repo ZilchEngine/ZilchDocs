@@ -20,7 +20,7 @@
  #  BlendEquation : [BlendEquation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendequation)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendEquation : BlendEquation
 
 
@@ -28,7 +28,7 @@
  #  BlendEquationAlpha : [BlendEquation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendequation)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendEquationAlpha : BlendEquation
 
 
@@ -36,7 +36,7 @@
  #  BlendMode : [BlendMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendMode : BlendMode
 
 
@@ -44,7 +44,7 @@
  #  DestFactor : [BlendFactor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendfactor)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DestFactor : BlendFactor
 
 
@@ -52,7 +52,7 @@
  #  DestFactorAlpha : [BlendFactor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendfactor)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DestFactorAlpha : BlendFactor
 
 
@@ -60,7 +60,7 @@
  #  SourceFactor : [BlendFactor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendfactor)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SourceFactor : BlendFactor
 
 
@@ -68,7 +68,7 @@
  #  SourceFactorAlpha : [BlendFactor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#blendfactor)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SourceFactorAlpha : BlendFactor
 
 
@@ -84,7 +84,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function BlendSettings()
 > ``` 
 
@@ -98,7 +98,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |other|[blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function BlendSettings(other : BlendSettings)
 > ``` 
 

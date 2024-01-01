@@ -24,18 +24,18 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  AlwaysDrawInEditor : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AlwaysDrawInEditor : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Always draw the grid in editor (not just when it's selected)
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AlwaysDrawInEditor : Boolean
 
 
@@ -43,79 +43,79 @@
  #  Axis : [AxisDirection](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#axisdirection)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Axis : AxisDirection
 
 
 ---  
- #  CellSize : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CellSize : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The deltas in the grid (how far apart we draw grid lines)
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CellSize : Real
 
 
 ---  
- #  DrawAxisOrigins : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  DrawAxisOrigins : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Changes the line color to.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DrawAxisOrigins : Boolean
 
 
 ---  
- #  DrawInGame : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  DrawInGame : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Draw the grid in the game.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DrawInGame : Boolean
 
 
 ---  
- #  FollowEditorCamera : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  FollowEditorCamera : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Move with the editor camera?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FollowEditorCamera : Boolean
 
 
 ---  
- #  GridColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  GridColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > Color of grid lines.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GridColor : Real4
 
 
 ---  
- #  GridHighlight : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  GridHighlight : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GridHighlight : Real4
 
 
 ---  
- #  HalfCellOffset : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  HalfCellOffset : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Is the grid offset by half a unit?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HalfCellOffset : Boolean
 
 
 ---  
- #  HighlightInterval : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  HighlightInterval : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > How often should cells be activated.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HighlightInterval : Integer
 
 
 ---  
- #  Lines : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Lines : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > The number of lines to draw.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Lines : Integer
 
 
@@ -131,7 +131,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GridDraw()
 > ``` 
 

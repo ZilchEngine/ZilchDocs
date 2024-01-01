@@ -19,15 +19,15 @@
  `read-only`
 
 > Get source for height map.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Source : HeightMapSource
 
 
 ---  
- #  UnitsPerPatch : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  UnitsPerPatch : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Gets/sets the number of units per patch.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UnitsPerPatch : Real
 
 
@@ -43,7 +43,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function HeightMap()
 > ``` 
 

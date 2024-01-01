@@ -22,7 +22,7 @@
  `read-only`
 
 > The other collider being hit.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OtherCollider : Collider
 
 
@@ -32,57 +32,57 @@
  `read-only`
 
 > The other cog being hit.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OtherObject : Cog
 
 
 ---  
- #  Penetration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Penetration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The amount of overlap with this object. Will typically be zero unless the objects start in contact.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Penetration : Real
 
 
 ---  
- #  Time : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Time : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The time of impact that this collision first happens.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Time : Real
 
 
 ---  
- #  WorldNormalTowardsOther : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldNormalTowardsOther : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The contact normal pointing from the sweeping object towards the other object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldNormalTowardsOther : Real3
 
 
 ---  
- #  WorldNormalTowardsSelf : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldNormalTowardsSelf : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The contact normal pointing from the other object towards the sweeping object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldNormalTowardsSelf : Real3
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The point of intersection in world-space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldPoint : Real3
 
 
@@ -98,7 +98,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SweepResult()
 > ``` 
 
@@ -112,7 +112,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[sweepresult](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sweepresult.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SweepResult( : SweepResult)
 > ``` 
 

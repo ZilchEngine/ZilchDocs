@@ -12,18 +12,18 @@
 
 
 ---  
- #  SnapAngle : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SnapAngle : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapAngle : Real
 
 
 ---  
- #  Snapping : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Snapping : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Snapping.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Snapping : Boolean
 
 
@@ -39,7 +39,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RotateGizmo()
 > ``` 
 

@@ -18,10 +18,10 @@
 
 
 ---  
- #  Constant : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Constant : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The initial offset of the gear ratio.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Constant : Real
 
 
@@ -29,7 +29,7 @@
  #  JointA : [cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)
 
 > The joint connected to ObjectA that the gear operates on.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var JointA : Cog
 
 
@@ -37,7 +37,7 @@
  #  JointAPath : [cogpath](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cogpath.markdown)
 
 > The joint connected to ObjectA that the gear operates on.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var JointAPath : CogPath
 
 
@@ -45,7 +45,7 @@
  #  JointB : [cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)
 
 > The joint connected to ObjectB that the gear operates on.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var JointB : Cog
 
 
@@ -53,15 +53,15 @@
  #  JointBPath : [cogpath](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cogpath.markdown)
 
 > The joint connected to ObjectB that the gear operates on.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var JointBPath : CogPath
 
 
 ---  
- #  Ratio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Ratio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The gear ratio that the two constraints are bound with.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Ratio : Real
 
 
@@ -77,7 +77,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GearJoint()
 > ``` 
 

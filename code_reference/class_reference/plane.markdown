@@ -11,30 +11,30 @@
 
 
 ---  
- #  Data : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  Data : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Data : Real4
 
 
 ---  
- #  Distance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Distance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Distance : Real
 
 
 ---  
- #  Normal : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  Normal : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Normal : Real3
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Plane()
 > ``` 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[plane](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/plane.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Plane(p0 : Plane)
 > ``` 
 
@@ -77,9 +77,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> |point|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |normal|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> |point|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Plane(normal : Real3, point : Real3)
 > ``` 
 
@@ -92,8 +92,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |data|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |data|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Plane(data : Real4)
 > ``` 
 
@@ -104,9 +104,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> |point|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |normal|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> |point|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Set(normal : Real3, point : Real3)
 > ``` 
 
@@ -117,8 +117,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |data|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |data|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Set(data : Real4)
 > ``` 
 

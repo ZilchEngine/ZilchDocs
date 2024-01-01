@@ -16,36 +16,36 @@
 
 
 ---  
- #  LocalTorque : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  LocalTorque : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if the torque is applied in local or world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalTorque : Boolean
 
 
 ---  
- #  TorqueAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  TorqueAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The axis that the torque is being applied about.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TorqueAxis : Real3
 
 
 ---  
- #  TorqueStrength : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  TorqueStrength : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The strength of the torque being applied.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TorqueStrength : Real
 
 
 ---  
- #  WorldTorqueAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldTorqueAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The axis of the torque in world space (can be used to manually add torque to a RigidBody).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldTorqueAxis : Real3
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function TorqueEffect()
 > ``` 
 

@@ -14,7 +14,7 @@ The MeshBuilder ContentComponent includes those properties specifically related 
 
 The AnimationBuilder ContentComponent defines clips of animation that have been imported. If importing a single animation, the AnimationClip will be automatically generated and there is nothing more to do. If using a workflow where all animations for a certain mesh are included in the same timeline or track in an asset file, different AnimationClips will need to added for each separate animation, defined by their start and end frames. If using such a workflow, the artist should provide the user with the frame specifications for each distinct animation.
 
-Every AnimationClip can be named, have its start and end frames defined, and its looping mode set (`Default`, `Once`, or `Looping`). Once an AnimationClip is added it is treated like an Animation Resource in Zero and can be accessed in ZilchScript like any other Animation.
+Every AnimationClip can be named, have its start and end frames defined, and its looping mode set (`Default`, `Once`, or `Looping`). Once an AnimationClip is added it is treated like an Animation Resource in Zero and can be accessed in NadaScript like any other Animation.
 
  # TextureContent and GeneratedArchetype
 

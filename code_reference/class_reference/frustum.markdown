@@ -23,7 +23,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Frustum()
 > ``` 
 
@@ -37,7 +37,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[frustum](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/frustum.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Frustum(p0 : Frustum)
 > ``` 
 
@@ -48,8 +48,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(p0 : Integer) : Plane
 > ``` 
 
@@ -60,7 +60,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetAabb() : Aabb
 > ``` 
 
@@ -71,9 +71,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
+> |p0|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > |p1|[plane](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/plane.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(p0 : Integer, p1 : Plane)
 > ``` 
 

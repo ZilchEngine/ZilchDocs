@@ -301,14 +301,14 @@ Now to make our first button, the *Start Game* button. When we're done with it, 
 
 (NOTE) **Why's Everything Orange?** You may notice that some of the objects in the Objects Window are shown in orange text. Zero uses this coloring scheme to denote an object that is //an instance of an archetype, but whose property values differ from the archetype it was created from//. Every object we've created so far has been instantiated from archetypes, which we then proceeded to modify. If you want an object's name to be printed in the same manner as the rest of the objects, just select it and clear its Archetype  field in the `Properties Window`. Then it won't be considered an archetype instance anymore.
 
-The button's outward appearance is mostly complete, but we need to give it a Zilch component that gives it its functionality.
+The button's outward appearance is mostly complete, but we need to give it a Nada component that gives it its functionality.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `LoadLevelOnClick`
+ - Create a NadaScript resource using the Component template template and name it `LoadLevelOnClick`
 - Update the `LoadLevelOnClick` script to the following:
 
 ```lang=csharp, name=LoadLevelOnClick
-class LoadLevelOnClick : ZilchComponent
+class LoadLevelOnClick : NadaComponent
 {
   [Property]
   var LevelToLoad : Level;
@@ -325,7 +325,7 @@ class LoadLevelOnClick : ZilchComponent
 }
 ```
 
-Zero's UI system sends the [ LeftClick](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#leftclick) event to every **interactive** widget object (that is, every game object whose [ UiWidget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/uiwidget.markdown) component's `Interactive` property is set to `true`) when it is left-clicked. This component uses that event to load a level of our choice, making it perfect for our menu buttons (and more). But in addition to the functionality offered by this component, we can also add some helpful feedback to the button with a couple more core Zilch components: `UiHighlight`, which changes a button's color when it is hovered over or clicked on, and `UiChangeCursor`, which makes a button change the [ mouse cursor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#cursor) when it is hovered over.
+Zero's UI system sends the [ LeftClick](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#leftclick) event to every **interactive** widget object (that is, every game object whose [ UiWidget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/uiwidget.markdown) component's `Interactive` property is set to `true`) when it is left-clicked. This component uses that event to load a level of our choice, making it perfect for our menu buttons (and more). But in addition to the functionality offered by this component, we can also add some helpful feedback to the button with a couple more core Nada components: `UiHighlight`, which changes a button's color when it is hovered over or clicked on, and `UiChangeCursor`, which makes a button change the [ mouse cursor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#cursor) when it is hovered over.
 
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : StartGameButton object
 - In the `Properties Window`
@@ -368,10 +368,10 @@ We'll just throw something together real quick to make a gameplay level. It won'
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
  - Create a Level resource using the {nav icon=clone, name="2D Level"} template and name it `GameplayLevel`
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `KeyboardMovement`
+ - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update the `KeyboardMovement` script to the following:
 ```lang=csharp, name="KeyboardMovement"
-class KeyboardMovement : ZilchComponent
+class KeyboardMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -428,10 +428,10 @@ In a moment, we'll make it possible to go to the gameplay level from the main me
 Let's make it so that the `Escape` (Escape) key takes us back to the main menu. Of course, by default, this key quits a Zero game altogether. We'll use a combination of two new components to circumvent this functionality and replace it with our own.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `QuitHandler`
+ - Create a NadaScript resource using the Component template template and name it `QuitHandler`
 - Update the `QuitHandler` script to the following:
 ```lang=csharp, name="QuitHandler"
-class QuitHandler : ZilchComponent
+class QuitHandler : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -448,10 +448,10 @@ class QuitHandler : ZilchComponent
 When `Escape` is pressed, the [ GameRequestQuit](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#gamerequestquit) event is dispatched to the GameSession object. If this event is not **handled**, the game exits. This component allows us to prevent this.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `LoadLevelOnKeystroke`
+ - Create a NadaScript resource using the Component template template and name it `LoadLevelOnKeystroke`
 - Update the `LoadLevelOnKeystroke` script to the following:
 ```lang=csharp, name="LoadLevelOnKeystroke"
-class LoadLevelOnKeystroke : ZilchComponent
+class LoadLevelOnKeystroke : NadaComponent
 {
   [Property]
   var Key : Keys = Keys.Escape;
@@ -770,10 +770,10 @@ We're almost done! There are just a few more things to hook up, and one more qui
 The quit button still has its old `LoadLevelOnClick` component from its days as a start button clone. We can remove that, and also add a new component that quits the game on click:
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `RequestQuitOnClick`
+ - Create a NadaScript resource using the Component template template and name it `RequestQuitOnClick`
 - Update the `RequestQuitOnClick` script to the following:
 ```lang=csharp, name="RequestQuitOnClick"
-class RequestQuitOnClick : ZilchComponent
+class RequestQuitOnClick : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {

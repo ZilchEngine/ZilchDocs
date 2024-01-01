@@ -1,10 +1,10 @@
-The Right-Click Submenu is a simple-to-use tool that gives different functionality depending on if it is used in the Library, Object, or Properties Window, or even inside a ZilchScript. It can be used to rename Objects, remove Components from them, make duplicates of them, and other actions as well. 
+The Right-Click Submenu is a simple-to-use tool that gives different functionality depending on if it is used in the Library, Object, or Properties Window, or even inside a NadaScript. It can be used to rename Objects, remove Components from them, make duplicates of them, and other actions as well. 
 
  # Common Uses
 
  - Edit the Name and Tags of an Object
  - Removing a Component from an Object, or Resource from the Project
- - Viewing more detailed information on a Component, or Variable in a ZilchScript
+ - Viewing more detailed information on a Component, or Variable in a NadaScript
 
  # In the Library Window
 The Right-Click Submenu will be slightly different in the Library Window depending on if either a Tag or a Resource is right-clicked. 
@@ -25,7 +25,7 @@ Left-clicking on this option will act the same as if that [Tag](https://github.c
 
 
  # Resources
-Right-clicking on a Resource will bring up a different list with four options available to all Resources: `Edit`, `Rename`, `EditTags` and `Remove`, and if the Resource is not a ZilchScript, `Duplicate`. 
+Right-clicking on a Resource will bring up a different list with four options available to all Resources: `Edit`, `Rename`, `EditTags` and `Remove`, and if the Resource is not a NadaScript, `Duplicate`. 
 
 
 ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47155.png)
@@ -65,12 +65,12 @@ When a Component is right-clicked in the Properties Window, it is given three op
  - **Remove**: The `Remove` option will remove the selected Component from the Object. If another Component is dependent on the Component attempting to be removed, the Engine will not allow the removal to take place and will show an error message. 
  - **View Docs**: `View Docs` will open a new Editor Window that will give a Class Description of the Component, as well as the various Properties and Methods that Component has. 
 
-NOTE: Only Components supplied by the Engine will have documentation, and the documentation is the same that will appear in Zilch's code-completion and the [Code Reference](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference.markdown) Section. As it is generated automatically from meta data, not all components will have docs available for viewing.
+NOTE: Only Components supplied by the Engine will have documentation, and the documentation is the same that will appear in Nada's code-completion and the [Code Reference](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference.markdown) Section. As it is generated automatically from meta data, not all components will have docs available for viewing.
 
  - **Search Online Docs**: Using `Search Online Docs` will open a new page in the user's web browser, navigate to "zero.digipen.edu" and perform a search using the name of the Component as the query. 
 
- # Inside a ZilchScript
-Right-clicking on any word written in a ZilchScript will give the user the `Go To Definition` option. 
+ # Inside a NadaScript
+Right-clicking on any word written in a NadaScript will give the user the `Go To Definition` option. 
 
 
 

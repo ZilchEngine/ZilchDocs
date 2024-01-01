@@ -1,10 +1,10 @@
-Events are the main way that objects and components talk to each other in the Zero Engine. When a component has information that it wants to share, the easiest way is to package the information into an Event, and then dispatch it.  Then, any component that wants to have that information can listen for it by connecting a member function to the event. In the Zero Engine, there are two main categories of events: the pre-defined Engine events (such as as an Update event or a Collision event) that are that ready-made for you to connect to, and Custom ZilchScript Events that the user creates. The Custom Events allow the user to decide when and where to send them out, what information is sent with them, and what listens for the event after it's sent. This page will briefly cover each of the two categories, but will focus specifically on Custom Events(see [event_reference](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown) for built-in events).
+Events are the main way that objects and components talk to each other in the Zero Engine. When a component has information that it wants to share, the easiest way is to package the information into an Event, and then dispatch it.  Then, any component that wants to have that information can listen for it by connecting a member function to the event. In the Zero Engine, there are two main categories of events: the pre-defined Engine events (such as as an Update event or a Collision event) that are that ready-made for you to connect to, and Custom NadaScript Events that the user creates. The Custom Events allow the user to decide when and where to send them out, what information is sent with them, and what listens for the event after it's sent. This page will briefly cover each of the two categories, but will focus specifically on Custom Events(see [event_reference](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown) for built-in events).
 
  # Pre-Defined Engine Events
 
 At the bottom of this page is a comprehensive list of the pre-defined engine events. The [LogicUpdate](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#logicupdate) Event, [Collision Events](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collisionevent.markdown) (which comes in three variations: Started, Ended, and Persisted), [Keyboard Events](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/keyboardevent.markdown), and [Mouse Events](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/mouseevent.markdown).
 
- # Custom ZilchScript Events
+ # Custom NadaScript Events
 
 
 These are the events that the user will create and dispatch themselves. A primary reason to use custom events is that they move the focus away from whatever triggers an action (such as collision or a frame update) to the object that is responding to the event occurring (i.e. the player's health and the HUD element displaying the player's health that is changed as a result of colliding with an enemy). There are a number of benefits to this approach, including:
@@ -60,8 +60,8 @@ If you were to store a reference to the event object itself the reference would 
 The following code-block demonstrates both how to create a custom event as well as how to include data to send with the event. While it is rare that one will send no data, it is *not* necessary to include data when creating the event. In these cases, the dispatching of the event itself is the data. In most cases, however, data will be included that will have relevance to the behavior change desired by the object that is connecting to the event (i.e. on a "enemy destroyed" event, one might send the amount of points the player receives for destroying the enemy).
 
 ```
-    // Define a custom ZilchEvent
-    class MyCustomEvent : ZilchEvent
+    // Define a custom NadaEvent
+    class MyCustomEvent : NadaEvent
     {
         //Data to be sent with the event 
         //that will be used by the object connecting to the event
@@ -97,14 +97,14 @@ Sending an event is a four part process.
 NOTE: Users can only add data to the member variables defined in the event's class. To add more data, the user needs to alter the event's class to include more member variables.
 
 ```
-    class MyCustomEvent : ZilchEvent
+    class MyCustomEvent : NadaEvent
     {
         //Attach Data
         myCustomEvent.InfoToSend = "data";
         myCustomEvent.NumberToSend = 5;
     }
     
-    class EventDispatcher : ZilchComponent
+    class EventDispatcher : NadaComponent
     {
         var DataThatWillNotBeAdded : Real = 10.5;
         
@@ -124,7 +124,7 @@ The `sends` keyword helps users in two ways. First, it registers the string type
 Users can only use the `sends` keyword within the outermost class-scope (of either the class defining the custom event or the class in which it is dispatched), *outside of any function* within that class. In other words, it must be used outside of `Initialize`, `OnLogicUpdate`, or any other function. Placing it within the class that creates the event itself is a good way to keep track of it is registered, but ultimately it is up to the user where they wish to put it so long as it not used inside any function. The following two code-blocks show two ways to use the `sends` keyword correctly:
 
 ```
-    class MyCustomEvent : ZilchEvent
+    class MyCustomEvent : NadaEvent
     {
         //Using the sends keyword correctly within the class
         //that defines that custom event
@@ -136,7 +136,7 @@ Users can only use the `sends` keyword within the outermost class-scope (of eith
 
 
 ```
-    class EventDispatcher : ZilchComponent
+    class EventDispatcher : NadaComponent
     {
         //Using the sends keyword correctly within the class
         //that dispatches the custom event
@@ -153,7 +153,7 @@ Users can only use the `sends` keyword within the outermost class-scope (of eith
 The following code-block will show an **incorrect** way use the `sends` keyword:
 
 ```
-    class EventDispatcher : ZilchComponent
+    class EventDispatcher : NadaComponent
     {
         function Initialize(init : CogInitializer)
         {
@@ -171,13 +171,13 @@ The following code-block will show an **incorrect** way use the `sends` keyword:
 Always be mindful of sending the events from the source one's subscribers are expecting to hear it from. 
 
 ```
-class MyCustomEvent : ZilchEvent
+class MyCustomEvent : NadaEvent
 {
   //Registers the string type ID to be associated with the event type
   sends MyCustomEvent : MyCustomEvent;
 }
 
-class EventDispatcher : ZilchComponent
+class EventDispatcher : NadaComponent
 {
     //Property for selecting the CogPath of the object for which to 
     //dispatch the event

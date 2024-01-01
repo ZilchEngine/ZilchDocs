@@ -14,20 +14,20 @@
 
 
 ---  
- #  Radii : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  Radii : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The x, y, and z radius of the ellipsoid.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Radii : Real3
 
 
 ---  
- #  WorldRadii : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldRadii : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The radii of the ellipsoid after transform is applied (scale and rotation).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldRadii : Real3
 
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EllipsoidCollider()
 > ``` 
 

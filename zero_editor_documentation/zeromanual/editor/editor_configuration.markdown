@@ -66,7 +66,7 @@ If this is `true`, whitespace characters are shown as little dots.
 
 
  ###  LineNumbers
-If this is `true`, Zilch files will display their line numbers in the gutter.
+If this is `true`, Nada files will display their line numbers in the gutter.
 
 
 ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66660.png) ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66666.png)

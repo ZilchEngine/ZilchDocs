@@ -17,7 +17,7 @@
  #  Device : [InputDevice](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#inputdevice)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Device : InputDevice
 
 
@@ -25,7 +25,7 @@
  #  LastDevice : [InputDevice](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#inputdevice)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LastDevice : InputDevice
 
 

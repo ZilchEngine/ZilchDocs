@@ -18,7 +18,7 @@
  `read-only`
 
 > Only set when the animation node has a single animation.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Animation : Animation
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Node : AnimationNode
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PlayMode : AnimationPlayMode
 
 

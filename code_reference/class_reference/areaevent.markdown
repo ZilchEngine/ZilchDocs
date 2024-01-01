@@ -16,7 +16,7 @@
  #  Area : [area](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/area.markdown)
 
 > The area component that triggered this event.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Area : Area
 
 

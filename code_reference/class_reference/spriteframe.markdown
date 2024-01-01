@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[spriteframe](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/spriteframe.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SpriteFrame(p0 : SpriteFrame)
 > ``` 
 

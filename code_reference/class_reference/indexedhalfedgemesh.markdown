@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Edges : IndexedHalfEdgeMeshEdgeArray
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Faces : IndexedHalfEdgeMeshFaceArray
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Vertices : IndexedHalfEdgeMeshVertexArray
 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeMesh()
 > ``` 
 
@@ -66,7 +66,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedgemesh](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeMesh(p0 : IndexedHalfEdgeMesh)
 > ``` 
 

@@ -17,32 +17,32 @@
 
 
 ---  
- #  LastChangeTimePassed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  LastChangeTimePassed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > Elapsed time passed since this net property was last changed, else 0.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LastChangeTimePassed : Real
 
 
 ---  
- #  LastChangeTimestamp : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  LastChangeTimestamp : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > Timestamp indicating when this net property was last changed, else 0.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LastChangeTimestamp : Real
 
 
 ---  
- #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Net property name.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Name : String
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > Operating net channel.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetChannel : NetChannel
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > Operating net property type.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetPropertyType : NetPropertyType
 
 

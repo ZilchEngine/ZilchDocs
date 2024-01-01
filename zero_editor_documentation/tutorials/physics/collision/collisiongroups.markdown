@@ -143,11 +143,11 @@ Now we can see the two spheres, which are set up to skip resolution and detectio
 
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `PrintCollision`
+ - Create a NadaScript resource using the Component template template and name it `PrintCollision`
 - Update the `PrintCollision` script to the following:
 
 ```lang=csharp, name="PrintCollision"
-class PrintCollision : ZilchComponent
+class PrintCollision : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {

@@ -14,12 +14,12 @@
 
 
 ---  
- #  SampleCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  SampleCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of samples currently in the buffer.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SampleCount : Integer
 
 
@@ -33,8 +33,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)]| |
-> ``` lang=cpp, name=Zilch
+> ||Array[[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)]| |
+> ``` lang=cpp, name=Nada
 > function AddMicUncompressedData( : Array[Real])
 > ``` 
 
@@ -45,20 +45,20 @@
 > Adds a new audio sample to the end of the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |sample|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |sample|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function AddSampleToBuffer(sample : Real)
 > ``` 
 
 
 ---  
- #  GetSampleAtIndex : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  GetSampleAtIndex : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Returns the sample at a specific index from the beginning of the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetSampleAtIndex(index : Integer) : Real
 > ``` 
 
@@ -69,7 +69,7 @@
 > Removes all data from the buffer and resets it.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Reset()
 > ``` 
 

@@ -13,12 +13,12 @@
 
 
 ---  
- #  Duration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Duration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > Duration of the animation in seconds.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Duration : Real
 
 

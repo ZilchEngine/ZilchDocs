@@ -15,26 +15,26 @@
 
 
 ---  
- #  AffectScale : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AffectScale : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > With multiple objects selected, allow their local scale to be affected while being spacially-offset (with 'AffectTranslation') about the chosen pivot point.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AffectScale : Boolean
 
 
 ---  
- #  AffectTranslation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AffectTranslation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > With multiple objects selected, allow their spacial-offest to be affected about the chosen pivot point, while being locally scaled with 'mAffectScale'.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AffectTranslation : Boolean
 
 
 ---  
- #  SnapDistance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SnapDistance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapDistance : Real
 
 
@@ -42,15 +42,15 @@
  #  SnapMode : [GizmoSnapMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#gizmosnapmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapMode : GizmoSnapMode
 
 
 ---  
- #  Snapping : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Snapping : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Snapping : Boolean
 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ObjectScaleTool()
 > ``` 
 

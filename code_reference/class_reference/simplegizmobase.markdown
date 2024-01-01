@@ -17,58 +17,58 @@
 
 
 ---  
- #  Color : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  Color : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > Display colors.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Color : Real4
 
 
 ---  
- #  DrawOnTop : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  DrawOnTop : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to draw on top of all objects regardless of depth.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DrawOnTop : Boolean
 
 
 ---  
- #  HoverColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  HoverColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HoverColor : Real4
 
 
 ---  
- #  MouseInput : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  MouseInput : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not this Gizmo should receive mouse input.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MouseInput : Boolean
 
 
 ---  
- #  PickingPriority : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  PickingPriority : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Used to manually determine which Gizmo gets selected when the mouse is over multiple Gizmos. Higher priority will get picked first.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PickingPriority : Integer
 
 
 ---  
- #  UseParentAsViewScaleOrigin : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseParentAsViewScaleOrigin : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If enabled, the gizmo will scale around it's parent.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseParentAsViewScaleOrigin : Boolean
 
 
 ---  
- #  ViewScaled : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ViewScaled : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If enabled, the size of the gizmo will stay the same regardless of how far away the camera is.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewScaled : Boolean
 
 
@@ -84,7 +84,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SimpleGizmoBase()
 > ``` 
 

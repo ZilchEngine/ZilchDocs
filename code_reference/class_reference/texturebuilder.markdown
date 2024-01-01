@@ -22,7 +22,7 @@
  #  AddressingX : [TextureAddressing](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureaddressing)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AddressingX : TextureAddressing
 
 
@@ -30,7 +30,7 @@
  #  AddressingY : [TextureAddressing](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureaddressing)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AddressingY : TextureAddressing
 
 
@@ -38,7 +38,7 @@
  #  Anisotropy : [TextureAnisotropy](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureanisotropy)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Anisotropy : TextureAnisotropy
 
 
@@ -46,7 +46,7 @@
  #  Compression : [TextureCompression](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecompression)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Compression : TextureCompression
 
 
@@ -54,23 +54,23 @@
  #  Filtering : [TextureFiltering](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturefiltering)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Filtering : TextureFiltering
 
 
 ---  
- #  GammaCorrection : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  GammaCorrection : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GammaCorrection : Boolean
 
 
 ---  
- #  HalfScaleCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  HalfScaleCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HalfScaleCount : Integer
 
 
@@ -78,23 +78,23 @@
  #  MipMapping : [TextureMipMapping](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturemipmapping)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MipMapping : TextureMipMapping
 
 
 ---  
- #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Name : String
 
 
 ---  
- #  PremultipliedAlpha : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  PremultipliedAlpha : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PremultipliedAlpha : Boolean
 
 
@@ -102,7 +102,7 @@
  #  Type : [TextureType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturetype)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Type : TextureType
 
 
@@ -118,7 +118,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function TextureBuilder()
 > ``` 
 

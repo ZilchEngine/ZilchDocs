@@ -17,42 +17,42 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this motor is currently active.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Signifies what atoms on the joint this affects. For internal use.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AtomIds : Integer
 
 
 ---  
- #  MaxImpulse : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MaxImpulse : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The maximum impulse that the motor can apply each frame to reach the target speed.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxImpulse : Real
 
 
 ---  
- #  Reverse : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Reverse : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this motor should move in reverse. This is a convenient way to reverse a motor without having to negate the speed.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Reverse : Boolean
 
 
 ---  
- #  Speed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Speed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The desired speed for this motor.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Speed : Real
 
 
@@ -68,7 +68,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function JointMotor()
 > ``` 
 

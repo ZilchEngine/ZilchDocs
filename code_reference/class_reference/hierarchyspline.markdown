@@ -18,26 +18,26 @@
 
 
 ---  
- #  Closed : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Closed : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Does the spline loop back on itself?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Closed : Boolean
 
 
 ---  
- #  DebugDrawSpline : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  DebugDrawSpline : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the spline draw every frame? Mainly used for debugging purposes.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DebugDrawSpline : Boolean
 
 
 ---  
- #  Error : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Error : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The max number of units that a line segment is allowed to deviate from the curve.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Error : Real
 
 
@@ -47,15 +47,15 @@
  `read-only`
 
 > The internal spline data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Spline : Spline
 
 
 ---  
- #  SplineColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  SplineColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > What color should that spline be drawn with.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SplineColor : Real4
 
 
@@ -63,7 +63,7 @@
  #  SplineType : [SplineType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#splinetype)
 
 > The kind of spline (Linear, BSpline, CatmullRom). Determines how the control points affect the curve.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SplineType : SplineType
 
 
@@ -77,7 +77,7 @@
 > Forcibly rebuilds the baked points for the spline.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ForceRebuild()
 > ``` 
 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function HierarchySpline()
 > ``` 
 
@@ -101,7 +101,7 @@
 > Rebuild the baked points if there are any changes to the spline's control points. This should never need to be manually called.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RebuildIfModified()
 > ``` 
 

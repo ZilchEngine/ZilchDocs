@@ -16,36 +16,36 @@
 
 
 ---  
- #  ForceDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  ForceDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The direction that the force should be applied.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ForceDirection : Real3
 
 
 ---  
- #  ForceStrength : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ForceStrength : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The strength of the force being applied in the force direction.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ForceStrength : Real
 
 
 ---  
- #  LocalSpaceDirection : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  LocalSpaceDirection : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this force is to be applied in local or world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalSpaceDirection : Boolean
 
 
 ---  
- #  WorldForceDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldForceDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The direction that the force should be applied in world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldForceDirection : Real3
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ThrustEffect()
 > ``` 
 

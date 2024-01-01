@@ -13,10 +13,10 @@
 
 
 ---  
- #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Number of vertex indices currently in buffer. Can be set manually to invoke vertex shading that number of times, with or without vertex data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Count : Integer
 
 
@@ -30,8 +30,8 @@
 > Add a vertex index to the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |value|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Add(value : Integer)
 > ``` 
 
@@ -42,19 +42,19 @@
 > Clears all stored indices so that new ones can be added.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
 
 ---  
- #  Get : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Get : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Returns the vertex index that is stored at the given index of this buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Integer
 > ``` 
 

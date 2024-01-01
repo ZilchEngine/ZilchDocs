@@ -15,10 +15,10 @@
 
 
 ---  
- #  NeedsPropertyGrid : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  NeedsPropertyGrid : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to force show the tools window when switched to this tool.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NeedsPropertyGrid : Boolean
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > Getters / setters.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Parent : Composite
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > Easy access to the Select Tool. It's commonly used in other Tools (such as ray casting).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SelectTool : Cog
 
 

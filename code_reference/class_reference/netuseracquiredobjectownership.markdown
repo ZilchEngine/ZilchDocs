@@ -19,7 +19,7 @@
  `read-only`
 
 > The object this user just acquired network ownership of.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AcquiredObject : Cog
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The object's previous network user owner.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PreviousNetUserOwner : Cog
 
 

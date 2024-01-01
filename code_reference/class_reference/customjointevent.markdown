@@ -14,10 +14,10 @@
 
 
 ---  
- #  Dt : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Dt : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The current frame's delta time. Use to setup the constraint if necessary.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Dt : Real
 
 
@@ -25,7 +25,7 @@
  #  Owner : [customjoint](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/customjoint.markdown)
 
 > The joint that sent this event.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Owner : CustomJoint
 
 

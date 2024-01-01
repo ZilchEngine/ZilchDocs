@@ -14,12 +14,12 @@
 
 
 ---  
- #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of control points contained.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Count : Integer
 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |controlPoint|[splinecontrolpoint](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Add(controlPoint : SplineControlPoint)
 > ``` 
 
@@ -45,7 +45,7 @@
 > Clear all control points.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
@@ -56,8 +56,8 @@
 > Get the control point at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(index : Integer) : SplineControlPoint
 > ``` 
 
@@ -68,9 +68,9 @@
 > Sets the control point at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > |value|[splinecontrolpoint](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : SplineControlPoint)
 > ``` 
 

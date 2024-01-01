@@ -22,15 +22,15 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var All : MetaSelectionRange
 
 
 ---  
- #  Primary : [anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)
+ #  Primary : [anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Primary : AnyHandle
 
 
@@ -44,8 +44,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Add(p0 : AnyHandle)
 > ``` 
 
@@ -56,41 +56,41 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
 
 ---  
- #  Contains : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Contains : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Contains(p0 : AnyHandle) : Boolean
 > ``` 
 
 
 ---  
- #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Count() : Integer
 > ``` 
 
 
 ---  
- #  Empty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Empty : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Empty() : Boolean
 > ``` 
 
@@ -101,7 +101,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FinalSelectionChanged()
 > ``` 
 
@@ -112,8 +112,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Remove(p0 : AnyHandle)
 > ``` 
 
@@ -124,9 +124,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> |p1|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> |p1|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Replace(p0 : AnyHandle, p1 : AnyHandle)
 > ``` 
 
@@ -137,8 +137,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SelectOnly(p0 : AnyHandle)
 > ``` 
 

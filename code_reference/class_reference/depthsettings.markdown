@@ -30,7 +30,7 @@
  #  DepthCompareFunc : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthCompareFunc : TextureCompareFunc
 
 
@@ -38,7 +38,7 @@
  #  DepthFailOp : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthFailOp : StencilOp
 
 
@@ -46,7 +46,7 @@
  #  DepthFailOpBackFace : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthFailOpBackFace : StencilOp
 
 
@@ -54,7 +54,7 @@
  #  DepthMode : [DepthMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#depthmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthMode : DepthMode
 
 
@@ -62,7 +62,7 @@
  #  DepthPassOp : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthPassOp : StencilOp
 
 
@@ -70,7 +70,7 @@
  #  DepthPassOpBackFace : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthPassOpBackFace : StencilOp
 
 
@@ -78,7 +78,7 @@
  #  StencilCompareFunc : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilCompareFunc : TextureCompareFunc
 
 
@@ -86,7 +86,7 @@
  #  StencilCompareFuncBackFace : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilCompareFuncBackFace : TextureCompareFunc
 
 
@@ -94,7 +94,7 @@
  #  StencilFailOp : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilFailOp : StencilOp
 
 
@@ -102,7 +102,7 @@
  #  StencilFailOpBackFace : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilFailOpBackFace : StencilOp
 
 
@@ -110,55 +110,55 @@
  #  StencilMode : [StencilMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilMode : StencilMode
 
 
 ---  
- #  StencilReadMask : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)
+ #  StencilReadMask : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for buffer value and test value when being compared.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilReadMask : Byte
 
 
 ---  
- #  StencilReadMaskBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)
+ #  StencilReadMaskBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for buffer value and test value when being compared, for triangle back faces if in separate mode.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilReadMaskBackFace : Byte
 
 
 ---  
- #  StencilTestValue : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)
+ #  StencilTestValue : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Value that will be used to compare against the stencil buffer for all pixels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilTestValue : Byte
 
 
 ---  
- #  StencilTestValueBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)
+ #  StencilTestValueBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Value that will be used to compare against the stencil buffer for all pixels, for triangle back faces if in separate mode.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilTestValueBackFace : Byte
 
 
 ---  
- #  StencilWriteMask : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)
+ #  StencilWriteMask : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for which bits in the buffer can be modified.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilWriteMask : Byte
 
 
 ---  
- #  StencilWriteMaskBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)
+ #  StencilWriteMaskBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for which bits in the buffer can be modified, for triangle back faces if in separate mode.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StencilWriteMaskBackFace : Byte
 
 
@@ -174,7 +174,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DepthSettings()
 > ``` 
 
@@ -188,7 +188,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |other|[depthsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DepthSettings(other : DepthSettings)
 > ``` 
 

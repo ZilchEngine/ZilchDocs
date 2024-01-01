@@ -21,7 +21,7 @@
  #  Animation : [animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)
 
 > Animation getter/setter.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Animation : Animation
 
 
@@ -29,7 +29,7 @@
  #  PlayMode : [AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)
 
 > Play mode getter/setter.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PlayMode : AnimationPlayMode
 
 
@@ -45,7 +45,7 @@
 > |---|---|---|
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
 > |playMode|[AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ChainAnimation(animation : Animation, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -57,9 +57,9 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
-> |transitionTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
+> |transitionTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
 > |playMode|[AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CrossBlend(animation : Animation, transitionTime : Real, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -71,9 +71,9 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
-> |transitionTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
+> |transitionTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
 > |playMode|[AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DirectBlend(animation : Animation, transitionTime : Real, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -87,7 +87,7 @@
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
 > |rootBone|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
 > |playMode|[AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PlayIsolatedAnimation(animation : Animation, rootBone : Cog, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -100,7 +100,7 @@
 > |---|---|---|
 > |animation|[animation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/animation.markdown)| |
 > |playMode|[AnimationPlayMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#animationplaymode)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PlaySingle(animation : Animation, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -113,7 +113,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SimpleAnimation()
 > ``` 
 

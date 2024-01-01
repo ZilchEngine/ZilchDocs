@@ -7,7 +7,7 @@ New to the Zero or the manual? Get started here.
 How to use the tabs, windows, and commands of the Zero Editor.
 
  # [Scripting](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/scripting.markdown)
-Scripting using Zilch in the Zero Engine.
+Scripting using Nada in the Zero Engine.
 
  # [Architecture](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture.markdown)
 Explore the Zero Engine's architecture and learn how to build your games better.
@@ -24,8 +24,8 @@ Placing sound emitters, microphones, and importing sound assets.
  # [Gameplay](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/gameplay.markdown)
 The parts of the engine usually used for gameplay scripting
 
- # [Zilch_In_Zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-Learn the basic of how to use Zilch (our proprietary scripting language) in the Zero Engine
+ # [Nada_In_Zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+Learn the basic of how to use Nada (our proprietary scripting language) in the Zero Engine
 
  # [animator.markdown](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/animator.markdown)
 Learn how to use the animation tool in Zero.

@@ -140,10 +140,10 @@ Once this new [Material](https://github.com/zeroengineteam/ZeroDocs/blob/master/
 
  ## Code Reference
 - [HeightMap](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/class_reference/heightmap.markdown) 
-- [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/zilch_base_types/integer.markdown) 
-- [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/zilch_base_types/real.markdown) 
-- [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/zilch_base_types/boolean.markdown) 
-- [Real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/zilch_base_types/real3.markdown) 
+- [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/nada_base_types/integer.markdown) 
+- [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/nada_base_types/real.markdown) 
+- [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/nada_base_types/boolean.markdown) 
+- [Real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/nada_base_types/real3.markdown) 
 - [Material](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/class_reference/material.markdown) 
 
  

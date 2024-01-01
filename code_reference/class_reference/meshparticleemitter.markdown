@@ -18,7 +18,7 @@
  #  Mesh : [mesh](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/mesh.markdown)
 
 > Mesh used for this Model.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Mesh : Mesh
 
 
@@ -26,15 +26,15 @@
  #  MeshEmitMode : [MeshEmitMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#meshemitmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MeshEmitMode : MeshEmitMode
 
 
 ---  
- #  NormalExtrude : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  NormalExtrude : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Moved the spawn position along the normal scaled by this amount.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NormalExtrude : Real
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MeshParticleEmitter()
 > ``` 
 

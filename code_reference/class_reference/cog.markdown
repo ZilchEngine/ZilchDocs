@@ -53,7 +53,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Actions : Actions
 
 
@@ -61,7 +61,7 @@
  #  Archetype : [archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)
 
 > Getter / setter for Archetype.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Archetype : Archetype
 
 
@@ -71,17 +71,17 @@
  `read-only`
 
 > Returns the Archetype our Archetype inherits from.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BaseArchetype : Archetype
 
 
 ---  
- #  ChildCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ChildCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns the amount of children on this Cog. Note that this function has to iterate over all children to calculate the count.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ChildCount : Integer
 
 
@@ -91,25 +91,25 @@
  `read-only`
 
 > Returns a range of all direct children on this Cog.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Children : HierarchyListRange
 
 
 ---  
- #  ComponentCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ComponentCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns how many Components are on this Cog.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ComponentCount : Integer
 
 
 ---  
- #  EditorViewportHidden : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  EditorViewportHidden : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Hidden from view used for editor.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EditorViewportHidden : Boolean
 
 
@@ -119,7 +119,7 @@
  `read-only`
 
 > Get the GameSession that owns us and our Space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GameSession : GameSession
 
 
@@ -129,41 +129,41 @@
  `read-only`
 
 > Get the object named 'LevelSettings', a special convenience object where we can put general functionality for our Level.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LevelSettings : Cog
 
 
 ---  
- #  Locked : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Locked : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Not able to be modified or selected in the viewport.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Locked : Boolean
 
 
 ---  
- #  MarkedForDestruction : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  MarkedForDestruction : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Has this Cog already been destroyed and is waiting for the frame to end (delayed destruction). This allows us to do custom logic when an object is still not null, but about to be destroyed (e.g. we don't want to render Cogs marked for deletion).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MarkedForDestruction : Boolean
 
 
 ---  
- #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Name : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > Name of the Object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Name : String
 
 
 ---  
- #  ObjectViewHidden : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ObjectViewHidden : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If the object needs to not show up in the object view.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ObjectViewHidden : Boolean
 
 
@@ -173,25 +173,25 @@
  `read-only`
 
 > Get the parent of this object in the Hierarchy.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Parent : Cog
 
 
 ---  
- #  Persistent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Persistent : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Object will not be destroyed on level load or change.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Persistent : Boolean
 
 
 ---  
- #  RuntimeId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  RuntimeId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Gets a unique integer for this object (used primarily for debugging)
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RuntimeId : Integer
 
 
@@ -201,15 +201,15 @@
  `read-only`
 
 > Returns the Space that this object lives in.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Space : Space
 
 
 ---  
- #  Transient : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Transient : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Object will not be saved.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Transient : Boolean
 
 
@@ -218,49 +218,49 @@
 
 
 ---  
- #  AddComponentByName : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddComponentByName : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Add a component by name.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function AddComponentByName(name : String) : Boolean
 > ``` 
 
 
 ---  
- #  AddComponentByType : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddComponentByType : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Add a component of the given type.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentType|[boundtype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boundtype.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |componentType|[boundtype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boundtype.markdown)| |
+> ``` lang=cpp, name=Nada
 > function AddComponentByType(componentType : BoundType) : Boolean
 > ``` 
 
 
 ---  
- #  AttachTo : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AttachTo : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Attach to a parent object and compute the new transform so that the objects are relative.
 > |Name|Type|Description|
 > |---|---|---|
 > |parent|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AttachTo(parent : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  AttachToPreserveLocal : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AttachToPreserveLocal : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Attach to a parent object.
 > |Name|Type|Description|
 > |---|---|---|
 > |parent|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AttachToPreserveLocal(parent : Cog) : Boolean
 > ``` 
 
@@ -271,7 +271,7 @@
 > Removes our association with the current Archetype.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearArchetype()
 > ``` 
 
@@ -282,7 +282,7 @@
 > Clones this cog. The cloned object will be parented to this objects parent (if it exists).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clone() : Cog
 > ``` 
 
@@ -295,7 +295,7 @@
 > Constructor / destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Cog()
 > ``` 
 
@@ -306,7 +306,7 @@
 > Calls DebugDraw on all components in this cog.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DebugDraw()
 > ``` 
 
@@ -317,7 +317,7 @@
 > Queues the cog up for delayed destruction (at the end of the frame). If the object is marked as Protected, this will do nothing.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Destroy()
 > ``` 
 
@@ -328,7 +328,7 @@
 > Detach from a parent object and compute the new transform so that the objects are relative.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Detach()
 > ``` 
 
@@ -339,7 +339,7 @@
 > Detach from a parent object.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DetachPreserveLocal()
 > ``` 
 
@@ -350,9 +350,9 @@
 > Dispatches an event down the tree on all children recursively (pre-order traversal)
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |eventId|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DispatchDown(eventId : String, event : Event)
 > ``` 
 
@@ -363,9 +363,9 @@
 > Dispatches an event on this object.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |eventId|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DispatchEvent(eventId : String, event : Event)
 > ``` 
 
@@ -376,9 +376,9 @@
 > Dispatches an event up the tree on each parent recursively (pre-order traversal)
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |eventId|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |event|[event](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/event.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DispatchUp(eventId : String, event : Event)
 > ``` 
 
@@ -389,8 +389,8 @@
 > Returns a range of all children with the given name.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindAllChildrenByName(name : String) : HierarchyNameRange
 > ``` 
 
@@ -401,8 +401,8 @@
 > Depth first search of all children.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindChildByName(name : String) : Cog
 > ``` 
 
@@ -413,8 +413,8 @@
 > Checks only direct children.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindDirectChildByName(name : String) : Cog
 > ``` 
 
@@ -425,7 +425,7 @@
 > Same as FindNearestParentArchetype except that it includes this Cog.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindNearestArchetype() : Cog
 > ``` 
 
@@ -436,7 +436,7 @@
 > Finds the next Cog in depth first post-order.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindNextInOrder() : Cog
 > ``` 
 
@@ -447,7 +447,7 @@
 > Returns the sibling Cog after this in the parents child list. Returns null if it's the last child. If the Cog doesn't have a parent, it will return the Cog after it in the Space.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindNextSibling() : Cog
 > ``` 
 
@@ -458,7 +458,7 @@
 > Finds the previous Cog in reverse depth first post-order (the opposite of FindNextInOrder).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindPreviousInOrder() : Cog
 > ``` 
 
@@ -469,7 +469,7 @@
 > Returns the sibling Cog before this in the parents child list. Returns null if it's the first child. If the Cog doesn't have a parent, it will return the Cog before it in the Space.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindPreviousSibling() : Cog
 > ``` 
 
@@ -480,7 +480,7 @@
 > Searches up the hierarchy for the root Cog.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindRoot() : Cog
 > ``` 
 
@@ -491,7 +491,7 @@
 > Finds the top most Archetype in the Hierarchy.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindRootArchetype() : Cog
 > ``` 
 
@@ -502,8 +502,8 @@
 > Returns the Component at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetComponentByIndex(index : Integer) : Component
 > ``` 
 
@@ -514,67 +514,67 @@
 > Finds the Components with the given type name.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentTypeName|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |componentTypeName|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetComponentByName(componentTypeName : String) : Component
 > ``` 
 
 
 ---  
- #  GetComponentIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  GetComponentIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Finds the index of the given Component type. Returns uint max if the Component didn't exist.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentType|[boundtype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boundtype.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |componentType|[boundtype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boundtype.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetComponentIndex(componentType : BoundType) : Integer
 > ``` 
 
 
 ---  
- #  IsAncestorOf : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsAncestorOf : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns whether or not we are an ancestor of the given Cog.
 > |Name|Type|Description|
 > |---|---|---|
 > |descendant|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsAncestorOf(descendant : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  IsDescendant : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsDescendant : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns whether or not the given cog is a descendant of us.
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsDescendant(cog : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  IsDescendantOf : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsDescendantOf : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns whether or not we are a descendant of the given Cog.
 > |Name|Type|Description|
 > |---|---|---|
 > |ancestor|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsDescendantOf(ancestor : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  IsModifiedFromArchetype : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsModifiedFromArchetype : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns whether or not we have any local modifications from our Archetype. This does not account for properties with LocalModificationOverride (such as Transform modifications).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsModifiedFromArchetype() : Boolean
 > ``` 
 
@@ -586,7 +586,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sibling|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PlaceAfterSibling(sibling : Cog)
 > ``` 
 
@@ -598,31 +598,31 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sibling|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PlaceBeforeSibling(sibling : Cog)
 > ``` 
 
 
 ---  
- #  RemoveComponentByName : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  RemoveComponentByName : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Remove a component by name. Returns true if the component existed.
 > |Name|Type|Description|
 > |---|---|---|
-> |typeName|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |typeName|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveComponentByName(typeName : String) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveComponentByType : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  RemoveComponentByType : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Remove a component by type. Returns true if the component existed.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentType|[boundtype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boundtype.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |componentType|[boundtype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boundtype.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveComponentByType(componentType : BoundType) : Boolean
 > ``` 
 
@@ -635,21 +635,21 @@
 > |---|---|---|
 > |oldChild|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
 > |newChild|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ReplaceChild(oldChild : Cog, newChild : Cog)
 > ``` 
 
 
 ---  
- #  SanitizeName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  SanitizeName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `static`
 
 > Cleans an object name of invalid runes.
 > |Name|Type|Description|
 > |---|---|---|
-> |newName|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |newName|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SanitizeName(newName : String) : String
 > ``` 
 
@@ -660,7 +660,7 @@
 > Upload this objects data to the archetype and marks this object as not modified. This function does not rebuild all other Cogs with the same Archetype. See ArchetypeRebuilder for more information about how to rebuild Archetypes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function UploadToArchetype()
 > ``` 
 

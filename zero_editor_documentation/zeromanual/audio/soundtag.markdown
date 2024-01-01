@@ -1,4 +1,4 @@
-[ SoundTags ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundtag.markdown) are resources that allow users to pause, resume, and stop a group of [SoundInstances ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown); control their volume, EQ, and compression; and get a list of tagged SoundInstances to change other properties in ZilchScripts. 
+[ SoundTags ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundtag.markdown) are resources that allow users to pause, resume, and stop a group of [SoundInstances ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown); control their volume, EQ, and compression; and get a list of tagged SoundInstances to change other properties in NadaScripts. 
 
  # Common Uses
 
@@ -28,7 +28,7 @@ If the `UseCompressor` property is set to `true`, the Compressor properties will
 
 If the `TagForDucking` property is set to another SoundTag that tag's volume level will be used to trigger the compressor settings of this SoundTag.
 
- ## Zilch Events
+ ## Nada Events
 
 - The `AddedInstanceToTag` [ SoundEvent ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundevent.markdown) is sent when a new SoundInstance is added to the SoundTag.
 - The `TagHasNoInstances` SoundEvent is sent when all SoundInstances have been removed from the SoundTag.

@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PropertyPath()
 > ``` 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[propertypath](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/propertypath.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PropertyPath(p0 : PropertyPath)
 > ``` 
 

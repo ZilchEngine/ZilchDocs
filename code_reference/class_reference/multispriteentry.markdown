@@ -10,12 +10,12 @@
 
 
 ---  
- #  Index : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  Index : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Index : Integer2
 
 
@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SpriteSource : SpriteSource
 
 
@@ -42,7 +42,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[multispriteentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/multispriteentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MultiSpriteEntry(p0 : MultiSpriteEntry)
 > ``` 
 

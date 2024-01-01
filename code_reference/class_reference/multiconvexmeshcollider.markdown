@@ -16,7 +16,7 @@
  #  Mesh : [multiconvexmesh](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/multiconvexmesh.markdown)
 
 > The MultiConvexMesh resource that defines collision.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Mesh : MultiConvexMesh
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MultiConvexMeshCollider()
 > ``` 
 

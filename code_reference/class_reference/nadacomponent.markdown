@@ -1,0 +1,35 @@
+ `Component` `NadaScript`
+
+
+
+(NOTE) A base class for all Nada components defined in script.
+
+|Methods|Properties|Base Classes|Derived Classes|
+|---|---|---|---|
+|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadacomponent.markdown#nadacomponent-void)| |[component](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/component.markdown)| |
+
+
+ #  Properties
+
+
+---  
+ #  Methods
+
+
+---  
+ #  NadaComponent : Void
+
+ `constructor`
+
+> 
+> |Name|Type|Description|
+> |---|---|---|
+> ``` lang=cpp, name=Nada
+> function NadaComponent()
+> ``` 
+
+
+---  
+ 
+
+ 

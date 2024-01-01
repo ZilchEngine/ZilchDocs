@@ -1,4 +1,4 @@
-[ Conditionals](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/conditionals.markdown) allow a developer to make decisions in code based off of `true` & `false` values.
+[ Conditionals](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/conditionals.markdown) allow a developer to make decisions in code based off of `true` & `false` values.
 
  #  Learning Objectives
  - Evaluating Expressions
@@ -10,17 +10,17 @@
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateTransform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createtransform)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-  - Create a ZilchScript resource using the Component template template and name it `ConditionalsLogic`
+  - Create a NadaScript resource using the Component template template and name it `ConditionalsLogic`
  - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Transform object
  - In the `Properties Window`
    - [Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `icon=square-o, name = ConditionalsLogic`
 
  #  `if` Statements
-An `if` statement evaluates an expression to a [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown) value of `true` or `false`. If the expression is true, code within the scope of the `if` statement will be executed, otherwise the application focus will skip over its scope.
+An `if` statement evaluates an expression to a [Boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown) value of `true` or `false`. If the expression is true, code within the scope of the `if` statement will be executed, otherwise the application focus will skip over its scope.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 ```lang=csharp, name=ConditionalsLogic Script
-class ConditionalsLogic : ZilchComponent
+class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -50,20 +50,20 @@ Notice how the output displays only text within the `if(true)` conditional.
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  #  Boolean Operators
-`if` statements are primarily used to determine whether an entire sequence results in `true` or `false`. By using [ Boolean Operators ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/boolean_operators.markdown) an entire sequence can be evaluated rather than a single variable.
+`if` statements are primarily used to determine whether an entire sequence results in `true` or `false`. By using [ Boolean Operators ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/boolean_operators.markdown) an entire sequence can be evaluated rather than a single variable.
 
-The [ Equality Operator ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/boolean_operators.markdown#equality) `==` is used to determine if two values are the same. This is different than the [ Assignment Operator](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/operators_precedence_chart.markdown) `=` that is used to assign a new value to a variable.
+The [ Equality Operator ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/boolean_operators.markdown#equality) `==` is used to determine if two values are the same. This is different than the [ Assignment Operator](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/operators_precedence_chart.markdown) `=` that is used to assign a new value to a variable.
 
 NOTE: The Equality Operator is a type of comparison operator that returns a boolean operator. 
 
-The [ Inequality Operator](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/boolean_operators.markdown#inequality) `!=` is used to determine if two values are not the same. As long as the two values are not exactly the same, the `if` statement will be evaluated as `true`.
+The [ Inequality Operator](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/boolean_operators.markdown#inequality) `!=` is used to determine if two values are not the same. As long as the two values are not exactly the same, the `if` statement will be evaluated as `true`.
 
-The [ Negation Operator](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/operators_precedence_chart.markdown) `!` is used to reverse some values when possible. In the example below, the `!` operator is used to reverse the value of a boolean.
+The [ Negation Operator](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/operators_precedence_chart.markdown) `!` is used to reverse some values when possible. In the example below, the `!` operator is used to reverse the value of a boolean.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 
 ```lang=csharp, name=ConditionalsLogic Script
-class ConditionalsLogic : ZilchComponent
+class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -110,7 +110,7 @@ Where `if` statements determine if a situation is `true`, `else if` statements c
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 ```lang=csharp, name=ConditionalsLogic Script
-class ConditionalsLogic : ZilchComponent
+class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -146,7 +146,7 @@ Notice how the lines checking if `grade < 70` and `grade < 80` each ran first. T
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
 ```lang=csharp, name=ConditionalsLogic Script
-class ConditionalsLogic : ZilchComponent
+class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -183,7 +183,7 @@ The most common way to follow an `if` statement is to use the brackets discussed
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
 ```lang=csharp, name=ConditionalsLogic Script
-class NumberGenerator : ZilchComponent
+class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -217,7 +217,7 @@ Alternatively, if only one line of code needs to be performed, it can be common 
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
 ```lang=csharp, name=ConditionalsLogic Script
-class NumberGenerator : ZilchComponent
+class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -243,7 +243,7 @@ The line of code was run due being indented and following a `true` `if` statemen
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
 ```lang=csharp, name=ConditionalsLogic Script
-class NumberGenerator : ZilchComponent
+class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -274,7 +274,7 @@ Only the first indented line following a `true` `if` statement is performed. Thi
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
 ```lang=csharp, name=ConditionalsLogic Script
-class NumberGenerator : ZilchComponent
+class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -306,7 +306,7 @@ It is important to realize that `if` statements can be nested within one another
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 ```lang=csharp, name=ConditionalsLogic Script
-class ConditionalsLogic: ZilchComponent
+class ConditionalsLogic: NadaComponent
 {
   // Ingredients Boolean
   var TwoSlicesOfBread : Boolean = true;
@@ -371,22 +371,22 @@ Notice how the output tells the user what kind of sandwich they have based on th
 
  # Related Materials
  ## Manual
-- [Boolean Operators](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/boolean_operators.markdown)
-- [Conditionals](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/conditionals.markdown)
-- [Variables and Data Types](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/variables_and_data_types.markdown)
-- [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-- [Keywords](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown)
-- [Operators Precedence Chart](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/operators_precedence_chart.markdown)
-- [ Boolean Operators ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/boolean_operators.markdown)
-- [ Operator Precedence](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/operators_precedence_chart.markdown)
+- [Boolean Operators](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/boolean_operators.markdown)
+- [Conditionals](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/conditionals.markdown)
+- [Variables and Data Types](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/variables_and_data_types.markdown)
+- [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [Keywords](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown)
+- [Operators Precedence Chart](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/operators_precedence_chart.markdown)
+- [ Boolean Operators ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/boolean_operators.markdown)
+- [ Operator Precedence](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/operators_precedence_chart.markdown)
 - [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
 
  ## Reference
  ### Classes
-- [ZilchScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchscript.markdown)
+- [NadaScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadascript.markdown)
 
- ### Zilch Base Types
-- [Zilch Base Types](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types.markdown)
+ ### Nada Base Types
+- [Nada Base Types](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types.markdown)
 
  ### Commands
 - [ PlayGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#playgame)

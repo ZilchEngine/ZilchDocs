@@ -5,7 +5,7 @@ The base color of a  [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/ma
 
  - Entering the Hex Code of the desired color into the Color Picker. For example, `FF0000` for Red. 
  - Click and Drag the Eye Dropper tool onto the desired color on screen.
- - By setting the VertexColor  property to a Real4 within a ZilchScript.
+ - By setting the VertexColor  property to a Real4 within a NadaScript.
  - Choosing the desired color in the Color Picker either in the gradient window or by directly setting either the RGBA or HSV values.
 
 (NOTE)**The Strength of the Eye Dropper:**  Using the Eye Dropper tool, it's possible to take colors from any image that is on the computer screen. For example, by having an image of a painting open, it becomes possible to take the colors used for the painting and make the same color palette. 
@@ -15,7 +15,7 @@ The base color of a  [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/ma
 ![colorpicker](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/1160.png)
 
 
-(NOTE)**Zilchscript vs Editor Differences:**  You'll notice when using the Color Picker tool in Editor the RGB values go between 0 and 255, however when changing the color through a ZilchScript the Color Property takes a Real4  with the parameters of (R, G, B, A) that are between 0 and 1. You can get these values by dividing the RGB values by 255; for example, a purple color with an RGB of (255, 0, 185) and Alpha of 1 would have a Real4 of (1.0, 0.0, 0.73, 1).
+(NOTE)**Nadascript vs Editor Differences:**  You'll notice when using the Color Picker tool in Editor the RGB values go between 0 and 255, however when changing the color through a NadaScript the Color Property takes a Real4  with the parameters of (R, G, B, A) that are between 0 and 1. You can get these values by dividing the RGB values by 255; for example, a purple color with an RGB of (255, 0, 185) and Alpha of 1 would have a Real4 of (1.0, 0.0, 0.73, 1).
 
 As you can see, there are several parameters that can be changed using the Color Picker:
 

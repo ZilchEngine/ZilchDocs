@@ -13,7 +13,7 @@ Adding Text using the TextBlock requires two elements: a TextBlock resource and 
 
 ```lang=csharp
 [RunInEditor]
-class SpriteTextBlock : ZilchComponent
+class SpriteTextBlock : NadaComponent
 {
   [Dependency]
   var SpriteText : SpriteText;

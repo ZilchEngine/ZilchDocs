@@ -1,4 +1,4 @@
-Developers often find themselves needing to make lists of data within their application. The most common way to keep a list of elements is via an [Array](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/array_t.markdown).
+Developers often find themselves needing to make lists of data within their application. The most common way to keep a list of elements is via an [Array](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/array_t.markdown).
 
 
  #  Learning Objectives
@@ -15,15 +15,15 @@ Developers often find themselves needing to make lists of data within their appl
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `ArrayExample`
+ - Create a NadaScript resource using the Component template template and name it `ArrayExample`
 
  # Declaration
-[Array](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/array_t.markdown) is a [Zilch Base Type](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types.markdown) that acts a container for other variables. 
+[Array](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/array_t.markdown) is a [Nada Base Type](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types.markdown) that acts a container for other variables. 
 
 - Update the `ArrayExample` class to the following:
 
 ```name=Array Declaration & Default Constructor, lang=csharp
-class ArrayExample : ZilchComponent
+class ArrayExample : NadaComponent
 {
   var DefaultConstructorExample : Array[Integer] = Array[Integer]();
   
@@ -34,7 +34,7 @@ class ArrayExample : ZilchComponent
 }
 ```
 
-Notice how we pass the type [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown) to both the array type declaration and the array constructor. When declaring or constructing an array, you put the type that the array will hold in square brackets (`[]`).
+Notice how we pass the type [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown) to both the array type declaration and the array constructor. When declaring or constructing an array, you put the type that the array will hold in square brackets (`[]`).
 
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : LevelSettings object
 - In the `Properties Window`
@@ -59,7 +59,7 @@ Let's look at how to initialize an array on construction so it is not immediatel
 Array initialization is most often done using constructors.
 
  ## Constructors
-We have already used the default constructor in the example above. It creates an empty array that can be filled with instances of the defined type. It is important to remember that an array variable must be declared and initialized before it can be used. Unlike a [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) or [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown), arrays will not be implicitly initialized by their default constructor.
+We have already used the default constructor in the example above. It creates an empty array that can be filled with instances of the defined type. It is important to remember that an array variable must be declared and initialized before it can be used. Unlike a [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) or [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown), arrays will not be implicitly initialized by their default constructor.
 
  ## Initializer List
 Another way to initialize an array is to use an initializer list that allows the user to manually determine the value of each element in the array individually.
@@ -142,12 +142,12 @@ We can see the element with an index of `2` is set to a value of `0`.
 We have looked at how to declare and initialize arrays using a rather basic example so far. Let's learn about adding to arrays using an example that is more applicable.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `SpawnOnInput`
+ - Create a NadaScript resource using the Component template template and name it `SpawnOnInput`
 - In the `SpawnOnInput` script
  - Update the `SpawnOnInput` script to the following:
 
 ```name=SpawnOnInput , lang=csharp
-class SpawnOnInput : ZilchComponent
+class SpawnOnInput : NadaComponent
 {
   [Property]
   var SpawnLocation : Real3;
@@ -182,7 +182,7 @@ class SpawnOnInput : ZilchComponent
   }
 }
 
-class ObjectSpawnedEvent : ZilchEvent
+class ObjectSpawnedEvent : NadaEvent
 {
   sends ObjectSpawnedEvent : ObjectSpawnedEvent;
   var Obj : Cog;
@@ -199,14 +199,14 @@ This is just a utility component similar to some we have seen in [previous tutor
   - Set Scale  to `[15, 1, 1]`
 
  ## Add
-[Array.Add](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/array_t.markdown#add-void) is a function that lets the user add elements to the end of the array. Let's look at how we can use this to add the *enemy spheres* we are going to spawn.
+[Array.Add](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/array_t.markdown#add-void) is a function that lets the user add elements to the end of the array. Let's look at how we can use this to add the *enemy spheres* we are going to spawn.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `EnemyManager`
+ - Create a NadaScript resource using the Component template template and name it `EnemyManager`
 - In the `EnemyManager` script
  - Update the `EnemyManager` class to the following:
 ```name=EnemyManager, lang=csharp
-class EnemyManager : ZilchComponent
+class EnemyManager : NadaComponent
 {
   var Enemies : Array[Cog] = Array[Cog]();
   
@@ -359,7 +359,7 @@ function OnKeyDown(event : KeyboardEvent)
 ![RemoveAt](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98018.gif)
 
 
-By calling [RemoveAt](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/array_t.markdown#removeat-void) we removing an element at a paticular index. By removing the element before deleting the object we prevent there from ever being a `null` reference in the array to mistakenly access later.
+By calling [RemoveAt](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeat-void) we removing an element at a paticular index. By removing the element before deleting the object we prevent there from ever being a `null` reference in the array to mistakenly access later.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
@@ -386,7 +386,7 @@ function OnKeyDown(event : KeyboardEvent)
 }
 ```
 
-Here we are using the `for` loop to increment the index variable `i` each iteration of the loop. We are also using [Array.Count](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/array_t.markdown#count-zero-engine-docume) to determine the number of iterations. An array has indexes corresponding to each of its element. The indexes range from `0` to `Array.Count - 1`. This means that by initializing `i` to `0` and stopping the loop when `i` is no longer less than `this.Enemies.Count`, the index `i` will iterate over the entire array.
+Here we are using the `for` loop to increment the index variable `i` each iteration of the loop. We are also using [Array.Count](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zero-engine-docume) to determine the number of iterations. An array has indexes corresponding to each of its element. The indexes range from `0` to `Array.Count - 1`. This means that by initializing `i` to `0` and stopping the loop when `i` is no longer less than `this.Enemies.Count`, the index `i` will iterate over the entire array.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
@@ -445,7 +445,7 @@ Current Enemy Objects:
 {}
 ```
 
-The [foreach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown) loop handles the accessing for you. Essentially, each iteration of the loop `enemy` will be a reference to the next element in the array. This means you do not have to do any indexing. This means that you also have little control over the indexing. While `foreach` is more commonly used for full iterations over an array, `for` loops may be more desirable for operations which require a non-linear indexing order.
+The [foreach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown) loop handles the accessing for you. Essentially, each iteration of the loop `enemy` will be a reference to the next element in the array. This means you do not have to do any indexing. This means that you also have little control over the indexing. While `foreach` is more commonly used for full iterations over an array, `for` loops may be more desirable for operations which require a non-linear indexing order.
 
  # Related Materials
  ## Manual
@@ -453,7 +453,7 @@ The [foreach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
 - [ Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
 - [ Remove Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
-- [foreach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/keywords.markdown)
+- [foreach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/keywords.markdown)
 
  ## Tutorial
 - [loops](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting/loops.markdown)
@@ -461,9 +461,9 @@ The [foreach](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor
  ## Reference
  ### Classes
 - [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown)
-- [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
-- [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
-- [Array](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/array_t.markdown)
+- [Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
+- [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+- [Array](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/array_t.markdown)
 - [RandomContext](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown)
 
  ### Commands

@@ -9,7 +9,7 @@ The GameSession object may be accessed from the scripts that are running via any
 
 ```
     // Within a script, those ``this`` variables referring to a Cog can get the GameSession
-    // Note: Even though they are not Cogs, all Components (to include derived ZilchComponents)
+    // Note: Even though they are not Cogs, all Components (to include derived NadaComponents)
     // are equipped with a getter to GameSession
     var myGame = this.GameSession;
     // Here is an example of pulling it from a dynamically created cog.
@@ -20,10 +20,10 @@ The GameSession object may be accessed from the scripts that are running via any
 ```
 
 
-In Zilch, a GameSession object cannot be created using the a normal constructor. In order to create a GameSession one must use a function bound from C++:
+In Nada, a GameSession object cannot be created using the a normal constructor. In order to create a GameSession one must use a function bound from C++:
 
 ```
-    // Here, a C++ function bound to Zilch is used to create a GameSession
+    // Here, a C++ function bound to Nada is used to create a GameSession
     var myGame = Zero.Engine.CreateGameSession();
     
 

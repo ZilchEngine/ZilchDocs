@@ -15,42 +15,42 @@
 
 
 ---  
- #  Delay : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Delay : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The length of the delay, in seconds.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Delay : Real
 
 
 ---  
- #  FeedbackPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FeedbackPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > DEPRECATED The FeedbackValue property should be used instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FeedbackPercent : Real
 
 
 ---  
- #  FeedbackValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FeedbackValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The percentage of output (from 0 to 1.0f) which is fed back into the filter as input, creating an echo-like effect.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FeedbackValue : Real
 
 
 ---  
- #  WetPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WetPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > DEPRECATED The WetValue property should be used instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WetPercent : Real
 
 
 ---  
- #  WetValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WetValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The percentage of the node's output (0 - 1.0) which has the delay filter applied to it.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WetValue : Real
 
 
@@ -64,9 +64,9 @@
 > DEPRECATED The InterpolateWetValue method should be used instead.
 > |Name|Type|Description|
 > |---|---|---|
-> |wetPercent|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |wetPercent|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateWetPercent(wetPercent : Real, time : Real)
 > ``` 
 
@@ -77,9 +77,9 @@
 > Interpolates the WetValue property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |wetPercent|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |wetPercent|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateWetValue(wetPercent : Real, time : Real)
 > ``` 
 

@@ -12,10 +12,10 @@
 
 
 ---  
- #  FrameCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  FrameCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FrameCount : Integer
 
 
@@ -24,23 +24,23 @@
 
 
 ---  
- #  GetOrigin : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  GetOrigin : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetOrigin() : Real2
 > ``` 
 
 
 ---  
- #  GetSize : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  GetSize : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetSize() : Real2
 > ``` 
 

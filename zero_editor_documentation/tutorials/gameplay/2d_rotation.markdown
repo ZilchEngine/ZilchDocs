@@ -19,7 +19,7 @@ This lesson covers the basic ways to rotate an object in 2D at runtime.
  - Under [Camera](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/camera.markdown)
   - Set Size  to `5`
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `Rotate2D`
+ - Create a NadaScript resource using the Component template template and name it `Rotate2D`
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Parent`
@@ -37,7 +37,7 @@ This lesson covers the basic ways to rotate an object in 2D at runtime.
 *Hovering over [Transform.Rotation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown#rotation-zero-engine-doc)*
 
 
-As you can see, rotational data is saved as a [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown). As a high-level developer, you do not need to know how Quaternions work, but you will need to know how to use them. In the `Properties Window`, Quaternions are represented by three angles that are the rotation of the object around the corresponding three axes; these are called Euler (pronounced “oil-er”) angles. In this lesson, we will be working with a 2D game, so we only need to worry about the Z-axis rotation.
+As you can see, rotational data is saved as a [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown). As a high-level developer, you do not need to know how Quaternions work, but you will need to know how to use them. In the `Properties Window`, Quaternions are represented by three angles that are the rotation of the object around the corresponding three axes; these are called Euler (pronounced ï¿½oil-erï¿½) angles. In this lesson, we will be working with a 2D game, so we only need to worry about the Z-axis rotation.
 
 Rotation  can be changed either through the `Properties Window` or via accessing the [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown) component in script.
 
@@ -47,7 +47,7 @@ Rotation  can be changed either through the `Properties Window` or via accessing
  - Replace the script's content with the following code block
 
 ```name=Rotate2D, lang=csharp
-class Rotate2D : ZilchComponent
+class Rotate2D : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -148,7 +148,7 @@ Rotating on update is useful when trying to rotate in a specific direction, cont
  - Update the `Rotate2D` class to look like the following code block
 
 ```name=Rotate With Actions, lang=csharp
-class Rotate2D : ZilchComponent
+class Rotate2D : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -199,7 +199,7 @@ class Rotate2D : ZilchComponent
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
-Notice how both rotations appear the same. Now one may expect the object to make a full 405 degree rotation. However, in the constructor of [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown) the angle is normalized to the range of `[0, 360]` degrees. Since 405 degrees is equivalent to 45 degrees, that is the rotation of the [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown) that is passed to the action constructor.
+Notice how both rotations appear the same. Now one may expect the object to make a full 405 degree rotation. However, in the constructor of [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown) the angle is normalized to the range of `[0, 360]` degrees. Since 405 degrees is equivalent to 45 degrees, that is the rotation of the [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown) that is passed to the action constructor.
 
 
  # Related Materials
@@ -216,7 +216,7 @@ Notice how both rotations appear the same. Now one may expect the object to make
  ### Classes
 - [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown)
 - [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sprite.markdown)
-- [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+- [Quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 - [Camera](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/camera.markdown)
 
  ### Commands

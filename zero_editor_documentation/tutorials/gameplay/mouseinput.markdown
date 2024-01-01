@@ -35,11 +35,11 @@ Now we can add the code that will make the balloon inflate.
  ##  Update-Based Mouse Input
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `ScaleWithMouseEvents`
+ - Create a NadaScript resource using the Component template template and name it `ScaleWithMouseEvents`
 - Update the `ScaleWithMouseEvents` script to the following:
 
 ```lang=csharp, name="ScaleWithMouseEvents"
-class ScaleWithMouseEvents : ZilchComponent
+class ScaleWithMouseEvents : NadaComponent
 {
   [Dependency] var Transform : Transform;
   [Dependency] var Reactive : Reactive;
@@ -101,7 +101,7 @@ Now let's add a bit more functionality to this component.
 - Update the `ScaleWithMouseEvents` script to the following:
 
 ```lang=csharp, name="ScaleWithMouseEvents, updated"
-class ScaleWithMouseEvents : ZilchComponent
+class ScaleWithMouseEvents : NadaComponent
 {
   [Dependency] var Transform : Transform;
   [Dependency] var Reactive : Reactive;
@@ -185,11 +185,11 @@ This method of implementing mouse controls by connecting to relevant mouse event
 As we've seen already, mouse events are dispatched with the [ ViewportMouseEvent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/viewportmouseevent.markdown) class. Among other information, this includes the position of the mouse event, which we can see by printing it out.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `PrintPositionOnMouseDown`
+ - Create a NadaScript resource using the Component template template and name it `PrintPositionOnMouseDown`
 - Update the `PrintPositionOnMouseDown` script to the following:
 
 ```lang=csharp, name="PrintPositionOnMouseDown"
-class PrintPositionOnMouseDown : ZilchComponent
+class PrintPositionOnMouseDown : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -244,7 +244,7 @@ The positions that are now being printed to the console are now in world units, 
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
-Now that we know how to find the world-space position of a mouse event, we can move things to the mouse's position, like, say, our balloon. First, though —
+Now that we know how to find the world-space position of a mouse event, we can move things to the mouse's position, like, say, our balloon. First, though ï¿½
 
 - [ Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : LevelSettings object
 - In the `Properties Window`
@@ -253,11 +253,11 @@ Now that we know how to find the world-space position of a mouse event, we can m
 It's good practice to remove or comment out console print statements when you're done with them.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MoveOnMiddleMouseDown`
+ - Create a NadaScript resource using the Component template template and name it `MoveOnMiddleMouseDown`
 - Update the `MoveOnMiddleMouseDown` script to the following:
 
 ```lang=csharp, name="MoveOnMiddleMouseDown"
-class MoveOnMiddleMouseDown : ZilchComponent
+class MoveOnMiddleMouseDown : NadaComponent
 {
   [Dependency] var Transform : Transform;
   

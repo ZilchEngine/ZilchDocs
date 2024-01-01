@@ -21,7 +21,7 @@
  `read-only`
 
 > The vertex indices on the main mesh used to generate the convex hull.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Indices : MultiConvexMeshIndexData
 
 
@@ -29,7 +29,7 @@
  #  Mesh : [multiconvexmesh](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/multiconvexmesh.markdown)
 
 > The MultiConvexMesh that owns this sub-mesh.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Mesh : MultiConvexMesh
 
 
@@ -39,17 +39,17 @@
  `read-only`
 
 > The vertex indices on the main mesh used to generate triangle indices for computing mass information and debug drawing. More indices are needed for determining triangles than for generating the convex mesh.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TriangleIndices : MultiConvexMeshIndexData
 
 
 ---  
- #  Valid : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Valid : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Is this sub-mesh incorrectly configured. Typically means that the indices don't point to valid vertices. Also the number of triangle indices could be incorrect (multiple of 3).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Valid : Boolean
 
 

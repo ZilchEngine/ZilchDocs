@@ -1,10 +1,10 @@
 
 [objectstore](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/objectstore.markdown) saves an object to a persistent local store.  All properties that are normally saved on the object are saved with ObjectStore.  The data is stored on the local computer and will be saved between runs of the game.  Can be used for progress, game saving, or preferences. 
 
-When used with Zilch, make sure you mark the data to be saved with either `[Serialized]` or `[Property]` attributes. 
+When used with Nada, make sure you mark the data to be saved with either `[Serialized]` or `[Property]` attributes. 
 
 ```lang=csharp
-class ObjectStoreTest : ZilchComponent
+class ObjectStoreTest : NadaComponent
 {
     [Property]
     var SomeArchetype : Archetype = null

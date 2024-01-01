@@ -28,7 +28,7 @@
  #  AddressingX : [TextureAddressing](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureaddressing)
 
 > How to treat uv coordinates outside of [0, 1] along the Texture's width.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AddressingX : TextureAddressing
 
 
@@ -36,7 +36,7 @@
  #  AddressingY : [TextureAddressing](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureaddressing)
 
 > How to treat uv coordinates outside of [0, 1] along the Texture's height.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AddressingY : TextureAddressing
 
 
@@ -44,7 +44,7 @@
  #  Anisotropy : [TextureAnisotropy](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#textureanisotropy)
 
 > Max ratio of anisotropy that filtering will account for at oblique viewing angles.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Anisotropy : TextureAnisotropy
 
 
@@ -52,7 +52,7 @@
  #  CompareFunc : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > Which method of comparison should be used if CompareMode is set to Enable.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompareFunc : TextureCompareFunc
 
 
@@ -60,7 +60,7 @@
  #  CompareMode : [TextureCompareMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparemode)
 
 > If sampling in hardware should perform comparison instead of fetching. Requires using SamplerShadow2d in the shader.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CompareMode : TextureCompareMode
 
 
@@ -70,7 +70,7 @@
  `read-only`
 
 > Block compression method being used. Requires pre-processing, cannot be set for runtime Textures.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Compression : TextureCompression
 
 
@@ -78,7 +78,7 @@
  #  Filtering : [TextureFiltering](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturefiltering)
 
 > How samples should be blended under minification/magnification.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Filtering : TextureFiltering
 
 
@@ -88,17 +88,17 @@
  `read-only`
 
 > Memory format of the stored pixel data. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Format : TextureFormat
 
 
 ---  
- #  Height : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Height : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Height of the Texture in pixels. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Height : Integer
 
 
@@ -106,17 +106,17 @@
  #  MipMapping : [TextureMipMapping](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturemipmapping)
 
 > If downsampled versions of the texture (mip maps) should be generated. PreGenerated is not valid for runtime Textures.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MipMapping : TextureMipMapping
 
 
 ---  
- #  Size : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  Size : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
  `read-only`
 
 > Width and height (x, y) of the Texture in pixels. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Size : Integer2
 
 
@@ -126,17 +126,17 @@
  `read-only`
 
 > The type of texture data being represented.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Type : TextureType
 
 
 ---  
- #  Width : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Width : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Width of the Texture in pixels. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Width : Integer
 
 
@@ -152,7 +152,7 @@
 > Makes an anonymous Texture resource that can be defined by script and uploaded to the gpu.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateRuntime() : Texture
 > ``` 
 
@@ -164,9 +164,9 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |textureData|[texturedata](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/texturedata.markdown)| |
-> |xOffset|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |yOffset|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |xOffset|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |yOffset|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SubUpload(textureData : TextureData, xOffset : Integer, yOffset : Integer)
 > ``` 
 
@@ -178,7 +178,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |textureData|[texturedata](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/texturedata.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Upload(textureData : TextureData)
 > ``` 
 

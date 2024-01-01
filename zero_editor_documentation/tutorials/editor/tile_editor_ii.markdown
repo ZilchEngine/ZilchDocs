@@ -24,11 +24,11 @@ When the engine creates a merged tilemap object, it is always given a [ MultiSpr
 Let's create a tile archetype with some custom game logic and add it to our level.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `ReloadLevelOnCollisionStarted`
+ - Create a NadaScript resource using the Component template template and name it `ReloadLevelOnCollisionStarted`
 - Update the `ReloadLevelOnCollisionStarted` script to the following:
 
 ```lang=csharp, name="ReloadLevelOnCollisionStarted"
-class ReloadLevelOnCollisionStarted : ZilchComponent
+class ReloadLevelOnCollisionStarted : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {

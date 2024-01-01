@@ -12,38 +12,38 @@
 
 
 ---  
- #  Center : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  Center : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Center : Real3
 
 
 ---  
- #  Radius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Radius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Radius : Real
 
 
 ---  
- #  SurfaceArea : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SurfaceArea : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SurfaceArea : Real
 
 
 ---  
- #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Volume : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Volume : Real
 
 
@@ -57,8 +57,8 @@
 > Expand this sphere to contain the given point.
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Expand(p0 : Real3)
 > ``` 
 
@@ -72,32 +72,32 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sphere.markdown)| |
-> |p1|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p1|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Expand(p0 : Sphere, p1 : Real3) : Sphere
 > ``` 
 
 
 ---  
- #  Overlap : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Overlap : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > This function is deprecated. Use Overlaps instead
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sphere.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Overlap(p0 : Sphere) : Boolean
 > ``` 
 
 
 ---  
- #  Overlaps : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Overlaps : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Does this sphere overlap/intersect the given sphere?
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sphere.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Overlaps(p0 : Sphere) : Boolean
 > ``` 
 
@@ -110,7 +110,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Sphere()
 > ``` 
 
@@ -123,9 +123,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |center|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> |radius|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |center|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> |radius|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Sphere(center : Real3, radius : Real)
 > ``` 
 
@@ -139,7 +139,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sphere.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Sphere(p0 : Sphere)
 > ``` 
 

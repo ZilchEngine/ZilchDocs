@@ -606,7 +606,7 @@ Hide selected objects
 
 
 ---  
- #  HostZilchDebugger
+ #  HostNadaDebugger
 |Tags|Shortcut|Menu Selection|
 |---|---|---|
 |No Tags | No Keyboard Shortcut |  |
@@ -950,7 +950,7 @@ Enables the Rotate Tool
 
 
 ---  
- #  RunZilchDebugger
+ #  RunNadaDebugger
 |Tags|Shortcut|Menu Selection|
 |---|---|---|
 |No Tags | No Keyboard Shortcut |  |

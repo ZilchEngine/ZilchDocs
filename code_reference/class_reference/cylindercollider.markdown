@@ -20,43 +20,43 @@
  #  Direction : [AxisDirection](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#axisdirection)
 
 > The direction that the height is defined along. Allows the user to change whether the cylinder's height is along the x, y, or z axis.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Direction : AxisDirection
 
 
 ---  
- #  Height : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Height : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The local space distance from the top of the cylinder to the bottom.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Height : Real
 
 
 ---  
- #  Radius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Radius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The local space radius of the cylinder.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Radius : Real
 
 
 ---  
- #  WorldHeight : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WorldHeight : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The full height of the cylinder after scale is applied.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldHeight : Real
 
 
 ---  
- #  WorldRadius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WorldRadius : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The radius of the cylinder after scale is applied.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldRadius : Real
 
 
@@ -72,7 +72,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CylinderCollider()
 > ``` 
 

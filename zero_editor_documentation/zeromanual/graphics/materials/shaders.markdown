@@ -1,11 +1,11 @@
-Shaders may be added to Zero in the form of ZilchFragments, allowing the user to write shaders using the Zilch language. Zero currently supports the following types of shaders:
+Shaders may be added to Zero in the form of NadaFragments, allowing the user to write shaders using the Nada language. Zero currently supports the following types of shaders:
 
  - **Pixel** - Operates on individual pixels, setting and changing their properties.
  - **Vertex** - Operates on individual vertices, setting and changing their properties.
  - **Geometry** - Operates on transformed primitives (e.g. point, lines,  triangles), setting and changing their properties.
  - **PostProcess** - Operates on the window of an entire scene, after that scene has been processed.
 
-When adding a new ZilchFragment, there are multiple templates for each type of shader:
+When adding a new NadaFragment, there are multiple templates for each type of shader:
 
 | Shader | Template | Source | Description
 |---|---|---
@@ -23,7 +23,7 @@ When adding a new ZilchFragment, there are multiple templates for each type of s
 
  # Shader Translation Debug Helper
 
-This tool translates Materials—rather, the ZilchFragments that make up the Material—into different versions of the shader language GLSL.
+This tool translates Materialsï¿½rather, thNadachFragments that make up the Materialï¿½into different versions of the shader language GLSL.
 
 [Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ DebugShaderTranslation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#debugshadertranslation) will open the tool
 
@@ -43,7 +43,7 @@ Figure 1 shows that the [Material](https://github.com/zeroengineteam/ZeroDocs/bl
 ![Gold Dragon Light Pass](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/88447.png)
 
 
-If not familiar with GLSL, these will become overwhelmingly complex very quickly. With at least an intermediate amount of experience in GLSL, however, this translator provides a valuable tool for debugging your ZilchFragment shaders. Changing the other attributes to different settings will result in different outputs, so try to make sure that the attributes selected line up to the location on the render pipeline.
+If not familiar with GLSL, these will become overwhelmingly complex very quickly. With at least an intermediate amount of experience in GLSL, however, this translator provides a valuable tool for debugging your NadaFragment shaders. Changing the other attributes to different settings will result in different outputs, so try to make sure that the attributes selected line up to the location on the render pipeline.
 
  # Related Materials
  ## Manual

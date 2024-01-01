@@ -20,7 +20,7 @@
  #  BlendSettings : [blendsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/blendsettings.markdown)
 
 > Settings to use when blending shader output with the ColorTarget, implicitly BlendSettings0.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BlendSettings : BlendSettings
 
 
@@ -28,7 +28,7 @@
  #  ColorTarget : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > The RenderTarget of a color format to output to, implicitly RenderTarget0.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ColorTarget : RenderTarget
 
 
@@ -36,7 +36,7 @@
  #  CullMode : [CullMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#cullmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CullMode : CullMode
 
 
@@ -44,7 +44,7 @@
  #  DepthSettings : [depthsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown)
 
 > Settings to use when doing depth/stencil testing with DepthTarget.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthSettings : DepthSettings
 
 
@@ -52,7 +52,7 @@
  #  DepthTarget : [rendertarget](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendertarget.markdown)
 
 > The RenderTarget of a depth format to use as a depth buffer for depth/stencil testing.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DepthTarget : RenderTarget
 
 
@@ -60,7 +60,7 @@
  #  GlobalShaderInputs : [shaderinputs](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/shaderinputs.markdown)
 
 > Shader input values to be globally overridden for all objects/shaders.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GlobalShaderInputs : ShaderInputs
 
 
@@ -70,7 +70,7 @@
  `read-only`
 
 > Interface for configuring multiple color target outputs.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MultiRenderTarget : MultiRenderTarget
 
 
@@ -86,7 +86,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RenderSettings()
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[rendersettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendersettings.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RenderSettings( : RenderSettings)
 > ``` 
 

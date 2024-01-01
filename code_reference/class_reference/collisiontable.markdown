@@ -26,7 +26,7 @@
 > Creates a CollisionTable for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateRuntime() : CollisionTable
 > ``` 
 
@@ -39,7 +39,7 @@
 > |---|---|---|
 > |groupA|[collisiongroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collisiongroup.markdown)| |
 > |groupB|[collisiongroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collisiongroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindFilter(groupA : CollisionGroup, groupB : CollisionGroup) : CollisionFilter
 > ``` 
 
@@ -50,7 +50,7 @@
 > Creates a clone of this CollisionTable for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RuntimeClone() : CollisionTable
 > ``` 
 

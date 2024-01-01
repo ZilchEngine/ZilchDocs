@@ -14,7 +14,7 @@
  #  Editor : [editor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/editor.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Editor : Editor
 
 

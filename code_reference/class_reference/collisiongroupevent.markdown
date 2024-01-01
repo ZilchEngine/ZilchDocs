@@ -20,27 +20,27 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FirstPoint : ContactPoint
 
 
 ---  
- #  TypeAName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  TypeAName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Returns the CollisionGroup name of object A.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TypeAName : String
 
 
 ---  
- #  TypeBName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  TypeBName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Returns the CollisionGroup name of object B.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TypeBName : String
 
 

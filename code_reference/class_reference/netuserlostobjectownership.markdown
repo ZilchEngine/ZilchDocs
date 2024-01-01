@@ -19,7 +19,7 @@
  `read-only`
 
 > The object's current network user owner.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CurrentNetUserOwner : Cog
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The object this user just lost network ownership of.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LostObject : Cog
 
 

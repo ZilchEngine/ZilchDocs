@@ -15,10 +15,10 @@
 
 
 ---  
- #  LoadEditingLevel : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  LoadEditingLevel : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LoadEditingLevel : Boolean
 
 
@@ -26,7 +26,7 @@
  #  StartingLevel : [level](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/level.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StartingLevel : Level
 
 
@@ -34,7 +34,7 @@
  #  StartingSpace : [archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StartingSpace : Archetype
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DefaultGameSetup()
 > ``` 
 

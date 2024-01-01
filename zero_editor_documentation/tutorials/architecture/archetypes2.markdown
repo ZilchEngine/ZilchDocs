@@ -10,12 +10,12 @@ This lesson covers how to create archetypes from a script at game runtime.
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MovementLogic`
+ - Create a NadaScript resource using the Component template template and name it `MovementLogic`
 - In the `MovementLogic` script
  - Replace the script's contents with the following:
 
 ```lang=csharp, name="MovementLogic"
-class MovementLogic : ZilchComponent
+class MovementLogic : NadaComponent
 {
   var Speed : Real = 5.0;
   
@@ -88,12 +88,12 @@ Before we can spawn objects from script, we need to create the archetype from wh
  # Spawning Archetypes
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `ShootingLogic`
+ - Create a NadaScript resource using the Component template template and name it `ShootingLogic`
 - In the `ShootingLogic`
  - Replace the script's contents with the following:
 
 ```lang=csharp, name="ShootingLogic"
-class ShootingLogic : ZilchComponent
+class ShootingLogic : NadaComponent
 {
   
   var BulletSpeed : Real = 10.0;

@@ -33,7 +33,7 @@ The spheres furthest to the left look have a matte look there as there is no met
 
  ##  MetallicMap
 
-A MetallicMap is a texture provided by an artist for use on a model. While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives while still appearing completely natural. To apply a MetallicMap fragment to a material, click on the `Add ZilchFragment` button in the Properties window:
+A MetallicMap is a texture provided by an artist for use on a model. While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives while still appearing completely natural. To apply a MetallicMap fragment to a material, click on the `Add NadaFragment` button in the Properties window:
 
 
 

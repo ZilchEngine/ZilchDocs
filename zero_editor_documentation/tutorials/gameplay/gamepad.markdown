@@ -24,7 +24,7 @@ Gamepads such as Xbox controllers are common input devices for games on both con
   - Set Gravity  to `0`
   - Set WorldUp  to `[0,0,1]`
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `GamepadHandle`
+ - Create a NadaScript resource using the Component template template and name it `GamepadHandle`
 - In the `Properties Window`
  - [Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `GamepadHandle`
 
@@ -35,7 +35,7 @@ The first step in detecting input on a gamepad device is to detect the gamepad i
 
 - Update `GamepadHandle` to the following:
 ```name=GamepadHandle Detecting the Gamepad, lang=csharp
-class GamepadHandle : ZilchComponent
+class GamepadHandle : NadaComponent
 {
   [Property]
   var GamepadId : Integer = 0;
@@ -70,10 +70,10 @@ Now that we know how to grab a reference to a gamepad, we can start detecting in
 Button events are very similar to keyboard events. `ButtonDown` and `ButtonUp` are both dispatched on the [Gamepad](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepad.markdown) object in reaction to the input state of a button changing. 
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `PauseManager`
+ - Create a NadaScript resource using the Component template template and name it `PauseManager`
 - Update `PauseManager` to the following:
 ```name=PauseManager, lang=csharp
-class PauseManager : ZilchComponent
+class PauseManager : NadaComponent
 {
   [Dependency] var TimeSpace : TimeSpace;
   
@@ -132,11 +132,11 @@ Buttons are fine for most input, but some input needs to be directional. While t
 
 Let's use the left stick to get our Player object moving.
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `SweptGamepadInput2D`
+ - Create a NadaScript resource using the Component template template and name it `SweptGamepadInput2D`
 
 - Update `SweptGamepadInput2D` to the following:
 ```name=SweptGamepadInput2D, lang=csharp
-class SweptGamepadInput2D : ZilchComponent
+class SweptGamepadInput2D : NadaComponent
 {
   [Dependency] var SweptController : SweptController;
   
@@ -167,7 +167,7 @@ class SweptGamepadInput2D : ZilchComponent
 }
 ```
 
-In the above code block we get the [Real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown) value of [Gamepad.LeftStick](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepad.markdown#leftstick-zero-engine-do) and pass it to the `Update` function of the `SweptController` component. We also check the length of the stick's input vector and make sure it is longer than the `DeadZoneRadius`. This is to ensure that there is a neutral state for stick input, even if the stick is slightly loose.
+In the above code block we get the [Real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown) value of [Gamepad.LeftStick](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepad.markdown#leftstick-zero-engine-do) and pass it to the `Update` function of the `SweptController` component. We also check the length of the stick's input vector and make sure it is longer than the `DeadZoneRadius`. This is to ensure that there is a neutral state for stick input, even if the stick is slightly loose.
 
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Player object
  - [Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `SweptGamepadInput2D`
@@ -208,7 +208,7 @@ Let's check if the gamepad is connected while the game is running.
 
 - Update `GamepadHandle` to the following:
 ```name=GamepadHandle Detecting Gamepad at Runtime, lang=csharp
-class GamepadHandle : ZilchComponent
+class GamepadHandle : NadaComponent
 {
   [Property]
   var GamepadId : Integer = 0;
@@ -278,7 +278,7 @@ What use is this to us? So far, we simply have another Boolean, `this.Connected`
 
 - Update `GamepadHandle` to the following:
 ```name=GamepadHandle Sending Events, lang=csharp
-class GamepadHandle : ZilchComponent
+class GamepadHandle : NadaComponent
 {
   [Property]
   var GamepadId : Integer = 0;
@@ -330,7 +330,7 @@ class GamepadHandle : ZilchComponent
   sends GamepadDisconnected : GamepadConnectionEvent;
 }
 
-class GamepadConnectionEvent : ZilchEvent
+class GamepadConnectionEvent : NadaEvent
 {
   var Id : Integer;
   var Gamepad : Gamepad;

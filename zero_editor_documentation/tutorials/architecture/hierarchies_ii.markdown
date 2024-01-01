@@ -1,4 +1,4 @@
-This lesson covers how to manipulate object hierarchies in Zilch.
+This lesson covers how to manipulate object hierarchies in Nada.
 
 
  #  Learning Objectives
@@ -15,14 +15,14 @@ This lesson covers how to manipulate object hierarchies in Zilch.
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#add)
- - Create a ZilchScript resource using the Component template template and name it `SquareLogic`
+ - Create a NadaScript resource using the Component template template and name it `SquareLogic`
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Square`
  - [Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `SquareLogic`
 - Update the `SquareLogic` script to the following:
 ```lang=csharp, name="SquareLogic"
-class SquareLogic : ZilchComponent
+class SquareLogic : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -73,7 +73,7 @@ Now let's modify the `SquareLogic` component to spawn circles and parent them to
 - Update the `SquareLogic` script to the following:
 
 ```lang=csharp, name=Square Logic
-class SquareLogic : ZilchComponent
+class SquareLogic : NadaComponent
 {
   [Dependency] var Transform : Transform;
 

@@ -1,4 +1,4 @@
-This lesson covers the basics of using the Console Window and Debugging in [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown).
+This lesson covers the basics of using the Console Window and Debugging in [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown).
 
  # Learning Objectives
 
@@ -12,7 +12,7 @@ This lesson covers the basics of using the Console Window and Debugging in [Zilc
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MyBehavior`
+ - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
  - Rename it to `Square`
@@ -38,13 +38,13 @@ By default, you'll notice the `Console Window` sliding up from the bottom; it wi
 
 Displaying messages on the `Console Window` is not exclusive to the editor; users are also able to print messages to aid in keeping track of the logic performed by the game and verify that it is following intended behavior.
 
- - Add the following code to the Initialize scope of the MyBehavior resource ZilchScript:
+ - Add the following code to the Initialize scope of the MyBehavior resource NadaScript:
 
 ```lang=csharp, name=Console Printing
 Console.WriteLine("Hello World!");
 ```
 
-`Console.` - Accessing a globally visible [ Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/console.markdown) class.
+`Console.` - Accessing a globally visible [ Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/console.markdown) class.
 `WriteLine()` - Invoking a function that lets us print to the console on a new line.
 `"Hello World!"` - Literal string of characters that will be printed to the console.
 `;` - Indicates that we're done with instructions on this line of code.
@@ -66,7 +66,7 @@ In addition to literals, we can also print variable values or even convert those
 
  # Printing Literals
 
- - Add the following lines to the Initialize function in the MyBehavior resource ZilchScript.
+ - Add the following lines to the Initialize function in the MyBehavior resource NadaScript.
 
 ```lang=csharp, name=Literal String Printing
 Console.WriteLine("This is a String");
@@ -166,17 +166,17 @@ Verifying that your code behaves as intended is a critical part of programming a
 
  ## Manual
 - [Components](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/components.markdown)
-- [ Zilch User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-- [ Functions](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/functions.markdown)
-- [ Strings](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/strings.markdown)
+- [ Nada User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [ Functions](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/functions.markdown)
+- [ Strings](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/strings.markdown)
 - [running the game](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/runthegame.markdown)
 
  ## Reference
  ### Classes
 - [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown)
 - [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sprite.markdown)
-- [ZilchScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchscript.markdown)
-- [ Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/console.markdown)
+- [NadaScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadascript.markdown)
+- [ Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/console.markdown)
 - [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
 
  ### Commands

@@ -15,58 +15,58 @@
 
 
 ---  
- #  AttackMillisec : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  AttackMillisec : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The time for the compressor to ramp to full effect after the input reaches the threshold.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AttackMillisec : Real
 
 
 ---  
- #  InputGainDecibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  InputGainDecibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to the audio input, in decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InputGainDecibels : Real
 
 
 ---  
- #  KneeWidth : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  KneeWidth : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The knee width of the compressor, in decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var KneeWidth : Real
 
 
 ---  
- #  OutputGainDecibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  OutputGainDecibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The volume adjustment applied to the compressor output, in decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OutputGainDecibels : Real
 
 
 ---  
- #  Ratio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Ratio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The ratio of the volume reduction applied by the compressor.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Ratio : Real
 
 
 ---  
- #  ReleaseMillisec : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ReleaseMillisec : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The time for the compressor to ramp from full effect to off after the input drops below the threshold.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReleaseMillisec : Real
 
 
 ---  
- #  ThresholdDecibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ThresholdDecibels : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The threshold, in decibels, at which the volume of the input is affected by the compressor.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ThresholdDecibels : Real
 
 

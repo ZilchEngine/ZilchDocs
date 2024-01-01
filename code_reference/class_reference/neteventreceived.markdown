@@ -21,7 +21,7 @@
  `read-only`
 
 > Dispatch destination object (null if the net object could not be found locally).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Destination : Cog
 
 
@@ -31,25 +31,25 @@
  `read-only`
 
 > Network event received.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetEvent : Event
 
 
 ---  
- #  ReturnAllow : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ReturnAllow : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Return: Allow the received network event to be dispatched on the destination object?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReturnAllow : Boolean
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetPeerId : Integer
 
 

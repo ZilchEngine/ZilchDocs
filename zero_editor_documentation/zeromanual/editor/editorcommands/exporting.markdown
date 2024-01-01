@@ -59,10 +59,10 @@ Export your game and your new icon will replace the default.
 
 By default, Zero will map the Escape key to close the game application instantly. To prevent that, use the following steps:
 
- - Create a Zilch Script called **GameStateManager** and attach it to your Level Settings object
+ - Create a Nada Script called **GameStateManager** and attach it to your Level Settings object
 
 ```
-class GameStateManager : ZilchComponent
+class GameStateManager : NadaComponent
 {
     function Initialize(init : CogInitializer)
     {

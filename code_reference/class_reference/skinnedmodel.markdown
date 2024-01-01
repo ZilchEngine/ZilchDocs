@@ -17,7 +17,7 @@
  #  Mesh : [mesh](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/mesh.markdown)
 
 > Mesh that the graphical will render.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Mesh : Mesh
 
 
@@ -25,7 +25,7 @@
  #  SkeletonPath : [cogpath](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cogpath.markdown)
 
 > Path to an object with a Skeleton component that will be used for skinning.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SkeletonPath : CogPath
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SkinnedModel()
 > ``` 
 

@@ -1,4 +1,4 @@
-|Zilch Attributes|C++ Attributes|
+|Nada Attributes|C++ Attributes|
 |---|---|
 |[ Display](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/attribute_reference/function_attribute_reference.markdown#display)| |
 |[ Override](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/attribute_reference/function_attribute_reference.markdown#override)| |
@@ -10,25 +10,25 @@
 ---  
  #  Display
 
- `zilch-attribute` `allow-static`
+ `nada-attribute` `allow-static`
 
 
 ---  
  #  Override
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  Static
 
- `zilch-attribute` `allow-static`
+ `nada-attribute` `allow-static`
 
 
 ---  
  #  Virtual
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  

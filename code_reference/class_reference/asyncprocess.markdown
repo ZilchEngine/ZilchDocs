@@ -16,46 +16,46 @@
 
 
 ---  
- #  StandardError : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  StandardError : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > The cached total results from standard error. Will be empty if StoreStandardErrorData is false.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StandardError : String
 
 
 ---  
- #  StandardInput : [filestream](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/filestream.markdown)
+ #  StandardInput : [filestream](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/filestream.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StandardInput : FileStream
 
 
 ---  
- #  StandardOutput : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  StandardOutput : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > The cached total results from standard output. Will be empty if StoreStandardOutputData is false.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StandardOutput : String
 
 
 ---  
- #  StoreStandardErrorData : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  StoreStandardErrorData : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the results from standard error be accumulated and stored? If a lot of data is output it may be good to turn this off and use the partial data callback events instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StoreStandardErrorData : Boolean
 
 
 ---  
- #  StoreStandardOutputData : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  StoreStandardOutputData : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the results from standard output be accumulated and stored? If a lot of data is output it may be good to turn this off and use the partial data callback events instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var StoreStandardOutputData : Boolean
 
 
@@ -69,7 +69,7 @@
 > Closes the wrapper around the process, does not close the process launched.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Close()
 > ``` 
 
@@ -82,30 +82,30 @@
 > Construct a new process. This does not start the process.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Create() : AsyncProcess
 > ``` 
 
 
 ---  
- #  IsRunning : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsRunning : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns true if the process is still running, false otherwise.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsRunning() : Boolean
 > ``` 
 
 
 ---  
- #  Start : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Start : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Begins the execution of another process using the given parameters. Throws an exception if the process cannot be started.
 > |Name|Type|Description|
 > |---|---|---|
-> |startInfo|[processstartinfo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/processstartinfo.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |startInfo|[processstartinfo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/processstartinfo.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Start(startInfo : ProcessStartInfo) : Boolean
 > ``` 
 
@@ -116,30 +116,30 @@
 > Attempts to manually shut down the process. This is not safe for the other process or what it's handling.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Terminate()
 > ``` 
 
 
 ---  
- #  WaitForClose : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  WaitForClose : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Waits for a process to close, this will block until the process closes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function WaitForClose() : Integer
 > ``` 
 
 
 ---  
- #  WaitForClose : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  WaitForClose : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Waits for a process to close up to a given number of milliseconds. This can take up to 3 * milliseconds due to waiting for the output streams to close.
 > |Name|Type|Description|
 > |---|---|---|
-> |milliseconds|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |milliseconds|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function WaitForClose(milliseconds : Integer) : Integer
 > ``` 
 

@@ -1,4 +1,4 @@
-This lesson covers the basics of using Functions in [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown).
+This lesson covers the basics of using Functions in [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown).
 
 
  # Learning Objectives
@@ -13,7 +13,7 @@ This lesson covers the basics of using Functions in [Zilch](https://github.com/z
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#add)
- - Create a ZilchScript resource using the Component template template and name it `MyBehavior`
+ - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - In the `Object Window`
  - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
@@ -22,7 +22,7 @@ This lesson covers the basics of using Functions in [Zilch](https://github.com/z
 
  # Custom Functions
 
-Functions are a sequence of logic statements that take a set of input variables with the goal of performing some operation. Functions are one of two main constructs within a class—the other being variables.
+Functions are a sequence of logic statements that take a set of input variables with the goal of performing some operation. Functions are one of two main constructs within a classï¿½the other being variables.
 
  ## Declaration
 
@@ -125,7 +125,7 @@ Console.WriteLine("Pi Square: `piSquare`");
 WARNING: Functions may use conditionals; however, when a Return Type is declared, all code paths within the function must lead to a return statement. It is common to have multiple return statements that return different values depending on the branching logic within the function.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/81514.png) Here, Zilch gives us an error since we haven't specified a return value should the variable `DoMath` be false. A solution to this problem might be: ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/81627.png)
+![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/81514.png) Here, Nada gives us an error since we haven't specified a return value should the variable `DoMath` be false. A solution to this problem might be: ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/81627.png)
 
 
 
@@ -133,8 +133,8 @@ WARNING: Functions may use conditionals; however, when a Return Type is declared
 
  ## Manual
 - [Components](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/components.markdown)
-- [ Zilch User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-- [ Functions](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/functions.markdown)
+- [ Nada User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [ Functions](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/functions.markdown)
 - [Create a New 2D Project](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
 
  ##  Tutorials
@@ -144,7 +144,7 @@ WARNING: Functions may use conditionals; however, when a Return Type is declared
  ### Classes
 - [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown)
 - [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sprite.markdown)
-- [ZilchScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchscript.markdown)
+- [NadaScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadascript.markdown)
 
  ### Commands
 - [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)

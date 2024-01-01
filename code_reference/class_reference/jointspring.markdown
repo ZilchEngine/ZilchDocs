@@ -16,34 +16,34 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this spring is active.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Signifies what atoms on the joint this affects. For internal use.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AtomIds : Integer
 
 
 ---  
- #  DampingRatio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  DampingRatio : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The damping ratio of this spring. The value should range from 0 to 1 where 0 is no damping and 1 is critical damping.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DampingRatio : Real
 
 
 ---  
- #  FrequencyHz : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FrequencyHz : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The oscillation frequency of the spring in Hertz (cycles per second).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FrequencyHz : Real
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function JointSpring()
 > ``` 
 

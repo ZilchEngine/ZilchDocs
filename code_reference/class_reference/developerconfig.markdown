@@ -15,26 +15,26 @@
 
 
 ---  
- #  CanModifyReadOnlyResources : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  CanModifyReadOnlyResources : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Allows editing and saving of read only resources.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CanModifyReadOnlyResources : Boolean
 
 
 ---  
- #  DoubleEscapeQuit : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  DoubleEscapeQuit : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Double escape to close the engine.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DoubleEscapeQuit : Boolean
 
 
 ---  
- #  ProxyObjectsInPreviews : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ProxyObjectsInPreviews : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not script objects are proxied in the preview windows.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ProxyObjectsInPreviews : Boolean
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DeveloperConfig()
 > ``` 
 

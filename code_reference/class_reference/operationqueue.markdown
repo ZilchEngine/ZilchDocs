@@ -25,10 +25,10 @@
 
 
 ---  
- #  ActiveBatchName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  ActiveBatchName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ActiveBatchName : String
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Commands : OperationListRange
 
 
@@ -48,7 +48,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RedoCommands : OperationListRange
 
 
@@ -62,7 +62,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function BeginBatch()
 > ``` 
 
@@ -73,8 +73,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function BeginBatch(p0 : String)
 > ``` 
 
@@ -85,7 +85,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearAll()
 > ``` 
 
@@ -96,7 +96,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearRedo()
 > ``` 
 
@@ -107,7 +107,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearUndo()
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DestroyObject(p0 : Cog)
 > ``` 
 
@@ -130,20 +130,20 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function EndBatch()
 > ``` 
 
 
 ---  
- #  IsListeningForSideEffects : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsListeningForSideEffects : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsListeningForSideEffects() : Boolean
 > ``` 
 
@@ -155,8 +155,8 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[component](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/component.markdown)| |
-> |p1|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p1|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function MarkPropertyAsModified(p0 : Component, p1 : String)
 > ``` 
 
@@ -168,7 +168,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ObjectCreated(p0 : Cog)
 > ``` 
 
@@ -181,7 +181,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function OperationQueue()
 > ``` 
 
@@ -194,7 +194,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PopSubPropertyContext()
 > ``` 
 
@@ -205,7 +205,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function QueueRegisteredSideEffects()
 > ``` 
 
@@ -216,19 +216,19 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Redo()
 > ``` 
 
 
 ---  
- #  Redo : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Redo : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[operation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/operation.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Redo(p0 : Operation) : Boolean
 > ``` 
 
@@ -241,10 +241,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> |p1|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |p0|[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> |p1|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |p2|T| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RegisterSideEffect(p0 : AnyHandle, p1 : String, p2 : T)
 > ``` 
 
@@ -256,7 +256,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SaveObjectState(p0 : Cog)
 > ``` 
 
@@ -269,7 +269,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function StartListeningForSideEffects()
 > ``` 
 
@@ -280,19 +280,19 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Undo()
 > ``` 
 
 
 ---  
- #  Undo : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Undo : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[operation](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/operation.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Undo(p0 : Operation) : Boolean
 > ``` 
 

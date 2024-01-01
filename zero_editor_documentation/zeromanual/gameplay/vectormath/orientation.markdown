@@ -46,7 +46,7 @@ Oriented directions are helpful in and of themselves. Attaching `Orientation` to
 The most common use of `Orientation` is to make the object face a given point or direction. There are multiple ways to do this in the script below uses the `LookAtPoint` function to make the cube face the mouse position on the world Z-Plane.
 
 ```
-class LookAtMouse : ZilchComponent
+class LookAtMouse : NadaComponent
 {
   [Dependency]
   var Orientation : Orientation;
@@ -83,7 +83,7 @@ class LookAtMouse : ZilchComponent
 The same functionality can be achieved with `LookAtDirection` by slightly altering the script.
 
 ```
-class LookAtMouse : ZilchComponent
+class LookAtMouse : NadaComponent
 {
   [Dependency]
   var Orientation : Orientation;
@@ -120,7 +120,7 @@ Notice that when the `WorldForward` of the cube rotates past the `Y` axis, its `
 The `LookAt` functions on `Orientation` each have a corresponding version with `WithUp` appended. These functions let the user define the `WorldUp` to rotate around instead of the objects `WorldUp` defined on the `Orientation` component.
 
 ```
-class LookAtMouse : ZilchComponent
+class LookAtMouse : NadaComponent
 {
   [Dependency]
   var Orientation : Orientation;
@@ -161,7 +161,7 @@ In this example `LookAtDirectionwithUp()` was called with and up value of `(1, 0
 While the `LookAt` functions can be very useful, they will often not be smooth enough for gameplay; in such cases, the `GetLookAt` functions must be used. These are "query-only" functions and return the `Quaternion` representing the rotation that the corresponding `LookAt` function would have set `Transform.Rotation` to.
 
 ```
-class LookAtMouse : ZilchComponent
+class LookAtMouse : NadaComponent
 {
   [Dependency]
   var Transform : Transform;

@@ -14,7 +14,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Edges : IndexedHalfEdgeFaceEdgeIndexArray
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeFace()
 > ``` 
 
@@ -44,7 +44,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedgeface](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/indexedhalfedgeface.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeFace(p0 : IndexedHalfEdgeFace)
 > ``` 
 

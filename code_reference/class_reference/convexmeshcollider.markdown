@@ -16,7 +16,7 @@
  #  ConvexMesh : [convexmesh](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/convexmesh.markdown)
 
 > The convex mesh resource that defines the collision volume of this collider.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ConvexMesh : ConvexMesh
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ConvexMeshCollider()
 > ``` 
 

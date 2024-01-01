@@ -14,22 +14,22 @@
 
 
 ---  
- #  Channels : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Channels : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of audio channels in the file.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Channels : Integer
 
 
 ---  
- #  Length : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Length : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The length of the audio file, in seconds.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Length : Real
 
 

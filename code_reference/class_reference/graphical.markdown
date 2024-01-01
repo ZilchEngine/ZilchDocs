@@ -22,26 +22,26 @@
 
 
 ---  
- #  GroupSortValue : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  GroupSortValue : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Can be used by a RenderGroup to define draw order, from lowest to highest.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GroupSortValue : Integer
 
 
 ---  
- #  LocalAabbCenter : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalAabbCenter : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > Center of the bounding box defined in local space, world transform will be applied.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalAabbCenter : Real3
 
 
 ---  
- #  LocalAabbHalfExtents : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalAabbHalfExtents : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > Half extents of the bounding box defined in local space, world transform will be applied.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalAabbHalfExtents : Real3
 
 
@@ -49,15 +49,15 @@
  #  Material : [material](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/material.markdown)
 
 > The composition of shader fragments that determines how the graphical is rendered.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Material : Material
 
 
 ---  
- #  OverrideBoundingBox : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  OverrideBoundingBox : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Manually set the bounding box that is used for frustum culling.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OverrideBoundingBox : Boolean
 
 
@@ -65,31 +65,31 @@
  #  ShaderInputs : [shaderinputs](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/shaderinputs.markdown)
 
 > List of shader inputs to be manually overridden only on this object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ShaderInputs : ShaderInputs
 
 
 ---  
- #  ViewCulling : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ViewCulling : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If the graphical should not be drawn when its bounding volume is outside of the view frustum.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewCulling : Boolean
 
 
 ---  
- #  VisibilityEvents : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  VisibilityEvents : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If object receives events when entering/exiting the view of an active camera.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var VisibilityEvents : Boolean
 
 
 ---  
- #  Visible : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Visible : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If the graphical should be drawn.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Visible : Boolean
 
 
@@ -99,7 +99,7 @@
  `read-only`
 
 > The world space axis aligned bounding volume that is used for frustum culling.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldAabb : Aabb
 
 

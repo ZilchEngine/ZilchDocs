@@ -17,12 +17,12 @@
 
 
 ---  
- #  ContactPointCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ContactPointCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of contact points in this collision.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ContactPointCount : Integer
 
 
@@ -32,17 +32,17 @@
  `read-only`
 
 > A range for iterating through all contact points.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ContactPoints : ContactPointRange
 
 
 ---  
- #  IsGhost : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsGhost : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > If this was a ghost collision (detected but not resolved).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsGhost : Boolean
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > The object that this event was sent to.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Object : Cog
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > The other object in this collision.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OtherObject : Cog
 
 

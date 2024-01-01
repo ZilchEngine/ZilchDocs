@@ -4,7 +4,7 @@
 
 A SoundInstance is returned by the `PlayCue`and `PlayCuePaused` methods on [SoundEmitters ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundemitter.markdown) and [SoundSpaces ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundspace.markdown), the `Play` method on [SimpleSounds ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/simplesound.markdown), and the `PlayCueOnNode` method on SoundCues. If a `PlayCuePaused` method is used, the SoundInstance must have its Paused checkBox property set to `False` before it will begin playing.
 
-SoundInstance objects are reference counted: they will stay alive as long as a variable is stored with the SoundInstance assigned to it, so the SoundInstance can still be accessed even after it finishes playing. If the user does not store a variable, the SoundInstance will continue playing audio, but cannot be accessed in ZilchScripts.
+SoundInstance objects are reference counted: they will stay alive as long as a variable is stored with the SoundInstance assigned to it, so the SoundInstance can still be accessed even after it finishes playing. If the user does not store a variable, the SoundInstance will continue playing audio, but cannot be accessed in NadaScripts.
 
  ## Controlling Playback
 

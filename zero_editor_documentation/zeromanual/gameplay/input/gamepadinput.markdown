@@ -14,7 +14,7 @@ Before starting to use Gamepads in a project, take the time to check that they a
 Unlike most things in Zero, it's not possible to make a simple reference to `Zero.Gamepads` and have the Engine understand what is meant, even if only a single Gamepad is connected. Rather, whenever any number of Gamepads are detected, Zero will store them in a list that must be accessed to select the desired Gamepad. 
 
 ```
-class GamepadLogic : ZilchComponent
+class GamepadLogic : NadaComponent
 {
     // Create a variable to later use as reference to the Gamepad
     var Controller : Gamepad = null;
@@ -74,7 +74,7 @@ The example given above is Frame Based, and the reason for that is simple: Frame
 ```
 
 
-(NOTE) **Using Buttons in Zero Engine**: Zero Engine has an enum set up to be used to call a desired button, which can be accessed in a ZilchScript with `Buttons` followed by a period (e.g., `Buttons.X`). It should be noted however that the list of buttons specifically refers to the button layout of an Xbox 360 Gamepad, and may not be accurate for other Gamepads. 
+(NOTE) **Using Buttons in Zero Engine**: Zero Engine has an enum set up to be used to call a desired button, which can be accessed in a NadaScript with `Buttons` followed by a period (e.g., `Buttons.X`). It should be noted however that the list of buttons specifically refers to the button layout of an Xbox 360 Gamepad, and may not be accurate for other Gamepads. 
 This particular line of code will simply trigger whatever is placed inside the `if` statement whenever the `A` button on the Gampad is held down. `Buttons` can be changed to refer to any button on the Gamepad. `Buttons.AnyButton` can also be used if it doesn't matter which button is pressed, such as at a title screen. 
 
  ## Event Based Button Input
@@ -105,7 +105,7 @@ function OnButtonUp(event : GamepadEvent)
 
 This block of code first connects to two different events: `ButtonDown` and `ButtonUp`. These events will be sent whenever a button on the Gamepad has been either pressed or let go, respectively. If it is the B button, `OnButtonDown` or `OnButtonUp` will run. A short example of this functionality: an attack charges as long as a button is held down; the attack is then used when the button is released. 
 
-NOTE: **Using Triggers in Zero Engine** By looking at the options that come up by typing `Buttons.` into a ZilchScript, one may notice that neither of the Xbox 360 Triggers are options. This is because they return a Real instead of a `boolean`. While this excludes them from sending any Events, it also allows them to be used as pressure sensitive buttons, as can be seen below in the Vibration section. 
+NOTE: **Using Triggers in Zero Engine** By looking at the options that come up by typing `Buttons.` into a NadaScript, one may notice that neither of the Xbox 360 Triggers are options. This is because they return a Real instead of a `boolean`. While this excludes them from sending any Events, it also allows them to be used as pressure sensitive buttons, as can be seen below in the Vibration section. 
 
  ### Flicking
 
@@ -235,7 +235,7 @@ function OnGamepadStickFlicked(event : GamepadEvent)
  ## Code Reference
 - [Gamepad](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepad.markdown) 
 - [Gamepads](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepads.markdown) 
-- [Real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown) 
+- [Real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown) 
 - [ObjectEvent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/objectevent.markdown) 
 - [GamepadEvent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepadevent.markdown) 
 

@@ -16,7 +16,7 @@
  #  ReturnHostInfo : [eventbundle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/eventbundle.markdown)
 
 > Return: Our bundled host info event data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReturnHostInfo : EventBundle
 
 

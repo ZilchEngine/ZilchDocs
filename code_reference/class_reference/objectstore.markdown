@@ -19,12 +19,12 @@
 
 
 ---  
- #  EntryCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  EntryCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Get number of entries in the ObjectStore.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EntryCount : Integer
 
 
@@ -38,7 +38,7 @@
 > Clear the store.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearStore()
 > ``` 
 
@@ -49,55 +49,55 @@
 > Attempts to remove an object from the store.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Erase(name : String)
 > ``` 
 
 
 ---  
- #  GetDirectoryPath : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  GetDirectoryPath : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > Returns the directory path to the object store.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetDirectoryPath() : String
 > ``` 
 
 
 ---  
- #  GetEntryAt : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  GetEntryAt : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > Get the ObjectStore entry at the specified index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetEntryAt(index : Integer) : String
 > ``` 
 
 
 ---  
- #  IsEntryStored : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsEntryStored : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Is there an entry record for the object in the store?
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function IsEntryStored(name : String) : Boolean
 > ``` 
 
 
 ---  
- #  IsStored : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsStored : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ||[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function IsStored( : String) : Boolean
 > ``` 
 
@@ -108,9 +108,9 @@
 > Restore an object to the space.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |space|[space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/space.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Restore(name : String, space : Space) : Cog
 > ``` 
 
@@ -121,10 +121,10 @@
 > Restore an object if it is not stored use the archetype to create it.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |archetype|[archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)| |
 > |space|[space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/space.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RestoreOrArchetype(name : String, archetype : Archetype, space : Space) : Cog
 > ``` 
 
@@ -135,9 +135,9 @@
 > Store an object.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |object|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Store(name : String, object : Cog) : StoreResult
 > ``` 
 

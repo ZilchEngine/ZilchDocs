@@ -15,10 +15,10 @@
 
 
 ---  
- #  MaxParticleSpeed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MaxParticleSpeed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxParticleSpeed : Real
 
 
@@ -26,7 +26,7 @@
  #  TimeGradient : [colorgradient](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/colorgradient.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TimeGradient : ColorGradient
 
 
@@ -34,7 +34,7 @@
  #  VelocityGradient : [colorgradient](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/colorgradient.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var VelocityGradient : ColorGradient
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ParticleColorAnimator()
 > ``` 
 

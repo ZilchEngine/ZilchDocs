@@ -16,18 +16,18 @@
 
 
 ---  
- #  Button : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Button : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Button that was just pressed down or released up.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Button : Integer
 
 
 ---  
- #  FlickDirection : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  FlickDirection : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > The direction of the stick that was flicked (normalized)
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FlickDirection : Real2
 
 
@@ -35,7 +35,7 @@
  #  FlickedStick : [FlickedStick](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#flickedstick)
 
 > When responding to the 'GamepadStickFlicked' event, this will be set to the stick that was flicked.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FlickedStick : FlickedStick
 
 
@@ -43,7 +43,7 @@
  #  Gamepad : [gamepad](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamepad.markdown)
 
 > Gamepad that generated this event.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Gamepad : Gamepad
 
 

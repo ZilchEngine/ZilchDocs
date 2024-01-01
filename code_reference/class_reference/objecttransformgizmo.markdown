@@ -20,17 +20,17 @@
  #  Basis : [GizmoBasis](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#gizmobasis)
 
 > Setters / Getters.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Basis : GizmoBasis
 
 
 ---  
- #  ObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Object getters.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ObjectCount : Integer
 
 
@@ -38,7 +38,7 @@
  #  Pivot : [GizmoPivot](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#gizmopivot)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Pivot : GizmoPivot
 
 
@@ -52,9 +52,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ||[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ||[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ||[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| |
+> ``` lang=cpp, name=Nada
 > function AddObject( : AnyHandle,  : Boolean)
 > ``` 
 
@@ -65,19 +65,19 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearObjects()
 > ``` 
 
 
 ---  
- #  GetObjectAtIndex : [anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)
+ #  GetObjectAtIndex : [anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetObjectAtIndex(index : Integer) : AnyHandle
 > ``` 
 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ObjectTransformGizmo()
 > ``` 
 
@@ -101,9 +101,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/anyhandle.markdown)| |
-> ||[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ||[anyhandle](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/anyhandle.markdown)| |
+> ||[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveObject( : AnyHandle,  : Boolean)
 > ``` 
 
@@ -115,7 +115,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |opQueue|[operationqueue](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/operationqueue.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SetOperationQueue(opQueue : OperationQueue)
 > ``` 
 
@@ -126,7 +126,7 @@
 > Toggle between local / world.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ToggleCoordinateMode()
 > ``` 
 

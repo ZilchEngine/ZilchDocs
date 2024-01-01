@@ -12,18 +12,18 @@
 
 
 ---  
- #  Position : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  Position : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The position of a baked point.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Position : Real3
 
 
 ---  
- #  WorldPosition : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldPosition : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldPosition : Real3
 
 
@@ -39,7 +39,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SplineBakedPoint()
 > ``` 
 
@@ -52,8 +52,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |position|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |position|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SplineBakedPoint(position : Real3)
 > ``` 
 

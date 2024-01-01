@@ -14,18 +14,18 @@
 
 
 ---  
- #  Friction : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Friction : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The friction to use for solving this pair. Allows custom overriding for this pair.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Friction : Real
 
 
 ---  
- #  Restitution : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Restitution : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The restitution to use for solving this pair. Allows custom overriding for this pair.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Restitution : Real
 
 

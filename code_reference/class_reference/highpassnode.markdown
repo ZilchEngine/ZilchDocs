@@ -11,10 +11,10 @@
 
 
 ---  
- #  CutoffFrequency : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  CutoffFrequency : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Frequencies below this number in the node's input will be attenuated. Setting this value to 20.0 or lower will skip all filter calculations.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CutoffFrequency : Real
 
 

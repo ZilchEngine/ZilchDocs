@@ -20,7 +20,7 @@
  `read-only`
 
 > Our bundled request event data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OurRequestBundle : EventBundle
 
 
@@ -30,17 +30,17 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirIpAddress : IpAddress
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetPeerId : Integer
 
 

@@ -19,7 +19,7 @@
  `read-only`
 
 > The index buffer data of this mesh.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Indices : PhysicsMeshIndexData
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The vertex buffer data of this mesh.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Vertices : PhysicsMeshVertexData
 
 
@@ -43,19 +43,19 @@
 > Rebuild all extra mesh information if it is currently modified. This includes things like the center of mass, volume, aabb, edge info and more (some derived types may have a mid-phase, etc...)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function UpdateAndNotifyIfModified()
 > ``` 
 
 
 ---  
- #  Validate : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Validate : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Check if the mesh is valid. Optionally throw a script exception if it is invalid.
 > |Name|Type|Description|
 > |---|---|---|
-> |throwExceptionIfInvalid|[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |throwExceptionIfInvalid|[boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Validate(throwExceptionIfInvalid : Boolean) : Boolean
 > ``` 
 

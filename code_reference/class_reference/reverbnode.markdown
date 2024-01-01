@@ -13,26 +13,26 @@
 
 
 ---  
- #  Length : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Length : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The length of the reverb tail, in seconds. The default value is 0.1.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Length : Real
 
 
 ---  
- #  WetPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WetPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > DEPRECATED The WetValue property should be used instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WetPercent : Real
 
 
 ---  
- #  WetValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WetValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The percentage of the node's output (0 - 1.0) which has the reverb filter applied to it. Setting this property to 0 will stop all reverb calculations.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WetValue : Real
 
 
@@ -46,9 +46,9 @@
 > DEPRECATED The InterpolateWetValue method should be used instead.
 > |Name|Type|Description|
 > |---|---|---|
-> |percent|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |percent|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateWetPercent(percent : Real, time : Real)
 > ``` 
 
@@ -59,9 +59,9 @@
 > Interpolates the WetValue property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |value|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function InterpolateWetValue(value : Real, time : Real)
 > ``` 
 

@@ -19,23 +19,23 @@
  #  Game : [gamesession](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gamesession.markdown)
 
 > GameSession Object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Game : GameSession
 
 
 ---  
- #  Handled : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Handled : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Has this event been handled? Used to for the engine to poll for Request Quit and other operations.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Handled : Boolean
 
 
 ---  
- #  LevelName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  LevelName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LevelName : String
 
 
@@ -43,7 +43,7 @@
  #  Space : [space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/space.markdown)
 
 > Space related to his event.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Space : Space
 
 

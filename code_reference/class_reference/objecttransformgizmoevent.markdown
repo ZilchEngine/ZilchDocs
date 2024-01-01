@@ -13,26 +13,26 @@
 
 
 ---  
- #  FinalLocalRotation : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+ #  FinalLocalRotation : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FinalLocalRotation : Quaternion
 
 
 ---  
- #  FinalLocalScale : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  FinalLocalScale : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FinalLocalScale : Real3
 
 
 ---  
- #  FinalLocalTranslation : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  FinalLocalTranslation : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FinalLocalTranslation : Real3
 
 

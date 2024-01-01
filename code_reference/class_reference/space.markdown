@@ -33,7 +33,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AllObjects : SpaceRange
 
 
@@ -43,7 +43,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AllRootObjects : HierarchyListRange
 
 
@@ -53,27 +53,27 @@
  `read-only`
 
 > Last level loaded.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CurrentLevel : Level
 
 
 ---  
- #  IsEditorMode : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsEditorMode : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsEditorMode : Boolean
 
 
 ---  
- #  ObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Number of objects in the space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ObjectCount : Integer
 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |levelName|[level](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/level.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddObjectsFromLevel(levelName : Level) : Level
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |archetype|[archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Create(archetype : Archetype) : Cog
 > ``` 
 
@@ -112,8 +112,8 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |archetype|[archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)| |
-> |position|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |position|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function CreateAtPosition(archetype : Archetype, position : Real3) : Cog
 > ``` 
 
@@ -127,7 +127,7 @@
 > |archetype|[archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)| |
 > |objectA|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
 > |objectB|[cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateLink(archetype : Archetype, objectA : Cog, objectB : Cog) : Cog
 > ``` 
 
@@ -138,7 +138,7 @@
 > Destroy all objects in space.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DestroyAll()
 > ``` 
 
@@ -149,7 +149,7 @@
 > Destroy all objects created from level.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DestroyAllFromLevel()
 > ``` 
 
@@ -160,8 +160,8 @@
 > Find an object in the space with a given name.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindAllObjectsByName(name : String) : CogNameRange
 > ``` 
 
@@ -172,8 +172,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindFirstObjectByName(name : String) : Cog
 > ``` 
 
@@ -184,8 +184,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindFirstRootObjectByName(name : String) : Cog
 > ``` 
 
@@ -196,8 +196,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindLastObjectByName(name : String) : Cog
 > ``` 
 
@@ -208,8 +208,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindLastRootObjectByName(name : String) : Cog
 > ``` 
 
@@ -220,19 +220,19 @@
 > Find an object in the space with a given name.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindObjectByName(name : String) : Cog
 > ``` 
 
 
 ---  
- #  GetModified : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  GetModified : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetModified() : Boolean
 > ``` 
 
@@ -244,7 +244,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |level|[level](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/level.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function LoadLevel(level : Level)
 > ``` 
 
@@ -255,7 +255,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MarkModified()
 > ``` 
 
@@ -266,7 +266,7 @@
 > Clears all modifications on this Cog. Does not clear LocalModificationOverride properties.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MarkNotModified()
 > ``` 
 
@@ -277,7 +277,7 @@
 > Reload the current level.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ReloadLevel()
 > ``` 
 
@@ -290,7 +290,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Space()
 > ``` 
 

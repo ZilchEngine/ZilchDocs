@@ -15,12 +15,12 @@
 
 
 ---  
- #  ClientPosition : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  ClientPosition : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
  `read-only`
 
 > The position of the mouse cursor relative to the application's top-left corner in pixels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ClientPosition : Real2
 
 
@@ -28,33 +28,33 @@
  #  Cursor : [Cursor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#cursor)
 
 > Set the cursor of the mouse.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Cursor : Cursor
 
 
 ---  
- #  CursorMovement : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  CursorMovement : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
  `read-only`
 
 > The movement of the mouse in pixels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CursorMovement : Real2
 
 
 ---  
- #  RawMovement : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  RawMovement : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > High precision raw movement of the mouse.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RawMovement : Real2
 
 
 ---  
- #  Trapped : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Trapped : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Trap the mouse preventing it from moving.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Trapped : Boolean
 
 
@@ -63,13 +63,13 @@
 
 
 ---  
- #  IsButtonDown : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsButtonDown : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Is a mouse button currently down?
 > |Name|Type|Description|
 > |---|---|---|
 > |button|[MouseButtons](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#mousebuttons)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsButtonDown(button : MouseButtons) : Boolean
 > ``` 
 
@@ -80,7 +80,7 @@
 > Toggles if the mouse is currently trapped.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ToggleTrapped()
 > ``` 
 

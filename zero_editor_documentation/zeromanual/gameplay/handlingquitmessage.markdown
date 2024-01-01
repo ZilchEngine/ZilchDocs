@@ -21,7 +21,7 @@ The `GameRequestQuit` event is of type [GameEvent](https://github.com/zeroengine
 The following will code-block will show how the response function can create alternate behavior for the `esc` key while still allowing for game-quitting functionality:
 
 ```
-class GameQuitTest : ZilchComponent
+class GameQuitTest : NadaComponent
 {
     // Boolean variable that when set to true, Esc key will keep game-quitting functionality
     [Property]

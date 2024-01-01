@@ -11,10 +11,10 @@
 
 
 ---  
- #  GizmoWorldTranslation : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  GizmoWorldTranslation : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GizmoWorldTranslation : Real3
 
 

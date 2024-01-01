@@ -254,8 +254,8 @@
 |[ WebBrowserUrlChanged](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#webbrowserurlchanged)|[webbrowserurlevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/webbrowserurlevent.markdown)|
 |[ WebResponse](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#webresponse)|[webresponseevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/webresponseevent.markdown)|
 |[ ZUiSliderChanged](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#zuisliderchanged)|ZUiSliderEvent|
-|[ HistoryEntryUpdate](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#historyentryupdate)|[zilchevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchevent.markdown)|
-|[ RedoRowsCleared](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#redorowscleared)|[zilchevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchevent.markdown)|
+|[ HistoryEntryUpdate](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#historyentryupdate)|[nadaevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadaevent.markdown)|
+|[ RedoRowsCleared](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/event_reference.markdown#redorowscleared)|[nadaevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadaevent.markdown)|
 
 
 
@@ -1511,12 +1511,12 @@
 
 ---  
  #  HistoryEntryUpdate
-**Type: **[zilchevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchevent.markdown)
+**Type: **[nadaevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadaevent.markdown)
 
 
 ---  
  #  RedoRowsCleared
-**Type: **[zilchevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchevent.markdown)
+**Type: **[nadaevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadaevent.markdown)
 
 
 ---  

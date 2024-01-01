@@ -14,30 +14,30 @@
 
 
 ---  
- #  Channels : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Channels : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > The number of audio channels that will be in the buffer.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Channels : Integer
 
 
 ---  
- #  MinimumBufferSize : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  MinimumBufferSize : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The minimum number of samples that should be sent when a NeedMoreSamples event is received.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MinimumBufferSize : Integer
 
 
 ---  
- #  SystemSampleRate : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  SystemSampleRate : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The sample rate currently being used by the audio system.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SystemSampleRate : Integer
 
 
@@ -52,7 +52,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |buffer|[soundbuffer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SendBuffer(buffer : SoundBuffer)
 > ``` 
 
@@ -63,8 +63,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/byte.markdown)]| |
-> ``` lang=cpp, name=Zilch
+> ||Array[[byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)]| |
+> ``` lang=cpp, name=Nada
 > function SendMicCompressedData( : Array[Byte])
 > ``` 
 
@@ -75,8 +75,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)]| |
-> ``` lang=cpp, name=Zilch
+> ||Array[[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)]| |
+> ``` lang=cpp, name=Nada
 > function SendMicUncompressedData( : Array[Real])
 > ``` 
 
@@ -88,9 +88,9 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |buffer|[soundbuffer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown)| |
-> |startAtIndex|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> |howManySamples|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |startAtIndex|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |howManySamples|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SendPartialBuffer(buffer : SoundBuffer, startAtIndex : Integer, howManySamples : Integer)
 > ``` 
 

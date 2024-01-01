@@ -16,36 +16,36 @@
 
 
 ---  
- #  LocalSpaceDirection : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  LocalSpaceDirection : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if the wind's direction is a local or world-space vector.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalSpaceDirection : Boolean
 
 
 ---  
- #  WindDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WindDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The direction that the wind is blowing.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WindDirection : Real3
 
 
 ---  
- #  WindSpeed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  WindSpeed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The speed that the wind is blowing.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WindSpeed : Real
 
 
 ---  
- #  WorldWindDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldWindDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The direction of the wind in world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldWindDirection : Real3
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function WindEffect()
 > ``` 
 

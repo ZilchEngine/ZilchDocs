@@ -83,11 +83,11 @@ Now we can see that the time scale directly affects the rate of time without aff
 
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `TimeControl`
+ - Create a NadaScript resource using the Component template template and name it `TimeControl`
 - Update the `TimeControl` script to the following:
 
 ```lang=csharp, name="TimeControl"
-class TimeControl : ZilchComponent
+class TimeControl : NadaComponent
 {
   [Property]
   var IncreaseRateKey : Keys = Keys.Up;

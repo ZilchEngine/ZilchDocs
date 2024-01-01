@@ -25,13 +25,13 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 
 # The **Documentation** link opens the Zero Engine documentation website
 
-#  The **Zilch** link takes you to the manual on Zilch, the programming language used by the Zero Engine
+#  The **Nada** link takes you to the manual on Nada, the programming language used by the Zero Engine
 
 # The **Roadmap** link shows you the Zero Engine's long term roadmap workboard
 
 #  The **Market** opens the Zero Market where you can find free and commercial assets for you projects.
 
-# The **Q&A** link connects you to the Zero Engine's Q&A page, where you can ask questions about the engine, the editor, Zilch, etc.
+# The **Q&A** link connects you to the Zero Engine's Q&A page, where you can ask questions about the engine, the editor, Nada, etc.
 
 
  # The Projects Tab

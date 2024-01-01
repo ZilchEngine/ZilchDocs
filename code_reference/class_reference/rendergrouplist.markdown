@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Add(renderGroup : RenderGroup)
 > ``` 
 
@@ -32,7 +32,7 @@
 > Range of all resources in the list.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function All() : ArrayHandleOfRenderGroup
 > ``` 
 
@@ -44,7 +44,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Remove(renderGroup : RenderGroup)
 > ``` 
 

@@ -5,7 +5,7 @@ Randomness is an important part of most games, without randomness a game will be
 There are two ways you can create a Random Number Generator Object in Zero Engine: 
 
 - [randomcontext](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown)
-- [random](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/random.markdown) (only available through Zilch Scripts)
+- [random](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/random.markdown) (only available through Nada Scripts)
 
 RandomContext is a component that can be added to an object while Random is a type (such as Real2 or Quaternion). While they both offer slightly different methods, they both can be used to accomplish the same goals and are often interchangeable.
 
@@ -16,7 +16,7 @@ The RandomContext component can be added to a game object just like every other 
 The Random class object can be created much like every other object in the game.
 
 ```
-   class RandomScript : ZilchComponent
+   class RandomScript : NadaComponent
    {
      ...
        var RandomGenerator : Random = Random();
@@ -103,6 +103,6 @@ So in a Replay feature, we simply save the current seed of the random number gen
  # Related Material
  ## Reference
 - [randomcontext](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown)
-- [random](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/random.markdown) 
+- [random](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/random.markdown) 
 
  

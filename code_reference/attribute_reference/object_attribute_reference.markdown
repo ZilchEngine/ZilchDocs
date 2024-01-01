@@ -1,4 +1,4 @@
-|Zilch Attributes|C++ Attributes|
+|Nada Attributes|C++ Attributes|
 |---|---|
 |[ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.markdown#command)| |
 |[ ComponentInterface](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.markdown#componentinterface)| |
@@ -13,43 +13,43 @@
 ---  
  #  Command
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  ComponentInterface
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  Gizmo
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  RunInEditor
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  Shortcut
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  Tags
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  
  #  Tool
 
- `zilch-attribute`
+ `nada-attribute`
 
 
 ---  

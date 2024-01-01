@@ -14,7 +14,7 @@ The [ SimpleSound ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_
 
  # Using SimpleSound Components
 
-SimpleSound components are dependent on the [SoundEmitter](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundemitter.markdown) component, so a SoundEmitter will need to be added first before the SimpleSound component. When the StartPlaying checkBox property is checked the SoundCue will be played immediately after the object is created. It can also be played by calling the `Play` method in a ZilchScript. This method returns the [SoundInstance ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown) which can then be used to further control the audio as it's playing.
+SimpleSound components are dependent on the [SoundEmitter](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundemitter.markdown) component, so a SoundEmitter will need to be added first before the SimpleSound component. When the StartPlaying checkBox property is checked the SoundCue will be played immediately after the object is created. It can also be played by calling the `Play` method in a NadaScript. This method returns the [SoundInstance ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown) which can then be used to further control the audio as it's playing.
 
  ## Positional Sound Effects
 

@@ -18,12 +18,12 @@
 
 
 ---  
- #  ConstraintCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ConstraintCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns how many constraints this joint owns.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ConstraintCount : Integer
 
 
@@ -38,7 +38,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |constraint|[customconstraintinfo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddConstraint(constraint : CustomConstraintInfo)
 > ``` 
 
@@ -49,7 +49,7 @@
 > Clear all constraints from this joint (so none will solve).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ClearConstraints()
 > ``` 
 
@@ -60,7 +60,7 @@
 > Create a constraint that is attached to this joint.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateConstraint() : CustomConstraintInfo
 > ``` 
 
@@ -73,7 +73,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CustomJoint()
 > ``` 
 
@@ -84,8 +84,8 @@
 > Returns the constraint at the given index. Will assert if the index is outside the constraint count range.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetConstraint(index : Integer) : CustomConstraintInfo
 > ``` 
 
@@ -97,7 +97,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |constraint|[customconstraintinfo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RemoveConstraint(constraint : CustomConstraintInfo)
 > ``` 
 

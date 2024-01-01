@@ -16,7 +16,7 @@
  #  Basis : [GizmoBasis](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#gizmobasis)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Basis : GizmoBasis
 
 
@@ -24,7 +24,7 @@
  #  Grab : [GizmoGrabMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#gizmograbmode)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Grab : GizmoGrabMode
 
 
@@ -32,7 +32,7 @@
  #  Pivot : [GizmoPivot](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#gizmopivot)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Pivot : GizmoPivot
 
 
@@ -48,7 +48,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ObjectTransformTool()
 > ``` 
 

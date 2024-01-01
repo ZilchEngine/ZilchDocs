@@ -21,7 +21,7 @@
  `read-only`
 
 > Basic host info (limited to 480 bytes).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BasicHostInfo : EventBundle
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Extra host info.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ExtraHostInfo : EventBundle
 
 
@@ -41,17 +41,17 @@
  `read-only`
 
 > Host's IP address.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IpAddress : IpAddress
 
 
 ---  
- #  Latency : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Latency : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns the estimated latency ((RTT/2)) in milliseconds from our peer to this host.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Latency : Integer
 
 
@@ -61,17 +61,17 @@
  `read-only`
 
 > Host's network residence.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Network : Network
 
 
 ---  
- #  RoundTripTime : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  RoundTripTime : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns the round-trip time (RTT) in milliseconds from our peer to this host.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RoundTripTime : Integer
 
 

@@ -286,7 +286,7 @@ See [Executing Commands](https://github.com/zeroengineteam/ZeroDocs/blob/master/
 
  ## Manual
 - [Components](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/components.markdown)
-- [ Zilch User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
+- [ Nada User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
 
  ##  Tutorials
 - [BasicComponents](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/architecture/basiccomponents.markdown)
@@ -296,8 +296,8 @@ See [Executing Commands](https://github.com/zeroengineteam/ZeroDocs/blob/master/
  ### Classes
 - [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown)
 - [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sprite.markdown)
-- [ZilchScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchscript.markdown)
-- [ Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/console.markdown)
+- [NadaScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadascript.markdown)
+- [ Console](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/console.markdown)
 
  ### Commands
 - [ PlayGame](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#playgame)

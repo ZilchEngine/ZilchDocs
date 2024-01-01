@@ -7,7 +7,7 @@ Spaces in the Zero Engine are containers for game objects. When a level is loade
 You can create a space through the [GameSession](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/objects/gamesession.markdown) object.
 
 ```
-    class SpaceCreator : ZilchComponent
+    class SpaceCreator : NadaComponent
     {
       [Property]
       var MySpaceArchetype : Archetype;
@@ -37,7 +37,7 @@ Naming a space is not absolutely necessary, if you have a good system keeping tr
 You can access the Space object from scripts via any component or Cog:
 
 ```
-  class ExampleComponent : ZilchComponent
+  class ExampleComponent : NadaComponent
   {
     // Accessing the Space object through the component
     var CurrentSpace : Cog

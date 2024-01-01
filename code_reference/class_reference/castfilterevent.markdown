@@ -17,7 +17,7 @@
  #  FilterState : [CastFilterState](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#castfilterstate)
 
 > When filtering should we accept or reject this cog? Alternatively we can let the default cast filter logic run.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FilterState : CastFilterState
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > The object being tested in this cast.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Object : Cog
 
 

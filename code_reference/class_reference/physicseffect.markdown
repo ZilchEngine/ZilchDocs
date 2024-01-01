@@ -22,18 +22,18 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Enable/disable this effect.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  DebugDrawEffect : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  DebugDrawEffect : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the effect debug draw.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DebugDrawEffect : Boolean
 
 
@@ -43,15 +43,15 @@
  `read-only`
 
 > What kind of effect this is (e.g. ForceEffect, GravityEffect, etc...).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EffectType : PhysicsEffectType
 
 
 ---  
- #  WakeUpOnChange : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  WakeUpOnChange : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether the object associated with this is woken up when any property is changed.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WakeUpOnChange : Boolean
 
 
@@ -65,7 +65,7 @@
 > Toggles whether or not this effect is active.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Toggle()
 > ``` 
 

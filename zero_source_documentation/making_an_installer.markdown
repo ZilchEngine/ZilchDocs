@@ -4,7 +4,7 @@ Note that I will use mix using cmd style environment variables: %EnvironmentVarN
 
 How to build an Zero for an installer (not actually making the installer, just the exe):
 
-1. The first thing you have to do to build zero is have a copy of it. You  must check out the ZeroCore depo. This should check out the necessary sub-depos of Tools, ExtensionLibraries, StandardLibraries, and Zilch.
+1. The first thing you have to do to build zero is have a copy of it. You  must check out the ZeroCore depo. This should check out the necessary sub-depos of Tools, ExtensionLibraries, StandardLibraries, and Nada.
 
   - To actually make the installer you also need to checkout the DevTools repo into the Zero folder, that is you should have `Zero/DevTools/OpenDevTools.cmd`.
 
@@ -30,7 +30,7 @@ How to archive data for symbol servers and source indexing:
 2. Make sure that you run SetUpBuildEnvironment.cmd under `Zero/DevTools`. This setups up the location of `$(ZERO_OUTPUT)` and `$(ZERO_SOURCE)` for use in further steps
 3. Add source indexing to the pdb. Source indexing adds information to the pdb to check out the correct version of a file for the date the exe was made. A small tools was added to make this easier. The current arguments are:
 
-  - `SourceIndexer.exe -depo "$(ZERO_SOURCE)" -depo "$(ZERO_SOURCE)\Zilch" -depo "$(ZERO_SOURCE)\ExtensionLibraries" -depo "$ZERO_SOURCE)\ExtensionLibraries\StandardLibraries" -pdb "$(ZERO_OUTPUT)/Out/$(Platform)/$(Configuration)/Win32Editor/ZeroEditor.pdb"`
+  - `SourceIndexer.exe -depo "$(ZERO_SOURCE)" -depo "$(ZERO_SOURCE)\Nada" -depo "$(ZERO_SOURCE)\ExtensionLibraries" -depo "$ZERO_SOURCE)\ExtensionLibraries\StandardLibraries" -pdb "$(ZERO_OUTPUT)/Out/$(Platform)/$(Configuration)/Win32Editor/ZeroEditor.pdb"`
   - Basically you need to add every location that a repository exists (including sub-repos) and then provide the location of the pdb to edit. For more information on how to use/test this see `Readme.txt` in `Zero/DevTools/SourceIndexer`.
 
 4. This modifies the pdb in place to contain all extra symbol information. Do not release this pdb to other people as it tells them how to check out source code.

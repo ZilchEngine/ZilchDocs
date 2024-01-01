@@ -1,4 +1,4 @@
-This lesson covers the basics of using Variables in [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown).
+This lesson covers the basics of using Variables in [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown).
 
  # Learning Objectives
 
@@ -12,7 +12,7 @@ This lesson covers the basics of using Variables in [Zilch](https://github.com/z
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MyBehavior`
+ - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - In the `Level Window`
  - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
@@ -21,17 +21,17 @@ This lesson covers the basics of using Variables in [Zilch](https://github.com/z
 
  # Class Variables
 
-A variable is a stored value of a given type. In order to manipulate a variable you must know its type and what values it can hold. Below is a table of the most common variable types in [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown).
+A variable is a stored value of a given type. In order to manipulate a variable you must know its type and what values it can hold. Below is a table of the most common variable types in [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown).
 
 | Type| Acceptable Values | Common Operators|
 |---|---|---|
-| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown) | `true` `false`| `=` |
-| [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown) | `1` `-2` `100` etc| `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
-| [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) | `0.1` `-1.2` `3.1415926`, etc | `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
-| [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown) | `Real2(0.1, -2.5)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
-| [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown) | `Real3(0.1, -2.5, 19.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
-| [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown) | `Real4(0.1, -2.5, 19.0, 0.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
-| [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown) | `Hello World!` etc | `=` |
+| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown) | `true` `false`| `=` |
+| [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown) | `1` `-2` `100` etc| `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
+| [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) | `0.1` `-1.2` `3.1415926`, etc | `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
+| [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown) | `Real2(0.1, -2.5)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
+| [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown) | `Real3(0.1, -2.5, 19.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
+| [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown) | `Real4(0.1, -2.5, 19.0, 0.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
+| [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown) | `Hello World!` etc | `=` |
 
 Variables are used to represent values your game needs to perform its logic such as, Lives, Ammo, Run Speed and more. Let's create a new variable for our `MyBehavior` component class.
 
@@ -119,7 +119,7 @@ NOTE: Using these operators is logically equivalent to preforming the correspond
 
  ## Increment and Decrement Operators `++` `--`
 
-These are used in combination with Integer and Real types to either add or subtract `1` to the current value of the variable. In [Zilch](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown), these are always used before the variable you want to increment.
+These are used in combination with Integer and Real types to either add or subtract `1` to the current value of the variable. In [Nada](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown), these are always used before the variable you want to increment.
 
 Example:
 
@@ -186,7 +186,7 @@ To prevent this, we can declare a dependency on the [Transform](https://github.c
 var Transform : Transform;
 ```
 
-By adding this we prevent the addition of the `MyBehavior` component to objects without a [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown) component. The `[Dependency]` part is an **attribute** that modifies the following variable; you can find more information about them in the [Attribute Manual Page](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/attributes.markdown).
+By adding this we prevent the addition of the `MyBehavior` component to objects without a [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown) component. The `[Dependency]` part is an **attribute** that modifies the following variable; you can find more information about them in the [Attribute Manual Page](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/attributes.markdown).
 
 
 
@@ -282,25 +282,25 @@ Here we create a local variable that is the normalized value given by the Direct
 
  ## Manual
 - [Components](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/components.markdown)
-- [ Zilch User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-- [ Variables](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/variables_and_data_types.markdown)
-- [Attributes](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/attributes.markdown)
+- [ Nada User Documentation](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [ Variables](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/variables_and_data_types.markdown)
+- [Attributes](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/attributes.markdown)
 - [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
 
  ## Reference
  ### Classes
 - [Transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/transform.markdown)
 - [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/sprite.markdown)
-- [ZilchScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/zilchscript.markdown)
+- [NadaScript](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadascript.markdown)
 
- ### Zilch Base Types
-- [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
-- [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
-- [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
-- [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
-- [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
-- [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
-- [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ ### Nada Base Types
+- [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
+- [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
+- [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+- [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
+- [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+- [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
+- [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  ### Commands
 - [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)

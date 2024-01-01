@@ -24,7 +24,7 @@
  `read-only`
 
 > Our add response.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OurAddResponse : NetUserAddResponse
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > Our bundled response event data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OurResponseBundle : EventBundle
 
 
@@ -44,17 +44,17 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirIpAddress : IpAddress
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetPeerId : Integer
 
 
@@ -64,17 +64,17 @@
  `read-only`
 
 > Their net user object about to be added (set only if accepted).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetUser : Cog
 
 
 ---  
- #  TheirNetUserId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TheirNetUserId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Their net user ID (set only if accepted).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetUserId : Integer
 
 
@@ -84,7 +84,7 @@
  `read-only`
 
 > Their bundled request event data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirRequestBundle : EventBundle
 
 

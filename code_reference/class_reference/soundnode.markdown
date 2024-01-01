@@ -30,66 +30,66 @@
 
 
 ---  
- #  AutoCollapse : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AutoCollapse : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If true, this node will automatically remove itself from the graph when its last input node is removed.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AutoCollapse : Boolean
 
 
 ---  
- #  BypassPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  BypassPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > DEPRECATED The BypassValue property should be used instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BypassPercent : Real
 
 
 ---  
- #  BypassValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  BypassValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The percentage of output (0 to 1.0) that should skip whatever processing the node does.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BypassValue : Real
 
 
 ---  
- #  HasInputs : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  HasInputs : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Will be true if this node has any input nodes.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HasInputs : Boolean
 
 
 ---  
- #  HasOutputs : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  HasOutputs : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Will be true if this node has any output nodes.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var HasOutputs : Boolean
 
 
 ---  
- #  InputCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  InputCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of input nodes that are currently attached to this node.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InputCount : Integer
 
 
 ---  
- #  OutputCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  OutputCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > The number of output nodes that are currently attached to this node.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OutputCount : Integer
 
 
@@ -104,7 +104,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddInputNode(node : SoundNode)
 > ``` 
 
@@ -116,7 +116,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function InsertNodeAfter(node : SoundNode)
 > ``` 
 
@@ -128,7 +128,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function InsertNodeBefore(node : SoundNode)
 > ``` 
 
@@ -139,7 +139,7 @@
 > Removes the connections between this node and all of its input nodes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RemoveAllInputs()
 > ``` 
 
@@ -150,7 +150,7 @@
 > Removes the connections between this node and all of its output nodes, disconnecting this node from the graph. If this node has no inputs it will be deleted when no longer referenced.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RemoveAllOutputs()
 > ``` 
 
@@ -161,7 +161,7 @@
 > Removes this node from the graph by disconnecting it from all inputs and outputs and attaching the input nodes to the output nodes, keeping the rest of the graph intact. This node will be deleted when it is no longer referenced.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RemoveAndAttachInputsToOutputs()
 > ``` 
 
@@ -173,7 +173,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RemoveInputNode(node : SoundNode)
 > ``` 
 
@@ -185,7 +185,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ReplaceWith(node : SoundNode)
 > ``` 
 

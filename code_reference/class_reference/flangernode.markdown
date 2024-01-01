@@ -14,34 +14,34 @@
 
 
 ---  
- #  FeedbackPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FeedbackPercent : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > DEPRECATED The FeedbackValue property should be used instead.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FeedbackPercent : Real
 
 
 ---  
- #  FeedbackValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FeedbackValue : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The percentage of output (0 - 1.0) which is fed back into the filter as input.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FeedbackValue : Real
 
 
 ---  
- #  MaxDelayMillisec : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MaxDelayMillisec : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The maximum delay reached by the modulation. It will oscillate between 0 and this value at the frequency set by the ModulationFrequency property.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxDelayMillisec : Real
 
 
 ---  
- #  ModulationFrequency : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ModulationFrequency : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The frequency of the oscillator which varies the modulation.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ModulationFrequency : Real
 
 

@@ -20,7 +20,7 @@
  `read-only`
 
 > Dispatch destination object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Destination : Cog
 
 
@@ -30,17 +30,17 @@
  `read-only`
 
 > Network event sent.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetEvent : Event
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetPeerId : Integer
 
 

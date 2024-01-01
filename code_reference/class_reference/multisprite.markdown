@@ -15,18 +15,18 @@
 
 
 ---  
- #  AnimationActive : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AnimationActive : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AnimationActive : Boolean
 
 
 ---  
- #  AnimationSpeed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  AnimationSpeed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AnimationSpeed : Real
 
 
@@ -40,7 +40,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function All() : MultiSpriteEntryRange
 > ``` 
 
@@ -51,7 +51,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
@@ -62,8 +62,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |p0|[integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(p0 : Integer2) : MultiSpriteEntry
 > ``` 
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MultiSprite()
 > ``` 
 
@@ -87,9 +87,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)| |
+> |p0|[integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)| |
 > |p1|[spritesource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/spritesource.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(p0 : Integer2, p1 : SpriteSource)
 > ``` 
 

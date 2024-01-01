@@ -18,15 +18,15 @@
  #  GeometryMode : [SpriteGeometryMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#spritegeometrymode)
 
 > How the Sprite should be oriented in 3D space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GeometryMode : SpriteGeometryMode
 
 
 ---  
- #  VertexColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  VertexColor : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > Color attribute of the generated vertices accessible in the vertex shader.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var VertexColor : Real4
 
 

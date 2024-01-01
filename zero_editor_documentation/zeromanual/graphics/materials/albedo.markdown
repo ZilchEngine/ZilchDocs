@@ -17,7 +17,7 @@ The albedo of a material may be set using either a map or by value. Setting albe
 
  ## AlbedoValue
 
-When an AlbedoValue fragment is added to a material, the user may set a color value to be uniformly applied to the material.  To add an AlbedoValue fragment to a material, click on the `Add ZilchFragment` button in the Properties window:
+When an AlbedoValue fragment is added to a material, the user may set a color value to be uniformly applied to the material.  To add an AlbedoValue fragment to a material, click on the `Add NadaFragment` button in the Properties window:
 
 
 
@@ -31,17 +31,17 @@ Before getting into how albedo is affected by material fragments, let's look at 
 ![AlbedoRange](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2947.png)
 
 
-Using the [ShaderInput] attribute to access the AlbedoValue fragment within a ZilchScript, one may change the albedo value during runtime. The following gif shows this effect in engine (all other shader inputs are at default values):
+Using the [ShaderInput] attribute to access the AlbedoValue fragment within a NadaScript, one may change the albedo value during runtime. The following gif shows this effect in engine (all other shader inputs are at default values):
 
 
 
 ![ChangeAlbedoValueVer2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2949.gif)
 
 
-The following script used to achieve the above effect must be placed on an object that is using a material with *at least* an AlbedoValue ZilchFragment.
+The following script used to achieve the above effect must be placed on an object that is using a material with *at least* an AlbedoValue NadaFragment.
 
 ```
-class ChangeAlbedo : ZilchComponent
+class ChangeAlbedo : NadaComponent
 {
   // The shader input for Albedo value (necessary to change value at run-time)
   [ShaderInput] var AlbedoValue : Real4 = Real4(0,0,0,0);
@@ -90,7 +90,7 @@ Note that in the previous two examples there were no other fragments on the mate
 
  # AlbedoMap
 
-An albedo map is a texture provided by an artist for use on a [Model](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/models/model_component.markdown). While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives and look completely natural. To apply an AlbedoMap fragment to a material, click on the `Add ZilchFragment` button in the Properties window:
+An albedo map is a texture provided by an artist for use on a [Model](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/graphics/models/model_component.markdown). While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives and look completely natural. To apply an AlbedoMap fragment to a material, click on the `Add NadaFragment` button in the Properties window:
 
 
 

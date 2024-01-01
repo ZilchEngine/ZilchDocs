@@ -16,34 +16,34 @@
 
 
 ---  
- #  DeltaRadiansAroundAxis : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  DeltaRadiansAroundAxis : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaRadiansAroundAxis : Real
 
 
 ---  
- #  RadiansAroundAxis : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  RadiansAroundAxis : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RadiansAroundAxis : Real
 
 
 ---  
- #  WorldRotation : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+ #  WorldRotation : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldRotation : Quaternion
 
 
 ---  
- #  WorldRotationAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldRotationAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldRotationAxis : Real3
 
 

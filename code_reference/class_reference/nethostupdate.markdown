@@ -21,7 +21,7 @@
  `read-only`
 
 > Host discovered or refreshed (will contain the first host updated if this is a list update).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Host : NetHost
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Operation target network.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Network : Network
 
 
@@ -41,17 +41,17 @@
  `read-only`
 
 > Whether or not the operation completed successfully.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RefreshResult : NetRefreshResult
 
 
 ---  
- #  ResponseTime : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ResponseTime : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > Operation response time (from request to completion).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ResponseTime : Real
 
 

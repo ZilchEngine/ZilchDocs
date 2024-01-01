@@ -22,15 +22,15 @@
  `read-only`
 
 > The read-only curve points baked out to line segments using the provided error.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BakedPoints : SplineBakedPoints
 
 
 ---  
- #  Closed : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Closed : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Does the spline loop back on itself?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Closed : Boolean
 
 
@@ -40,15 +40,15 @@
  `read-only`
 
 > The control points used to bake out the curve.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ControlPoints : SplineControlPoints
 
 
 ---  
- #  Error : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Error : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The max number of units that a line segment is allowed to deviate from the curve.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Error : Real
 
 
@@ -56,17 +56,17 @@
  #  SplineType : [SplineType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#splinetype)
 
 > The kind of spline (Linear, BSpline, CatmullRom). Determines how the control points affect the curve.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SplineType : SplineType
 
 
 ---  
- #  TotalDistance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  TotalDistance : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
  `read-only`
 
 > The total arc-length of the curve. Use to normalize the curve if you wish.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TotalDistance : Real
 
 
@@ -80,7 +80,7 @@
 > Create a new copy of this spline.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clone() : Spline
 > ``` 
 
@@ -93,7 +93,7 @@
 > Create a new instance of a spline.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Create() : Spline
 > ``` 
 
@@ -104,8 +104,8 @@
 > Draw the baked points of the curve with the provided color.
 > |Name|Type|Description|
 > |---|---|---|
-> |color|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |color|[real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)| |
+> ``` lang=cpp, name=Nada
 > function DebugDraw(color : Real4)
 > ``` 
 
@@ -116,7 +116,7 @@
 > Forcibly rebuild the baked points from the control points.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ForceRebuild()
 > ``` 
 
@@ -127,7 +127,7 @@
 > Rebuild the baked points from the control points if they have changed. Should not need to be manually called unless the user wants to control the timing when the points are baked.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RebuildIfModified()
 > ``` 
 
@@ -138,8 +138,8 @@
 > Samples the curve at a given arc-length distance.
 > |Name|Type|Description|
 > |---|---|---|
-> |distance|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |distance|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SampleDistance(distance : Real) : SplineSampleData
 > ``` 
 
@@ -150,8 +150,8 @@
 > Samples the curve with a time in the range of [0, 1].
 > |Name|Type|Description|
 > |---|---|---|
-> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |time|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SampleNormalized(time : Real) : SplineSampleData
 > ``` 
 

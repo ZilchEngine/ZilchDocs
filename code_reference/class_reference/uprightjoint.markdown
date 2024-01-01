@@ -15,26 +15,26 @@
 
 
 ---  
- #  LocalAxisA : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalAxisA : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The locally defined axis on object A . 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalAxisA : Real3
 
 
 ---  
- #  LocalAxisB : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalAxisB : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The locally defined axis on object B . 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalAxisB : Real3
 
 
 ---  
- #  WorldAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldAxis : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The axis in world space that is being rotated about . 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldAxis : Real3
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function UprightJoint()
 > ``` 
 

@@ -21,17 +21,17 @@
  `read-only`
 
 > Network game session.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GameSession : GameSession
 
 
 ---  
- #  IsEndOfLifespan : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsEndOfLifespan : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Is this the end of the object's lifespan?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsEndOfLifespan : Boolean
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Network object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Object : Cog
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Network space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Space : Space
 
 

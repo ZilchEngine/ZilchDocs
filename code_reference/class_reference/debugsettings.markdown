@@ -11,10 +11,10 @@
 
 
 ---  
- #  MaxDebugObjects : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  MaxDebugObjects : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Maximum number of debug objects allowed at any one time to prevent accidentally running out of memory.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxDebugObjects : Integer
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function DebugSettings()
 > ``` 
 

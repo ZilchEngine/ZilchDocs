@@ -23,7 +23,7 @@ This tutorial covers the basics of what spaces are, how to create them, and how 
  - Under [Camera](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/camera.markdown)
   - Set Size  to `5`
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `HUDManager`
+ - Create a NadaScript resource using the Component template template and name it `HUDManager`
 
 
  #  What is a Space?
@@ -63,7 +63,7 @@ A very common reason for creating a second space is to implement a HUD that over
 - In `HUDManager`
  - Update the `HUDManager` script to the following:
 ```name=HUDManager, lang=csharp
-class HUDManager : ZilchComponent
+class HUDManager : NadaComponent
 {
   [Property]
   var HUDLevel : Level;
@@ -136,11 +136,11 @@ Having multiple spaces can increase a project's complexity. It is important to k
 
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `Meter`
+ - Create a NadaScript resource using the Component template template and name it `Meter`
 - Update the `Meter` script to the following:
 
 ```lang=csharp, name="Meter"
-class Meter : ZilchComponent
+class Meter : NadaComponent
 {
   [Dependency] var Transform : Transform;
   [Dependency] var Area : Area;
@@ -188,7 +188,7 @@ class Meter : ZilchComponent
   }
 }
 
-class MeterUpdate : ZilchEvent
+class MeterUpdate : NadaEvent
 {
   sends MeterUpdate : MeterUpdate;
   var Value : Real;
@@ -198,10 +198,10 @@ class MeterUpdate : ZilchEvent
 This `Meter` component will be be *communicated// with via events sent from the //GameSpace// to the //HUDSpace* by the following `Input` component.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `Input`
+ - Create a NadaScript resource using the Component template template and name it `Input`
 - Update the `Input` script to the following:
 ```name=Input, lang=csharp
-class Input : ZilchComponent
+class Input : NadaComponent
 {
   [Dependency] var HUDManager : HUDManager;
   

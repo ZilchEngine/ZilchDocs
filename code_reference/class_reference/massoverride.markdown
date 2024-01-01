@@ -19,58 +19,58 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines whether the RigidBody on this Cog will use the cached or actual mass and inertia.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
 ---  
- #  AutoComputeCenterOfMass : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AutoComputeCenterOfMass : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the center of mass be auto computed or overwritten (via script).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AutoComputeCenterOfMass : Boolean
 
 
 ---  
- #  AutoComputeInertia : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AutoComputeInertia : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Should the inertia tensor be auto computed or overwritten (via script).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AutoComputeInertia : Boolean
 
 
 ---  
- #  InverseMass : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  InverseMass : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The cached inverse mass of this object.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InverseMass : Real
 
 
 ---  
- #  LocalCenterOfMass : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalCenterOfMass : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The center of mass in local space to override with. When set, the center of mass will be locked to this value until AutoComputeCenterOfMass is set to true.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalCenterOfMass : Real3
 
 
 ---  
- #  LocalInverseInertiaTensor : [real3x3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3x3.markdown)
+ #  LocalInverseInertiaTensor : [real3x3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3x3.markdown)
 
 > The inverse inertia tensor this object is saved with.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalInverseInertiaTensor : Real3x3
 
 
 ---  
- #  Mass : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Mass : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Overrides the mass of this body. Inertia is updated as a ratio of the new mass to the old mass.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Mass : Real
 
 
@@ -86,7 +86,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function MassOverride()
 > ``` 
 
@@ -97,7 +97,7 @@
 > Takes a new snapshot of the current mass and inertia.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RecomputeMass()
 > ``` 
 

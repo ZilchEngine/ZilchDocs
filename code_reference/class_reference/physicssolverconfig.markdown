@@ -19,31 +19,31 @@
  #  PositionCorrectionType : [PhysicsSolverPositionCorrection](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#physicssolverpositioncorrection)
 
 > What method should be used to fix errors in joints. Baumgarte fixes errors by adding extra velocity but results in a more spongy behavior. Post Stabilization fixes errors by directly modifying position but can behave worse in unsolvable configurations.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PositionCorrectionType : PhysicsSolverPositionCorrection
 
 
 ---  
- #  PositionIterationCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  PositionIterationCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > The number of iterations used for position correction (if position correction is used).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PositionIterationCount : Integer
 
 
 ---  
- #  SolverIterationCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  SolverIterationCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > The number of iterations used in the constraint solver. Affects how stiff joints will be.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SolverIterationCount : Integer
 
 
 ---  
- #  VelocityRestitutionThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  VelocityRestitutionThreshold : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > To prevent numerical issues, restitution is only applied if the relative velocity between the two objects is above this value.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var VelocityRestitutionThreshold : Real
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function PhysicsSolverConfig()
 > ``` 
 

@@ -14,34 +14,34 @@
 
 
 ---  
- #  AdditiveCutoff : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  AdditiveCutoff : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The cutoff frequency used for the additive noise component, in Hz.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AdditiveCutoff : Real
 
 
 ---  
- #  AdditiveGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  AdditiveGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The gain of the additive noise component, in decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AdditiveGain : Real
 
 
 ---  
- #  MultiplicativeCutoff : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MultiplicativeCutoff : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The cutoff frequency used for the multiplicative noise component, in Hz.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MultiplicativeCutoff : Real
 
 
 ---  
- #  MultiplicativeGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MultiplicativeGain : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The gain of the multiplicative noise component, in decibels.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MultiplicativeGain : Real
 
 

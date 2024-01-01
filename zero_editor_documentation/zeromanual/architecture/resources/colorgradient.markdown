@@ -26,10 +26,10 @@ As can be seen, the editor currently shows a gradient from black to white. The u
 As the common color selection window is used, any value within it may be changed as well, including the alpha value.
 
  ## Applying the ColorGradient
-Sampling from ColorGradient is done through a ColorGradient variable within ZilchScript. The value passed into `Sample()` must be between 0 and 1:
+Sampling from ColorGradient is done through a ColorGradient variable within NadaScript. The value passed into `Sample()` must be between 0 and 1:
 
 ```
-class GradDemo : ZilchComponent
+class GradDemo : NadaComponent
 {
     // ColorGradient to use
     [Property]
@@ -53,7 +53,7 @@ Attaching this code as a component onto a basic sprite (and selecting the ColorG
 One can also use code to interpolate through the ColorGraident, changing the color of the sprite over time.
 
 ```
-class GradDemo : ZilchComponent
+class GradDemo : NadaComponent
 {
     // ColorGradient to use
     [Property]
@@ -87,7 +87,7 @@ class GradDemo : ZilchComponent
 The above code-block accomplishes the following things:
 
  - Initially, it sets the color of the Sprite to the value sampled at `0` on the ColorGradient.
- - It then calls a function-- `InterpolateValue()` --that uses an Action to interpolate the [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) variable Value from 0 - 1 over the course of three seconds.
+ - It then calls a function-- `InterpolateValue()` --that uses an Action to interpolate the [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) variable Value from 0 - 1 over the course of three seconds.
  - Finally, the `VertexColor` property on the Sprite component is updated every frame by the value sampled from `ColorGrad` using `Value`
 
 In the following demonstration, another, smaller Sprite has been added behind the first Sprite to show how the change in Alpha value affects the appearance of the Sprite:

@@ -14,42 +14,42 @@
 
 
 ---  
- #  CollapseToPoseOnFinish : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  CollapseToPoseOnFinish : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not to collapse to a pose node when finished playing.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CollapseToPoseOnFinish : Boolean
 
 
 ---  
- #  Duration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Duration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The duration of the node.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Duration : Real
 
 
 ---  
- #  Paused : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Paused : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Whether or not the node is currently paused.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Paused : Boolean
 
 
 ---  
- #  Time : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Time : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The current time in the node.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Time : Real
 
 
 ---  
- #  TimeScale : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  TimeScale : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > A scalar to dt when updating the node.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TimeScale : Real
 
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clone() : AnimationNode
 > ``` 
 
@@ -74,29 +74,29 @@
 > Collapses all children to a pose node on the next Update.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CollapseToPose()
 > ``` 
 
 
 ---  
- #  GetNormalizedTime : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  GetNormalizedTime : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetNormalizedTime() : Real
 > ``` 
 
 
 ---  
- #  IsActive : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsActive : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IsActive() : Boolean
 > ``` 
 
@@ -107,8 +107,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |tabs|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |tabs|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function PrintNode(tabs : Integer)
 > ``` 
 
@@ -119,8 +119,8 @@
 > A value between [0-1].
 > |Name|Type|Description|
 > |---|---|---|
-> |normalizedTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |normalizedTime|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SetNormalizedTime(normalizedTime : Real)
 > ``` 
 

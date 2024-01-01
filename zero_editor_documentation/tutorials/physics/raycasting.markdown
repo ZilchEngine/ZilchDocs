@@ -34,12 +34,12 @@ This lesson covers how to cast rays using Physics and interpret the results.
 
 
 - - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `MoveUpAndDown`
+ - Create a NadaScript resource using the Component template template and name it `MoveUpAndDown`
 - In the `MoveUpAndDown` script
  - Update the `MoveUpAndDown` class to the following:
 
 ```lang=csharp, name="MoveUpAndDown"
-class MoveUpAndDown : ZilchComponent
+class MoveUpAndDown : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -120,12 +120,12 @@ NOTE:
 The first step to raycasting is to build the ray with the desired parameters. Let's take a look.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `RayCasterLogic`
+ - Create a NadaScript resource using the Component template template and name it `RayCasterLogic`
 - In the `RayCasterLogic` script
  - Update the `RayCasterLogic` class to the following:
 
 ```lang=csharp, name="Ray Casting"
-class RayCasterLogic : ZilchComponent
+class RayCasterLogic : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -346,10 +346,10 @@ Here are some useful properties you can set on the [CastFilter](https://github.c
 |Cast Filter|
 |-----------|
 |IgnoreCog| [Cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)| A given specific Cog to ignore |
-|IgnoreDynamic| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| Ignores all objects marked as [Dynamic](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#rigidbodydynamicstate)|
-|IgnoreGhost| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| Ignores all objects marked as [Ghost](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collider.markdown#ghost)|
-|IgnoreKinematic| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| Ignores all objects marked as [Kinematic](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#rigidbodydynamicstate)|
-|IgnoreStatic| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)| Ignores all objects marked as [Static](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#rigidbodydynamicstate)|
+|IgnoreDynamic| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| Ignores all objects marked as [Dynamic](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#rigidbodydynamicstate)|
+|IgnoreGhost| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| Ignores all objects marked as [Ghost](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collider.markdown#ghost)|
+|IgnoreKinematic| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| Ignores all objects marked as [Kinematic](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#rigidbodydynamicstate)|
+|IgnoreStatic| [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)| Ignores all objects marked as [Static](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#rigidbodydynamicstate)|
 |CollisionGroup| [collisiongroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collisiongroup.markdown)| Makes the Ray behave as part of a collision group, using the current [collisiontable](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/collisiontable.markdown) |
 
 

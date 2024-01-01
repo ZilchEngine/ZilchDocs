@@ -70,10 +70,10 @@
 
 
 ---  
- #  ActiveConvergenceWeight : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ActiveConvergenceWeight : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Active convergence weight applied every convergence interval.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ActiveConvergenceWeight : Real
 
 
@@ -81,119 +81,119 @@
  #  BasicNetType : [BasicNetType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basicnettype)
 
 > Target basic property type.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var BasicNetType : BasicNetType
 
 
 ---  
- #  ConvergenceInterval : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  ConvergenceInterval : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Convergence interval.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ConvergenceInterval : Integer
 
 
 ---  
- #  DeltaThresholdDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  DeltaThresholdDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdDoubleInteger : DoubleInteger
 
 
 ---  
- #  DeltaThresholdDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doublereal.markdown)
+ #  DeltaThresholdDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doublereal.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdDoubleReal : DoubleReal
 
 
 ---  
- #  DeltaThresholdInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  DeltaThresholdInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdInteger : Integer
 
 
 ---  
- #  DeltaThresholdInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  DeltaThresholdInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdInteger2 : Integer2
 
 
 ---  
- #  DeltaThresholdInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer3.markdown)
+ #  DeltaThresholdInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdInteger3 : Integer3
 
 
 ---  
- #  DeltaThresholdInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer4.markdown)
+ #  DeltaThresholdInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdInteger4 : Integer4
 
 
 ---  
- #  DeltaThresholdQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+ #  DeltaThresholdQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdQuaternion : Quaternion
 
 
 ---  
- #  DeltaThresholdReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  DeltaThresholdReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdReal : Real
 
 
 ---  
- #  DeltaThresholdReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  DeltaThresholdReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdReal2 : Real2
 
 
 ---  
- #  DeltaThresholdReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  DeltaThresholdReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdReal3 : Real3
 
 
 ---  
- #  DeltaThresholdReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  DeltaThresholdReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DeltaThresholdReal4 : Real4
 
 
 ---  
- #  EventOnConvergenceStateChange : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  EventOnConvergenceStateChange : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Event on convergence state change?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EventOnConvergenceStateChange : Boolean
 
 
 ---  
- #  ExtrapolationLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  ExtrapolationLimit : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Extrapolation time limit.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ExtrapolationLimit : Real
 
 
@@ -201,199 +201,199 @@
  #  InterpolationCurve : [CurveType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#curvetype)
 
 > Interpolation curve type.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var InterpolationCurve : CurveType
 
 
 ---  
- #  QuantizationRangeMaxDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  QuantizationRangeMaxDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxDoubleInteger : DoubleInteger
 
 
 ---  
- #  QuantizationRangeMaxDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doublereal.markdown)
+ #  QuantizationRangeMaxDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doublereal.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxDoubleReal : DoubleReal
 
 
 ---  
- #  QuantizationRangeMaxInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  QuantizationRangeMaxInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxInteger : Integer
 
 
 ---  
- #  QuantizationRangeMaxInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  QuantizationRangeMaxInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxInteger2 : Integer2
 
 
 ---  
- #  QuantizationRangeMaxInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer3.markdown)
+ #  QuantizationRangeMaxInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxInteger3 : Integer3
 
 
 ---  
- #  QuantizationRangeMaxInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer4.markdown)
+ #  QuantizationRangeMaxInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxInteger4 : Integer4
 
 
 ---  
- #  QuantizationRangeMaxQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+ #  QuantizationRangeMaxQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxQuaternion : Quaternion
 
 
 ---  
- #  QuantizationRangeMaxReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  QuantizationRangeMaxReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxReal : Real
 
 
 ---  
- #  QuantizationRangeMaxReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  QuantizationRangeMaxReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxReal2 : Real2
 
 
 ---  
- #  QuantizationRangeMaxReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  QuantizationRangeMaxReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxReal3 : Real3
 
 
 ---  
- #  QuantizationRangeMaxReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  QuantizationRangeMaxReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMaxReal4 : Real4
 
 
 ---  
- #  QuantizationRangeMinDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  QuantizationRangeMinDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinDoubleInteger : DoubleInteger
 
 
 ---  
- #  QuantizationRangeMinDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doublereal.markdown)
+ #  QuantizationRangeMinDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doublereal.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinDoubleReal : DoubleReal
 
 
 ---  
- #  QuantizationRangeMinInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  QuantizationRangeMinInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinInteger : Integer
 
 
 ---  
- #  QuantizationRangeMinInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  QuantizationRangeMinInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinInteger2 : Integer2
 
 
 ---  
- #  QuantizationRangeMinInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer3.markdown)
+ #  QuantizationRangeMinInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinInteger3 : Integer3
 
 
 ---  
- #  QuantizationRangeMinInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer4.markdown)
+ #  QuantizationRangeMinInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinInteger4 : Integer4
 
 
 ---  
- #  QuantizationRangeMinQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+ #  QuantizationRangeMinQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinQuaternion : Quaternion
 
 
 ---  
- #  QuantizationRangeMinReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  QuantizationRangeMinReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinReal : Real
 
 
 ---  
- #  QuantizationRangeMinReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  QuantizationRangeMinReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinReal2 : Real2
 
 
 ---  
- #  QuantizationRangeMinReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  QuantizationRangeMinReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinReal3 : Real3
 
 
 ---  
- #  QuantizationRangeMinReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  QuantizationRangeMinReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var QuantizationRangeMinReal4 : Real4
 
 
 ---  
- #  RestingConvergenceDuration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  RestingConvergenceDuration : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Resting convergence duration handled every convergence interval.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RestingConvergenceDuration : Real
 
 
 ---  
- #  SampleTimeOffset : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SampleTimeOffset : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Sample time offset from now.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SampleTimeOffset : Real
 
 
@@ -401,135 +401,135 @@
  #  SerializationMode : [SerializationMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#serializationmode)
 
 > Serialization mode.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SerializationMode : SerializationMode
 
 
 ---  
- #  SnapThresholdDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  SnapThresholdDoubleInteger : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdDoubleInteger : DoubleInteger
 
 
 ---  
- #  SnapThresholdDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doublereal.markdown)
+ #  SnapThresholdDoubleReal : [doublereal](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doublereal.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdDoubleReal : DoubleReal
 
 
 ---  
- #  SnapThresholdInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  SnapThresholdInteger : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdInteger : Integer
 
 
 ---  
- #  SnapThresholdInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer2.markdown)
+ #  SnapThresholdInteger2 : [integer2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdInteger2 : Integer2
 
 
 ---  
- #  SnapThresholdInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer3.markdown)
+ #  SnapThresholdInteger3 : [integer3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdInteger3 : Integer3
 
 
 ---  
- #  SnapThresholdInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer4.markdown)
+ #  SnapThresholdInteger4 : [integer4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdInteger4 : Integer4
 
 
 ---  
- #  SnapThresholdQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/quaternion.markdown)
+ #  SnapThresholdQuaternion : [quaternion](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/quaternion.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdQuaternion : Quaternion
 
 
 ---  
- #  SnapThresholdReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  SnapThresholdReal : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdReal : Real
 
 
 ---  
- #  SnapThresholdReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real2.markdown)
+ #  SnapThresholdReal2 : [real2](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real2.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdReal2 : Real2
 
 
 ---  
- #  SnapThresholdReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  SnapThresholdReal3 : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdReal3 : Real3
 
 
 ---  
- #  SnapThresholdReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real4.markdown)
+ #  SnapThresholdReal4 : [real4](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real4.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SnapThresholdReal4 : Real4
 
 
 ---  
- #  UseConvergence : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseConvergence : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Use convergence?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseConvergence : Boolean
 
 
 ---  
- #  UseDeltaThreshold : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseDeltaThreshold : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Use delta threshold?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseDeltaThreshold : Boolean
 
 
 ---  
- #  UseHalfFloats : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseHalfFloats : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Use half floats?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseHalfFloats : Boolean
 
 
 ---  
- #  UseInterpolation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseInterpolation : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Use interpolation?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseInterpolation : Boolean
 
 
 ---  
- #  UseQuantization : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  UseQuantization : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Use quantization?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var UseQuantization : Boolean
 
 

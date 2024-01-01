@@ -18,7 +18,7 @@
  `read-only`
 
 > Network game session.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GameSession : GameSession
 
 

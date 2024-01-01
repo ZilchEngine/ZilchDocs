@@ -12,12 +12,12 @@
 
 
 ---  
- #  JoystickCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  JoystickCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Get the number of joysticks.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var JoystickCount : Integer
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Joysticks : JoystickRange
 
 

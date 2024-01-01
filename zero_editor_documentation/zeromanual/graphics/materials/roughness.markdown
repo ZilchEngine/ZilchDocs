@@ -15,7 +15,7 @@ Roughness may be set using a value or a texture map. If a value is used it is ap
 
  ##  Roughness Value
 
-When the RoughnessValue fragment is applied, the roughness value specified will be applied uniformly across the surface of the Material. To add a RoughnessValue fragment, click on the the `Add ZilchFragment` button in the Material Properties window and select `RoughnessValue`, as seen below:
+When the RoughnessValue fragment is applied, the roughness value specified will be applied uniformly across the surface of the Material. To add a RoughnessValue fragment, click on the the `Add NadaFragment` button in the Material Properties window and select `RoughnessValue`, as seen below:
 
 
 

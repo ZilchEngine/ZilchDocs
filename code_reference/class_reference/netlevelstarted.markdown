@@ -20,17 +20,17 @@
  `read-only`
 
 > Network game session.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var GameSession : GameSession
 
 
 ---  
- #  LevelName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  LevelName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > Current level name.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LevelName : String
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Network space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Space : Space
 
 

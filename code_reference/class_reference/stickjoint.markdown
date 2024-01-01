@@ -17,42 +17,42 @@
 
 
 ---  
- #  Length : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Length : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The desired length between the anchor points of object A and B.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Length : Real
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalPointA : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The local point of the anchor on object A . 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalPointA : Real3
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  LocalPointB : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The local point of the anchor on object B . 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var LocalPointB : Real3
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldPointA : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The position of the anchor on object A given a position in world space 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldPointA : Real3
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldPointB : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The position of the anchor on object B given a position in world space 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldPointB : Real3
 
 
@@ -66,8 +66,8 @@
 > Sets the position of the anchor on object A and B given a position in world space 
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |point|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SetWorldPoints(point : Real3)
 > ``` 
 
@@ -80,7 +80,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function StickJoint()
 > ``` 
 

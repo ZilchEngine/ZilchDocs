@@ -16,10 +16,10 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > If set to false, it will not receive input events.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Active : Boolean
 
 
@@ -29,25 +29,25 @@
  `read-only`
 
 > Needed?
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var EditingObject : Cog
 
 
 ---  
- #  ForwardEventsToChildren : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  ForwardEventsToChildren : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > You may want to manually forward the input events to specific children.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ForwardEventsToChildren : Boolean
 
 
 ---  
- #  MouseOver : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  MouseOver : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > Whether or not the mouse is currently over the gizmo.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MouseOver : Boolean
 
 
@@ -63,7 +63,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Gizmo()
 > ``` 
 

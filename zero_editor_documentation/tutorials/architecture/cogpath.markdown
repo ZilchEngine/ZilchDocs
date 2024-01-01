@@ -18,11 +18,11 @@ First we will make the ground and player objects.
  - [Remove component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [gravityeffect](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gravityeffect.markdown)
 
 - [Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `PlayerController`
+ - Create a NadaScript resource using the Component template template and name it `PlayerController`
 - Update `PlayerController` script to the following code block:
 
 ```name=PlayerController, lang=csharp
-class PlayerController : ZilchComponent
+class PlayerController : NadaComponent
 {
   [Property]
   var Speed : Real = 5.0;
@@ -71,11 +71,11 @@ class PlayerController : ZilchComponent
  # The Follower
 
 - [Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `FollowerController`
+ - Create a NadaScript resource using the Component template template and name it `FollowerController`
 - Update `FollowerController` script to the following code block:
 
 ```name=FollowerController, lang=csharp
-class FollowerController : ZilchComponent
+class FollowerController : NadaComponent
 {
   [Property]
   var PlayerCogPath : CogPath = CogPath();
@@ -99,7 +99,7 @@ class FollowerController : ZilchComponent
 
 In the script above the position of the player and the position of the follower are used to calculate a unit vector which defines the 3D direction from the follower to the player. By multiplying it with `this.Speed` a velocity is defined which can be applyed to move the follower object.
 
-(NOTE)**Initializing a CogPath Property**: Notice that a CogPath constructor was acutally called in the definition of the `PlayerCogPath` property. CogPath's are one of the few types that require a manual construction where as Zilch value types can have their initial value infered: i.e. `var MemberVariable : Real;` in this case `MemberVariable` will have the default type value of `0`.
+(NOTE)**Initializing a CogPath Property**: Notice that a CogPath constructor was acutally called in the definition of the `PlayerCogPath` property. CogPath's are one of the few types that require a manual construction where as Nada value types can have their initial value infered: i.e. `var MemberVariable : Real;` in this case `MemberVariable` will have the default type value of `0`.
 
 - [Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - In the `name=Properties Window, icon=window-restore`

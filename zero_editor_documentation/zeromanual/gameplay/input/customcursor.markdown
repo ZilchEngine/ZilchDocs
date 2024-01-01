@@ -13,7 +13,7 @@ NOTE: **Recommended Reading** This section covers topics that may not have been 
 The first option involves making the Mouse Cursor invisible while not affecting any of its functionality. This has two easy-to-see benefits: it's quick to implement and all functionality is retained. 
 
 ```
-class HiddenMouseExample : ZilchComponent
+class HiddenMouseExample : NadaComponent
 {
      [Dependency]
      var Transform : Transform;
@@ -28,7 +28,7 @@ class HiddenMouseExample : ZilchComponent
 ```
 
 
-This would be the start of a component attached to the object that will act as the Custom Cursor. After making sure the object has a [transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/class_reference/transform.markdown) Component using the Dependency [-](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/codereference/reference/transform.markdown) Component using the Dependency [attributes](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/attributes.markdown), it then sets the Mouse Cursor to be invisible. The final part of the code-block connects to the MouseMove event, which is fleshed out in the following code-block: 
+This would be the start of a component attached to the object that will act as the Custom Cursor. After making sure the object has a [transform](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/class_reference/transform.markdown) Component using the Dependency [-](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/codereference/reference/transform.markdown) Component using the Dependency [attributes](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/attributes.markdown), it then sets the Mouse Cursor to be invisible. The final part of the code-block connects to the MouseMove event, which is fleshed out in the following code-block: 
 
 ```
     // continued from above
@@ -65,7 +65,7 @@ It would also be possible to set the Mouse invisible from the LogicUpdate event,
 A second option, rather than hiding the Mouse, is to lock it to the center of the screen. It helps to solve the issue of the the Mouse staying within the the Game boundaries but also comes with its own set of problems. 
 
 ```
-class LockedMouseExample : ZilchComponent
+class LockedMouseExample : NadaComponent
 {
     // An Archetype of the Custom Cursor Object
     [Property] var CursorArchetype : Archetype;
@@ -111,7 +111,7 @@ class LockedMouseExample : ZilchComponent
 
 Just from the initial setup it becomes obvious that this method is much more complex than simply making the Mouse invisible and having an Object follow it, but it also offers benefits.
 
-NOTE: **Get-Sets** In order to reduce the amount of repetitive typing, a number of `getters` have been used to hold references to other functions. For further explanation of get-sets, see [Get-Sets](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/properties.markdown).
+NOTE: **Get-Sets** In order to reduce the amount of repetitive typing, a number of `getters` have been used to hold references to other functions. For further explanation of get-sets, see [Get-Sets](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/properties.markdown).
 
 When this component is attached to the current level's [LevelSettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/architecture/objects/levelsettings.markdown)  object, it will create an Object in a new  [Space](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/class_reference/space.markdown)  that is built on top of the GameSpace. This object allows it to function properly in a 3D game. As the getters have defined most of the variables, much of the script is ready to be used. 
 
@@ -177,7 +177,7 @@ Below is an example of this script attached to the `LevelSettings` object of an 
  # Related Materials
  ## Manual
 - [Mouse Input](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation.markdown)
-- [Getters and Setters](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/properties.markdown)
+- [Getters and Setters](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/properties.markdown)
 - {icon university}[[zero_engine_documentation/zero_editor_documentation/ZeroManual/Graphics/CamerasViewportsRenderers/|Cameras, Viewports and Renderers]]
 
  ## Code Reference

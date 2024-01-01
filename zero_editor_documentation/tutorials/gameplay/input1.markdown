@@ -10,7 +10,7 @@ This lesson covers how to handle basic keyboard input in Zero Engine.
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `CharacterLogic`
+ - Create a NadaScript resource using the Component template template and name it `CharacterLogic`
 - [Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Character`
@@ -23,7 +23,7 @@ A critical part of making a game is to allow the user to interact with it. The s
  - Update the `CharacterLogic` script to the following code block:
 
 ```lang=csharp, name=Keyboard Input
-class CharacterLogic : ZilchComponent
+class CharacterLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -69,7 +69,7 @@ Here are all Keyboard functions:
 | [KeyIsReleased](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisreleased-zero-engin) | Checks whether a given key was released this frame |
 
 (NOTE) **Enumerations** - 
-An enumeration (or enum) is a data type that groups items assigning each a unique name under the enumerated list. Items can be referenced by accessing the type followed by a `.` and the name of the desired item (i.e. [Keys.Space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#keys) or Colors.Red). You can read more on enumerations [ here ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/enums.markdown).
+An enumeration (or enum) is a data type that groups items assigning each a unique name under the enumerated list. Items can be referenced by accessing the type followed by a `.` and the name of the desired item (i.e. [Keys.Space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#keys) or Colors.Red). You can read more on enumerations [ here ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/enums.markdown).
 
  # Dynamic Character Controller
 
@@ -140,7 +140,7 @@ function OnLogicUpdate(event : UpdateEvent)
 - [RigidBody](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/physics/rigidbody.markdown)
 - [Colliders](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/physics/colliders.markdown)
 - [KeyboardInput](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/gameplay/input/keyboardinput.markdown)
-- [ Enumerations ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/enums.markdown)
+- [ Enumerations ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/enums.markdown)
 - [Create a New 2D Project](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
 - [CreateSprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
 - [Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)

@@ -25,7 +25,7 @@ SoundInstances are created at runtime whenever a SoundCue is played, and can the
 
  # [SoundListener ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundlistener.markdown)
 
-The SoundListener component “hears” all positional audio in a SoundSpace.
+The SoundListener component ï¿½hearsï¿½ all positional audio in a SoundSpace.
 
  # [SoundSpace ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundspace.markdown)
 
@@ -33,7 +33,7 @@ The SoundSpace keeps sounds separate from other Spaces and allows the user to co
 
  # [SoundTag ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundtag.markdown)
 
-SoundTags are resources that allow users to pause, resume, and stop a group of SoundInstances; control their volume, EQ, and compression; and get a list of tagged SoundInstances to change other properties in ZilchScripts.
+SoundTags are resources that allow users to pause, resume, and stop a group of SoundInstances; control their volume, EQ, and compression; and get a list of tagged SoundInstances to change other properties in NadaScripts.
 
  # [Volume Meter ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/volume_meter.markdown)
 
@@ -41,7 +41,7 @@ The Volume Meter tool allows the user to monitor and change the audio system vol
 
  # [SoundNode ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundnode.markdown)
 
-SoundNodes are the underlying objects which create and modify all audio in the Zero Engine. Many types of SoundNodes can only be created and added to the node graph in ZilchScripts.
+SoundNodes are the underlying objects which create and modify all audio in the Zero Engine. Many types of SoundNodes can only be created and added to the node graph in NadaScripts.
 
  # [SoundNode Graph ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundnode_graph.markdown)
 

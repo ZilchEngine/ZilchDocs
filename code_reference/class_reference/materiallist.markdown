@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |material|[material](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/material.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Add(material : Material)
 > ``` 
 
@@ -32,7 +32,7 @@
 > Range of all resources in the list.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function All() : ArrayHandleOfMaterial
 > ``` 
 
@@ -44,7 +44,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |material|[material](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/material.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Remove(material : Material)
 > ``` 
 

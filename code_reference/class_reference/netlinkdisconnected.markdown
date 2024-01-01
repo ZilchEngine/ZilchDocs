@@ -22,7 +22,7 @@
  `read-only`
 
 > Transmission direction.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Direction : TransmissionDirection
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > Disconnect reason.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var DisconnectReason : DisconnectReason
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > Bundled request event data.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var RequestBundle : EventBundle
 
 
@@ -52,17 +52,17 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirIpAddress : IpAddress
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TheirNetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TheirNetPeerId : Integer
 
 

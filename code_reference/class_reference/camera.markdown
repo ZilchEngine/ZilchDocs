@@ -26,31 +26,31 @@
  `read-only`
 
 > The object that has a CameraViewport component using this Camera, if any.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CameraViewportCog : Cog
 
 
 ---  
- #  FarPlane : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FarPlane : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The far clipping plane, always positive and in the view direction.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FarPlane : Real
 
 
 ---  
- #  FieldOfView : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  FieldOfView : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The vertical field of view of the Camera, in degrees. Horizontal fov derived from aspect ratio (Hor+).
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FieldOfView : Real
 
 
 ---  
- #  NearPlane : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  NearPlane : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The near clipping plane, always positive and in the view direction.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NearPlane : Real
 
 
@@ -58,45 +58,45 @@
  #  PerspectiveMode : [PerspectiveMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#perspectivemode)
 
 > How the scene is projected on to the view plane.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var PerspectiveMode : PerspectiveMode
 
 
 ---  
- #  Size : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  Size : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Size (width and height) of the orthographic projection, in world units.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Size : Real
 
 
 ---  
- #  WorldDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldDirection : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > Direction the Camera is facing, in world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldDirection : Real3
 
 
 ---  
- #  WorldTranslation : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldTranslation : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > Translation of the Camera, in world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldTranslation : Real3
 
 
 ---  
- #  WorldUp : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real3.markdown)
+ #  WorldUp : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
  `read-only`
 
 > The upright direction of the Camera(perpendicular to facing direction), in world space.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var WorldUp : Real3
 
 
@@ -112,7 +112,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Camera()
 > ``` 
 
@@ -123,8 +123,8 @@
 > Creates a frustum using the Camera's settings along with the given aspect ratio.
 > |Name|Type|Description|
 > |---|---|---|
-> |aspect|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |aspect|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetFrustum(aspect : Real) : Frustum
 > ``` 
 

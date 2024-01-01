@@ -23,106 +23,106 @@
 
 
 ---  
- #  Cancel : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Cancel : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Cancel : Boolean
 
 
 ---  
- #  ContentDisposition : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  ContentDisposition : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ContentDisposition : String
 
 
 ---  
- #  CurrentSpeed : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  CurrentSpeed : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CurrentSpeed : DoubleInteger
 
 
 ---  
- #  FilePath : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  FilePath : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FilePath : String
 
 
 ---  
- #  Id : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Id : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Id : Integer
 
 
 ---  
- #  IsComplete : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsComplete : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsComplete : Boolean
 
 
 ---  
- #  IsInProgress : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  IsInProgress : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var IsInProgress : Boolean
 
 
 ---  
- #  MimeType : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  MimeType : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MimeType : String
 
 
 ---  
- #  OriginalUrl : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  OriginalUrl : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OriginalUrl : String
 
 
 ---  
- #  ReceivedBytes : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  ReceivedBytes : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ReceivedBytes : DoubleInteger
 
 
 ---  
- #  SuggestedFileName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  SuggestedFileName : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SuggestedFileName : String
 
 
 ---  
- #  TotalBytes : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/doubleinteger.markdown)
+ #  TotalBytes : [doubleinteger](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TotalBytes : DoubleInteger
 
 
 ---  
- #  Url : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Url : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Url : String
 
 

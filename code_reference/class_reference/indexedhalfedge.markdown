@@ -11,32 +11,32 @@
 
 
 ---  
- #  FaceIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  FaceIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var FaceIndex : Integer
 
 
 ---  
- #  TwinIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  TwinIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var TwinIndex : Integer
 
 
 ---  
- #  VertexIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  VertexIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var VertexIndex : Integer
 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IndexedHalfEdge()
 > ``` 
 
@@ -66,7 +66,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedge](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function IndexedHalfEdge(p0 : IndexedHalfEdge)
 > ``` 
 

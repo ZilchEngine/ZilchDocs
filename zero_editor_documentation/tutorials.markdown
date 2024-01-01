@@ -14,7 +14,7 @@ Check out the tutorials below to find out what topics they cover and how each on
 How to use the tabs, windows, and commands of the Zero Editor.
 
  ##  [Scripting](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/scripting.markdown)
-Scripting using Zilch in the Zero Engine.
+Scripting using Nada in the Zero Engine.
 
  ##  [ Architecture ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/architecture.markdown)
 Explore the Zero Engine's architecture and learn how to build your games better.

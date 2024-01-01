@@ -14,12 +14,12 @@
 
 
 ---  
- #  Component : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Component : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Component : String
 
 
@@ -27,7 +27,7 @@
  #  NetChannelConfig : [netchannelconfig](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/netchannelconfig.markdown)
 
 > Network channel configuration resource.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetChannelConfig : NetChannelConfig
 
 
@@ -35,17 +35,17 @@
  #  NetPropertyConfig : [netpropertyconfig](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown)
 
 > Network property configuration resource.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetPropertyConfig : NetPropertyConfig
 
 
 ---  
- #  Property : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  Property : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Property : String
 
 

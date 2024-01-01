@@ -17,7 +17,7 @@
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateTransform](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/command_reference.markdown#createtransform)
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `NumberGenerator`
+ - Create a NadaScript resource using the Component template template and name it `NumberGenerator`
 - [ Select](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Transform object
 - In the `Properties Window`
  - [ Add Component](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ RandomContext](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown)
@@ -38,7 +38,7 @@ RandomContext is a component for creating unique scenarios, such as when a rando
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
 ```lang=csharp, name="NumberGenerator Script"
-class RandomGenerator : ZilchComponent
+class RandomGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
 
@@ -68,14 +68,14 @@ Notice how a random positive integer is returned.
  #  Using the Modulo Operator
 
 
-[Modulo](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/operators_precedence_chart.markdown) is represented by the `%` operator. Using modulo returns the remainder when a number is divided by another number.
+[Modulo](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/operators_precedence_chart.markdown) is represented by the `%` operator. Using modulo returns the remainder when a number is divided by another number.
 
 
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
 
 ```lang=csharp, name="NumberGenerator Script"
-class RandomGenerator : ZilchComponent
+class RandomGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
     
@@ -112,13 +112,13 @@ Notice how the random integer given is then divided by various powers of 10 and 
  #  Using Range
 
 
-[Range](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown#range-zero-engine-docume) is a function that returns a [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown) number between the lower number given (inclusive) and the higher number (exclusive).
+[Range](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown#range-zero-engine-docume) is a function that returns a [Real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown) number between the lower number given (inclusive) and the higher number (exclusive).
 
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
 
 ```lang=csharp, name="NumberGenerator Script"
-class NumberGenerator : ZilchComponent
+class NumberGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
   
@@ -169,7 +169,7 @@ This is accomplished in code by setting a [Seed](https://github.com/zeroenginete
  - Update the `NumberGenerator` class to the following:
 
 ```lang=csharp, name="NumberGenerator Script"
-class NumberGenerator : ZilchComponent
+class NumberGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
   
@@ -252,7 +252,7 @@ Seeding is important in many different video games to recreate previous experien
 [DieRoll](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown#dieroll) is a simple function that returns an integer between 1 and a specified number of sides. It is intended for novice users, as it functions the same as the [ Range](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/randomcontext.markdown#range) function, except that:
 - The value returned is inclusive of the maximum value
 - The lowest value possible is `1` instead of `0`
-- The value returned is an [ Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown) rather than a Real that must be [cast into an Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/casting.markdown)
+- The value returned is an [ Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown) rather than a Real that must be [cast into an Integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/casting.markdown)
 
 
  ##  Coin Flip
@@ -267,10 +267,10 @@ Seeding is important in many different video games to recreate previous experien
 - [resourceadding](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
 - [selectobject](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown)
 - [addremovecomponent](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
-- [zilch_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero.markdown)
-- [operators_precedence_chart](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/operators_precedence_chart.markdown)
-- [variables_and_data_types](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/variables_and_data_types.markdown)
-- [casting](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/zilch_in_zero/casting.markdown)
+- [nada_in_zero](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [operators_precedence_chart](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/operators_precedence_chart.markdown)
+- [variables_and_data_types](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/variables_and_data_types.markdown)
+- [casting](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/casting.markdown)
 
  ##  Reference
  ###  Commands

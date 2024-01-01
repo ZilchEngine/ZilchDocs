@@ -14,7 +14,7 @@
  #  SoundTag : [soundtag](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundtag.markdown)
 
 > This SoundTag will be added to all SoundInstances created by the SoundCue.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var SoundTag : SoundTag
 
 

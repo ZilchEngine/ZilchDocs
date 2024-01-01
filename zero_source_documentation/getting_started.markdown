@@ -1,8 +1,8 @@
 Before diving into Zero Source, it is important to become familiar with Zero itself as a game engine. Please visit [getting_started](https://github.com/zeroengineteam/ZeroDocs/blob/master/getting_started.markdown).
 
-For more information specifically about the Zilch C++ API, visit:
+For more information specifically about the Nada C++ API, visit:
 
- - [zilch.digipen.edu ](http://zilch.digipen.edu )
+ - [nada.digipen.edu ](http://nada.digipen.edu )
 
 Requirements
 ------------

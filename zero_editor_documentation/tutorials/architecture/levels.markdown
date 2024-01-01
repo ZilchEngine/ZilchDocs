@@ -73,11 +73,11 @@ Zero's built-in Level templates are like shortcuts for creating levels of differ
 There's no sense in having a level if there's no player, eh?
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `KeyboardMovement`
+ - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update the `KeyboardMovement` script to the following:
 
 ```lang=csharp, name="KeyboardMovement"
-class KeyboardMovement : ZilchComponent
+class KeyboardMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
   
@@ -191,11 +191,11 @@ Now let's make some way of going between Level 1 and Level 2.
 Going from one level to another is as simple as calling the [ space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/space.markdown)'s LoadLevel function. Let's make a door: an object that calls that function when the player touches it.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `LoadLevelOnCollisionStarted`
+ - Create a NadaScript resource using the Component template template and name it `LoadLevelOnCollisionStarted`
 - Update the `LoadLevelOnCollisionStarted` script to the following:
 
 ```lang=csharp, name="LoadLevelOnCollisionStarted"
-class LoadLevelOnCollisionStarted : ZilchComponent
+class LoadLevelOnCollisionStarted : NadaComponent
 {
   [Property]
   var LevelToLoad : Level;
@@ -276,11 +276,11 @@ If you move the player to the door, the other level is loaded.
 Just as the space has a function to load a level, it also has a function to reload the current level.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `ReloadLevelOnKeyDown`
+ - Create a NadaScript resource using the Component template template and name it `ReloadLevelOnKeyDown`
 - Update the `ReloadLevelOnKeyDown` script to the following:
 
 ```lang=csharp, name="ReloadLevelOnKeyDown"
-class ReloadLevelOnKeyDown : ZilchComponent
+class ReloadLevelOnKeyDown : NadaComponent
 {
   function Initialize(init : CogInitializer)
   {
@@ -384,11 +384,11 @@ Next, we need a component to load Level 1 from the title screen.
 
 - Open the Level resource named `TitleScreen`
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `LoadLevelOnKeyDown`
+ - Create a NadaScript resource using the Component template template and name it `LoadLevelOnKeyDown`
 - Update the `LoadLevelOnKeyDown` script to the following:
 
 ```lang=csharp, name="LoadLevelOnKeyDown"
-class LoadLevelOnKeyDown : ZilchComponent
+class LoadLevelOnKeyDown : NadaComponent
 {
   [Property]
   var LevelToLoad : Level = Level.Level1;

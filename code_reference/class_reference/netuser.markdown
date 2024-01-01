@@ -17,42 +17,42 @@
 
 
 ---  
- #  AddedByMyPeer : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddedByMyPeer : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
  `read-only`
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var AddedByMyPeer : Boolean
 
 
 ---  
- #  NetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  NetPeerId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Adding network peer identifier.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetPeerId : Integer
 
 
 ---  
- #  NetUserId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  NetUserId : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Network user identifier.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var NetUserId : Integer
 
 
 ---  
- #  OwnedNetObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  OwnedNetObjectCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > Returns the number of net objects owned by this user in all spaces.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OwnedNetObjectCount : Integer
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > Returns all net objects owned by this user in all spaces.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var OwnedNetObjects : CogHashSetRange
 
 
@@ -71,13 +71,13 @@
 
 
 ---  
- #  AddedByPeer : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddedByPeer : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns true if the user was added by the specified peer, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |netPeerId|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function AddedByPeer(netPeerId : Integer) : Boolean
 > ``` 
 
@@ -88,8 +88,8 @@
 > Finds a net object with the given name owned by this user in any space, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function FindOwnedNetObjectByName(name : String) : Cog
 > ``` 
 
@@ -100,9 +100,9 @@
 > Finds a net object with the given name owned by this user in the specified space, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |name|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |space|[space](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/space.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function FindOwnedNetObjectByNameInSpace(name : String, space : Space) : Cog
 > ``` 
 
@@ -115,7 +115,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function NetUser()
 > ``` 
 
@@ -126,7 +126,7 @@
 > [Server/Offline] Releases ownership of all net objects owned by this user in all spaces.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ReleaseOwnedNetObjects()
 > ``` 
 

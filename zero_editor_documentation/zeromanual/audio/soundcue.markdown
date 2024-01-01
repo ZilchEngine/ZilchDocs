@@ -12,7 +12,7 @@
 
 ![SoundCue1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47918.png)
 
-If a SoundCue has multiple Sounds attached it can either randomly select which Sound to use each time it is played or it can play them sequentially. Each time a SoundCue is played it creates a new [SoundInstance ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown), which can then be accessed in ZilchScripts to control the sound as it's playing. Changing properties on the SoundInstance does not affect the properties on the SoundCue.
+If a SoundCue has multiple Sounds attached it can either randomly select which Sound to use each time it is played or it can play them sequentially. Each time a SoundCue is played it creates a new [SoundInstance ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown), which can then be accessed in NadaScripts to control the sound as it's playing. Changing properties on the SoundInstance does not affect the properties on the SoundCue.
 
  ## Volume Settings
 
@@ -42,7 +42,7 @@ If a [SoundAttenuator ](https://github.com/zeroengineteam/ZeroDocs/blob/master/z
 
 If the ShowMusicOptions checkBox box is checked, fields will be shown for setting the speed and time signature of a music file. The two numbers in the time signature tell how many beats are in each measure of music and what type of note has the beat. For instance, a time signature of 4/4 has four quarter note beats per measure, and 3/8 has three eighth note beats. 
 
-If all three of the fields are set to values other than zero, whenever the SoundCue is played the resulting SoundInstance will send Zilch events for every bar, beat, whole note, half note, quarter note, and eighth note (see the [SoundInstance ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown) page for more details). 
+If all three of the fields are set to values other than zero, whenever the SoundCue is played the resulting SoundInstance will send Nada events for every bar, beat, whole note, half note, quarter note, and eighth note (see the [SoundInstance ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown) page for more details). 
 
  ## SoundEntries 
 
@@ -56,7 +56,7 @@ Each [ SoundEntry ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_
 
 Every [ SoundTag ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundtag.markdown) in the list of SoundTagEntries will be applied to the resulting SoundInstance whenever a SoundCue is played. SoundTags allow the user to control SoundInstances as a group. See the [SoundTag ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundtag.markdown) page for more information.
 
- ##  Zilch Events
+ ##  Nada Events
 
 - The `SoundCuePrePlay` [ SoundInstanceEvent  ](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundinstanceevent.markdown) is sent just before a SoundInstance is played. 
 - The `SoundCuePostPlay` SoundInstanceEvent is sent immediately afterward. 

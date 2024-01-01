@@ -111,12 +111,12 @@ Looking at the [Sprite](https://github.com/zeroengineteam/ZeroDocs/blob/master/c
 Let's add a component that lets us control the animation.
 
 - [ Command](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
- - Create a ZilchScript resource using the Component template template and name it `PlayerAnimationController`
+ - Create a NadaScript resource using the Component template template and name it `PlayerAnimationController`
 - In the `PlayerAnimationController` script
  - Update the `PlayerAnimationController` class to the following:
 
 ```lang=csharp, name="PlayerAnimationController"
-class PlayerAnimationController : ZilchComponent
+class PlayerAnimationController : NadaComponent
 {
   [Dependency] var Sprite : Sprite;
   

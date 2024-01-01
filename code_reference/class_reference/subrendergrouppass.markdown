@@ -26,7 +26,7 @@
 > |subSettings|[rendersettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendersettings.markdown)| |
 > |subGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
 > |subPass|[materialblock](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/materialblock.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddSubSettings(subSettings : RenderSettings, subGroup : RenderGroup, subPass : MaterialBlock)
 > ``` 
 
@@ -38,7 +38,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |subGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ExcludeSubRenderGroup(subGroup : RenderGroup)
 > ``` 
 
@@ -50,7 +50,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |baseRenderGroup|[rendergroup](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendergroup.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Reset(baseRenderGroup : RenderGroup)
 > ``` 
 
@@ -63,7 +63,7 @@
 > |---|---|---|
 > |defaultSettings|[rendersettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/rendersettings.markdown)| |
 > |defaultPass|[materialblock](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/materialblock.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function SetDefaultSettings(defaultSettings : RenderSettings, defaultPass : MaterialBlock)
 > ``` 
 

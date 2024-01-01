@@ -35,33 +35,33 @@
  `read-only`
 
 > Range to iterate over all entries.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var All : ResourceTableEntryRange
 
 
 ---  
- #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  Count : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
 > How many items are stored in the table.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var Count : Integer
 
 
 ---  
- #  MaxWeight : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)
+ #  MaxWeight : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The maximum probability weight value that can be stored in the table. Setting this will clamp all weight values.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var MaxWeight : Real
 
 
 ---  
- #  ResourceType : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)
+ #  ResourceType : [string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > The kind of resource contained in this table. This is either a resource type or "String".
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ResourceType : String
 
 
@@ -76,31 +76,31 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddOrError(entry : ResourceTableEntry)
 > ``` 
 
 
 ---  
- #  AddOrIgnore : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddOrIgnore : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Add the given entry. If another entry with the same name exists then no operation is performed.
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddOrIgnore(entry : ResourceTableEntry) : Boolean
 > ``` 
 
 
 ---  
- #  AddOrOverwrite : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  AddOrOverwrite : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Add the given entry. If another entry with the same name exists then it is overwritten.
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function AddOrOverwrite(entry : ResourceTableEntry) : Boolean
 > ``` 
 
@@ -111,19 +111,19 @@
 > Clear all items in the table.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Clear()
 > ``` 
 
 
 ---  
- #  Contains : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  Contains : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Returns if the given key is contained.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Contains(key : String) : Boolean
 > ``` 
 
@@ -136,7 +136,7 @@
 > Creates a ResourceTable for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function CreateRuntime() : ResourceTable
 > ``` 
 
@@ -147,7 +147,7 @@
 > Force rebuild the weighted probability table.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function ForceRebuild()
 > ``` 
 
@@ -158,8 +158,8 @@
 > Access an item at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(index : Integer) : ResourceTableEntry
 > ``` 
 
@@ -171,7 +171,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Get(entry : ResourceTableEntry) : ResourceTableEntry
 > ``` 
 
@@ -182,8 +182,8 @@
 > Hash-Map interface. Gets via the provided key.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Get(key : String) : ResourceTableEntry
 > ``` 
 
@@ -194,9 +194,9 @@
 > Returns the entry associated with the given key. If no entry matches the key then the provided default is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |defaultValue|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function GetOrDefault(key : String, defaultValue : ResourceTableEntry) : ResourceTableEntry
 > ``` 
 
@@ -207,8 +207,8 @@
 > Returns the entry associated with the given key. If no entry matches the key then an exception is thrown.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetOrError(key : String) : ResourceTableEntry
 > ``` 
 
@@ -219,8 +219,8 @@
 > Returns the entry associated with the given key. If no entry matches then null is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function GetOrNull(key : String) : ResourceTableEntry
 > ``` 
 
@@ -231,8 +231,8 @@
 > Removes the item at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -243,20 +243,20 @@
 > Removes the entry associated with the given key. If no entry matches an exception is thrown.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveOrError(key : String)
 > ``` 
 
 
 ---  
- #  RemoveOrIgnore : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/boolean.markdown)
+ #  RemoveOrIgnore : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Removes the entry associated with the given key. If no entry matches then no operation is performed.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
+> ``` lang=cpp, name=Nada
 > function RemoveOrIgnore(key : String) : Boolean
 > ``` 
 
@@ -267,7 +267,7 @@
 > Creates a clone of this table for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function RuntimeClone() : ResourceTable
 > ``` 
 
@@ -278,22 +278,22 @@
 > Samples the table to return a random entry. Takes two (different) random floats from [0,1) in order to sample. Returns an empty string if the table is empty.
 > |Name|Type|Description|
 > |---|---|---|
-> |random1|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |random2|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |random1|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |random2|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function Sample(random1 : Real, random2 : Real) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  SampleIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)
+ #  SampleIndex : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Samples the table to return a random index into the table. Takes two (different) random floats from [0,1) in order to sample.
 > |Name|Type|Description|
 > |---|---|---|
-> |random1|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> |random2|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/real.markdown)| |
-> ``` lang=cpp, name=Zilch
+> |random1|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |random2|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> ``` lang=cpp, name=Nada
 > function SampleIndex(random1 : Real, random2 : Real) : Integer
 > ``` 
 
@@ -304,9 +304,9 @@
 > Access an item at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/integer.markdown)| |
+> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(index : Integer, entry : ResourceTableEntry)
 > ``` 
 
@@ -318,7 +318,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(entry : ResourceTableEntry)
 > ``` 
 
@@ -329,9 +329,9 @@
 > Hash-Map interface. Sets via the provided key.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/zilch_base_types/string.markdown)| |
+> |key|[string](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/string.markdown)| |
 > |entry|[resourcetableentry](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown)| |
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > function Set(key : String, entry : ResourceTableEntry)
 > ``` 
 

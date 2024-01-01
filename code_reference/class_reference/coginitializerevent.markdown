@@ -14,7 +14,7 @@
  #  CogInitializer : [coginitializer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/coginitializer.markdown)
 
 > 
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var CogInitializer : CogInitializer
 
 

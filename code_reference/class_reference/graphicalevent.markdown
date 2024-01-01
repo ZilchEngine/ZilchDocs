@@ -16,7 +16,7 @@
  #  ViewingObject : [cog](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/cog.markdown)
 
 > The viewing CameraViewport for EnterView/ExitView.
-> ``` lang=cpp, name=Zilch
+> ``` lang=cpp, name=Nada
 > var ViewingObject : Cog
 
 
