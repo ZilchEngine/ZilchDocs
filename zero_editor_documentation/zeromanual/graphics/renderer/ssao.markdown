@@ -21,7 +21,7 @@ While the Intensity  property has a direct influence on the shadow introduced in
 
 
 
-![SSAO_RadiusVsIntensity](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48206.gif)
+![SSAO_RadiusVsIntensity](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48206.gif)
 
 
  # Blur Depth
@@ -29,21 +29,21 @@ SSAO can introduce artifacts, so the ambient occlusion layer is blurred.  To see
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28587.png) *No BlurDepthThreshold *
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28587.png) *No BlurDepthThreshold *
 
 
 Horizontal patterns become noticeable from the shadow and the sphere has repeating dots introduced in ambient occlusion.  Here is the same sphere with a large blurring threshold:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28585.png) *BlurDepthThreshold  is too high*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28585.png) *BlurDepthThreshold  is too high*
 
 
 The artifacts are gone and the result looks far better, however the blur is too intense and has bled the AO shadow onto the surface of the sphere in an unrealistic way.  To avoid this, the blur should only occur at small changes in depth, which is determined by BlurDepthThreshold .  There's a fine range of thresholds that are large enough to avoid horizontal patterns, and small enough to avoid separating the shadow from the object.  A correct depth value can produce the following result:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28583.png) *BlurDepthThreshold  is just right*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28583.png) *BlurDepthThreshold  is just right*
 
 
  # Related Material

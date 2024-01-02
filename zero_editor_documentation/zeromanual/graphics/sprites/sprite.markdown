@@ -13,7 +13,7 @@ Sprites can be made in one of two ways. Typically they will be made by using [Co
 
 
 
-![SpriteProperties](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47784.png) *Sprite Component UI*
+![SpriteProperties](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47784.png) *Sprite Component UI*
 
 
  ## Adding a SpriteSource
@@ -23,7 +23,7 @@ It is possible to add SpriteSources of your own as well. By simply grabbing the 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/45986.png) *Adding a `SpriteSource`*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/45986.png) *Adding a `SpriteSource`*
 
 
 A window will open where the user may select the image or images to import, keeping the saved Resolution and Size. Once imported, these files can then be used to create single frame images or multi-frame animations using the [Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/sprites/spriteimporter.markdown).
@@ -33,7 +33,7 @@ After importing one's images, the next step is to change the SpriteSource resour
 
 
 
-![ChangeSpriteSource](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47786.png) *Changing `SpriteSources`*
+![ChangeSpriteSource](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47786.png) *Changing `SpriteSources`*
 
 
  ## Flipping Sprite Orientation
@@ -41,7 +41,7 @@ A quick and efficient way to change the sprite orientation is to use some combin
 
 
 
-![Flip](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47789.gif) *Flipping Sprite Orientation*
+![Flip](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47789.gif) *Flipping Sprite Orientation*
 
 
  ## Sprites As Animations

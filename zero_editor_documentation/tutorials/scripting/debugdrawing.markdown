@@ -78,7 +78,7 @@ Notice we use [FrameUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master
 
 
 
-![DebugLauncher](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98966.gif)
+![DebugLauncher](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98966.gif)
 
 
 NOTE: The yellow circle overlaying the cursor is added to the image by the screen-capture program after it is captured to indicate when the mouse button is down.
@@ -116,7 +116,7 @@ Calling our `DrawDebug` function every frame that the mouse is down allows our d
 
 
 
-![DebugLauncherDraw](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98968.gif)
+![DebugLauncherDraw](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98968.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -166,7 +166,7 @@ class DebugClock : NadaComponent
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98979.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98979.png)
 
 
 We can see the [DebugCircle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcircle.markdown) being drawn in the background now. Just like we set the color of the line we can set the color of the circle. 
@@ -276,11 +276,11 @@ function OnFrameUpdate(event : UpdateEvent)
 
 
 
-![Clock1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98981.gif)
+![Clock1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98981.gif)
 
 
 
-![Clock2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98983.gif)
+![Clock2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98983.gif)
 
 
 *Here we see the clock in motion at different point in it's cycle*
@@ -302,7 +302,7 @@ Now we know how to debug draw simple objects. Let's look at a more complicated b
 
 
 
-![VortexEffect](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/101956.gif)
+![VortexEffect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101956.gif)
 
 
 Here is an example of a built-in debug draw effect in action. You actually see debug drawing everytime you use and editor tool; PhysicsEffect components just offer a more complex example. In the case of the [VortexEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown) multiple [DebugArc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown) objects are drawn indicating the direction and speed of the vortex, while [DebugLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown) objects are used to show that the component is pulling objects into the vortex as opposed to throwing them out.

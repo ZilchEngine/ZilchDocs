@@ -2,7 +2,7 @@
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46383.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46383.png)
 
 
 There's two main differences between the PointGravityEffect and PointForceEffect. The first is whether a positive strength points inwards or outwards. PointGravityEffect points inwards with a positive strength while PointForceEffect points outwards. The other difference is whether the applied *force// is actually a force or an acceleration. PointGravityEffect applies an acceleration to objects, i.e. the resultant acceleration is independent of the object's mass. PointForceEffect applies a force to object, i.e. the object's mass is taken into account. The rest of this page will use //force* to refer to the acceleration or force depending on the effect type attached.
@@ -13,30 +13,30 @@ The center of a point force's effect is the object's translation by default. Thi
 The *force* applied to an object is always linear (no angular //force//) and is computed as an interpolation between the two strength values based upon the object's distance from the effect's center. This is best illustrated with some graphs.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46385.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46385.png)
 
 When the distance is less than {nav icon=pencil-square-o, name="MinDistance"}, the effect will always apply {nav icon=pencil-square-o, name="MinStrength"} as a constant *force// value. When in-between the min and max distance values, the //force* will be an interpolation between the min and max strength values. Linear interpolation is pictured above. 
 
 
-![QuadraticNoEffect](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46390.png)
+![QuadraticNoEffect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46390.png)
 
 Quadratic interpolation can also be used for smoother interpolation.
 
 
 
-![QuadraticNoEffect](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46390.png)
+![QuadraticNoEffect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46390.png)
 
 When the distance from the effect center is beyond {nav icon=pencil-square-o, name="MaxDistance"}, how the effect is computed is based upon the {nav icon=list, name="EndCondition"} property. The `NoEffect` value will not apply any *force* beyond {nav icon=pencil-square-o, name="MaxDistance"}.
 
 
 
-![QuadraticClampToMax](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46389.png)
+![QuadraticClampToMax](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46389.png)
 
 `ClampToMax` will always apply {nav icon=pencil-square-o, name="MaxStrength"} regardless of how far away the object is.
 
 
 
-![QuadraticContinueFalloff](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46392.png)
+![QuadraticContinueFalloff](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46392.png)
 
 `ContinueFalloff` will extrapolate the curve beyond {nav icon=pencil-square-o, name="MaxDistance"} using the interpolation method specified by {nav icon=list, name="InterpolationMode"}.
 

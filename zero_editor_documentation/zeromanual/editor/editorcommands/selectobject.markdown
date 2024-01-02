@@ -4,28 +4,28 @@ When an object is selected it allows you to perform extra functions on it, such 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47314.png) *Notice orange outline around selected object*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47314.png) *Notice orange outline around selected object*
 
 
 2. Search for the object by name in the Search Window
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47316.png) *Notice the term Cog is used to describe it*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47316.png) *Notice the term Cog is used to describe it*
 
 
 3. Click on the object in the Objects Window
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47318.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47318.png)
 
 
 When an object has recently been selected, you may also select it via the navigation bar in the Properties Window using the arrows or Recent button:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47320.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47320.png)
 
 
  # Selecting Multiple Objects
@@ -36,20 +36,20 @@ three different ways:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47322.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47322.png)
 
 
 2. Hold `Ctrl` and click on the objects individually in the Objects Window
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47324.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47324.png)
 
 
 3. Hold `Shift` and click on the first and last objects in a desired range in the Objects Window
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47326.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47326.png)
 
  
 

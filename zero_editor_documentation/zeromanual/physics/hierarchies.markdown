@@ -14,7 +14,7 @@ The next easiest tree to look at is one with only Colliders. As each Collider on
 The first interesting example is an object with a RigidBody at the root and Collider children.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46360.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46360.png)
 
 In this hierarchy, the root has a RigidBody and Collider which implies that the root has velocity and mass. The children just have Colliders which imply that they have collision and could contribute to mass. As a root in the hierarchy typically moves children with it, physics chooses to "attach" the child Colliders to the RigidBody, i.e. the entire hierarchy acts as one RigidBody with multiple collision shapes. Each Collider still retains the properties of its material, such as friction and restitution. If one Collider has a larger mass (from the density and volume) then the root RigidBody's total mass properties will reflect this.
 

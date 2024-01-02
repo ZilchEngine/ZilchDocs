@@ -2,7 +2,7 @@ The [PhysicsSolverConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/c
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47497.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47497.png)
 
 
 WARNING: If you don't understand the topic of constraints then you probably shouldn't change the properties of this resource.

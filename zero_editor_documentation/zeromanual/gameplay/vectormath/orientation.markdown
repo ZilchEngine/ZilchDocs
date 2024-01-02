@@ -5,14 +5,14 @@ The first step after attaching an Orientation component to an object is to confi
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47526.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47526.png)
 
 
 The cube has defined the `-Z` axis as its `LocalForward` and the `+Y` axis as its `LocalUp`. This means that its `LocalRight` is the `+X` axis. This can be changed to a number of common presets as scene in the next image.
 
 
 
-![5ad9c149-9f8f-4646-aacd-cf838d759c86](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47532.gif)
+![5ad9c149-9f8f-4646-aacd-cf838d759c86](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47532.gif)
 
 
 *The built in Orientation presets.*
@@ -22,7 +22,7 @@ Occasionally, an object's default rotation does not align with any World axis, m
 
 
 
-![ce0d6555-e050-4fc3-a535-86c2ae6a5826](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47534.gif)
+![ce0d6555-e050-4fc3-a535-86c2ae6a5826](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47534.gif)
 
 
 *Defining a custom Orientation Bases.*
@@ -32,7 +32,7 @@ The Orientation component calculates the WorldDirections from its LocalDirection
 
 
 
-![c4cd957d-06d4-4c28-b8d2-dd386755a1ef](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47530.gif) *When an Oriented object is rotated, its WorldDirections are rotated with it.*
+![c4cd957d-06d4-4c28-b8d2-dd386755a1ef](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47530.gif) *When an Oriented object is rotated, its WorldDirections are rotated with it.*
 
 
  # Using Orientation
@@ -74,7 +74,7 @@ class LookAtMouse : NadaComponent
 
 
 
-![5989cc9d-d580-41b2-ad47-5bd32e0f3ab9](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47538.gif)
+![5989cc9d-d580-41b2-ad47-5bd32e0f3ab9](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47538.gif)
 
 
 *P576 in rotating the object to face the mouse.*
@@ -154,7 +154,7 @@ In this example `LookAtDirectionwithUp()` was called with and up value of `(1, 0
 
 
 
-![c2dc9d51-7c44-4cf6-a894-5cada4944de7](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47575.gif)
+![c2dc9d51-7c44-4cf6-a894-5cada4944de7](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47575.gif)
 
 
  ## `GetLookAt...Rotation` Functions
@@ -209,14 +209,14 @@ class LookAtMouse : NadaComponent
 
 
 
-![test](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47595.gif)
+![test](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47595.gif)
 
 
 With the cube's `Rotation` being interpolated instead of directly set it is now possible to see the behavior that the flip of `WorldRight` will cause, and it is most often undesirable. However, this flip only occurs because `Up` is set to a value that the `WorldForward` aligns with and then crosses over.
 
 By setting the `Up` axis to be the intended axis of rotation (the world `Z` axis) the cube no longer flips, as the cube's `WorldForward` no longer crosses over the defined `Up` for the rotation.
 
-(WARNING)**Slow Interpolation Speeds**: A common mistake when using `GetLookAt` functions in combination with `Math.Slerp` is to set the interpolation speed to slow. In this case because the mouse has no digital limit on the speed of movement the target rotation of the cube can change much faster than the `InterpolationSpeed` allows the cube's `Rotation` to change. ![SlowInterpolationLookAt](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47597.gif) As shown, due to the normalized rotation values returned by `GetLookAtDirectionWithUpRotation` the cube never makes a full rotation despite the mouse making multiple full rotation around it.
+(WARNING)**Slow Interpolation Speeds**: A common mistake when using `GetLookAt` functions in combination with `Math.Slerp` is to set the interpolation speed to slow. In this case because the mouse has no digital limit on the speed of movement the target rotation of the cube can change much faster than the `InterpolationSpeed` allows the cube's `Rotation` to change. ![SlowInterpolationLookAt](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47597.gif) As shown, due to the normalized rotation values returned by `GetLookAtDirectionWithUpRotation` the cube never makes a full rotation despite the mouse making multiple full rotation around it.
 
  # Related Materials
  ## Code Reference

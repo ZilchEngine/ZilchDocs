@@ -148,7 +148,7 @@ Nada recognizes several different kinds of loops; this lesson will cover two of 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/89904.png) *Figure 1: the anatomy of a `while` loop*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89904.png) *Figure 1: the anatomy of a `while` loop*
 
 
 A **while loop** includes a *loop condition* and a //loop body//. The loop condition is a Boolean expression (that is, an expression that evaluates to a Boolean, regardless of the types it contains), and the loop body is zero or more statements.
@@ -249,7 +249,7 @@ The editor hangs for a few moments, and then an exception is thrown:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90198.png) //Figure 2: infinite loop timeout. The error message reads: //Exceeded the allowed execution time of 5 second(s). Use the `timeout` statement to increase allowed time
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90198.png) //Figure 2: infinite loop timeout. The error message reads: //Exceeded the allowed execution time of 5 second(s). Use the `timeout` statement to increase allowed time
 
 
 Since the `++multiplications` statement has been commented out, the `while` loop's loop condition will always be true. Such a loop is called an **infinite loop**, or an *unconditional* loop. This is generally undesireable behavior.
@@ -268,7 +268,7 @@ There is another kind of more specialized loop that builds some of these common 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/89906.png) *Figure 3: the anatomy of a `for` loop*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89906.png) *Figure 3: the anatomy of a `for` loop*
 
 
 A **for loop** contains a *loop condition// and a //loop body// just like a `while` loop, but it also has an //initialization statement* and an //update statement//. When a `for` loop is run...
@@ -483,7 +483,7 @@ There are two keywords that can be used to further control the execution flow th
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/89994.png) *Figure 4: program flow controlled by `continue`*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89994.png) *Figure 4: program flow controlled by `continue`*
 
 
 The `continue` statement jumps the program flow forward to the very end of the body of the current loop iteration (in a `for` loop, just before the update statement is executed). Nothing between the `continue` statement and the end of the loop body is executed. Effectively, it skips ahead to the next iteration.
@@ -549,7 +549,7 @@ The specified box is skipped, and the printed total reflects this.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/89999.png) *Figure 5: program flow controlled by `break`*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89999.png) *Figure 5: program flow controlled by `break`*
 
 
 The `break` statement *breaks* the looping flow of the program, skipping any remaining loop iterations, as well as any code remaining in the current iteration. Effectively, it leaves the loop altogether.

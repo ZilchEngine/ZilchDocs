@@ -90,7 +90,7 @@ class HUDManager : NadaComponent
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94416.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94416.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -119,7 +119,7 @@ Notice how the text from the HUDLevel Level resource is visible, but not the tex
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94418.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94418.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -267,7 +267,7 @@ This simple input component will allow us to use the meter to simulate the game 
 
 
 
-![MeterScale](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94422.gif)
+![MeterScale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94422.gif)
 
 
 Each time `Up` or `Down` is pressed, the `MeterUpdate` event is dispatched on the `HUDSpace`. The `Meter` component is listening to its space (this `HUDSpace`) for that event. So when it receives the event, the `ScaleMeter` function is invoked.

@@ -2,7 +2,7 @@ All [graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refere
 
 
 
-![GraphicalProperties](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66457.png)
+![GraphicalProperties](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66457.png)
 
 
  # ViewCulling
@@ -19,14 +19,14 @@ All graphical objects generate an axis-aligned bounding box (i.e. aabb) accordin
 
 
 
-![OverrideBoundingBox](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47714.png)
+![OverrideBoundingBox](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47714.png)
 
 
 Initially, the values of these two properties will be such that they do not change the bounding box from it's originally generated size. LocalAabbCenter  is set to `[0, 0, 0]` by default and any change in the value will offset the bounding box. For example, if the the value was changed to `[2, 5, 0]`, the bounding box would be offset 2 units in the positive x-axis and 5 units in the positive y-axis. LocalAabbHalfExtents  sets the x-, y-, and z-half extents, in local space, that define the size of the box. By default, it is set to `[1, 1, 1]`, which effectively doubles the size of the generated bounding box. The resulting bounding box is a direct result of the scale of the object multiplied with the half-extents. For an object scaled to `[3, 3, 3]` and LocalAabbHalfExtents  set to the `[2, 2, 2]`, the resulting bounding box will have a volume defined by the scale `[12, 12, 12]`, as each half-extent will be `6`.
 
 
 
-![ScaledBoundingBox](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66459.png)
+![ScaledBoundingBox](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66459.png)
 
 
  # GroupSortValue

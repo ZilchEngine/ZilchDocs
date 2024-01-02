@@ -16,7 +16,7 @@ A new NadaScript can be added by using the Add command [Command](https://github.
 
 
 
-![nadatemplates](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/841.png)
+![nadatemplates](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/841.png)
 
 
 The most commonly used template is `Component` and is therefore the default, however a NadaScript can also be used to create a custom Zero Command or Tool. 
@@ -69,7 +69,7 @@ The `[Command(autoRegister:true)]` will register the NadaScript so that it can b
 
 
 
-![command](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/842.png)
+![command](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/842.png)
 
 
 While Commands can be used to trigger several things in the Editor, in order to effect the game space it needs to use `event.Space` in the `OnCommandExecute` function, rather than `this.Space`. 
@@ -127,7 +127,7 @@ Like the Command template uses the `[Command(autoRegister:true)]` attribute, the
 
 
 
-![tool](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/843.png)
+![tool](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/843.png)
 
 
 The template tool is implemented so that when it is selected it will increase the scale of the first object hit by the projected ray from the mouse when the left mouse button is depressed. Since it is using a ray however, the object in question must have some form of collider attached. 
@@ -146,7 +146,7 @@ Tools may also have Properties defined, which will then be available when that p
 
 
 
-![toolproperty](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/844.png)
+![toolproperty](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/844.png)
 
 
 Also a part of the Tool template is a section of comments giving the user a list of events available for use for Tools. 

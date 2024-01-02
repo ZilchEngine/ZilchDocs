@@ -59,10 +59,10 @@ This new archetype can now be used with the TileEditor2D tool with any sprite so
 - Select the {nav icon=pencil, name=TileEditor2D} tool
 - In the `Tools Window`
  - Set Archetype enum to `DeadlyTile`
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108811.png)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108811.png)
 - In the `Level Window`
- - Using the {nav icon=pencil, name=TileEditor2D} tool, create a lava pit in the level with both the plain lava sprite source ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108750.png) and the animated LavaSurface texture sprite source ![Animated Lava Surface at 250 ms Delay](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108754.gif)
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108818.png)
+ - Using the {nav icon=pencil, name=TileEditor2D} tool, create a lava pit in the level with both the plain lava sprite source ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108750.png) and the animated LavaSurface texture sprite source ![Animated Lava Surface at 250 ms Delay](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108754.gif)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108818.png)
 
 While you're painting tiles into a level, it can sometimes be easy to lose track of which tiles have what archetypes. Fortunately, the TileEditor2D tool has a feature to help with that.
 
@@ -73,14 +73,14 @@ With ShowArchetype checkBox enabled, the editor will show the name of the archet
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108820.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108820.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
-![Playing with Lava](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108831.gif)
+![Playing with Lava](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108831.gif)
 
 
 The lava seems to be working as intended. Now let's get a closer look at some of what's going on here. Pressing `F9` while the game is running begins **Edit In Game** mode, which makes the editor open the game session and all of its spaces for editing while it's still running. This is a very powerful and useful feature in any situation, but it is great for showing off some of the details of how the TileEditor2D tool merges groups of tiles.
@@ -94,14 +94,14 @@ When the game starts, before the first frame, the engine prepares level by mergi
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108925.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108925.png)
 
 
 Observe how the colliders on each object use meshes that are dynamically generated to perfectly fit the pieces they're placed on.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108927.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108927.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -115,7 +115,7 @@ Let's move on.
 So far, every tile we've placed has used a simple box-shaped collider. The TileEditor2D tool isn't limited to just boxes, though. It can use any [ PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown) as its collision shape. Zero Engine comes with a set of common ramps and boxes to be used with tilemaps.
 
 - Download the following tile sheet:
-  ![SimpleTriangleTiles](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108937.png)
+  ![SimpleTriangleTiles](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108937.png)
 - `Drag and drop` the file into the `Level Window`
 - In the `Group Import Options Window`
  - Set ImportImages enum to `Sprites`
@@ -136,14 +136,14 @@ This sheet's tiles are 64-pixel squares.
 Now let's add some sloped surfaces to the level. Each of the new triangular tile sprites will pair perfectly with one of the sloped collider options:
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108941.png) ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108943.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108941.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108943.png)
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108945.png) ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108947.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108945.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108947.png)
 
 
-(NOTE) **No Collision:** To remove the collider from a tile, click the little {icon times} button on the Collision enum property: ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108961.png) Similarly, you can remove the sprite from a tile by clicking the corresponding button on the Sprite enum property.
+(NOTE) **No Collision:** To remove the collider from a tile, click the little {icon times} button on the Collision enum property: ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108961.png) Similarly, you can remove the sprite from a tile by clicking the corresponding button on the Sprite enum property.
 
 - Select the {nav icon=pencil, name=TileEditor2D} tool
 - In the `Tools Window`
@@ -152,7 +152,7 @@ Now let's add some sloped surfaces to the level. Each of the new triangular tile
  - Set Collision enum to `SlopeLeft`
 - In the `Level Window`
  - Use the Draw sub-tool to paint a slope
-   ![Painting a Slope](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108933.gif)
+   ![Painting a Slope](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108933.gif)
 
 It's wise to fill in the underside of the slope to alleviate potential collider-catching problems.
 
@@ -161,9 +161,9 @@ It's wise to fill in the underside of the slope to alleviate potential collider-
  - Set Collision enum to `Box`
 - In the `Level Window`
  - Use the Draw sub-tool to fill in the underside of the slope
-   ![Filling in the Slope](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108935.gif)
+   ![Filling in the Slope](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108935.gif)
  - Using the new sloped sprite sources and the sloped colliders, paint additional slopes as desired
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108949.png)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108949.png)
 
 By this point, you might be getting tired of having to set the Archetype enum, Sprite enum, and Collision enum properties every time you want to change tiles. That's where tile palettes come in!
 
@@ -176,7 +176,7 @@ A **tile palette** is like a shelf that stores tile definitions, making it easy 
 - Select the {nav icon=pencil, name=TileEditor2D} tool
 - In the `Tools Window`
  - Press the Add button button to the right of the TilePalette enum property
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108951.png)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108951.png)
 - In the `Add TilePaletteSource Resource Window`
  - Set Name  to `Grass`
  - Press the Create button button
@@ -186,7 +186,7 @@ A **tile palette** is like a shelf that stores tile definitions, making it easy 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108953.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108953.png)
 
 
 The new palette is mostly empty, but it's easy to add to it. Just set up a tile the way you want it, and then click in any empty space in the palette view to place it there.
@@ -200,14 +200,14 @@ Notice how the palette already reflects the changes you have made to its **selec
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108957.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108957.png)
 
 
 To add a new tile to the palette, **first click in an empty spot** in the palette view and then set its properties. To modify an existing tile in the palette, **select the tile you want to modify**, and then set its properties. To remove a tile from the palette, **right-click the tile** you want to remove. In this manner, you can make things very convenient for yourself while you're editing a level.
 
 
 
-![Adding Tiles to a Palette](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109087.gif)
+![Adding Tiles to a Palette](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109087.gif)
 
 
 *The left mouse button adds tiles, and the right mouse button removes them*
@@ -215,7 +215,7 @@ To add a new tile to the palette, **first click in an empty spot** in the palett
 
 - In the `Tools Window`
  - Create a full tile palette with archetypes, sprites, and colliders
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108963.png)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108963.png)
 
 (NOTE) **Zooming the Palette View:** To make more room for yourself, you can hold key the `Ctrl` key and scroll  the **mouse wheel** to zoom the palette view in and out.
 
@@ -223,7 +223,7 @@ You can make multiple tile palettes to make it easy to facilitate making levels 
 
 - In the `Tools Window`
  - Press the Add button button to the right of the TilePalette enum property
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109089.png)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109089.png)
 - In the `Add TilePaletteSource Resource Window`
  - Set Name  to `Slopes`
  - Press the Create button button
@@ -231,11 +231,11 @@ You can make multiple tile palettes to make it easy to facilitate making levels 
 - In the `Tools Window`
  - Set TilePalette enum to `Slopes`
  - Fill in the tile palette with the triangular sprite sources and the SquareBordered texture sprite source, with appropriate collisions set for each tile
-   ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108967.png)
+   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108967.png)
 
 Let's use both palettes to create a new level.
 
-(NOTE) **TiledDrawing:** Watch what happens when you `left-click and drag` in the tile palette view to select multiple tiles, and then paint with them. Then, set the TileEditor2D tool's TiledDrawing checkBox property to `true` and then paint again. See the difference? TiledDrawing checkBox is great for preserving a specific configuration of tiles that you have laid out in the palette, but it also works with a brush committed with the Selection sub-tool! ![TiledDrawing Demonstration](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108992.gif)
+(NOTE) **TiledDrawing:** Watch what happens when you `left-click and drag` in the tile palette view to select multiple tiles, and then paint with them. Then, set the TileEditor2D tool's TiledDrawing checkBox property to `true` and then paint again. See the difference? TiledDrawing checkBox is great for preserving a specific configuration of tiles that you have laid out in the palette, but it also works with a brush committed with the Selection sub-tool! ![TiledDrawing Demonstration](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108992.gif)
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
  - Create a Level resource using the {nav icon=clone, name=2D Level} template and name it `OtherLevel`
@@ -245,11 +245,11 @@ Let's use both palettes to create a new level.
 - In the `Tools Window`
  - Set TilePalette enum to `Grass`
 - Using the `Grass` palette, create the main pieces of a level
-  ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/108996.png)
+  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108996.png)
 - In the `Tools Window`
  - Set TilePalette enum to `Slopes`
 - Using the `Slopes` palette, add slopes to the level
-  ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109006.png)
+  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109006.png)
 - In the `Library Window`
  - Under Archetype 
   - `Left-click and drag` `SweptPlayer2D` into the `Level Window`
@@ -259,7 +259,7 @@ Let's use both palettes to create a new level.
 
 
 
-![Final Tiled Game](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109010.gif)
+![Final Tiled Game](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109010.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -272,28 +272,28 @@ Background tilemaps can really make a level feel alive. To create one, just pres
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109022.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109022.png)
 
 
 It is often useful to organize your tilemaps by giving them descriptive names:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109026.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109026.png)
 
 
 To make a tilemap into a proper background tilemap, just push it back a bit along the Z axis. You may also wish to alter some of the properties of the MultiSprite component to give it a moodier look:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109018.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109018.png)
 
 
 Experiment with placing multiple layered tilemaps to help add visual flair to your levels.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/109024.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/109024.png)
 
 
 

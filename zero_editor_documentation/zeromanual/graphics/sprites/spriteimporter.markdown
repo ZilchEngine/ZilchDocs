@@ -5,14 +5,14 @@ By taking a SpriteSource that has multiple frames and opening it in the Sprite S
 
 
 
-![ImportMonkey](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47816.png) *Sprite sheet in Sprite Source Editor*
+![ImportMonkey](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47816.png) *Sprite sheet in Sprite Source Editor*
 
 
 While a majority of the information is the same as that found in the Sprite Source Editor, there are a few very important differences highlighted here:
 
 
 
-![Proerpties](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47804.png) *Sprite Source Editor Properties*
+![Proerpties](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47804.png) *Sprite Source Editor Properties*
 
 
  ##  Sprite Importer UI Overview
@@ -61,28 +61,28 @@ At this point, if the animation is playing properly, it's simply a matter of cli
 
 
 
-![AllFrames](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47806.png) *Sprite sheet with all frames selected by default*
+![AllFrames](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47806.png) *Sprite sheet with all frames selected by default*
 
 
 The SpriteSource uses the top row for one animation while the bottom row contains separate sprite frames.
 
 
 
-![AllFrameAnim](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47810.gif) *Animation with all frames*
+![AllFrameAnim](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47810.gif) *Animation with all frames*
 
 
 The second row contains frames that are not part of the animation contained in the first row; therefore, they should be ommited from the animation.  To do this, every frame in the animation needs to explicitly be selected with the mouse.  
 
 
 
-![SelectingFrames](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47812.gif) *Sprite sheet selecting all relevant frames*
+![SelectingFrames](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47812.gif) *Sprite sheet selecting all relevant frames*
 
 
 (WARNING)**Mouse Selected Frame Order**: The default frames are indexed from left to right, and top to bottom.  When selecting frames explicitly with the mouse, the order of frames in the animation is the order that the frames are clicked.  The index of each frame is also denoted by an integer in the top left of each cell in the sprite sheet.
 
 
 
-![FinalAnim](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47814.gif) *Animation without blank frame*
+![FinalAnim](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47814.gif) *Animation without blank frame*
 
 
 If your SpriteSource doesn't have a blank background, it's possible to use the Sprite Importer to erase the background color. Simply set AlphaColor  to the color that needs to be erased (this is the perfect application for the EyeDropper tool), and set UseAlphaColorKey checkBox to `true`. On importing the Sprite, the color chosen will be erased. 

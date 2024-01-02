@@ -63,7 +63,7 @@ class PlayerController : NadaComponent
 
 
 
-![simpleinput](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90208.gif)
+![simpleinput](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90208.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -114,13 +114,13 @@ In the script above the position of the player and the position of the follower 
  ##  Setting a CogPath
  - Under `FollowController`
 
-  ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90210.png)
+  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90210.png)
 
 This is the CogPath Property GUI. To select which object the CogPath points add you simple click on the Crosshairs and drag them to the target object.
 
 
 
-![SetCogPath](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90218.gif)
+![SetCogPath](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90218.gif)
 
 
   - Set `name=PlayerCogPath, icon=pencil-square-o` to reference the Player object
@@ -130,7 +130,7 @@ This is the CogPath Property GUI. To select which object the CogPath points add 
 
 
 
-![Follower](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90220.gif)
+![Follower](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90220.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -146,7 +146,7 @@ This is the CogPath Property GUI. To select which object the CogPath points add 
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Child object
  - Drag and drop it on the Player object object
 
-  ![ChildToPlayer](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90222.gif)
+  ![ChildToPlayer](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90222.gif)
 
 - [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - In the `name=Properties Window, icon=window-restore`
@@ -157,12 +157,12 @@ This is the CogPath Property GUI. To select which object the CogPath points add 
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Player object
  - Drag and drop it on the Parent object object
 
-  ![PlayerToParent](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90364.gif)
+  ![PlayerToParent](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90364.gif)
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - Press `Left`, `Right`, `Up` and `Down`
 
- ![TestChildPlayer](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90230.gif)
+ ![TestChildPlayer](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90230.gif)
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
@@ -176,7 +176,7 @@ Notice that the CogPath text has not changed despite the fact that the player hi
 
   - Set `name=PlayerCogPath, icon=pencil-square-o` to reference the Player object
 
- ![ResetCogPath](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90232.gif)
+ ![ResetCogPath](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90232.gif)
 
 Notice that the text of `name=PlayerCogPath, icon=pencil-square-o` changes from `:/Player` to the correct path of `:/Parent/Player`. You may be wondering why it worked when the project was run last. When CogPath properties are set they capture a reference at that moment as opposed to waiting for the level to be loaded into the game. When the path to an object targeted by a CogPath changes it does not lose that direct reference to the object, but instead the Path becomes inaccurate. You should not depend on this behavior and you should always reset your CogPath properties to have the correct path when possible. If you wish to learn more about the complex behaviors of the direct cog reference visit the [CogPaths Manual Page](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/cogpathsmanual.markdown).
 
@@ -197,7 +197,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
  - Press `Left`, `Right`, `Up` and `Down`
 
- ![FollowWorldTrans](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90366.gif)
+ ![FollowWorldTrans](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90366.gif)
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 

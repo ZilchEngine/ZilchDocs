@@ -46,7 +46,7 @@ class SquareLogic : NadaComponent
 
 
 
-![HierarchiesSetup](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96155.gif)
+![HierarchiesSetup](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96155.gif)
 
 
 *The Square object rotates*
@@ -110,7 +110,7 @@ class SquareLogic : NadaComponent
 
 
 
-![HierarchiesAttach](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96165.gif)
+![HierarchiesAttach](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96165.gif)
 
 
 *The `Space` bar spawns child Circle object objects*
@@ -137,7 +137,7 @@ if(Zero.Keyboard.KeyIsPressed(Keys.D))
 
 
 
-![HierarchiesDettach](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96252.gif)
+![HierarchiesDettach](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96252.gif)
 
 
 *The `D` key detaches the child Circle object objects*
@@ -174,7 +174,7 @@ obj.Parent.Transform.Scale *= this.Growth;
 
 
 
-![HierarchiesParentAccess](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96244.gif)
+![HierarchiesParentAccess](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96244.gif)
 
 
 *The `Space` bar now also grows the parent Square object object*
@@ -202,7 +202,7 @@ You can also get a range containing all immediate children. Let's implement an a
 
 
 
-![HierarchiesChildren](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96250.gif)
+![HierarchiesChildren](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96250.gif)
 
 
 *The `Enter` key now turns the child Circle object objects red*

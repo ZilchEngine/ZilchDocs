@@ -10,7 +10,7 @@ When the HeightMapTool is opened and there is no previous HeightMap object, a me
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47435.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47435.png)
 
 
 To make a new HeightMap object, simply click anywhere on the text that has appeared on the Level window. An object named `HeightMap` should now appear in the Objects Window.
@@ -33,14 +33,14 @@ There are four properties in the CreateDestroyTool window that define certain pa
 To create a new patch, simply click wherever in the Level Window where the patch should be placed. To destroy a patch, `Shift + Click` on the patch to be destroyed.
 
 
-![ca042b25-6da8-4d65-aa2b-020b689b0b9b](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47437.gif)
+![ca042b25-6da8-4d65-aa2b-020b689b0b9b](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47437.gif)
 
 
 Settings are changed on a per-patch basis and do not affect previously placed patches (notice the PerlinFrequency  and PerlinAmplitude  have been modified:
 
 
 
-![6d029a7e-3104-45f6-9830-6b1412f94170](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47441.gif)
+![6d029a7e-3104-45f6-9830-6b1412f94170](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47441.gif)
 
 
  ## RaiseLower
@@ -58,12 +58,12 @@ To raise an area on a patch of the height map, simply left-click on the area to 
 
 
 
-![fd487041-37d1-4506-a528-365c619855d8](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47469.gif) 
+![fd487041-37d1-4506-a528-365c619855d8](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47469.gif) 
 
 
 NOTE:
  A number of sub-tools in the HeightMapTool have both Radius  and FeatherRadius . These two properties work together with Strength  to determine the values by which the height map is being changed. While the descriptions of these properties in the property lists of the sub-tools is accurate, a diagram is provided to make clear how the value changes from the circle defined by Radius  and the circle defined by FeatherRadius :
- ![radiusfeatherradius](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/1036.png)
+ ![radiusfeatherradius](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1036.png)
 
  ## SmoothSharpen
 The SmoothSharpen sub-tool is used to either smooth or sharpen bumps on the height map. There are seven properties in the SmoothSharpenTool window that define the range, strength, and sampling used to smooth and sharpen the map:
@@ -84,7 +84,7 @@ The following screenshot shows two patches; the one on the left has been smoothe
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47480.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47480.png)
 
 
  ## Flatten
@@ -105,7 +105,7 @@ To flatten an area on the height map, one must first decide whether to sample a 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47481.png) *A flattened "valley" amidst raised peaks on a height map*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47481.png) *A flattened "valley" amidst raised peaks on a height map*
 
 
  ## WeightPainter
@@ -113,21 +113,21 @@ The WeightPainter sub-tool is used to paint textures onto a height map. In order
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47485.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47485.png)
 
 
 Both the `HeightMapTextureWeights` material block and the WeightPainter sub-tool support four separate textures. The user must load each texture into the `HeightMapTextureWeights` material block.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47487.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47487.png)
 
 
 Once this new [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials.markdown) has been applied to the [HeightMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/code_reference/class_reference/heightmap.markdown) object, one may use the WeightPainter sub-tool to select each texture separately and paint the height map with it. TextureChannel enum on the WeightPainter sub-tool gives the user access to each of the four [Textures](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/adding_assets/adding_textures_and_sprites.markdown). The following screenshots show a height map--the one created in the Material has been applied to the HeightMap object, one may use the WeightPainter sub-tool to select each texture separately and paint the height map with it. The following screenshot shows a height map, the one created above, painted with varying texture weights. The *road* is 100% of `Texture3` and `Texture4`, while the rest is all `Texture1` with splotches of the other textures painted with a low strength.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47490.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47490.png)
 
 
 *All four weighted textures used with varying weights.*

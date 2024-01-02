@@ -10,7 +10,7 @@
 
 
 
-![SoundCue1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47918.png)
+![SoundCue1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47918.png)
 
 If a SoundCue has multiple Sounds attached it can either randomly select which Sound to use each time it is played or it can play them sequentially. Each time a SoundCue is played it creates a new [SoundInstance ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundinstance.markdown), which can then be accessed in NadaScripts to control the sound as it's playing. Changing properties on the SoundInstance does not affect the properties on the SoundCue.
 
@@ -38,7 +38,7 @@ If a [SoundAttenuator ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zer
 
 
 
-![SoundCue2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47920.png) 
+![SoundCue2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47920.png) 
 
 If the ShowMusicOptions checkBox box is checked, fields will be shown for setting the speed and time signature of a music file. The two numbers in the time signature tell how many beats are in each measure of music and what type of note has the beat. For instance, a time signature of 4/4 has four quarter note beats per measure, and 3/8 has three eighth note beats. 
 
@@ -48,7 +48,7 @@ If all three of the fields are set to values other than zero, whenever the Sound
 
 
 
-![SoundEntry](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47922.png)
+![SoundEntry](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47922.png)
 
 Each [ SoundEntry ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown) holds a Sound which can be played by the SoundCue. SoundEntries have properties to control when the audio file starts and stops, when it starts looping and stops looping, and whether it should cross-fade audio after it loops.
 

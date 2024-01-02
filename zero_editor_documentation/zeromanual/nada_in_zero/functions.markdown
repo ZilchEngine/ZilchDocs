@@ -134,7 +134,7 @@ The return statement was not expected to return a '[ErrorType]' value, since the
 Occasionally you will run into situations such as this:
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66750.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66750.png)
 
 If we look at the possible logical flows of the `FunctionThatReturns` it should be noted that either the `if` or `else` case will run, never both. However, if the `else` case were to run the function would never hit a `return` statement. Normally this would not be an issue, but in this case the `FunctionThatReturns` defines a return type and there is a way for the function to fail to do so. This is not ok as it essentially amounts to a dead end in code. This issue throws and exception until all *code paths* return a value of the correct type.
 

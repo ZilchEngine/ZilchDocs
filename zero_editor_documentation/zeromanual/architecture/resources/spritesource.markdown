@@ -14,7 +14,7 @@ It is possible to add SpriteSources of your own as well. By dragging a .png file
 
 
 
-![ChooseSpriteSource](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47420.gif)
+![ChooseSpriteSource](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47420.gif)
 
 
 If changes need to be made, the SpriteSource can be modified in the [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown). 

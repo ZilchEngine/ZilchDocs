@@ -4,7 +4,7 @@ The Deferred Renderer is the default, [pbr](https://github.com/ZilchEngine/Zilch
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46567.png) *DeferredRenderer component*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46567.png) *DeferredRenderer component*
 
 
  ## Deferred Renderer UI Overview
@@ -33,7 +33,7 @@ The `ForwardRenderer` is similar to the `DeferredRenderer`, except the forward r
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46570.png) *ForwardRenderer Component*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46570.png) *ForwardRenderer Component*
 
 
  ## Forward Renderer UI Differences
@@ -45,14 +45,14 @@ Every render task that shares the `DebugRenderGroup` is associated with some deb
  ## Normal
 
 
-![pasted_file](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3030.png)
+![pasted_file](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3030.png)
 
 Geometry Debugging allows the user to view certain values in the deferred renderer pipeline.  When troubleshooting issues relating to lighting, one may wonder if the vertex normals of a model are applied in the way they intended, or if the normal map was applied correctly.  In this case, one would want to set GeometryDebug drop-down menu to **Normal**, which associates the world normal of a point on a surface with a color, and so green is upwards, red is in the positive x direction and blue is in the positive z direction.  Each of the three colors are also found on the view cube in the same directions.
 
  ## Depth
 
 
-![pasted_file](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3032.png)
+![pasted_file](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3032.png)
 
 The `Depth` option uses the z value in view space as the red, green, and blue components.  This means the resultant color will be a grey scale value, where brighter fragments are further from the camera.  This can be useful when looking for changes in depth and whether the transition is smooth or instant.
 
@@ -67,7 +67,7 @@ When analyzing how light bounces off a surface, we can categorize the light as e
 
 
 
-![TranslateCamera_RotateCamera](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28453.gif)
+![TranslateCamera_RotateCamera](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28453.gif)
 
 
 Direct lighting is the light that comes from every other light in the scene.

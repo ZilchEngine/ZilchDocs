@@ -15,7 +15,7 @@ This lesson covers creating a custom mouse cursor in the Zero Engine.
  - [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown)
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/105388.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/105388.png)
 
 
  #  Creating a Custom Mouse Cursor
@@ -25,7 +25,7 @@ Making a custom mouse cursor in the Zero Engine is as simple as making a sprite 
 - Download the following image file:
 
 
-![PyramidCursor](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106033.png)
+![PyramidCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106033.png)
 
 - Import it into the project by dragging and dropping it into the `Level Window`
 - In the `Group Import Options Window`
@@ -42,7 +42,7 @@ The apparent "point" of this particular [ SpriteSource](https://github.com/Zilch
  - Set Origin enum to `Custom`
  - Set OriginX  to `7`
  - Set OriginY  to `6`
-  ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106349.png)
+  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106349.png)
  - Press the `Save to Sprite Source` button
 
 Now that we have a SpriteSource to use, it's time to make the cursor.
@@ -55,7 +55,7 @@ Now that we have a SpriteSource to use, it's time to make the cursor.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106357.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106357.png)
 
 
 There's a problem here: the main game level's objects are drawn overtop of the cursor. We'll cover how to solve that soon, but let's keep going for now. What we need next is a component that will make this sprite follow the mouse around wherever it moves.
@@ -94,7 +94,7 @@ This component will make whatever we attach it to set its position to the world-
 
 
 
-![Custom Cursor Moving Behind Sphere](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106359.gif)
+![Custom Cursor Moving Behind Sphere](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106359.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -123,7 +123,7 @@ Just as we learned in the [ tutorial on spaces](https://github.com/ZilchEngine/Z
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106157.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106157.png)
 
 
 The renderer's ClearColor  needs to be transparent, or it will be impossible to see the main game level through the overlaid cursor space.
@@ -136,7 +136,7 @@ The renderer's ClearColor  needs to be transparent, or it will be impossible to 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106159.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106159.png)
 
 
 The [ CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.markdown)'s RenderOrder  in the cursor space needs to be greater than that of the main space so that it will correctly be layered on top. Also, since a mouse-driven game depends on mouse events, we need to make sure we check the ForwardViewportEvents checkBox box. Otherwise, the cursor space would block all of our attempts at mouse interaction from reaching the main space beneath it.
@@ -193,7 +193,7 @@ We're finally done! Let's see it all together.
 
 
 
-![Custom Cursor Final](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106366.gif)
+![Custom Cursor Final](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106366.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

@@ -6,7 +6,7 @@ For a quick example of this difference, compare the following three screenshots.
 
 
 
-![JustAlbedoSphere](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2941.png) ![MetalSphere](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2943.png) ![SpecSphere](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2945.png)
+![JustAlbedoSphere](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2941.png) ![MetalSphere](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2943.png) ![SpecSphere](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2945.png)
 
 
 The following page will first cover the differences between the AlbedoValue fragment and AlbedoMap fragment, with demonstrations designed to show different albedo settings in conjunction with other material shader fragments as well as in different environments that have notably different indirect and direct lighting schemes.
@@ -21,21 +21,21 @@ When an AlbedoValue fragment is added to a material, the user may set a color va
 
 
 
-![AddAlbedoVal](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47689.png)
+![AddAlbedoVal](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47689.png)
 
 
 Before getting into how albedo is affected by material fragments, let's look at how a material appears with only an AlbedoValue fragment on it. The following screenshots show a range of albedo values applied to spheres with no other fragments applied to the material:
 
 
 
-![AlbedoRange](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2947.png)
+![AlbedoRange](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2947.png)
 
 
 Using the [ShaderInput] attribute to access the AlbedoValue fragment within a NadaScript, one may change the albedo value during runtime. The following gif shows this effect in engine (all other shader inputs are at default values):
 
 
 
-![ChangeAlbedoValueVer2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2949.gif)
+![ChangeAlbedoValueVer2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2949.gif)
 
 
 The following script used to achieve the above effect must be placed on an object that is using a material with *at least* an AlbedoValue NadaFragment.
@@ -84,7 +84,7 @@ Note that in the previous two examples there were no other fragments on the mate
 
 
 
-![AlbedoMetalLine3](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2930.png) ![AlbedoMetalLine](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2935.png) ![AlbedoMetalLine2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2934.png)
+![AlbedoMetalLine3](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2930.png) ![AlbedoMetalLine](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2935.png) ![AlbedoMetalLine2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2934.png)
 
 
 
@@ -94,7 +94,7 @@ An albedo map is a texture provided by an artist for use on a [Model](https://gi
 
 
 
-![AddAlbedoValue](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47687.png)
+![AddAlbedoValue](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47687.png)
 
 
  ## Tileable Texture
@@ -103,28 +103,28 @@ Before moving on to unique, artist-crafted models, let's take a look at how prof
 
 
 
-![MetalBoxMat](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47710.png)
+![MetalBoxMat](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47710.png)
 
 
 Using all of the maps made available by the artist, a simple cube becomes a PBR-ready object to use in a level environment:
 
 
 
-![MetalBox3](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2978.png) ![MetalBox1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2980.png) ![MetalBox2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2982.png)
+![MetalBox3](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2978.png) ![MetalBox1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2980.png) ![MetalBox2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2982.png)
 
 
 By changing the scale of the object slightly (e.g. `[4, 1, 4]`), it's a quick jump to creating the floor for a level using only this object:
 
 
 
-![MetalBoxLevel](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2984.png)
+![MetalBoxLevel](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2984.png)
 
 
 As this particular material has maps for all of the default fragments included in a new Material, it presents an ideal case to see how the Material's appearance, specifically the albedo, changes when one or more of these maps is removed. 
 
 
 
-![MetalBoxLevelNoAlbedo](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2986.png)
+![MetalBoxLevelNoAlbedo](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2986.png)
 
 
  ##  Model-Specific Textures
@@ -135,17 +135,17 @@ Let's take a look at how model-specific textures are applied to unique models.
 
 
 
-![SpaceFighterAlbedo](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2988.png) *The albedo map that will be applied to the material before being imported into Zero*
+![SpaceFighterAlbedo](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2988.png) *The albedo map that will be applied to the material before being imported into Zero*
 
 
 
 
-![SpaceFighterAlbedoGammaCorrected](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/2990.png) *The albedo map after being imported into Zero and gamma corrected*
+![SpaceFighterAlbedoGammaCorrected](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2990.png) *The albedo map after being imported into Zero and gamma corrected*
 
 
 
 
-![SpaceshipAlbedoA](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47704.png) ![SpaceshipAlbedoB](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47706.png) ![SpaceshipAlbedoC](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47708.png)
+![SpaceshipAlbedoA](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47704.png) ![SpaceshipAlbedoB](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47706.png) ![SpaceshipAlbedoC](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47708.png)
 
 
 *The AlbedoMap fragment has been added to a Material and applied to the Model*
@@ -153,7 +153,7 @@ Let's take a look at how model-specific textures are applied to unique models.
 
 
 
-![SpaceshipFinalA](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47698.png) ![SpaceshipFinalB](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47700.png) ![SpaceshipFinalC](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47702.png)
+![SpaceshipFinalA](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47698.png) ![SpaceshipFinalB](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47700.png) ![SpaceshipFinalC](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47702.png)
 
 
 *The finished object with all texture maps applied to the Material*
@@ -169,14 +169,14 @@ Indirect lighting, or image-based lighting, refers primarily to the skybox that 
 
 
 
-![GoldSkybox1A](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3012.png) ![GoldSkybox1B](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3015.png) ![GoldSkybox1C](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3017.png)
+![GoldSkybox1A](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3012.png) ![GoldSkybox1B](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3015.png) ![GoldSkybox1C](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3017.png)
 
 
 If you change the skybox, however, the overall color will change as a result of the indirect lighting the skybox provides. To demonstrate this, the following screenshots are of the exact same spheres but with a significantly brighter skybox:
 
 
 
-![GoldSkybox2A](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3019.png) ![GoldSkybox2B](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3021.png) ![GoldSkybox2C](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/3023.png)
+![GoldSkybox2A](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3019.png) ![GoldSkybox2B](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3021.png) ![GoldSkybox2C](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3023.png)
 
 
 The difference may be subtle or pronounced depending on the degree of change between skyboxes. It should be apparent, however, how much of an influence indirect lighting, through the influence of the skybox, has on a PBR material.

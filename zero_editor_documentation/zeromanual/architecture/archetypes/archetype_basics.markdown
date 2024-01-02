@@ -13,10 +13,10 @@ Creating an Archetype is fairly simple.
 
 
 
-![2017_07_07_11_34_28_Zero_Editor_ArchetypeDocumentation](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46803.png)
+![2017_07_07_11_34_28_Zero_Editor_ArchetypeDocumentation](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46803.png)
 
 
-Simply provide an name for the new Archetype in the Archetype field and press Enter or the ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46805.png) button. This will create the new Archetype resource from the selected object causing to to appear under the Archetype tag in the Resource Window.
+Simply provide an name for the new Archetype in the Archetype field and press Enter or the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46805.png) button. This will create the new Archetype resource from the selected object causing to to appear under the Archetype tag in the Resource Window.
 
  #  Creating Objects from Archetypes
 Creating a new instance of an existing Archetype is simple and can be done through multiple approaches.
@@ -26,7 +26,7 @@ By clicking and dragging an Archetype resource from the resource library into th
 
 
 
-![ArchetypeInstantiationFromLibrary](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46827.gif)
+![ArchetypeInstantiationFromLibrary](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46827.gif)
 
 
  ##  Copying an Instance
@@ -37,7 +37,7 @@ Objects which are an instance of an Archetype can be duplicated via copy & paste
 
 
 
-![ArchetypeCopyPaste](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46829.gif)
+![ArchetypeCopyPaste](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46829.gif)
 
 
 *Here `ctrl + +c` and `ctrl + v` are used then `ctrl + click + drag`*
@@ -75,7 +75,7 @@ class ObjectSpawner : NadaComponent
 
 
 
-![ArchetypeInstantiationRuntime](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46831.gif)
+![ArchetypeInstantiationRuntime](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46831.gif)
 
 
 *Here you can see the above `ObjectSpawner` script running.*
@@ -87,11 +87,11 @@ As you can see the function `Space.Create()` is how you instantiate Archetypes a
 When an Archetype instance is modified it turns orange.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46846.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46846.png)
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46848.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46848.png)
 
 Below the behaviors various types of modifications are described.
 
@@ -99,7 +99,7 @@ Below the behaviors various types of modifications are described.
 When a property field of an  an Archetype instance is edited it is turned orange to mark it as modified. This is a common theme as other items will turn orange when modified.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46838.png) ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46836.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46838.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46836.png)
 
 
 
@@ -107,7 +107,7 @@ When a property field of an  an Archetype instance is edited it is turned orange
 It should be noted that based on the above modifications to `Transform` the Archetype instance will not be marked as modified.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46844.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46844.png)
 
 This is because the properties such as `Transform.Translation`, `Transform.Rotation`, `Transform.Scale`, and `Area.Size` have the `LocalModificationOverride` attribute which prevents that property from normally interacting with archetype updates and reversion. A property with the `LocalModificationOverride` attribute will not be uploaded with other modifications when a modified instance is uploaded to the archetype. Overrridden properties will also not be modified when an instance is reverted to archetype. The `LocalModificationOverride` attribute can be applied to properties in custom Nada components as well.
 
@@ -117,28 +117,28 @@ Adding, removing, or reordering a component to an Archetype instance modifies it
 *Unmodified*
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46867.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46867.png)
 
 
 *Component added*
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46850.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46850.png)
 
 
 *Component removed*
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46852.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46852.png)
 
 
 *Components reordered*
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46871.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46871.png)
 
 
 
@@ -149,49 +149,49 @@ Adding, removing, reordering a child object from an Archetype instance will also
 *Unmodified*
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46873.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46873.png)
 
 
 *Child added*
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46881.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46881.png)
 
 
 *Child removed*
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46877.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46877.png)
 
 
 *Children reordered*
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46879.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46879.png)
 
 
 It is important to note that neither component nor child modifications have functionality equivalent to LocalModificationOverride available. Property modifications usually adjust some factor of a piece of functionality. However, component and child object operations have the potential change the fundamental functionality of the Archetype. In the case where a certain component or child object modification becomes common place it should be add to the original archetype (and have the originally unmodified instances use LocalModificationOverride) or create a new archetype with the modifications.
 
  # Upload To Archetype
-Above we discussed the various modification types you can make to an Archetype. It is very common for a developer to create many instances of an Archetype then modify some paticular instance. However, sometimes we want to go the opposite direction and apply modifications we have made to an individual instance to the Archetype. Thinking about the army of characters we used as an example earlier. Imagine we had been changing hat colors for awhile and we decide we like a paticular color for the default. By clicking ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46805.png) we can turn a[pply this change to all unmodified instances of the Archetype. This is called uploading to Archetype. Whereas if we give it a new Archetype name and click ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46805.png)  we will create a new Archetype.
+Above we discussed the various modification types you can make to an Archetype. It is very common for a developer to create many instances of an Archetype then modify some paticular instance. However, sometimes we want to go the opposite direction and apply modifications we have made to an individual instance to the Archetype. Thinking about the army of characters we used as an example earlier. Imagine we had been changing hat colors for awhile and we decide we like a paticular color for the default. By clicking ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46805.png) we can turn a[pply this change to all unmodified instances of the Archetype. This is called uploading to Archetype. Whereas if we give it a new Archetype name and click ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46805.png)  we will create a new Archetype.
 
 
 
-![UploadToArchetype](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46892.gif)
+![UploadToArchetype](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46892.gif)
 
 Here we modify right two of the three Archetype instances. The middle instance, which is modified, is then uploaded to the Archetype causing the modification to be applied to the unmodified instance on the left. Notice that the other modified instance on the right does not turn Red. This is due to the right instance being already modified from the orginal Archetype (meaning it is modified from the newly uploaded version as well).
 
  # Revert To Archetype
  ## Reverting Cogs
-Often developers make accidental or undesireable changes to an Archetype instance and have legitamate reasons to not want to undo everything to revert the instances back to their original state. This is one of the many reasons Archetype instances can be reverted to the current state of the Archetype resource using the ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46894.png) button next the Archetype field in the property window.
+Often developers make accidental or undesireable changes to an Archetype instance and have legitamate reasons to not want to undo everything to revert the instances back to their original state. This is one of the many reasons Archetype instances can be reverted to the current state of the Archetype resource using the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46894.png) button next the Archetype field in the property window.
 
 *Here you can see the middle sprite reverted to match the orginal Archetype.*
 
 
-![RevertToArchetype](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46896.gif)
+![RevertToArchetype](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46896.gif)
 
 
  ## Reverting Properties
@@ -199,7 +199,7 @@ Often it is necessary to revert individual properties on an Archetype instance. 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46898.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46898.png)
 
 
 By using `RightClick` on the property grid one can open the context menu allowing the property to be reverted without affecting the rest of the instance. This is important and simply setting the modified field to the same value will not make the field appear un-modified to the engine.
@@ -209,13 +209,13 @@ By using `RightClick` on the greyed out representation of objects which have bee
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46900.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46900.png)
 
  ## Reverting Child Order
 If children in an Archetype hierarchy are reordered, their order can be reverted to match the current Archetype by using `RightClick` on the Archetype instance root object and selecting `Restore Child Order`.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46902.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46902.png)
 
 
 Reverting child modifications are important as for reasons of reverting 
@@ -225,7 +225,7 @@ There are time where an Archetype is about to be upload, but it is realized ther
 
 
 
-![LocalModificationOverride](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46906.gif)
+![LocalModificationOverride](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46906.gif)
 
 
 Once again let's think back to the army of characters all created from the same Archetype, specifically the example where we have been experiementing and have just settled in on the hat color we would like to be the default for the whole army. Now imagine we want the leader to keep the original hat color. By marking the leader's hat color as modified, when we upload the new color to the Archetype the leader will not be affected.

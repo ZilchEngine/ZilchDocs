@@ -29,7 +29,7 @@ This lesson focuses on covering the basics of how object hierarchies work in Zer
   - Set VertexColor  to `[R:0, G:0, B:255, A:1.00]`
 - In the `Objects Window`
  - `Drag and drop` ChildSquare object on top of ParentSquare object
-   ![Parenting](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46756.gif)
+   ![Parenting](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46756.gif)
 
 
  #  Parenting
@@ -42,7 +42,7 @@ As you have probably noticed, by dragging and dropping an object onto another, w
 
 
 
-![Translation2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46733.gif) ![Rotation](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46735.gif) ![Scale](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46737.gif)
+![Translation2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46733.gif) ![Rotation](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46735.gif) ![Scale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46737.gif)
 
 
 *Transforming the ParentSquare object*
@@ -52,7 +52,7 @@ Notice that, when we apply a transformation to the **parent object**, it is prop
 
 
 
-![ChildTranslation](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46744.gif) ![ChildRotation](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46746.gif) ![ChildScale](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46748.gif)
+![ChildTranslation](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46744.gif) ![ChildRotation](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46746.gif) ![ChildScale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46748.gif)
 
 
 *Transforming the ChildSquare object*
@@ -62,7 +62,7 @@ If we look at the [ Transform](https://github.com/ZilchEngine/ZilchDocs/blob/mas
 
 
 
-![ParentTransform](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46752.gif) ![ChildTransform](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46754.gif)
+![ParentTransform](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46752.gif) ![ChildTransform](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46754.gif)
 
 
 *The `Properties Window` showing the ParentSquare object and ChildSquare object objects, respectively*
@@ -77,7 +77,7 @@ Notice the parent's **world value** is being modified, while the child's **local
 When dealing with object Hierarchies, one can accidentally stumble on the problem of non-uniform scale. This can be seen when, for example, a **parent object** is scaled non-uniformly (that is, its X, Y, and Z scale values aren't all the same) and its **child object** of it is rotated.
 
 
-![NonUniformScale](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46821.gif)
+![NonUniformScale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46821.gif)
 
 This produces an often undesired **shear** effect, and is usually best avoided by making sure the **parent object** is always uniformly scaled. It should be noted that shearing does not affect the shape of [ colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/physics/colliders.markdown).
 

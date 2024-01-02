@@ -8,7 +8,7 @@ The `TextEditorConfig` component which manages the editable properties of the Ze
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47407.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47407.png)
 
 
  # Related Materials

@@ -4,11 +4,11 @@ Creating an object is a common action within Zero Engine, in this page we outlin
 
  # `Create  > Create Sprite`
 
- ![CreateSprite](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46945.gif)
+ ![CreateSprite](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46945.gif)
 
  # Open the [Search Window](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) and type `CreateSprite`
 
- ![CreateSpriteCommand](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/85180.gif)
+ ![CreateSpriteCommand](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/85180.gif)
 
 Additionally, here is a list of all create commands Zero Engine provides:
 

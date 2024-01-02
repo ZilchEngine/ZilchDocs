@@ -8,7 +8,7 @@ LightRadius  defines the size of the "physical" object that represents the objec
 
 
 
-![Radius0](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46605.png) ![Radius0_5](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46613.png) ![Radius1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46609.png)
+![Radius0](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46605.png) ![Radius0_5](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46613.png) ![Radius1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46609.png)
 
 
 As is illustrated in the screenshots above, when the value LightRadius  increases, the size of the specular, or reflected, light grows. This is most obvious when looking at the reflection of the light source: the sphere reflected on the surface of the floor and wall objects gets larger. As the specular light increases, however, the intensity also dims, as the amount of energy emitted remains the same despite increasing the area from which it is emitted.
@@ -19,7 +19,7 @@ FalloffRadius  defines the size of the sphere mesh that acts as the volume in wh
 
 
 
-![Falloff10](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46617.png) ![Falloff7](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46619.png) ![Falloff5](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46623.png)
+![Falloff10](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46617.png) ![Falloff7](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46619.png) ![Falloff5](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46623.png)
 
 
  # Related Materials

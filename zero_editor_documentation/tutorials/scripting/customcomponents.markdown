@@ -17,7 +17,7 @@ This tutorial covers how to create custom components and the basics of scripting
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48212.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48212.png)
 
 
 
@@ -37,7 +37,7 @@ Once a component is created, we can add it to objects.
 
 
 
-![AddComponent](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48331.gif)
+![AddComponent](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48331.gif)
 
 
 *Adding the `MyComponent` component in the `Properties Window`*
@@ -48,7 +48,7 @@ WARNING: It is common, especially among beginners, to forget to add a component 
 NOTE: You can click the icon next to a custom component's name in the `Properties Window` to access that component's NadaScript resource.
 
 
-![GoToScript](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/85592.png)
+![GoToScript](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/85592.png)
 
 
 
@@ -59,7 +59,7 @@ Upon the creation of a NadaScript, Zero Engine will open that resource in a new 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48227.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48227.png)
 
 
 NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown) within the Zero Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
@@ -72,7 +72,7 @@ A class is an abstract entity that is responsible for a specific set of tasks. N
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48231.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48231.png)
 
 
 *The `MyComponent` script, line 1*
@@ -96,7 +96,7 @@ Next is the `Initialize` function. While **functions** will be covered in more d
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48316.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48316.png)
 
 
 - In the `MyComponent` script
@@ -110,7 +110,7 @@ Your code should look like this:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48336.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48336.png)
 
 
 *The `MyComponent` class, updated*
@@ -120,7 +120,7 @@ Your code should look like this:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48338.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48338.png)
 
 
 *The Sprite object has turned red*
@@ -138,7 +138,7 @@ You may have noticed an interesting line within the scope of the **Initialize** 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48319.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48319.png)
 
 
 *`MyComponent`, line 5*
@@ -157,7 +157,7 @@ Here we have an event connection that has been commented out. The details of eve
 
 
 
-![Uncomment](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48340.gif)
+![Uncomment](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48340.gif)
 
 
 NOTE: Another way of defining comments is to use the `/*` and `*/` tokens. This will cause everything between the two tokens to be considered a comment, which can be used to create multi-line comments.
@@ -181,14 +181,14 @@ This is what your code should look like:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48344.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48344.png)
 
 
 - [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
-![Game1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/48346.gif)
+![Game1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48346.gif)
 
 
 *The Sprite object now moves to the right*

@@ -7,7 +7,7 @@ Both Force  and RandomForce  are used to apply forces to a particle.  The force 
 
 
 
-![ParticleSystems_RandomForceDiagram](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46934.gif) *Debug Drawing the SpriteParticleSystem's bounding box(orange), the LinearParticleAnimator's RandomForce  halfvector(white), and the bounding box for the values RandomForce  can generate(blue)*
+![ParticleSystems_RandomForceDiagram](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46934.gif) *Debug Drawing the SpriteParticleSystem's bounding box(orange), the LinearParticleAnimator's RandomForce  halfvector(white), and the bounding box for the values RandomForce  can generate(blue)*
 
 
 NOTE: Torque , Dampening , and Twist  forces are also available.
@@ -17,7 +17,7 @@ The Growth  property can change the size of particles over time.  Set Growth  to
 
 
 
-![ParticleSystems_Growth](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46666.gif)
+![ParticleSystems_Growth](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46666.gif)
 
 
  # Related Material

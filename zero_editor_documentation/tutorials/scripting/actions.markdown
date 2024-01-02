@@ -92,7 +92,7 @@ class SpriteFader : NadaComponent
 
 
 
-![ScaleOnly](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93871.gif)
+![ScaleOnly](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93871.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -132,7 +132,7 @@ You may already be wondering how to chain actions together, well this is the pur
 
 
 
-![ScaleThenColor](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93873.gif)
+![ScaleThenColor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93873.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -166,7 +166,7 @@ Similiar to how an [ActionSequence](https://github.com/ZilchEngine/ZilchDocs/blo
 
 
 
-![ScaleAndColor](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93875.gif)
+![ScaleAndColor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93875.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -238,7 +238,7 @@ So far we have seen sequences and groups working seperately but what if we wante
 
 
 
-![GroupedSequences](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93877.gif)
+![GroupedSequences](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93877.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -286,7 +286,7 @@ It should be noted that `this.Owner.Actions` is an [ActionGroup](https://github.
 
 
 
-![SequencedGroups](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93879.gif)
+![SequencedGroups](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93879.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -349,7 +349,7 @@ Another type of action is the call option. This allows you to put calls to funct
 
 
 
-![SequencedGroupsWithPrint](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93881.gif)
+![SequencedGroupsWithPrint](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93881.gif)
 
 
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group. The animation is followed by the following console output*
@@ -423,7 +423,7 @@ Now you can see the print function executed at the beginning and end of the sequ
 
 
 
-![Looped](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93883.gif)
+![Looped](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93883.gif)
 
 
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence*
@@ -495,7 +495,7 @@ Delay actions allow the insertion of a time based delay in an action sequence. W
 
 
 
-![LoopedDelayed](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93885.gif)
+![LoopedDelayed](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93885.gif)
 
 
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence after a short delay*
@@ -588,7 +588,7 @@ The final action type is the event action. This allows you to instantiate an eve
 
 
 
-![LoopedDelayedEvents](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93888.gif)
+![LoopedDelayedEvents](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93888.gif)
 
 
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence after a short delay*

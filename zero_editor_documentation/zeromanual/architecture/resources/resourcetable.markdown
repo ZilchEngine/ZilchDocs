@@ -3,7 +3,7 @@
 
 
 
-![ResourceTable1](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47118.PNG)
+![ResourceTable1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47118.PNG)
 
 ResourceTables store a homogeneous collection of entries. Pictured above is a table of [ Archetypes ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/architecture/archetypes.markdown). This can be switched to any other resource type or to strings.
 
@@ -37,7 +37,7 @@ ResourceTable can also be used as a hashmap where the entry's name is the key.
 
 
 
-![ResourceTable4](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47120.PNG)
+![ResourceTable4](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47120.PNG)
 
 
  One such example is mapping button names to a resource. Pictured above is a table of Levels. A menu in a game could use the `Name` properties to populate the text on buttons. When a button is clicked, the easiest way to get the Level to load is to use the HashMap interface to look up the entry by name.
@@ -60,7 +60,7 @@ The weighted table view should be used to more easily edit and visualize the wei
 
 
 
-![ResourceTable2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47122.PNG)
+![ResourceTable2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47122.PNG)
 
 
  ##  Weight vs. Probability

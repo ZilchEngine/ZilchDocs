@@ -33,14 +33,14 @@ Here's a screenshot of a dragon material made for PBR:
 
 
 
-![Gold Dragon Material](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/88445.png) **Figure 1**: A material to apply to a dragon material made with PBR in mind.
+![Gold Dragon Material](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88445.png) **Figure 1**: A material to apply to a dragon material made with PBR in mind.
 
 
 Figure 1 shows that the [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials/materials_overview.markdown) has Material Blocks for the four inputs expected by the physically-based renderer as well as a [NormalMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/materials/normal_map.markdown). When setting the Material enum to the Golden Dragon material and and set LightPass enum the shader outputs are:
 
 
 
-![Gold Dragon Light Pass](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/88447.png)
+![Gold Dragon Light Pass](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88447.png)
 
 
 If not familiar with GLSL, these will become overwhelmingly complex very quickly. With at least an intermediate amount of experience in GLSL, however, this translator provides a valuable tool for debugging your NadaFragment shaders. Changing the other attributes to different settings will result in different outputs, so try to make sure that the attributes selected line up to the location on the render pipeline.

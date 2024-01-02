@@ -2,7 +2,7 @@ Emitters are necessary components for a particle system that define the properti
 
 
 
-![ParticleSystems_MeshEmitter](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46683.gif) *Cycling through meshes on a `MeshParticleEmitter`*
+![ParticleSystems_MeshEmitter](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46683.gif) *Cycling through meshes on a `MeshParticleEmitter`*
 
 
 NOTE: By default the shape isn't apparent on the Box or Sphere particle emitter.  This is because the EmitterSize  is zeroed out by default.
@@ -15,7 +15,7 @@ When an object is moving fast, the fact that its motion is an illusion becomes m
 
 
 
-![ParticleSystems_FastMovingEmitter](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46688.gif) *Two particle emitters in motion, where the right one is using FastMovingEmitter checkBox*
+![ParticleSystems_FastMovingEmitter](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46688.gif) *Two particle emitters in motion, where the right one is using FastMovingEmitter checkBox*
 
 
  # Related Material

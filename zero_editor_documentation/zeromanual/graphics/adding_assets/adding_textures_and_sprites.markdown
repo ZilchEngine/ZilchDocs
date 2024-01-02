@@ -7,7 +7,7 @@ To change the values applied to a SpriteSource when an image is imported, double
 
 
 
-![SpriteSourceEditor](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47311.png) *Sprite Source Editor window*
+![SpriteSourceEditor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47311.png) *Sprite Source Editor window*
 
 
 There are many different properties that may be modified such as where to set the origin, the type of sampling, and the SpriteFill mode (to change from Fill to [Nine Slice](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/sprites/area.markdown) for example). If the SpriteSource is a sprite sheet created for [ Sprite animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown#creating-sprite-animatio), click on `Convert to Animation` to open the Sprite Importer window.

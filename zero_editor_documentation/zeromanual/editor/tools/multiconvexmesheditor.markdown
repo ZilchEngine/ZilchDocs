@@ -43,7 +43,7 @@ The following section will be split up into two main sections: the In-Editor pro
 
 
 
-![multiconvexmeshgrid](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/1044.png)
+![multiconvexmeshgrid](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1044.png)
 
 
   - This property toggles the grid and determines the size of each grid square
@@ -65,7 +65,7 @@ When the Resource is created, the MultiConvexMesh Editor window will automatical
 
 
 
-![6b6e70c5-0565-4d99-a6c6-f46ea880f349](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47418.gif)
+![6b6e70c5-0565-4d99-a6c6-f46ea880f349](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47418.gif)
 
 
  ## Editing the MultiConvexMesh Resource
@@ -75,28 +75,28 @@ The first thing one needs when making a new MultiConvexMesh is select a SpriteSo
 
 
 
-![05f2026e-62a3-416e-b4fc-6ee64be2cc7c](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47425.gif)
+![05f2026e-62a3-416e-b4fc-6ee64be2cc7c](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47425.gif)
 
 
 As can be seen, the entire sprite is covered, but there is extra space covered by the mesh. Because this sprite has no transparent parts all pixels are above the alpha threshhold of `0.5`. If the AutoComputeMode enum option is set to `Intensity` instead the SurfaceLevelThreshold  option now has an affect on the `AutoCompute` process.
 
 
 
-![b3752a37-cb7f-4cf3-8b0f-75b3b2af3951](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47429.gif)
+![b3752a37-cb7f-4cf3-8b0f-75b3b2af3951](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47429.gif)
 
 
 Notice the warning popping up in the bottom right which says `Invalid Mesh`. This is means that no *convex* mesh could be constructed at the current SurfaceThreshold . 
 
 
 
-![fb88f004-49c6-42a7-8eaa-8b9436991b49](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47431.gif)
+![fb88f004-49c6-42a7-8eaa-8b9436991b49](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47431.gif)
 
 
 As the value of SurfaceThreshold  is lowered, and `Intensity` is selected as the AutoComputeMode enum, other parts of the SpriteSource that have a lower average color value will be included, as seen above. However, notice the new mesh generated fits better then before. If we need it to fit even closer `name=Simplification Threshold, icon=pencil-square-o` can be lowered to generate a higher definition mesh.
 
 
 
-![c0012127-4258-4655-af7a-875f0eaec5d8](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47433.gif)
+![c0012127-4258-4655-af7a-875f0eaec5d8](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47433.gif)
 
 
  # Related Materials

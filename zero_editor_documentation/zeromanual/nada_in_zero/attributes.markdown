@@ -130,7 +130,7 @@ results in the the variable appearing in the Property Grid in Properties window:
 
 
 
-![Editable](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66612.png)
+![Editable](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66612.png)
 
 
  ## [Serialize]
@@ -155,7 +155,7 @@ results in
 
 
 
-![Property](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66615.png)
+![Property](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66615.png)
 
 
  ## [Dependency]

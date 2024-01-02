@@ -81,7 +81,7 @@ The first part of this script that should be new is the line with the `sends` ke
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106913.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106913.png)
 
 
 
@@ -117,7 +117,7 @@ Before creating the component that will connect to this event, we need to create
  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown)
  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
 - [Upload to Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/architecture/archetypes/archetype_basics.markdown#upload-to-archetype)
-  ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/106942.png)
+  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106942.png)
 
 *The completed Projectile object*
 
@@ -174,7 +174,7 @@ We also need to add our `DestroyOnCollide` component to the enemy so that the pr
 
 
 
-![Projectile Destroying Player and Foe](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/107041.gif)
+![Projectile Destroying Player and Foe](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/107041.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -220,7 +220,7 @@ Now we can check to see what we're colliding with, and whether it's the correct 
 
 
 
-![Projectile Destroying Only Foe](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/107050.gif)
+![Projectile Destroying Only Foe](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/107050.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -334,7 +334,7 @@ Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEve
 
 
 
-![Destroying Foe with Slow and Fast Projectiles](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/107064.gif)
+![Destroying Foe with Slow and Fast Projectiles](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/107064.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

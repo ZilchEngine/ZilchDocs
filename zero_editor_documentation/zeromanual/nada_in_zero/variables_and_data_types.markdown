@@ -44,7 +44,7 @@ A scope is a region in which certain elements of the language, such as variables
 
 
 
-![ScopeDiagram](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94829.png)
+![ScopeDiagram](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94829.png)
 
 
  ## Global Scope

@@ -8,7 +8,7 @@ Directional lights may be created either with or without the ability to cast sha
 
 
 
-![Shadow](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46415.gif) *DirectionalLight rotating around an object*
+![Shadow](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46415.gif) *DirectionalLight rotating around an object*
 
 
 Shadows cast from a directional light are rendered separately than the other objects on a scene. Therefore, a different renderer, camera, and camera viewport are needed.
@@ -27,14 +27,14 @@ Be wary when increasing the size of the camera as [Resolution](https://github.co
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46546.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46546.png)
 
 
 This problem may be addressed by increasing the value of the  NormalOffsetBias  property on the DirectionalLight component. The default value is `0.1`, but when changed to `0.2` the shadow acne seen in the previous screenshot is gone:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46548.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46548.png)
 
 
 NormalOffsetBias  biases depth in the direction of an object's surface normal, causing surfaces to "pretend" they're slightly ahead of themselves in regards to shadow mapping. To generalize the issue, there is direct correlation between the values of the NormalOffsetBias , Size , and Resolution enum properties and the presence of shadow acne:

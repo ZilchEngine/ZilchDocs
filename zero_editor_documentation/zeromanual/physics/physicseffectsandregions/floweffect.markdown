@@ -2,7 +2,7 @@ The [FlowEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refer
 
 
 
-![FlowEffect](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46701.png)
+![FlowEffect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46701.png)
 
 
 Unlike a [ForceEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/physics/physicseffectsandregions/forceeffect.markdown) which applies a constant force in a direction, FlowEffect applies a variable force to make an object move at a constant speed in the flow direction. MaxFlowForce  allows the user to control how much force can be applied to reach this target speed. This can also be thought of as controlling the acceleration of objects within the field. Note: the flow portion of the effect only affects movement in the flow direction, not in the inward force direction.

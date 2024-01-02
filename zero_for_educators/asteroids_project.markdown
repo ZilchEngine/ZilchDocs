@@ -211,7 +211,7 @@ class ScreenWrap : NadaComponent
 
 
 
-![Asteroids](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94409.zip)
+![Asteroids](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94409.zip)
 
 
 At this point you should have a small ship navigating the screen, shooting, screenwrapping, and destroying asteroids. 

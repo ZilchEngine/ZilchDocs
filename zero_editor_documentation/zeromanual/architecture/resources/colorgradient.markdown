@@ -6,21 +6,21 @@ A new ColorGradient may be created through the [Add a Resource](https://github.c
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47008.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47008.png)
 
 
 Once the new ColorGradient has been named and created, an editor window will pop up:
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47010.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47010.png)
 
 
 As can be seen, the editor currently shows a gradient from black to white. The user may add keypoints on the gradient, however, to add in new colors by left-clicking anywhere on the gradient bar. These colors are selected via the common color selection window.
 
 
 
-![ColorGradient_Using](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47196.gif)
+![ColorGradient_Using](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47196.gif)
 
 
 As the common color selection window is used, any value within it may be changed as well, including the alpha value.
@@ -47,7 +47,7 @@ Attaching this code as a component onto a basic sprite (and selecting the ColorG
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47203.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47203.png)
 
 
 One can also use code to interpolate through the ColorGraident, changing the color of the sprite over time.
@@ -94,7 +94,7 @@ In the following demonstration, another, smaller Sprite has been added behind th
 
 
 
-![ColorGradient_WithAlphaAppliedToSprite](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47215.gif)
+![ColorGradient_WithAlphaAppliedToSprite](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47215.gif)
 
 
 ---

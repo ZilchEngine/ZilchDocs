@@ -75,7 +75,7 @@ two
 three
 ```
 
-IMPORTANT: If an invalid key is passed to the `[]` operator a runtime exception will be thrown: ![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90723.png)
+IMPORTANT: If an invalid key is passed to the `[]` operator a runtime exception will be thrown: ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90723.png)
 
  ## Get Functions
 Another way to access the `KeyValue` pairs of a HashMap is to use the `get` functions.
@@ -209,7 +209,7 @@ HashMap[Integer, String] (20744110)
 `SetOrError` follows a similiar behavior to [GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/hashmap/.markdown#hashmap-getorerror). If the key passed to `SetOrError` already exists in the HashMap then an exception will be thrown.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/90732.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90732.png)
 
 
  # HashMap Container Operations

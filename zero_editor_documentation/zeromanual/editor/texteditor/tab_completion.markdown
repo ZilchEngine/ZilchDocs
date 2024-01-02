@@ -13,7 +13,7 @@ While writing code in Zero, one will often see the code/word completion window p
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47411.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47411.png)
 
 
  ## Navigation and Activation
@@ -25,18 +25,18 @@ If the first suggestion is not the desired member, the suggestion list box can b
 
 
 
-![TabSuggestions](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47413.gif)
+![TabSuggestions](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47413.gif)
 
 
 
-(NOTE)**Event Connection Suggestion**: Upon initial inspection of the partial line `Zero.Connect`, one may not expect typing the partial token `Connect` to cause the tab completion menu to display the suggestions `Connect`, `Disconnect`, and `DisconnectAll`. However, upon looking again, it can be seen that all of the suggestions contain `Connect`, even if they do not start with `Connect`. ![LoopedDelayedEvents](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/93931.gif)
+(NOTE)**Event Connection Suggestion**: Upon initial inspection of the partial line `Zero.Connect`, one may not expect typing the partial token `Connect` to cause the tab completion menu to display the suggestions `Connect`, `Disconnect`, and `DisconnectAll`. However, upon looking again, it can be seen that all of the suggestions contain `Connect`, even if they do not start with `Connect`. ![LoopedDelayedEvents](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93931.gif)
 
  ## Word Completion
 While the code completion window is open, one may notice it will occasionally have a red border:
 
 
 
-![TabTypedSuggestions](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47415.gif)
+![TabTypedSuggestions](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47415.gif)
 
 
 This indicates that the menu has switched to **word completion** mode. If it is enabled (it can be disabled in the [ TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/texteditor/texteditorconfig.markdown)), the word completion window pops up any time an alphabetical character is typed and there isn't already a code or word completion window open. The word completion list is populated by every whole word it can find in the current file. In addition, it also lists all keywords (such as `if` and `foreach`), special words (like `this` and `value`), and all bound type names (like `Transform` and `Event`).

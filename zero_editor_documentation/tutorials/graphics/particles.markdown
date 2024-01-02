@@ -17,7 +17,7 @@ Particles are a great way to polish your game and are used for a variety of effe
 
 
 
-![BaseParticles](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94837.gif)
+![BaseParticles](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94837.gif)
 
 
 The first thing to realize is that particle systems require more than just one component to actually create, animate, and render particles. Let's look at the first component on the cog we just created, [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.markdown).
@@ -28,7 +28,7 @@ The first thing to realize is that particle systems require more than just one c
 - Download and import this fire particle sprite:
 
 
-![Fire](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96137.png)
+![Fire](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96137.png)
 
 - In the `Group Import Options Window`
  - Under `ImageOptions`
@@ -42,7 +42,7 @@ At this point, the particle system does not really look like fire.
 
 
 
-![FireImport](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96139.gif)
+![FireImport](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96139.gif)
 
 
  # Particle Emitters
@@ -59,7 +59,7 @@ Particle emitters create particles and give them initial conditions such as a st
 
 
 
-![LinearParticleAnimator](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96216.gif)
+![LinearParticleAnimator](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96216.gif)
 
 
 By changing StartVelocity  we ensured that each particle has an upward velocity when created. By itself, this would cause every particle to move in a straight line upward, but in combination with RandomVelocity  only having an X-axis value we have made it so the particle fan up and out.
@@ -77,7 +77,7 @@ This fan of fire still does not look very realistic. Let's try to make it look l
 
 
 
-![Emitter](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96218.gif)
+![Emitter](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96218.gif)
 
 
 You may have noticed we changed some properties that ended in the word `Variance`. Variance properties act as a modifier for other properties on a component. It is very rare that all particles in a given system should be the same size, or that a continuous particle system would emit at a static rate forever. Usually, we desire a range of possible values for parameters such as these and variance properties gives us that option by varying from the base value.
@@ -100,7 +100,7 @@ Campfires generally have a wider base and have flames get higher the closer to t
 
 
 
-![Attractor](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96226.gif)
+![Attractor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96226.gif)
 
 
 Our campfire is starting to look better. The [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown) is now pulling it up as well as towards the center of the fire. However, campfires are usually not hard-edged pyramids.
@@ -122,7 +122,7 @@ Campfires tend to wander randomly in the wind. The flames also get smaller befor
 
 
 
-![Animator](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/96228.gif)
+![Animator](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96228.gif)
 
 
 Adding the X-axis random force simulates air blowing our fire around a little bit. The negative growth shrinks the particles over their lifetime to simulate the flames shrinking as they get higher, we need to increase the initial particle size and emit rate to account for how much the campfire will be thinned out by the applied animations.
@@ -134,7 +134,7 @@ The last thing we need in this particle system is to change the color throughout
 - Create a Gradient resource using the Default template template and name it `Fire`
 - In the `Gradient Editor`
  - `Double-Left-Click` to create a new *point* in the middle of the gradient
-   ![AddGradientPoint](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/97973.gif)
+   ![AddGradientPoint](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/97973.gif)
  - `Left-Click` the new point to edit it
   - Use the color picker to set the gradient point color to: to `[R: 252, G: 140, B: 9]`
  - `Left-Click` the left point to edit it
@@ -145,7 +145,7 @@ The last thing we need in this particle system is to change the color throughout
 
 
 
-![2018-02-05 10_40_28-ScreenToGif](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/97976.png)
+![2018-02-05 10_40_28-ScreenToGif](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/97976.png)
 
 
 - In the `Properties Window`
@@ -156,7 +156,7 @@ The last thing we need in this particle system is to change the color throughout
 
 
 
-![Gradient2](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/97980.gif)
+![Gradient2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/97980.gif)
 
 
  # Layering Particle Systems
@@ -195,7 +195,7 @@ By setting this to true, the particle system will always run and render in-edito
 
 
 
-![SparksNoWander](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98001.gif)
+![SparksNoWander](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98001.gif)
 
 
 We have the particles layers, but sparks tend to be affected more by wind than flames are. Sparks also tend to leave small light trails behind.  So, let's make both of things happen.
@@ -210,7 +210,7 @@ We have the particles layers, but sparks tend to be affected more by wind than f
 
 
 
-![Sparks](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/97994.gif)
+![Sparks](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/97994.gif)
 
 
 By adding wander each particle now picks a slightly different random direction from the frame previous and is propelled in that direction in addition to the constant upward force being applied. This allows us to make the sparks vary side-to-side and up and down while still consistently moving up.

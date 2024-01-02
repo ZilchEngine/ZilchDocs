@@ -8,7 +8,7 @@ One of the keys to working with a component based engine is to think of objects 
 The easiest way to start creating your own cog is to start with a command that generates one for you, e.g. [ CreateSprite ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite), [ CreateCube ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createcube), [ CreateTransform ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform), etc. These create cogs that you can then customize by adding or removing components and setting their properties in the Properties Window.
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47151.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47151.png)
 
 
  ## Copy & Paste

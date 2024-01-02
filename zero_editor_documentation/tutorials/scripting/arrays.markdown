@@ -240,7 +240,7 @@ class EnemyManager : NadaComponent
 
 
 
-![Add](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98010.gif)
+![Add](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98010.gif)
 
 
 We can see a new enemy spawned each time we pressed `space`. We can also see that each spawned object was added to the `Enemies` array in `EnemyManager` as we print it to the console following spawning the object.
@@ -278,7 +278,7 @@ function OnKeyDown(event : KeyboardEvent)
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/102458.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/102458.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -318,14 +318,14 @@ function OnKeyDown(event : KeyboardEvent)
 
 
 
-![NullAccess](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98012.gif)
+![NullAccess](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98012.gif)
 
 
 - Repeat the last two steps until you receive the following error
 
 
 
-![nullaccess](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98016.png)
+![nullaccess](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98016.png)
 
 
 Notice how each time `D` is pressed and an enemy is destroyed, the length of `EnemyManager.Enemies` does not change. Just because we destroyed the enemy objects does not mean that the references to them we put in the array are removed. The exception is thrown when we attempt to access a member of one of the `null` references to one of the destroyed cogs. We need to remove these references when we destroy the cogs in order to prevent `null` references from existing in the array.
@@ -356,7 +356,7 @@ function OnKeyDown(event : KeyboardEvent)
 
 
 
-![RemoveAt](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/98018.gif)
+![RemoveAt](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98018.gif)
 
 
 By calling [RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeat-void) we removing an element at a paticular index. By removing the element before deleting the object we prevent there from ever being a `null` reference in the array to mistakenly access later.

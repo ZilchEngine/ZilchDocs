@@ -20,7 +20,7 @@ This lesson focuses on covering the basics of audio in Zero Engine.
 
 
 
-![AudioI](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46662.gif)
+![AudioI](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46662.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -30,7 +30,7 @@ This lesson focuses on covering the basics of audio in Zero Engine.
 In Zero Engine, you can play sound files by importing them as resources. There are two important resources to play audio; [Sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown) and [SoundCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown). By default, Zero Engine includes both a DefaultSound resource and a DefaultSoundCue resource resources, which is what we hear when running the game. Let's experiment by adding a new sound file.
 
 - Download the following file:
- ![Buzz](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46672.wav)
+ ![Buzz](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46672.wav)
 - Import it into the project by dragging and dropping the file into the `Level Window`
 - In the `Import Window`
  - Set GenerateCue  to `PerSound`
@@ -39,14 +39,14 @@ In Zero Engine, you can play sound files by importing them as resources. There a
 
 
 
-![SoundImport](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46996.gif)
+![SoundImport](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46996.gif)
 
 
 Now we have added both a Sound resource and SoundCue resource resource to our project. We can verify this by looking at the `Library Window` under the respective tags.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/88672.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88672.png)
 
 
 NOTE: Zero Engine only supports `WAV` and `OGG` audio formats, if the file you are looking to import is of a different extension, you'll need it to convert it first.
@@ -57,7 +57,7 @@ SoundCues are resources that allow you to modify properties of a sound without a
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47005.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47005.png)
 
 
 | Common Sound Cue Properties |
@@ -90,7 +90,7 @@ Previously, we have played sounds that remain just as loud irrespective of the e
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/88634.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88634.png)
 
 
 Let's take a look on how to play positional sounds.

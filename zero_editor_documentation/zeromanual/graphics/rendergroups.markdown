@@ -18,17 +18,17 @@ To assign a RenderGroup to a Material, open the Material in the Properties windo
 
 
 
-![DefaultRenderGroups](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47760.png)
+![DefaultRenderGroups](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47760.png)
 
 
 While this way of assigning RenderGroups is sufficient in most cases, there may be times when an existing Material should have a RenderGroup but the Material either can't or shouldn't be modified. For this reason, a RenderGroup can also reference a Material by selecting a RenderGroup and adding a Material to its list in the same way. If either or both resources reference one another then that Material belongs to that RenderGroup.
 
 
 
-![AddMatToGroup](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66419.png)
+![AddMatToGroup](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66419.png)
 
 
-(NOTE)**For Convenience** If either a RenderGroup or Material reference one another, the ReferencedBy drop-down menu list displays which resources are referencing it. Resources can also be selected from this list by clicking on them.![ReferencedBy](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/66421.png)
+(NOTE)**For Convenience** If either a RenderGroup or Material reference one another, the ReferencedBy drop-down menu list displays which resources are referencing it. Resources can also be selected from this list by clicking on them.![ReferencedBy](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66421.png)
 
  # Sort Method
 No matter what the renderer is, the order that graphicals are drawn will almost always be important.  In a 3D game, depth tests can be used instead of any sorting.  In a 2D game, where every graphical shares the same z coordinate the player should be drawn after the background.  In some cases like this, usual Z-based sorting methods wont work.  On each RenderGroup, there's a GraphicalSortMethod drop-down menu property that defines how graphicals in that RenderGroup are sorted.  Below are all the sorting methods and what they do:
@@ -48,7 +48,7 @@ To create a RenderGroup, use [Command](https://github.com/ZilchEngine/ZilchDocs/
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46036.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46036.png)
 
 
  # Related Materials

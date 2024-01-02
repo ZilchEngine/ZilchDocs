@@ -4,7 +4,7 @@ As metals have very high specular and very low diffuse reflectance, their color 
 
 
 
-![Metallic_Overview_Spheres](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28444.png)
+![Metallic_Overview_Spheres](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28444.png)
 
 
 Using either a map or a value fragment, one may assign a metallic value between `0.0` and `1.0`. While there may be an impulse to assign this value somewhere in the middle, it usually far more accurate to make a material or part of a material either completely `1.0` (metal) or completely `0.0` (non-metal). If the effect desired is a brushed or aged metal, this may best be achieved by using a RoughnessMap in conjunction with a MetallicMap. 
@@ -19,14 +19,14 @@ When a MetallicValue fragment is applied to a Material, the user may set a metal
 
 
 
-![AddValue](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47838.gif)
+![AddValue](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47838.gif)
 
 
 The following screenshots show the progression of the metallic value of a material from `0.0` to `1.0` with a constant roughness value (`0.25`) and albedo value (gold, copper, and silver, front to back):
 
 
 
-![MetalTriA](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28438.png) ![MetalTriB](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28440.png) ![MetalTriC](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/28442.png)
+![MetalTriA](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28438.png) ![MetalTriB](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28440.png) ![MetalTriC](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28442.png)
 
 
 The spheres furthest to the left look have a matte look there as there is no metallic or specular reflectance added while the spheres furthest to the right looks like polished, completely reflective metals. The difference between the three sphere in the middle of each line are subtle and may not be terribly useful, but with a uniform metallic value that shouldn't be a problem. The vast majority of objects are either metals or non-metals so to have a uniform metallic value somewhere in between `0.0` and `1.0`, especially as the value approaches `0.5`, will not appear like the surface of anything in reality.
@@ -37,7 +37,7 @@ A MetallicMap is a texture provided by an artist for use on a model. While most 
 
 
 
-![AddMap](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47848.gif)
+![AddMap](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47848.gif)
 
 
 A MetallicMap fragment is appropriate to use when the Material will have sections that are metallic and sections that are not. 

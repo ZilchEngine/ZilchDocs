@@ -14,21 +14,21 @@ Right-clicking on a Tag in the Library window will only give a single option, `A
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47149.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47149.png)
 
 
 Left-clicking on this option will act the same as if that [Tag](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/tags.markdown) was typed into the Search function, or if the Tag was double left-clicked: the Library Window will show any Resources with the selected Tag. 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47153.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47153.png)
 
 
  # Resources
 Right-clicking on a Resource will bring up a different list with four options available to all Resources: `Edit`, `Rename`, `EditTags` and `Remove`, and if the Resource is not a NadaScript, `Duplicate`. 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47155.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47155.png)
 
 
  - `Edit` will open the selected Resource to have changes made to it. If need be it will open a new editor window, such as if there is a visual aspect to be edited or to edit a text entry. 
@@ -40,7 +40,7 @@ Right-clicking on a Resource will bring up a different list with four options av
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47157.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47157.png)
 
 
  # In the Objects Window
@@ -48,7 +48,7 @@ When an Object in the Objects Window is right-clicked, it gives only two options
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47158.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47158.png)
 
 
  - **Rename**: Just like in the Library Window, the `Rename` option allows the user to change the name of the selected object.
@@ -59,7 +59,7 @@ When a Component is right-clicked in the Properties Window, it is given three op
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47160.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47160.png)
 
 
  - **Remove**: The `Remove` option will remove the selected Component from the Object. If another Component is dependent on the Component attempting to be removed, the Engine will not allow the removal to take place and will show an error message. 
@@ -74,7 +74,7 @@ Right-clicking on any word written in a NadaScript will give the user the `Go To
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47162.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47162.png)
 
 
 
@@ -85,7 +85,7 @@ When right-clicking on an open tab in the Editor Window, three options are given
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47168.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47168.png)
 
 
  - **Close**: This option will close the selected tab in the Editor Window.

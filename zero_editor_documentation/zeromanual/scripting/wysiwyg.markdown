@@ -6,7 +6,7 @@ Here the [ Sprite ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_ed
 
 
 
-![flipped](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47657.gif)
+![flipped](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47657.gif)
 
 
 As a demonstration, the following custom [ NadaScript ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero.markdown) will emulateFlipX checkBox while using a Property:
@@ -43,7 +43,7 @@ class Flipper : NadaComponent
 
 
 
-![propertyset](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/1265.png)
+![propertyset](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1265.png)
 
 
 While this works, it doesn't flip when FlipX checkBox is altered at runtime. By only 
@@ -99,7 +99,7 @@ class Flipper : NadaComponent
 
 
 
-![flippereditorruntime](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47671.gif)
+![flippereditorruntime](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47671.gif)
 
 
 Employing [ RunInEditor ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/attributes.markdown), [ Serialized ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/attributes.markdown), and [ Editable ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/nada_in_zero/attributes.markdown) we've created the WYSIWYG feel, and the sprite can now be flipped at editor runtime. This design pattern can be reused to create the polished WYSIWYG feel with most scripted components.

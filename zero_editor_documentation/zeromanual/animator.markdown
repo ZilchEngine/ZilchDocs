@@ -18,19 +18,19 @@ These are some examples of the type of animation the Animator can do:
 The Animator can be accessed by pressing the following button at the top of the Zero Editor window:
 
 
-![AnimatorToolButton](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47602.png)
+![AnimatorToolButton](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47602.png)
 
 
 Alternatively, it can also be opened through the `Zero Search` window:
 
 
-![AnimatorSearchWindow](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47604.png)
+![AnimatorSearchWindow](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47604.png)
 
 
 Once it has been opened, a window will appear at the bottom of the Editor :
 
 
-![AnimatorGraph](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47606.png)
+![AnimatorGraph](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47606.png)
 
 
  # AnimationGraph Component
@@ -38,7 +38,7 @@ Once it has been opened, a window will appear at the bottom of the Editor :
 Before animating an object's properties using the Animator, the [AnimationGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown) component must first be added to that object. This tells Zero that this object's properties are now able to be animated as well as how fast it should be played. The `AnimationGraph` component is added to an object the same as any other component or by clicking on the highlighted text at the bottom of the screen:
 
 
-![AddAnimationGraph](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47608.png)
+![AddAnimationGraph](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47608.png)
 
 NOTE: **"No Object Selected."**  If the Animator shows `No Object Selected` instead of `Click to add Animation Graph`, click on the object to be animated to proceed.
 
@@ -47,13 +47,13 @@ NOTE: **"No Object Selected."**  If the Animator shows `No Object Selected` inst
 The last setup step is to create an Animation with the RichAnimation template. This can be done, through Zero's `Add a Resource` window:
 
 
-![AddAnimationResource](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47610.png)
+![AddAnimationResource](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47610.png)
 
 
 This can also be done by clicking on the highlighted text at the bottom of the screen:
 
 
-![CreateNewAnimation](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47612.png)
+![CreateNewAnimation](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47612.png)
 
 
 The object should now have a new [SimpleAnimation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simpleanimation.markdown) component. 
@@ -70,23 +70,23 @@ Now everything is ready to start animating.
 
 To begin animating, keyframes must be created. Keyframes tell the animation that, at a given point in time, a property should be set to a certain value. Between each keyframe, the Animator will create a curve that will interpolate the chosen property values between each keyframe.
 
-To choose the property to keyframe, click on the ![key](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/1129.png) icon next to the property that should be animated. This will create a keyframe of that property, with its current value, at the time indicated by the **Play Head** (the vertical blue bar in the animation graph):
+To choose the property to keyframe, click on the ![key](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1129.png) icon next to the property that should be animated. This will create a keyframe of that property, with its current value, at the time indicated by the **Play Head** (the vertical blue bar in the animation graph):
 
 
-![PlayHead](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47615.png)
+![PlayHead](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47615.png)
 
 
 The Animator creates a curve interpolating between the two values. By repeating this, you can create multiple keyframe with the chosen time and value:
 
 
 
-![AnimationCurve](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47617.png)
+![AnimationCurve](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47617.png)
 
 
 Next, the animation controls on the lower left corner will be used to play and see the animation in action.
 
 
-![AnimationControls](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47619.png)
+![AnimationControls](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47619.png)
 
 
  # Animation List
@@ -100,7 +100,7 @@ By default, the animation plays at **30 frames per second**, meaning that if a s
 The animation control panel allows one to play, play in reverse, step frames and move to the beginning or end of an animation, providing different methods to preview and fine tune the value changes over time.
 
 
-![AnimationStepControls](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47621.png)
+![AnimationStepControls](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47621.png)
 
 
 At the bottom of the animation controls the animation preview playmode may be set:
@@ -111,13 +111,13 @@ At the bottom of the animation controls the animation preview playmode may be se
 Take note that these changes do not take effect in-game. The in-game playmode may be changed through the object's SimpleAnimation component.
 
 
-![PlaymodePreview](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47623.png)
+![PlaymodePreview](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47623.png)
 
 
  -  `Preview Time Scale` determines how fast the animation is played when previewed. This does not affect the in-game speed. The in-game timescale can be adjusted through the object's AnimationGraph Component.
 
 
-![timescale](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/1134.png)
+![timescale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1134.png)
 
 
  # Animator Settings
@@ -125,7 +125,7 @@ Take note that these changes do not take effect in-game. The in-game playmode ma
 Here is a list of the other settings and functionalities of the Animator:
 
 
-![AnimatorFunctionality](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47625.png)
+![AnimatorFunctionality](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47625.png)
 
 From left to right:
  -  X  A field that displays the position of a key with respect to time (Horizontal Axis)

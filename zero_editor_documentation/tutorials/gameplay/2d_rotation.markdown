@@ -31,7 +31,7 @@ This lesson covers the basic ways to rotate an object in 2D at runtime.
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94052.png)
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94052.png)
 
 
 *Hovering over [Transform.Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown#rotation-zero-engine-doc)*
@@ -91,7 +91,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
 
 
-![RotateOnUpdate](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94054.gif)
+![RotateOnUpdate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94054.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -114,7 +114,7 @@ You may have noticed the name of the function [RotateAnglesWorld](https://github
 
 
 
-![RotateWorldParent](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94069.gif)
+![RotateWorldParent](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94069.gif)
 
 
 Now we can see that a child object rotates with its parent. You may have seen similar behavior when using the rotation tool with hierarchies in the past. It is important to note that the Child object maintains it's translation relative to the parent object as the parent object rotates.
@@ -132,7 +132,7 @@ Now we can see that a child object rotates with its parent. You may have seen si
 
 
 
-![RotateWorldChild](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94071.gif)
+![RotateWorldChild](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94071.gif)
 
 
 Here we can see that rotating the Child object has no affect on the Parent object.
@@ -174,7 +174,7 @@ class Rotate2D : NadaComponent
 
 
 
-![ActionRotate](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94073.gif)
+![ActionRotate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94073.gif)
 
 
 *Rotating the child object to 45 degrees on the Z-axis using an Action*
@@ -191,7 +191,7 @@ class Rotate2D : NadaComponent
 
 
 
-![ActionRotate](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/94073.gif)
+![ActionRotate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94073.gif)
 
 
 *Rotating the child object to 405 degrees on the Z-axis using an Action*

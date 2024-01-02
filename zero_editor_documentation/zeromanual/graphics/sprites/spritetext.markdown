@@ -12,7 +12,7 @@ SpriteText can be made in different two ways: using the [Command](https://github
 
 
 
-![SpriteTextProperties](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47818.png) *SpriteText Component*
+![SpriteTextProperties](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47818.png) *SpriteText Component*
 
 
  ## Adding new Fonts
@@ -20,19 +20,19 @@ Importing and accessing different Font resource resources is arguably the most i
 
 
 
-![AddButton](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47820.png) *Resource Add Button*
+![AddButton](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47820.png) *Resource Add Button*
 
 
 
 
-![image](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/45994.png) *Adding a Font*
+![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/45994.png) *Adding a Font*
 
 
 This will open a new file explorer window where the user may select the Font or Fonts to import. Once a Font is imported into Zero, simply select the Font resource property on the SpriteText component and choose the desired Font.
 
 
 
-![ChangeFonts](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47827.gif) *Selecting Multiple Fonts*
+![ChangeFonts](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47827.gif) *Selecting Multiple Fonts*
 
 
 NOTE: Zero accepts both OpenType Font (OTF) and TrueType Font (TTF).

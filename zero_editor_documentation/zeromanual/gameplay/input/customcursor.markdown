@@ -49,7 +49,7 @@ The [OnMouseMove](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_edit
 A large drawback to using this method is the fact that it allows the Mouse icon to leave the boundaries of the Game window, which will make the Mouse visible and not hide it again even if the Game is brought back into focus. Below is an example of how a [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/code_reference/class_reference/sprite.markdown) with this script attached would act:
 
 
-![MouseCursorMove](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47511.gif)
+![MouseCursorMove](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47511.gif)
 
 
 It would also be possible to set the Mouse invisible from the LogicUpdate event, keeping the cursor invisible in within the editor even when leaving the game window. 
@@ -171,7 +171,7 @@ Below is an example of this script attached to the `LevelSettings` object of an 
 
 
 
-![LockedMouseCursorMove](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/47514.gif)
+![LockedMouseCursorMove](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47514.gif)
 
 
  # Related Materials

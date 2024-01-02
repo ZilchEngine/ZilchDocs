@@ -4,7 +4,7 @@ where `VertexColor` comes from VectexColor  on the [SpriteParticleSystem](https:
 
 
 
-![ParticleSystems_ColorGradients](https://media.githubusercontent.com/media/zeroengineteam/ZeroFiles/master/doc_files/46668.gif) *The TimeGradient resource is interpolated from black to white to black such that the color fades in and out.  The VelocityGradient resource is interpolated from blue to red, such that slow particles are blue and fast particles are red.*
+![ParticleSystems_ColorGradients](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46668.gif) *The TimeGradient resource is interpolated from black to white to black such that the color fades in and out.  The VelocityGradient resource is interpolated from blue to red, such that slow particles are blue and fast particles are red.*
 
 
  # Time and Velocity Gradients
