@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#splinesampledata-void)|[ Point](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#point-zero-engine-docume)| | |
-| |[ Tangent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#tangent-zero-engine-docu)| | |
-| |[ WorldPoint](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldpoint-zero-engine-d)| | |
-| |[ WorldTangent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldtangent-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#splinesampledata-void)|[ Point](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#point-zero-engine-docume)| | |
+| |[ Tangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#tangent-zero-engine-docu)| | |
+| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldpoint-zero-engine-d)| | |
+| |[ WorldTangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldtangent-zero-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Point : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  Point : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The point on the curve.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Tangent : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  Tangent : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  WorldPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  WorldTangent : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  WorldTangent : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
 > ``` lang=cpp, name=Nada

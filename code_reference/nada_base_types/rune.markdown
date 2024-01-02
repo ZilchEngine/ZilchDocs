@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/rune.markdown#rune-void)|[ Value](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/rune.markdown#value-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.markdown#rune-void)|[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.markdown#value-zero-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Value : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
+ #  Value : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > ``` lang=cpp, name=Nada
 > function Rune(value : Integer)
 > ``` 

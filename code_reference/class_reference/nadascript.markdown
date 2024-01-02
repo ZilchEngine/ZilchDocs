@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| | |[nadadocumentresource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadadocumentresource.markdown)| |
+| | |[nadadocumentresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadadocumentresource.markdown)| |
 
 
  #  Properties

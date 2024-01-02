@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddMicUncompressedData](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addmicuncompresseddata-v)|[ SampleCount](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#samplecount-zero-engine)|[referencecountedobject](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/referencecountedobject.markdown)| |
-|[ AddSampleToBuffer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addsampletobuffer-void)| | | |
-|[ GetSampleAtIndex](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#getsampleatindex-zero-en)| | | |
-|[ Reset](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#reset-void)| | | |
+|[ AddMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addmicuncompresseddata-v)|[ SampleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#samplecount-zero-engine)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.markdown)| |
+|[ AddSampleToBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addsampletobuffer-void)| | | |
+|[ GetSampleAtIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#getsampleatindex-zero-en)| | | |
+|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#reset-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  SampleCount : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
+ #  SampleCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)]| |
+> ||Array[[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)]| |
 > ``` lang=cpp, name=Nada
 > function AddMicUncompressedData( : Array[Real])
 > ``` 
@@ -45,19 +45,19 @@
 > Adds a new audio sample to the end of the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |sample|[real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
+> |sample|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)| |
 > ``` lang=cpp, name=Nada
 > function AddSampleToBuffer(sample : Real)
 > ``` 
 
 
 ---  
- #  GetSampleAtIndex : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+ #  GetSampleAtIndex : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > Returns the sample at a specific index from the beginning of the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
+> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.markdown)| |
 > ``` lang=cpp, name=Nada
 > function GetSampleAtIndex(index : Integer) : Real
 > ``` 

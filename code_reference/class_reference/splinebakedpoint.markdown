@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinebakedpoint.markdown#splinebakedpoint-void)|[ Position](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinebakedpoint.markdown#position-zero-engine-doc)| | |
-| |[ WorldPosition](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/splinebakedpoint.markdown#worldposition-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinebakedpoint.markdown#splinebakedpoint-void)|[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinebakedpoint.markdown#position-zero-engine-doc)| | |
+| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinebakedpoint.markdown#worldposition-zero-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  Position : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  Position : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > The position of a baked point.
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  WorldPosition : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  WorldPosition : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |position|[real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
+> |position|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)| |
 > ``` lang=cpp, name=Nada
 > function SplineBakedPoint(position : Real3)
 > ``` 

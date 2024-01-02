@@ -324,10 +324,10 @@ The tables below are meant for both quick reference via the name column as well 
 
  # Related Materials
  ## Manual Pages
-- [Code Completion](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/texteditor/codecompletion.markdown)
-- [Text Editor Config](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/zeromanual/editor/texteditor/texteditorconfig.markdown)
+- [Code Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/texteditor/codecompletion.markdown)
+- [Text Editor Config](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/texteditor/texteditorconfig.markdown)
  ## Code Reference
-- [TextEditorConfig](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/code_reference/class_reference/texteditorconfig.markdown) 
+- [TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/code_reference/class_reference/texteditorconfig.markdown) 
 
  
 

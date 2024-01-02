@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#clean-void)| |[dataresource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-|[ CompileDebug](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#compiledebug-void)| | | |
-|[ CompileRelease](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#compilerelease-void)| | | |
-|[ CopyPluginDependencies](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#copyplugindependencies-v)| | | |
-|[ InstallIdeTools](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#installidetools-void)| | | |
-|[ OpenDirectory](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#opendirectory-void)| | | |
-|[ OpenIde](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#openide-void)| | | |
+|[ Clean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#clean-void)| |[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ CompileDebug](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#compiledebug-void)| | | |
+|[ CompileRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#compilerelease-void)| | | |
+|[ CopyPluginDependencies](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#copyplugindependencies-v)| | | |
+|[ InstallIdeTools](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#installidetools-void)| | | |
+|[ OpenDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#opendirectory-void)| | | |
+|[ OpenIde](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.markdown#openide-void)| | | |
 
 
  #  Properties

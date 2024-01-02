@@ -13,7 +13,7 @@ In game development artificial intelligence (AI) is a very broad field. We use t
 
 
 
-*    The simple AI tutorial has been moved here [here ](https://github.com/zeroengineteam/ZeroDocs/blob/master/zero_editor_documentation/tutorials/ai/simpleai.markdown)
+*    The simple AI tutorial has been moved here [here ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/tutorials/ai/simpleai.markdown)
 
  
 

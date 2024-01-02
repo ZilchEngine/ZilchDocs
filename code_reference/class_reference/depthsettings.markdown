@@ -4,30 +4,30 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthsettings-void)|[ DepthCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthcomparefunc-zero-en)| | |
-| |[ DepthFailOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailop-zero-engine)| | |
-| |[ DepthFailOpBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailopbackface-zero)| | |
-| |[ DepthMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthmode-zero-engine-do)| | |
-| |[ DepthPassOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassop-zero-engine)| | |
-| |[ DepthPassOpBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassopbackface-zero)| | |
-| |[ StencilCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilcomparefunc-zero)| | |
-| |[ StencilCompareFuncBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilcomparefuncbackfa)| | |
-| |[ StencilFailOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailop-zero-engin)| | |
-| |[ StencilFailOpBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailopbackface-ze)| | |
-| |[ StencilMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilmode-zero-engine)| | |
-| |[ StencilReadMask](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmask-zero-eng)| | |
-| |[ StencilReadMaskBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmaskbackface)| | |
-| |[ StencilTestValue](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvalue-zero-en)| | |
-| |[ StencilTestValueBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvaluebackface)| | |
-| |[ StencilWriteMask](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemask-zero-en)| | |
-| |[ StencilWriteMaskBackFace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemaskbackface)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthsettings-void)|[ DepthCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthcomparefunc-zero-en)| | |
+| |[ DepthFailOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailop-zero-engine)| | |
+| |[ DepthFailOpBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailopbackface-zero)| | |
+| |[ DepthMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthmode-zero-engine-do)| | |
+| |[ DepthPassOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassop-zero-engine)| | |
+| |[ DepthPassOpBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassopbackface-zero)| | |
+| |[ StencilCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilcomparefunc-zero)| | |
+| |[ StencilCompareFuncBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilcomparefuncbackfa)| | |
+| |[ StencilFailOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailop-zero-engin)| | |
+| |[ StencilFailOpBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailopbackface-ze)| | |
+| |[ StencilMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilmode-zero-engine)| | |
+| |[ StencilReadMask](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmask-zero-eng)| | |
+| |[ StencilReadMaskBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmaskbackface)| | |
+| |[ StencilTestValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvalue-zero-en)| | |
+| |[ StencilTestValueBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvaluebackface)| | |
+| |[ StencilWriteMask](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemask-zero-en)| | |
+| |[ StencilWriteMaskBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemaskbackface)| | |
 
 
  #  Properties
 
 
 ---  
- #  DepthCompareFunc : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
+ #  DepthCompareFunc : [TextureCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  DepthFailOp : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
+ #  DepthFailOp : [StencilOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  DepthFailOpBackFace : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
+ #  DepthFailOpBackFace : [StencilOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  DepthMode : [DepthMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#depthmode)
+ #  DepthMode : [DepthMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#depthmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  DepthPassOp : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
+ #  DepthPassOp : [StencilOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  DepthPassOpBackFace : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
+ #  DepthPassOpBackFace : [StencilOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  StencilCompareFunc : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
+ #  StencilCompareFunc : [TextureCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  StencilCompareFuncBackFace : [TextureCompareFunc](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
+ #  StencilCompareFuncBackFace : [TextureCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturecomparefunc)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -91,7 +91,7 @@
 
 
 ---  
- #  StencilFailOp : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
+ #  StencilFailOp : [StencilOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -99,7 +99,7 @@
 
 
 ---  
- #  StencilFailOpBackFace : [StencilOp](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
+ #  StencilFailOpBackFace : [StencilOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilop)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -107,7 +107,7 @@
 
 
 ---  
- #  StencilMode : [StencilMode](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#stencilmode)
+ #  StencilMode : [StencilMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#stencilmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -115,7 +115,7 @@
 
 
 ---  
- #  StencilReadMask : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
+ #  StencilReadMask : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for buffer value and test value when being compared.
 > ``` lang=cpp, name=Nada
@@ -123,7 +123,7 @@
 
 
 ---  
- #  StencilReadMaskBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
+ #  StencilReadMaskBackFace : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for buffer value and test value when being compared, for triangle back faces if in separate mode.
 > ``` lang=cpp, name=Nada
@@ -131,7 +131,7 @@
 
 
 ---  
- #  StencilTestValue : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
+ #  StencilTestValue : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Value that will be used to compare against the stencil buffer for all pixels.
 > ``` lang=cpp, name=Nada
@@ -139,7 +139,7 @@
 
 
 ---  
- #  StencilTestValueBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
+ #  StencilTestValueBackFace : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Value that will be used to compare against the stencil buffer for all pixels, for triangle back faces if in separate mode.
 > ``` lang=cpp, name=Nada
@@ -147,7 +147,7 @@
 
 
 ---  
- #  StencilWriteMask : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
+ #  StencilWriteMask : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for which bits in the buffer can be modified.
 > ``` lang=cpp, name=Nada
@@ -155,7 +155,7 @@
 
 
 ---  
- #  StencilWriteMaskBackFace : [byte](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/byte.markdown)
+ #  StencilWriteMaskBackFace : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.markdown)
 
 > Bit mask for which bits in the buffer can be modified, for triangle back faces if in separate mode.
 > ``` lang=cpp, name=Nada
@@ -187,7 +187,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |other|[depthsettings](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/depthsettings.markdown)| |
+> |other|[depthsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown)| |
 > ``` lang=cpp, name=Nada
 > function DepthSettings(other : DepthSettings)
 > ``` 

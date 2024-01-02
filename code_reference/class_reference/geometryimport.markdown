@@ -2,20 +2,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#geometryimport-void)|[ ChangeBasis](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#changebasis-zero-engine)|[contentcomponent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
-| |[ CollapsePivots](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#collapsepivots-zero-engi)| | |
-| |[ OriginOffset](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#originoffset-zero-engine)| | |
-| |[ ScaleFactor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#scalefactor-zero-engine)| | |
-| |[ XBasisTo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#xbasisto-zero-engine-doc)| | |
-| |[ YBasisTo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#ybasisto-zero-engine-doc)| | |
-| |[ ZBasisTo](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/geometryimport.markdown#zbasisto-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#geometryimport-void)|[ ChangeBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#changebasis-zero-engine)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
+| |[ CollapsePivots](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#collapsepivots-zero-engi)| | |
+| |[ OriginOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#originoffset-zero-engine)| | |
+| |[ ScaleFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#scalefactor-zero-engine)| | |
+| |[ XBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#xbasisto-zero-engine-doc)| | |
+| |[ YBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#ybasisto-zero-engine-doc)| | |
+| |[ ZBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.markdown#zbasisto-zero-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChangeBasis : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
+ #  ChangeBasis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  CollapsePivots : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
+ #  CollapsePivots : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  OriginOffset : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  OriginOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  ScaleFactor : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+ #  ScaleFactor : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  XBasisTo : [BasisType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basistype)
+ #  XBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#basistype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  YBasisTo : [BasisType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basistype)
+ #  YBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#basistype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  ZBasisTo : [BasisType](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/enum_reference.markdown#basistype)
+ #  ZBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#basistype)
 
 > 
 > ``` lang=cpp, name=Nada

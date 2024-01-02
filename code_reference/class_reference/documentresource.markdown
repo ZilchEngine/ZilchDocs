@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| | |Resource|[textblock](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/textblock.markdown)|
-| | | |[nadadocumentresource](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/nadadocumentresource.markdown)|
+| | |Resource|[textblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textblock.markdown)|
+| | | |[nadadocumentresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadadocumentresource.markdown)|
 
 
  #  Properties

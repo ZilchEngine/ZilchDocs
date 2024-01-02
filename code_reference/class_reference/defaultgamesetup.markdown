@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#defaultgamesetup-void)|[ LoadEditingLevel](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#loadeditinglevel-zero-en)|[component](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ StartingLevel](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startinglevel-zero-engin)| | |
-| |[ StartingSpace](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startingspace-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#defaultgamesetup-void)|[ LoadEditingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#loadeditinglevel-zero-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ StartingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startinglevel-zero-engin)| | |
+| |[ StartingSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startingspace-zero-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  LoadEditingLevel : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
+ #  LoadEditingLevel : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  StartingLevel : [level](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/level.markdown)
+ #  StartingLevel : [level](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/level.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  StartingSpace : [archetype](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/archetype.markdown)
+ #  StartingSpace : [archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.markdown)
 
 > 
 > ``` lang=cpp, name=Nada

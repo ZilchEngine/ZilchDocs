@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoWorldScale](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.markdown#gizmoworldscale-zero-eng)|[gizmoupdateevent](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
+| |[ GizmoWorldScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.markdown#gizmoworldscale-zero-eng)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
 
 
  #  Properties
 
 
 ---  
- #  GizmoWorldScale : [real3](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real3.markdown)
+ #  GizmoWorldScale : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
 
 > 
 > ``` lang=cpp, name=Nada

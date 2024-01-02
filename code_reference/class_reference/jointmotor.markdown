@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/jointmotor.markdown#jointmotor-void)|[ Active](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/jointmotor.markdown#active-zero-engine-docum)|[component](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ AtomIds](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/jointmotor.markdown#atomids-zero-engine-docu)| | |
-| |[ MaxImpulse](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/jointmotor.markdown#maximpulse-zero-engine-d)| | |
-| |[ Reverse](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/jointmotor.markdown#reverse-zero-engine-docu)| | |
-| |[ Speed](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/class_reference/jointmotor.markdown#speed-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#jointmotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#atomids-zero-engine-docu)| | |
+| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#maximpulse-zero-engine-d)| | |
+| |[ Reverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#reverse-zero-engine-docu)| | |
+| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#speed-zero-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
+ #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this motor is currently active.
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  AtomIds : [integer](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/integer.markdown)
+ #  AtomIds : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.markdown)
 
 > Signifies what atoms on the joint this affects. For internal use.
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  MaxImpulse : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+ #  MaxImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The maximum impulse that the motor can apply each frame to reach the target speed.
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Reverse : [boolean](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
+ #  Reverse : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.markdown)
 
 > Determines if this motor should move in reverse. This is a convenient way to reverse a motor without having to negate the speed.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Speed : [real](https://github.com/zeroengineteam/ZeroDocs/blob/master/code_reference/nada_base_types/real.markdown)
+ #  Speed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
 > The desired speed for this motor.
 > ``` lang=cpp, name=Nada
