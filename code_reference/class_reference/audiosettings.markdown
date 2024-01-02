@@ -49,7 +49,7 @@
 ---  
  #  SystemVolume : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)
 
-> An overall volume modifier that is applied to all audio produced by Zero.
+> An overall volume modifier that is applied to all audio produced by Zilch.
 > ``` lang=cpp, name=Nada
 > var SystemVolume : Real
 

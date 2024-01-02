@@ -294,9 +294,9 @@
 - [functionrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.markdown) 
 - [gettersetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetter.markdown) 
 - [gettersetterrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.markdown) 
-- [[zero_engine_documentation/code_reference/nada_base_types/hashmap_key, value /]] 
+- [[zilch_engine_documentation/code_reference/nada_base_types/hashmap_key, value /]] 
 - [hashmapkeyrange_key ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown) 
-- [[zero_engine_documentation/code_reference/nada_base_types/hashmaprange_key, value /]] 
+- [[zilch_engine_documentation/code_reference/nada_base_types/hashmaprange_key, value /]] 
 - [hashmapvaluerange_value ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown) 
 - [iencoding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown) 
 - [indirectiontype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/indirectiontype.markdown) 
@@ -314,7 +314,7 @@
 - [integer4x3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4x3.markdown) 
 - [integer4x4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4x4.markdown) 
 - [istream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown) 
-- [[zero_engine_documentation/code_reference/nada_base_types/keyvalue_key, value /]] 
+- [[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key, value /]] 
 - [library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/library.markdown) 
 - [math](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown) 
 - [member](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown) 
