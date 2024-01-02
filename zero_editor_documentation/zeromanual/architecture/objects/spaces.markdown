@@ -88,7 +88,7 @@ When opened, a space should look something like this:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46992.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46992.png)
 
 
 By default a space has four components TimeSpace, GraphicsSpace, PhysicsSpace, and SoundSpace, but if needed you may add more by creating a new space archetype and adding the desired components. In each component of the space properties can be found that will affect the entire space.

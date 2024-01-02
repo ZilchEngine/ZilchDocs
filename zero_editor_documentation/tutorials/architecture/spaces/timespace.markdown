@@ -38,7 +38,7 @@ The [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refere
 
 
 
-![control](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94788.gif)
+![control](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94788.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -53,7 +53,7 @@ A common dramatic effect is to slow down time during some in-game event. Slow mo
 
 (NOTE)**Space Selection**:
  The [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown) can be selected via the `Select` menu, by clicking in the viewport and then pressing `Shift + S`, by pressing `Ctrl + Shift + S` with any window in focus, or by using the [ SelectSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#selectspace) command.
- ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94805.png)
+ ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94805.png)
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ SelectSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#selectspace)
 - In the `Properties Window`
@@ -63,7 +63,7 @@ A common dramatic effect is to slow down time during some in-game event. Slow mo
 
 
 
-![halfspeed](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94807.gif)
+![halfspeed](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94807.gif)
 
 
 *Demo running half speed with `0.5` TimeScale*
@@ -130,7 +130,7 @@ class TimeControl : NadaComponent
 
 
 
-![controlled](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94790.gif)
+![controlled](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94790.gif)
 
 
 *TimeScale  being adjusted up and down*
@@ -177,7 +177,7 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
 
 
 
-![stopped](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94809.gif)
+![stopped](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94809.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -212,7 +212,7 @@ You probably noticed that the game will not unpause. This is because when the [T
 
 
 
-![pausing](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94811.gif)
+![pausing](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94811.gif)
 
 
 *Pausing with and unpausing in reaction to the [KeyDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#keydown) event*

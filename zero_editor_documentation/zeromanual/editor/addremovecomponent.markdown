@@ -7,21 +7,21 @@ The `Add Component` button in the `Properties Window`
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47099.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47099.png)
 
 
 brings up the Add Component drop down:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47103.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47103.png)
 
 
  Typing the name of the component you want to add will filter the list:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47105.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47105.png)
 
 
 *Notice that component options appear in the drop down selection*
@@ -35,13 +35,13 @@ You may remove a component in either of two ways:
 Using the **"X" Button** in Properties window.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47111.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47111.png)
 
 
 Using the component's **Right-Click Submenu** in Properties window
 
 
-![RemoveComponent](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47427.png)
+![RemoveComponent](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47427.png)
 
 
  # Related Materials

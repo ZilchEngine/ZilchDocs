@@ -30,7 +30,7 @@
 
 
 
-![ExampleCompositions](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3040.png)
+![ExampleCompositions](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/3040.png)
 
 
 

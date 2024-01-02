@@ -84,7 +84,7 @@ class PlayerMovement : NadaComponent
 
 
 
-![KeyPolling](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94456.gif)
+![KeyPolling](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94456.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -161,7 +161,7 @@ class DestroyOnCollide : NadaComponent
 
 
 
-![CircleAndSquare](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94458.gif) *Player cog being destroyed upon collision with an enemy cog.*
+![CircleAndSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94458.gif) *Player cog being destroyed upon collision with an enemy cog.*
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -201,7 +201,7 @@ class SpawnObjectOnDestroy : NadaComponent
 
 
 
-![DestructionEffect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94459.gif)
+![DestructionEffect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94459.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

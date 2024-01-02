@@ -44,7 +44,7 @@ class CharacterLogic : NadaComponent
 
 
 
-![SimpleInput](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89953.gif)
+![SimpleInput](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89953.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -128,7 +128,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
 
 
-![CharacterMovement](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89976.gif)
+![CharacterMovement](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89976.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

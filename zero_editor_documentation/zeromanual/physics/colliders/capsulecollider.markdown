@@ -22,7 +22,7 @@ Like most other Collider types, CapsuleCollider will maintain a perfect capsule 
  ##  ScalingMode.PreserveScale
 
 
-![PreserveScale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46697.png)
+![PreserveScale](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46697.png)
 
 `PreserveScale` applies scale to the full height of the capsule (including the end caps). The easiest way to understand this mode is by comparing it to a cylinder with the same total height as the capsule, both of which are pictured on the left. After scaling both objects their total heights should be the same as pictured on the right.
 
@@ -31,7 +31,7 @@ To fully understand what this is doing requires a numerical example. In the abov
  ##  ScalingMode.PreserveHeight
 
 
-![PreserveHeight](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46699.png)
+![PreserveHeight](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46699.png)
 
 `PreserveHeight` applies scale just to the capsule's height (not including the end caps). The easiest way to understand this is to compare to a cylinder with the same height as the capsule (pictured on the left). After scaling, the internal cylinder of the capsule matches the scaled cylinder (pictured on the right).
 

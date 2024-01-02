@@ -31,7 +31,7 @@ Each higher level layer only depends on more fundamental layers.
 
 
 
-![LayeredArchitecture](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3042.png)
+![LayeredArchitecture](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/3042.png)
 
 
 
@@ -255,7 +255,7 @@ void ComponentExample::InitializeMeta(MetaClass* meta)
 
 
 
-![Serialization](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/3044.png)
+![Serialization](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/3044.png)
 
 
 

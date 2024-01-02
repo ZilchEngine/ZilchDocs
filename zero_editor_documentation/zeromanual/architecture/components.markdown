@@ -15,14 +15,14 @@ Lets imagine we are making Bats, Wolves, and Birds. You could create 3 component
 
 
 
-![badcomponentsexample](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/786.png)
+![badcomponentsexample](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/786.png)
 
 
 While making them you find they have some things in common. Rather than copying and pasting (which becomes messy fast), we can use the component-based engine to our advantage and rearrange our logic. By making smaller components of functionality, we can factor out the code into common components making it easier to share between them, for instance:
 
 
 
-![venn](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/789.png)
+![venn](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/789.png)
 
 
 *The ones in gray are built-in to the Zero Engine*
@@ -30,7 +30,7 @@ While making them you find they have some things in common. Rather than copying 
 
 
 
-![componentexample](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/787.png)
+![componentexample](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/787.png)
 
 
 *Noticing shared functionality allows us to restructure our code*
@@ -43,7 +43,7 @@ ade, Flying and ChangeOtherHealth, most of the work is done.
 
 
 
-![flyingpowerup](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/788.png)
+![flyingpowerup](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/788.png)
 
 
 *Something we// **can't** //make with BatLogic, WolfLogic or BirdLogic components*

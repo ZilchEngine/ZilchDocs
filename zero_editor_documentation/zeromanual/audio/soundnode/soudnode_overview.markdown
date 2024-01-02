@@ -1,4 +1,4 @@
-![Graph](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46355.png)
+![Graph](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46355.png)
 
 [ SoundNodes ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown) are the building blocks behind all audio in the Zero Engine. A SoundNode receives audio data from other SoundNodes through its input connections, modifies that data in some way (or simply collects it), then passes it along to more SoundNodes through its output connections.
 

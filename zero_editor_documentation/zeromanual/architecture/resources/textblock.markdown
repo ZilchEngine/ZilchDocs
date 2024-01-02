@@ -52,12 +52,12 @@ class SpriteTextBlock : NadaComponent
 The `SpriteTextBlock` component is added to the object whose SpriteText needs to be changed. These two work in tandem to change the `Text` property of the SpriteText component. To create a new TextBlock, use TextBlock requires two elements: a TextBlock resource and and a `SpriteTextBlock` component. The `SpriteTextBlock` component is added to the object whose SpriteText needs to be changed. These two work in tandem to change the `Text` property of the SpriteText component. To create a new TextBlock, use [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#add) and select TextBlock from the resource list. This will open a new TextBlock in a new Tab where text may be written. After entering the desired text, simply add the `SpriteTextBlock` component to the Game Object and set the TextBlock property to the new TextBlock. 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47035.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47035.png)
 
 
 
 
-![TextBlock](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47039.gif)
+![TextBlock](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47039.gif)
 
 
 As can be seen in the example above, one feature of TextBlock is that when applied to a SpriteTextBlock, the formatting in regards to line breaks is kept. One problem that remains, however, is that changing the `Align` property of the SpriteText component will change the Transform of the of the text itself, instead of adjusting the alignment.

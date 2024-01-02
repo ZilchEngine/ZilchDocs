@@ -58,7 +58,7 @@ class MovementLogic : NadaComponent
 
 
 
-![Movement](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90547.gif)
+![Movement](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90547.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Stop Game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/stopgame.markdown)
@@ -80,7 +80,7 @@ Before we can spawn objects from script, we need to create the archetype from wh
 
 
 
-![BulletArchetype](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90549.gif)
+![BulletArchetype](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90549.gif)
 
 
  - Delete the Bullet object
@@ -130,7 +130,7 @@ class ShootingLogic : NadaComponent
 
 
 
-![Shooting](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90561.gif)
+![Shooting](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90561.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Stop the Game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/stopgame.markdown)

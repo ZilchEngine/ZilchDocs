@@ -31,7 +31,7 @@ By default, you'll notice the `Console Window` sliding up from the bottom; it wi
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/81527.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/81527.png)
 
 
  # Printing to Console
@@ -55,7 +55,7 @@ By adding this line of code we can see our message printed to the console when w
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/81552.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/81552.png)
 
 
 NOTE: Within Console, you'll also find the function `Write()` which behaves similarly but does not display the following message on a new line.
@@ -78,7 +78,7 @@ Console.WriteLine(3);
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88674.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88674.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -100,7 +100,7 @@ Console.WriteLine(lives);
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88676.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88676.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -123,7 +123,7 @@ Console.WriteLine(lives);
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88678.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88678.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -144,7 +144,7 @@ Console.WriteLine("Current value of lives: `lives`");
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88678.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88678.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

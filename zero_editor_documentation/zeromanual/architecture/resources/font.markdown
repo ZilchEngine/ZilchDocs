@@ -7,7 +7,7 @@ New font resources can be added in one of two ways: the file can be either dragg
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47051.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47051.png)
 
 This will open a new window where the user may select the font or fonts to import. Once a font has been imported any SpriteText can change its Font drop-down menu property to the newly imported font. 
 

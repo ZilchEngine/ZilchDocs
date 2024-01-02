@@ -14,11 +14,11 @@ This lesson discusses audio in the Zero Engine.
 - Download the following files:
 
 
-![SFX_Explosion](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/97294.wav)
+![SFX_Explosion](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/97294.wav)
 
 
 
-![BG_Arpeggios](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/97295.ogg)
+![BG_Arpeggios](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/97295.ogg)
 
 - Import them into the project by dragging and dropping the files into the `Level Window`
 - In the `Group Import Options Window`
@@ -131,7 +131,7 @@ class SoundController : NadaComponent
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96146.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96146.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
@@ -139,7 +139,7 @@ class SoundController : NadaComponent
 
 
 
-![Player movement around speaker](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96141.gif)
+![Player movement around speaker](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96141.gif)
 
 
 If you press `Space`, the speaker plays an explosion sound. If you're on the right side of the speaker, the sound comes from your left, and if you're on the left side, it comes from your right. If you're near the speaker, the explosion sound is louder than if you're far from it.
@@ -172,7 +172,7 @@ if (Zero.Keyboard.KeyIsDown(Keys.RightBracket))
 
 
 
-![Console printing showing volume changes](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96161.gif)
+![Console printing showing volume changes](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96161.gif)
 
 
 *The console shows the changes to the emitter's volume level*

@@ -12,7 +12,7 @@ NOTE: All options except for ImportMeshes checkBox, ImportAnimations checkBox, a
 
 
 
-![GroupImportOptions](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47521.png)
+![GroupImportOptions](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47521.png)
 
 
  ### GenerateSmoothNormals and SmoothingAngleDegreesThreshold
@@ -80,7 +80,7 @@ Based on certain features of the file being imported, the default settings for a
 
 
 
-![TextureSetup](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47303.png)
+![TextureSetup](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47303.png)
 
 Every texture has two ContentComponents: `TextureBuilder` and `TextureInfo`.
 

@@ -1,7 +1,7 @@
 
 
 
-![SimpleSound](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47916.png)
+![SimpleSound](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47916.png)
 
 
 The [ SimpleSound ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesound.markdown) component, like its name suggests, is a simple way to play a sound. Choose a [SoundCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundcue.markdown), set the StartPlaying checkBox property to true, and the sound will play as soon as its object is created in an active level. 

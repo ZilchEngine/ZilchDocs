@@ -19,7 +19,7 @@ This lesson covers how to import and use sprite sheets to create sprite animatio
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106281.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106281.png)
 
 
  # Importing a Sprite Sheet
@@ -30,7 +30,7 @@ Sprite animations are created out of a sequence of images displayed in quick suc
 
 
 
-![RedPandaSpriteSheet](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106314.png)
+![RedPandaSpriteSheet](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106314.png)
 
 
 - Import them into the project by dragging and dropping the files into the `Level Window`
@@ -40,7 +40,7 @@ Sprite animations are created out of a sequence of images displayed in quick suc
 
 
 
-![ImportSpriteSheet](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106316.gif)
+![ImportSpriteSheet](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106316.gif)
 
 
  # Creating Sprite Animations
@@ -49,7 +49,7 @@ Now that we have imported a sprite sheet, we need to separate the frames into th
 
 
 
-![RedPandaAnimationFrames](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106388.png)
+![RedPandaAnimationFrames](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106388.png)
 
 
 - In the `Library Window`
@@ -60,7 +60,7 @@ Now that we have imported a sprite sheet, we need to separate the frames into th
 
 
 
-![ConvertToAnimation](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106407.png)
+![ConvertToAnimation](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106407.png)
 
 
 - In the `Sprite Importer Window`
@@ -78,7 +78,7 @@ Now that we have imported a sprite sheet, we need to separate the frames into th
 
 
 
-![CreatingAnimations](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106325.gif)
+![CreatingAnimations](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106325.gif)
 
 
  # Using Sprite Animations
@@ -94,7 +94,7 @@ Now that we've generated the animation resources, we can start using them with s
 
 
 
-![WalkAnimatio](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106332.gif)
+![WalkAnimatio](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106332.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -165,7 +165,7 @@ class PlayerAnimationController : NadaComponent
 
 
 
-![WalkAndRoll](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106395.gif)
+![WalkAndRoll](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106395.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

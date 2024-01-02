@@ -5,7 +5,7 @@ Some objects have a bounding box to determine if they should be rendered or not.
 
 
 
-![ParticleSystems_BoundingBoxSize](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47864.gif)
+![ParticleSystems_BoundingBoxSize](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47864.gif)
 
 
 WARNING:  Be careful of particles that leave the bounding box, because these are the particles that have potential to disappear.
@@ -15,7 +15,7 @@ When working with particle system hierarchies, the ChildSystem checkBox switch g
 
 
 
-![ParticleSystems_ChildSystem](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46652.gif)
+![ParticleSystems_ChildSystem](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46652.gif)
 
 
  # Particle Spaces
@@ -23,7 +23,7 @@ The [SystemSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refe
 
 
 
-![ParticleSystems_SystemSpace](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47862.gif)
+![ParticleSystems_SystemSpace](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47862.gif)
 
 
  # Geometry Mode
@@ -38,7 +38,7 @@ Particles made in the Sprite Particle System are 2D, so the way that particles a
 
 
 
-![ParticleSystems_GeometryMode](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46660.gif)
+![ParticleSystems_GeometryMode](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46660.gif)
 
 
 ---

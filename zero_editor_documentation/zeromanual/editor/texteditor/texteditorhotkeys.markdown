@@ -4,7 +4,7 @@ While Zero implements many features found in other common code editors, it also 
 The Cursor serves to indicate the location in a text file or script where new text will be entered. By default the cursor is set to insertion mode like most text editors. In insertion mode the cursor highlights the space between two characters. Pressing a character key will insert the character at the location of the cursor.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47351.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47351.png)
 
 
  ## Moving The Cursor By Character
@@ -14,14 +14,14 @@ The cursor can be moved left, right, up, and down between characters using the a
 
 
 
-![KeyboardCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47353.gif)
+![KeyboardCursor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47353.gif)
 
 
  - `Left-Click`
 
 
 
-![MouseCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47355.gif)
+![MouseCursor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47355.gif)
 
 
  ## Moving The Cursor By Token & Whitespace
@@ -32,7 +32,7 @@ Often in a text file a single character will not have much meaning in the contex
 
 
 
-![ControlCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47357.gif)
+![ControlCursor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47357.gif)
 
 
  ## Moving the File
@@ -43,7 +43,7 @@ Continuing the trend of minimizing unnecessary mouse use while typing in the tex
 
 
 
-![ControlScrolling](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47359.gif)
+![ControlScrolling](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47359.gif)
 
 
  ## Multi-Cursors
@@ -51,7 +51,7 @@ The Zero text editor has the capability of placing multiple cursors in the file 
 
 
 
-![ControlMultiCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47361.gif)
+![ControlMultiCursor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47361.gif)
 
 
 Each of these cursors can be expanded uniformly into a selection using the various methods of selection outlined below. Keep in mind that each keystroke will be applied to each cursor and/or selection. This is particularly useful when there are multiple identical constructs that need to be identically modified. 
@@ -63,7 +63,7 @@ Another form of cursor is the vertically extended column cursor. A column cursor
  - `Alt + Shift + Down`
 
 
-![AltShiftMultiCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47363.gif)
+![AltShiftMultiCursor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47363.gif)
 
 
  # Selection
@@ -76,28 +76,28 @@ By holding `Shift + Left` characters are selected along the row. If `Shift + Rig
 
 
 
-![ShiftSelect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47365.gif)
+![ShiftSelect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47365.gif)
 
 
 To select entire rows with each keystroke use `Shift + Up`, or `Shift + Down` can also be used.
 
 
 
-![ShiftSelectRows](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47367.gif)
+![ShiftSelectRows](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47367.gif)
 
 
 This is the same behavior one would get if one were to `Click + Drag` in the text file. 
 
 
 
-![ClickDragSelect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47369.gif)
+![ClickDragSelect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47369.gif)
 
 
 `Shift` can also be held while clicking to extend the current cursor or selection.
 
 
 
-![ClickShiftSelect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47371.gif)
+![ClickShiftSelect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47371.gif)
 
 
  ### Row Selection by Token and WhiteSpace
@@ -108,7 +108,7 @@ Row selection can be done by token just as you can move the cursor with `Control
 
 
 
-![ControlShiftSelect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47373.gif)
+![ControlShiftSelect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47373.gif)
 
 
  ## Token & Line Selection
@@ -116,14 +116,14 @@ One can also select any given token by double clicking it, an entire line can be
 
 
 
-![MultiClickSelect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47375.gif)
+![MultiClickSelect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47375.gif)
 
 
 Once a token is selected to can add the next instance of that token to appear in the file to the selection by pressing `Control + D`.
 
 
 
-![ControlD](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47377.gif)
+![ControlD](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47377.gif)
 
 
  ## Column Selection
@@ -138,7 +138,7 @@ By holding `Alt + Shift` and then pressing `Left-Click` you can create a column 
 
 
 
-![AltShiftMultiCursor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47379.gif)
+![AltShiftMultiCursor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47379.gif)
 
 
  ### Expanding a Column Cursor Into a Selection
@@ -146,7 +146,7 @@ By holding `Alt + Shift` and then pressing `Left-Click` you can create a column 
 
 
 
-![AltShiftArrowSelect](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47381.gif)
+![AltShiftArrowSelect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47381.gif)
 
 
  ## Selecting the Entire File
@@ -154,7 +154,7 @@ To select all text in the focused file use the `Control + A` hotkey.
 
 
 
-![ControlA](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47383.gif)
+![ControlA](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47383.gif)
 
 
  # Row Operations
@@ -165,7 +165,7 @@ To quickly comment in and out all lines on which cursors/selections exist use th
 
 
 
-![ControlK](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47385.gif)
+![ControlK](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47385.gif)
 
 
  ## Duplication
@@ -173,7 +173,7 @@ Use the `Control + Shift + D` hotkey to duplicate each line with a cursor on it.
 
 
 
-![ControlShiftD](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47387.gif)
+![ControlShiftD](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47387.gif)
 
 
  ## Cutting
@@ -181,7 +181,7 @@ Use the `Control + L` hotkey to quickly cut the current line from the file.
 
 
 
-![ControlL](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47389.gif)
+![ControlL](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47389.gif)
 
 
  ## Swapping
@@ -189,14 +189,14 @@ Use the `Control + T` hotkey to quickly swap each line with a cursor on it with 
 
 
 
-![ControlT](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47391.gif)
+![ControlT](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47391.gif)
 
 
 The hotkeys `Control + Shift + Up` or `Control + Shift + Down` to swap each line with a cursor on it with the line above or below it.
 
 
 
-![ControlShiftUpDown](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47393.gif)
+![ControlShiftUpDown](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47393.gif)
 
 
 This command also shifts the cursor to the newline. This allows the line to be continuously shifted up or down by repeating the hotkey sequence.
@@ -206,7 +206,7 @@ The Zero Editor supports the standard clipboard operations of copy, cut, and pas
 
 
 
-![CopyPAste](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47395.gif)
+![CopyPAste](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47395.gif)
 
 
  ## Undo & Redo
@@ -214,7 +214,7 @@ To undo a previous operation use the `Control + Z` hotkey. To redo a previous op
 
 
 
-![UndoRedo](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47397.gif)
+![UndoRedo](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47397.gif)
 
 
  # Search Operations
@@ -225,7 +225,7 @@ To quickly access the search window in find mode use the `Control + F` hotkey.
 
 
 
-![ControlF](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47399.gif)
+![ControlF](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47399.gif)
 
 
 If there is an active selection in the current text file, it will be pasted in as the search argument upon opening the window. Notice that because the search window is in find mode it will find locations of the given text but not modify them.
@@ -235,7 +235,7 @@ To quickly access the search window in replace mode use the `Control + H` hotkey
 
 
 
-![ControlH](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47401.gif)
+![ControlH](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47401.gif)
 
 
 If there is an active selection in the current text file, it will be pasted in as the search argument upon opening the window. Notice that because the search window is in replace mode it will find locations of the given text and replace them with whatever string is in the replace field of the search window.
@@ -246,7 +246,7 @@ One of the most common patterns while programming is to reference the definition
 
 
 
-![GotToDef](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47403.gif)
+![GotToDef](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47403.gif)
 
 
 When the user right clicks in a text file `GoToDefintion` is listed as an option in the context. If the context menu option is chosen, then the definition of the type currently highlighted by or containing the cursor will be displayed in the file that contains it. This functionality can also be activated by pressing `F12` while the text editor cursor is highlighting or sitting within a valid type.
@@ -258,7 +258,7 @@ Some hotkeys used in the text editor will not actually affect the text file or c
 
 
 
-![ControlTab](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47405.gif)
+![ControlTab](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47405.gif)
 
 
  # Hotkey Reference

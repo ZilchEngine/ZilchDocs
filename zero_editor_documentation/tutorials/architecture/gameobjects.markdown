@@ -19,7 +19,7 @@ This lesson focuses on teaching the very basics of the engine: creating objects,
 Here is a new empty level:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46948.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46948.png)
 
 
 *An "empty" 2D level*
@@ -29,7 +29,7 @@ Notice that the level isn't actually empty. A quick look into the `Objects Windo
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46947.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46947.png)
 
 
 *The `Objects Window` showing the objects present in the otherwise-empty level*
@@ -43,7 +43,7 @@ We'll cover these in more detail in future tutorials.
 
 
 
-![CreateSprite](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46945.gif)
+![CreateSprite](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46945.gif)
 
 
 *Creating a Sprite object via the `Create Menu`*
@@ -52,7 +52,7 @@ We'll cover these in more detail in future tutorials.
 The Sprite object object can now be found in the `Objects Window`:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46949.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46949.png)
 
 
 *The Sprite object listed in the `Objects Window`*
@@ -66,7 +66,7 @@ NOTE:
 The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown) component attached to the object can be found in the `Properties Window`:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46950.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46950.png)
 
 
 *The properties of the Sprite object in the `Properties Window`*
@@ -76,7 +76,7 @@ The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/
 
 
 
-![Under](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/85621.gif)
+![Under](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/85621.gif)
 
 
 *Expanding the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown) component in the `Properties Window`*
@@ -93,7 +93,7 @@ The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/
  - Rename Sprite object to `Square`
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46952.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46952.png)
 
 
 *Renaming the Sprite object*
@@ -104,7 +104,7 @@ The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/
 Here is how the game should look:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46336.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46336.png)
 
 
 *The `Game Window`*
@@ -120,7 +120,7 @@ To help you create and manipulate objects, Zero Engine provides tools that can b
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/86287.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/86287.png)
 
 
 Let's take a look at some of the more common tools:
@@ -132,13 +132,13 @@ Let's take a look at some of the more common tools:
 The Select Tool allows you to select objects in the `Level Window` by clicking on them.
 
 - In the `Tool Bar`
- - Click  the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/86293.png) button
+ - Click  the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/86293.png) button
 - In the `Level Window`
   - Click  on the Sprite object object
 
 
 
-![Select](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/86291.gif)
+![Select](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/86291.gif)
 
 
 This is an equivalent operation of selecting the object in the `Objects Window`
@@ -150,7 +150,7 @@ This is an equivalent operation of selecting the object in the `Objects Window`
 The Translate Tool is used to move objects around the level.
 
 - In the `Tool Bar`
- - Click  the ![translategizmo](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/110.png) button
+ - Click  the ![translategizmo](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/110.png) button
 
 You should see colored arrows along the X (red), Y (green), and Z (blue) axes of the object.
 
@@ -158,7 +158,7 @@ You should see colored arrows along the X (red), Y (green), and Z (blue) axes of
 
 
 
-![Translate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46953.gif)
+![Translate](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46953.gif)
 
 
 Notice that in the `Properties Window`, the Translation  values are changing while you move the object.
@@ -170,12 +170,12 @@ Notice that in the `Properties Window`, the Translation  values are changing whi
 The Rotate Tool is used to rotate objects.
 
 - In the `Tool Bar`
- - Click  the ![rotategizmo](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/107.png) button
+ - Click  the ![rotategizmo](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107.png) button
 - `Click and drag` one of the circles (red, blue, or green).
 
 
 
-![Rotate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46954.gif)
+![Rotate](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46954.gif)
 
 
 This rotates the object around its X (red), Y (green), or Z (blue) axes. In 2D, we usually just rotate around the Z-axis. Notice that in the `Properties Window`, the Rotation  values are changing while you rotate the object.
@@ -188,14 +188,14 @@ This rotates the object around its X (red), Y (green), or Z (blue) axes. In 2D, 
 The Scale Tool is used to scale objects.
 
 - In the `Tool Bar`
- - Click  the ![scalegizmo](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/108.png) button
+ - Click  the ![scalegizmo](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/108.png) button
 - `Click and drag` along the colored axes
 
 This scales the object along its X (red), Y (green), or Z (blue) axis.
 
 
 
-![Scale](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46955.gif)
+![Scale](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46955.gif)
 
 
 Notice that in the `Properties Window`, the Scale  values are changing while you scale the object.

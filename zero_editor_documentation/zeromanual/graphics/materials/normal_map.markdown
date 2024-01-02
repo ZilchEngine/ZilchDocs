@@ -2,7 +2,7 @@ Normal maps give texture to objects.  The idea of normal maps isn't to necessari
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46703.png) *Normal map for decals*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46703.png) *Normal map for decals*
 
 
 Most of the color on a normal map ends up blue because most of the direction vectors on a normal map are in the Z direction.  In the space of the normal map, otherwise known as tangent space, X and Y point in the U and V directions of the texture, while Z points away from the texture.  Z can also be thought of as the direction away from the surface, and so the more blue a pixel is, the more outward a normal will be.  It then follows that redder pixels represent horizontal normals, and greener pixels represent vertical normals, which would both be tangent to the surface.

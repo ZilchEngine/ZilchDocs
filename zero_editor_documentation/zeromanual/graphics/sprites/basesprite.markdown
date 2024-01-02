@@ -12,7 +12,7 @@ The base color of a  [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/mast
 
 
 
-![colorpicker](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1160.png)
+![colorpicker](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/1160.png)
 
 
 (NOTE)**Nadascript vs Editor Differences:**  You'll notice when using the Color Picker tool in Editor the RGB values go between 0 and 255, however when changing the color through a NadaScript the Color Property takes a Real4  with the parameters of (R, G, B, A) that are between 0 and 1. You can get these values by dividing the RGB values by 255; for example, a purple color with an RGB of (255, 0, 185) and Alpha of 1 would have a Real4 of (1.0, 0.0, 0.73, 1).
@@ -41,7 +41,7 @@ When using alpha blending, a renderpass must be performed with the appropriate b
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28541.png) *Alpha Blending(left) vs. Additive Blending(right)*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/28541.png) *Alpha Blending(left) vs. Additive Blending(right)*
 
 
  ##  RenderGroups for Sprites

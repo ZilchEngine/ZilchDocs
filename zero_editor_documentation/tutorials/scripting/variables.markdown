@@ -51,7 +51,7 @@ Here is what your code should look like:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66925.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66925.png)
 
 
  # Operators
@@ -156,14 +156,14 @@ Here's what your code should look like:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66927.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66927.png)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
-![Game2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66929.gif)
+![Game2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66929.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -174,7 +174,7 @@ Previously, we demonstrated how to access a property of another component. Howev
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66931.png) 
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66931.png) 
 
 
 To prevent this, we can declare a dependency on the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown) component. 
@@ -190,7 +190,7 @@ By adding this we prevent the addition of the `MyBehavior` component to objects 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66933.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66933.png)
 
 
 NOTE: This also allows us to shorten part our previous line of code `this.Owner.Transform.Translation` to just `this.Transform.Translation` since we're already referencing the dependency.
@@ -201,7 +201,7 @@ Once the dependency is declared, dependent components can't be removed unless no
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89070.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89070.png)
 
 
 
@@ -215,14 +215,14 @@ Here's what it should look like:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89072.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89072.png)
 
 
 We can then find the `Speed` property and edit it in the `Properties Window`.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66983.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66983.png)
 
 
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
@@ -273,7 +273,7 @@ Here we create a local variable that is the normalized value given by the Direct
 
 
 
-![SquareMoveInDirection](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/89074.gif)
+![SquareMoveInDirection](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89074.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

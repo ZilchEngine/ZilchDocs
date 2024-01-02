@@ -17,7 +17,7 @@ A Resource may be added by clicking on the `Create New Resource` button on any P
 
 
 
-![AddResourceThroughProperty](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/48321.png)
+![AddResourceThroughProperty](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/48321.png)
 
 
  # Add a Resource Window
@@ -34,7 +34,7 @@ When using the Add Command, however, the type of Resource desired must first be 
 
 
 
-![AddResourceDialog](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47006.gif) *The Add Resource Window*
+![AddResourceDialog](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47006.gif) *The Add Resource Window*
 
 
 

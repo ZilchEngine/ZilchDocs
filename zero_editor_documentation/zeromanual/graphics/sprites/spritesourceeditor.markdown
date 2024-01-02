@@ -7,12 +7,12 @@ Once the SpriteSource has been imported, the Sprite Source Editor can be opened 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47067.png) *Edit SpriteSource Arrow*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47067.png) *Edit SpriteSource Arrow*
 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47069.png) *Sprite Source Editor window*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47069.png) *Sprite Source Editor window*
 
 
  ##  Sprite Source Editor UI Overview
@@ -48,14 +48,14 @@ When displaying a 2D image in a 3D environment, the step where a texel is access
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47073.png) *Near and Far sprites displaying artifacts of **Nearest** blending*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47073.png) *Near and Far sprites displaying artifacts of **Nearest** blending*
 
 
 From just this one generic example, it becomes clear that there needs to be a better way of sampling textures.  Instead of taking just one texel, we will take a weight of texels in the proximity of the single mapped texel.  Linear sampling is a method that uses weights to retain details, but at the cost of a blurrier image.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47075.png) *Near and Far sprites using **Linear** blending*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47075.png) *Near and Far sprites using **Linear** blending*
 
 
 When choosing a blending method, remember that **Linear** blending will retain detail at far distances and small angles, but the image will look blurry.

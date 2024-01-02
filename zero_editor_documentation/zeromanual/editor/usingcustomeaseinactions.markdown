@@ -5,14 +5,14 @@ Eases are used primarily in what is called "tweening", short for *in-betweening*
 
 
 
-![LinearPlatform](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2083.gif)
+![LinearPlatform](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/2083.gif)
 
 
 The platform moves side to side at a steady, constant rate of motion. In other words, its rate of movement is linear. For the sake of comparison, let's look at another, nicer-looking, more "life-like" ease; specifically, the `QuadInOut` ease (which uses the quadratic function to derive acceleration):
 
 
 
-![QuadInOutPlatform](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/2088.gif)
+![QuadInOutPlatform](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/2088.gif)
 
 
 In this case, the acceleration changes throughout the movement from left to right (and vice versa). It start slow, builds up speed, then slows back down once it nears the end. This type of movement is common in everyday life. For example, elevators use a non-linear movement. Imagine if a high-speed elevator in a high-rise building did not change its acceleration, and the elevator comes to a complete stop while at the relatively high speed it moves at as it passes floors: every one in it would go flying to the ceiling. Instead, as the elevator approaches its destination, it slows down so that it comes to a smooth, non-person-launching stop.

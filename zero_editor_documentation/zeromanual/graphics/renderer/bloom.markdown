@@ -23,7 +23,7 @@ The effect of bloom on a color is controlled by two parameters, Intensity  and T
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28603.png) *Decreasing Threshold *
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/28603.png) *Decreasing Threshold *
 
 
 NOTE: The luminance of a fragment can be determined by `Utility.luminance`.
@@ -32,7 +32,7 @@ The intensity then scales the brightness level of fragments subject to bloom.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28601.png) *Increasing Intensity *
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/28601.png) *Increasing Intensity *
 
 
  # Bloom Pipeline
@@ -40,12 +40,12 @@ The ability to control the effect of bloom on a color is only the first step in 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28607.png) *Bloom targets incrementally added from **smallest to largest** blur radius*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/28607.png) *Bloom targets incrementally added from **smallest to largest** blur radius*
 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/28611.png) *Bloom targets incrementally added from **largest to smallest** blur radius*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/28611.png) *Bloom targets incrementally added from **largest to smallest** blur radius*
 
 
  # Related Material

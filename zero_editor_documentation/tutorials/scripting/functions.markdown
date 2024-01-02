@@ -84,7 +84,7 @@ Your code should look like this:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/67019.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/67019.png)
 
 
  # Invoking Functions
@@ -125,7 +125,7 @@ Console.WriteLine("Pi Square: `piSquare`");
 WARNING: Functions may use conditionals; however, when a Return Type is declared, all code paths within the function must lead to a return statement. It is common to have multiple return statements that return different values depending on the branching logic within the function.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/81514.png) Here, Nada gives us an error since we haven't specified a return value should the variable `DoMath` be false. A solution to this problem might be: ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/81627.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/81514.png) Here, Nada gives us an error since we haven't specified a return value should the variable `DoMath` be false. A solution to this problem might be: ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/81627.png)
 
 
 

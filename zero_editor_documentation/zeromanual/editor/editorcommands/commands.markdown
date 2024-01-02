@@ -8,21 +8,21 @@ Commands can be run in four ways
 Menu options will be referred to like this `Project  > New Project` which should be interpreted as follows:
 
 - Click on top level menu entry on the menu bar
-  ![menubar](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/973.png)
+  ![menubar](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/973.png)
   - Then click on the desired command entry
-    ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47139.png)
+    ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47139.png)
 
 
  ## Use the Search Window
 
- - Click on the `Zero Search Button` ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47137.png) located at the top left corner of the editor :
+ - Click on the `Zero Search Button` ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47137.png) located at the top left corner of the editor :
  - Or Press `Space` in the main window
  - Or From **any** window press `ctrl + shift + space`
 
 * The Zero Search Window will appear:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47141.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47141.png)
 
 
 *Zero Search Window, often abbreviated to just "Search Window"*
@@ -43,12 +43,12 @@ Menu options will be referred to like this `Project  > New Project` which should
 * Locate the toolbar located at the top of the editor
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47145.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47145.png)
 
 * Press the button for the desired command. 
 
 
-![saveicon](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/975.png)
+![saveicon](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/975.png)
 
  
 

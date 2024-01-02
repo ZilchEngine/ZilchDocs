@@ -11,7 +11,7 @@ When viewed in the Properties window, a CogPath property will appear:
 
 
 
-![CogPathProperty](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47288.png)
+![CogPathProperty](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47288.png)
 
 
 Selecting the object the CogPath refers to may be done in one of three ways: from the Level Editor window, the Objects window, or by typing it in directly
@@ -20,7 +20,7 @@ Selecting the object the CogPath refers to may be done in one of three ways: fro
 
 
 
-![SelectByEditor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47290.gif)
+![SelectByEditor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47290.gif)
 
 
  - To select from the Objects window:
@@ -28,7 +28,7 @@ Selecting the object the CogPath refers to may be done in one of three ways: fro
 
 
 
-![SelectByObjects](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47292.gif)
+![SelectByObjects](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47292.gif)
 
 
  - To select by typing the name in directly:
@@ -36,7 +36,7 @@ Selecting the object the CogPath refers to may be done in one of three ways: fro
 
 
 
-![SelectByInput](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47294.gif)
+![SelectByInput](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47294.gif)
 
 
 To access the Cog that the CogPath points to, simply use the dot operator after the name of the CogPath variable:
@@ -51,7 +51,7 @@ Once an object has been selected, a number of different options become available
 
 
 
-![PropertiesOfACogPath](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47296.gif)
+![PropertiesOfACogPath](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47296.gif)
 
 
 

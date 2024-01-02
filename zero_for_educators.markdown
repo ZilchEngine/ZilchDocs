@@ -46,41 +46,41 @@ The Zero Engine is a professional grade 3D game engine developed in DigiPen's R&
  #### Rube Goldbergs
 
 
-![RubdGoldberg_Dominos](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93695.exe)
+![RubdGoldberg_Dominos](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93695.exe)
 
 
 
-![RubeGoldberg_FullAdder](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93700.exe)
+![RubeGoldberg_FullAdder](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93700.exe)
 
  #### Vapor
 
 
-![10_Vapor](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93368.mp4)
+![10_Vapor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93368.mp4)
 
  #### Aquarius
 
 
-![Aquarius Trailer](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93389.mp4)
+![Aquarius Trailer](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93389.mp4)
 
  #### Frozen Masquerade
 
 
-![FrozenMasquerade_Trailer](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93390.mp4)
+![FrozenMasquerade_Trailer](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93390.mp4)
 
  #### Orpheus
 
 
-![Orpheus - DigiPen Institute of Technology](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93426.mp4)
+![Orpheus - DigiPen Institute of Technology](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93426.mp4)
 
  #### Super Space Blank
 
 
-![SuperSpace_-branded](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93427.mp4)
+![SuperSpace_-branded](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93427.mp4)
 
  #### The Lift
 
 
-![The Lift - DigiPen Institute of Technology](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93447.mp4)
+![The Lift - DigiPen Institute of Technology](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93447.mp4)
 
 
  ## ZeroHub
@@ -159,7 +159,7 @@ After completing the #beginner_iii  tutorials students should be able to impleme
 
 
 
-![Asteroids](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/94408.zip)
+![Asteroids](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94408.zip)
 
 
  ## 2D Platformer

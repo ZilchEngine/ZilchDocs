@@ -10,7 +10,7 @@ The mouse can either be used as a cursor controller, for tracking a specific pos
 
 
 
-![Mouse Cursor Control Circles Example](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/93544.gif)
+![Mouse Cursor Control Circles Example](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93544.gif)
 
 
 *The mouse controls the position of the cursor, and game actions are performed by clicking on objects themselves.*
@@ -22,7 +22,7 @@ The mouse can either be used as a cursor controller, for tracking a specific pos
 
 
 
-![Mouse Direct Control Example](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/92151.gif)
+![Mouse Direct Control Example](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/92151.gif)
 
 
 *The movement of the mouse directly controls the rotation of the camera, and its buttons are used to control game actions.*
@@ -78,7 +78,7 @@ class MouseEventDemonstration : NadaComponent
 This component's dependency on **Reactive** requires that the object it is attached to has that component as well. Thus, whenever the left mouse button is pressed with the cursor over an object with this component, the `OnLeftMouseDown` function will be called. Additionally, whenever the right mouse button is pressed *anywhere* in the viewport showing this component's space, the `OnRightMouseButton` function will be called.
 
 
-![Mouse Event Demonstration](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/91402.gif)
+![Mouse Event Demonstration](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/91402.gif)
 
 
 *Right-clicking the square makes it bigger, while left-clicking anywhere spawns a cube.*

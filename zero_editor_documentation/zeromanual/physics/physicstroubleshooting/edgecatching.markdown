@@ -4,7 +4,7 @@ In a game, the ground is often piece-wise, i.e. made of a collection of individu
 
 
 
-![EdgeCatchingGif](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46367.gif)
+![EdgeCatchingGif](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46367.gif)
 
 
 Sometimes the player will stop moving even though input is setting a velocity. This behavior is caused by the seams on the ground. For an explanation of why this happens a quick physics primer is necessary.
@@ -14,13 +14,13 @@ Physics engines are often implemented with discrete collision detection. This is
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46368.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46368.png)
 
 Given the above configuration, all 4 primary directions can be checked for the minimum translational distance.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46370.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46370.png)
 
 It should be clear that pushing the box up requires less work than the other four directions.
 
@@ -31,31 +31,31 @@ A step-by-step illustration is provided:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46372.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46372.png)
 
 First look at a movable box resting at the seam between two boxes. For this illustration the focus will be on the red box and the blue box on the right.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46374.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46374.png)
 
 Forces for the frame are applied to the red box.  First, gravity pulls the red box down. Additionally, an input force pushes the red box to the right.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46376.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46376.png)
 
 After updating position from forces, the physics system will see this scenario. The red box is in contact with both ground surfaces and collision needs to fix the overlap by pushing it out.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46378.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46378.png)
 
 Each ground surface will independently determine the minimum translational distance. The left box will correctly push up. The right box will unfortunately push to the left since this requires the least movement.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46380.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46380.png)
 
 Now physics resolves collisions and puts the red box right back where it started. Given the same forces, the red box will repeat this cycle and be stuck on this seam in the ground.
 
@@ -67,7 +67,7 @@ Unfortunately there is no perfect generic solution to the edge catching problem.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46382.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46382.png)
 
 In the above illustration, the box on the left has a minimum translational distance that will push it to the left. The capsule however, has a minimum translational distance that is up and to the left. This will allow the capsule to move to the right a bit and escape the cycle of edge catching after a few frames. 
 

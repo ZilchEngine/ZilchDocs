@@ -2,7 +2,7 @@ The SoundNode Graph tool displays the connections between all SoundNodes that ar
 
 
 
-![SoundNodeGraph](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46353.png) 
+![SoundNodeGraph](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46353.png) 
 
 
  

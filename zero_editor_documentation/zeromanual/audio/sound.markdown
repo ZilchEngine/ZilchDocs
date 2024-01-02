@@ -19,7 +19,7 @@ When a Sound resource is selected, the [ SoundBuilder ](https://github.com/Zilch
 NOTE: When changing these properties for an existing resource the user must click on the Reload button before the settings will take effect.
 
  ## Streaming Files
- ![SoundBuilder](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/85541.png)
+ ![SoundBuilder](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/85541.png)
 
 When the Streamed checkBox property is un-checked the entire audio file is loaded into memory as soon as the resource is loaded. This simplifies the audio decoding, as all the data is stored and only decoded once. If Streamed checkBox is checked only a small piece of the file will be held in memory at any one time; these pieces will be repeatedly read from the disk as needed to play the file. This means that audio decoding will be happening continuously and repeatedly. Streaming files can negatively affect performance in some cases since they are repeatedly reading from disk while playing. 
 
@@ -28,7 +28,7 @@ In general the only audio that should be streamed are long files, such as backgr
 NOTE: Streaming files can't be played multiple times simultaneously, can't have their playback position set directly, and can't use the LoopTailLength  property on [SoundEntries](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/audio/soundcue.markdown#soundentries).
 
  ##  Normalizing
- ![SoundBuilder2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/85543.png)
+ ![SoundBuilder2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/85543.png)
 
 If the Normalize checkBox property is checked the MaxVolume  property will be shown and the volume of the audio file will be adjusted when it is processed and encoded. The volume of the entire audio file will be changed equally so that the highest volume peak will match the MaxVolume  property value. This can be used to either raise or lower the volume of an audio file.
 

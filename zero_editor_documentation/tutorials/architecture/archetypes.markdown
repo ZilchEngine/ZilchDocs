@@ -22,7 +22,7 @@ This lesson focuses on covering the basics of how Archetypes work in Zero Engine
 
 
 
-![ArchetypeSetup](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46908.gif)
+![ArchetypeSetup](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46908.gif)
 
 
  # Creating Archetypes
@@ -32,18 +32,18 @@ An **Archetype** in Zero Engine (similar to blueprints, prefabs or templates in 
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : RedCircle object
 - In the `Properties Window`
  - In the Archetype  field
-  - Type `RedCircleArchetype` then press ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46915.png) or `Enter`
+  - Type `RedCircleArchetype` then press ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46915.png) or `Enter`
 
 
 
-![ArchetypeCreate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46917.gif)
+![ArchetypeCreate](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46917.gif)
 
 
 Now we have made an archetype out of our RedCircle object object, which we can verify by looking at the `Object Window` and the `Library Window`.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46921.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46923.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46921.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46923.png)
 
 
  # Instantiating from Archetypes
@@ -56,7 +56,7 @@ As previously mentioned, one of the major benefits of Archetypes resource is bei
 
 
 
-![ArchetypeInstantiate](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46925.gif)
+![ArchetypeInstantiate](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46925.gif)
 
 
 - In the `Library Window`
@@ -75,7 +75,7 @@ As previously mentioned, one of the major benefits of Archetypes resource is bei
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46927.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46927.png)
 
 
  # Modifying Archetypes
@@ -91,17 +91,17 @@ Notice that the modified property turns orange; this means that this property ha
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46929.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46929.png)
 
 
 We can then upload our changes to the **Archetype** to have them propagate to other objects that were instantiated from it.
 
 - In the `Properties Window`
- - Press the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46915.png) button
+ - Press the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46915.png) button
 
 
 
-![ArchetypeUpload](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46931.gif)
+![ArchetypeUpload](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46931.gif)
 
 
 Once we upload our changes, the Archetype's definition changes and all properties of instances that were not modified will update to match the new definition.
@@ -117,24 +117,24 @@ Another benefit of Archetypes is being able to revert an instance with modified 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46936.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46936.png)
 
 
 As we have seen before, the VertexColor property turns orange to indicate that it has been modified from its Archetype. Let's say you didn't like this change and want to revert it.
 
 - In the `Properties Window`
- - Press the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46938.png) button
+ - Press the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46938.png) button
 
 
 
-![ArchetypeRevert1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46940.gif)
+![ArchetypeRevert1](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46940.gif)
 
 
 You can also revert that property individually (in case you want to retain other changes) by right-clicking the individual property and selecting the revert option.
 
 
 
-![ArchetypeRevert2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46942.gif)
+![ArchetypeRevert2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46942.gif)
 
 
  # Archeytpes and Hierarchies
@@ -168,14 +168,14 @@ In addition to single objects you can also turn object hierarchies into archetyp
 
 
 
-![SquaresArchetype](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88648.gif)
+![SquaresArchetype](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88648.gif)
 
 
 You can now create multiple copies of that new hierarchy by instantiating it.
 
 
 
-![SquaresArchetypeInstances](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88650.gif)
+![SquaresArchetypeInstances](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88650.gif)
 
 
 Once parented, both objects behave physically as if they were a single one. Let's test that by adding the following:
@@ -190,7 +190,7 @@ Once parented, both objects behave physically as if they were a single one. Let'
 
 
 
-![SquaresCollision](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/88652.gif)
+![SquaresCollision](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88652.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

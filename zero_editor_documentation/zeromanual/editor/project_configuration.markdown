@@ -17,7 +17,7 @@ Components found on the Project object cog are unique to it, and cannot be attac
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66359.png) *`Properties Window` of the Project object cog*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66359.png) *`Properties Window` of the Project object cog*
 
 
  ##  ProjectSettings

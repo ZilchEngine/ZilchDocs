@@ -38,7 +38,7 @@ Being that all Zero Projects run a game, it can be edited within the editor. The
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90536.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90536.png)
 
 
  ## Events of GameSession

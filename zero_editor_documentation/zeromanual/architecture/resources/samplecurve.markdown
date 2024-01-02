@@ -13,7 +13,7 @@ A new SampleCurve can be added by using the Add [Command](https://github.com/Zil
 
 
 
-![AddAnchorPoint](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47266.gif)
+![AddAnchorPoint](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47266.gif)
 
 
 If more anchor points are needed on the curve, simply double-click again on the curve at the next desired edit point. A virtually unlimited number of anchor points may be added, but eventually the curve will fill up to the point where effective edits are no longer possible.
@@ -25,28 +25,28 @@ Once an anchor point has been created, the tangents of that point can be manipul
 
 
 
-![LinearTangets](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47268.gif)
+![LinearTangets](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47268.gif)
 
 
  ## Weighted Linear Tangents
 
 
 
-![WeightedLinearTangents](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47270.gif)
+![WeightedLinearTangents](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47270.gif)
 
 
  ## Split Tangents
 
 
 
-![SplitTangents](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47272.gif)
+![SplitTangents](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47272.gif)
 
 
  ## Weighted Split Tangents
 
 
 
-![WeightedTangents](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47274.gif)
+![WeightedTangents](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47274.gif)
 
 
 NOTE: While Linear and Weighted Linear Tangents are mutually exclusive and selecting one will deselect the other, Split Tangents act as a toggle and can be used alongside either Linear or Weighted Linear Tangents. 
@@ -56,7 +56,7 @@ In the abstract a SampleCurve is a visual representation of a change over time o
 
 
 
-![ExampleCurve](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47276.png)
+![ExampleCurve](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47276.png)
 
 
  ## Using Actions
@@ -91,7 +91,7 @@ This code will move an object from `(0,1,0)` to `(0,5,0)` over a period of 5 sec
 
 
 
-![TranslationTest](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47278.gif)
+![TranslationTest](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47278.gif)
 
 
 While the maximum value of both axes can be modified, using a SampleCurve in an action will still always use `1` from both axes as representing the ending values. Therefore moving past `1` along the vertical axis will change the property beyond what the final result will be; in this case the object moves past its final location, as it is having its `Translation` modified. Likewise if the horizontal maximum is changed: if it is set to a value lower than `1` then it will finish moving in the manner the SampleCurve dictates early then wait until the total time has passed before moving to its final position, and if it is set higher than `1` it simply will not finish the entirety of the curve. 
@@ -135,14 +135,14 @@ By adding this component to an archetype, it can then be created at runtime to c
 
 
 
-![DirectionalLightTest1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47284.gif)
+![DirectionalLightTest1](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47284.gif)
 
 
 Since using `SampleCurve.Sample()` uses the full values of both axes, if they are changed then it will affect the light's behavior. By changing the vertical axis to `5` and the horizontal axis to `2` it's possible to both extend its lifetime and make it brighter easily. 
 
 
 
-![DirectionalLightTest2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47286.gif)
+![DirectionalLightTest2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47286.gif)
 
 
  # Related Materials

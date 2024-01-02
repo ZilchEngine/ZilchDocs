@@ -17,7 +17,7 @@ Components found on EditorConfig object are unique to it, and cannot be attached
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66674.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66674.png)
 
 
 *`Properties Window` of EditorConfig object*
@@ -29,7 +29,7 @@ The [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refe
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66647.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66647.png)
 
 
 *The [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown) component*
@@ -49,7 +49,7 @@ The [ TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/cod
 The text editor may be configured to insert either two or four spaces when the `Tab` key is pressed.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66660.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66662.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66660.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66662.png)
 
 
 *Left: `TwoSpaces`, Right: `FourSpaces`*
@@ -59,7 +59,7 @@ The text editor may be configured to insert either two or four spaces when the `
 If this is `true`, whitespace characters are shown as little dots.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66660.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66664.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66660.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66664.png)
 
 
 *Left: `true`, Right: `false`*
@@ -69,7 +69,7 @@ If this is `true`, whitespace characters are shown as little dots.
 If this is `true`, Nada files will display their line numbers in the gutter.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66660.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66666.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66660.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66666.png)
 
 
 *Left: `true`, Right: `false`*
@@ -79,14 +79,14 @@ If this is `true`, Nada files will display their line numbers in the gutter.
 **Code folding** is a common feature of code editors that allows the user to hide code that they don't want to see at the moment. In the Zero Editor, with code folding enabled, any paired set of curly braces may be collapsed by clicking its toggle button in the editor. If code folding is disabled, these controls will be hidden, and the code folding section of the gutter will be collapsed.
 
 
-![Code Folding Example](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66668.gif)
+![Code Folding Example](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66668.gif)
 
 
  ###  ConfidentAutoCompleteOnSymbols
 If this is `true`, code completion suggestions can be accepted and inserted into the file by typing a symbol character, such as a period or a parenthesis.
 
 
-![Confident Code Completion Example](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66670.gif)
+![Confident Code Completion Example](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66670.gif)
 
 
  ###  FontSize
@@ -105,7 +105,7 @@ If this is `true`, the view cube is visible in the upper-right corner of the `Le
 This defines the size of the view cube, if it is visible.
 
 
-![View Cube Resizing](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/66672.gif)
+![View Cube Resizing](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66672.gif)
 
 
  ###  ScriptReloadGame

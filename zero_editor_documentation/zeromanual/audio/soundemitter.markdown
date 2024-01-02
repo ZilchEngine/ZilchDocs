@@ -3,7 +3,7 @@ The [ SoundEmitter ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_r
  # Using SoundEmitters
 
 
-![SoundEmitter1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47924.png)
+![SoundEmitter1](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47924.png)
 
 
  ## Volume and Pitch Settings
@@ -20,7 +20,7 @@ Note that these volume and pitch changes will be combined with any other volume 
 
 
 
-![SoundEmitter2](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47926.png) When the Directional checkBox property is checked the audio output of the SoundEmitter will be limited by the EmitAngle  so that sound in front of the object will be louder than sound behind it. Within the EmitAngle   the sound will be at full volume. Outside the angle, the volume will interpolate using a logarithmic curve until it reaches the RearVolume  value directly behind the object. This is useful for sounds on objects such as loudspeakers or objects with a wall behind them that the sound shouldn't be heard through.
+![SoundEmitter2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47926.png) When the Directional checkBox property is checked the audio output of the SoundEmitter will be limited by the EmitAngle  so that sound in front of the object will be louder than sound behind it. Within the EmitAngle   the sound will be at full volume. Outside the angle, the volume will interpolate using a logarithmic curve until it reaches the RearVolume  value directly behind the object. This is useful for sounds on objects such as loudspeakers or objects with a wall behind them that the sound shouldn't be heard through.
 
 
  ## Attenuation

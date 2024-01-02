@@ -41,7 +41,7 @@ This lecture covers the basic usage of [PhysicsMaterials](https://github.com/Zil
 
 
 
-![CollidingSquares](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46602.gif)
+![CollidingSquares](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46602.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -66,7 +66,7 @@ Let's explore what happens when we give them different Volumes:
 
 
 
-![CollidingSquaresMass1](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46537.gif)
+![CollidingSquaresMass1](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46537.gif)
 
 
 Since we've made the object bigger, its mass has also increased which we can verify by checking the [ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown) on RedSquare object. We can observe that the more massive object imparts a larger force onto the smaller object than the smaller does to it.
@@ -82,7 +82,7 @@ In the next section, we'll explore tweaking an object mass by altering its densi
 
 
 
-![DensePhysMat](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46545.gif)
+![DensePhysMat](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46545.gif)
 
 
 - In the `Library Window`
@@ -93,7 +93,7 @@ In the next section, we'll explore tweaking an object mass by altering its densi
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/113355.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/113355.png)
 
 
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : RedSquare object
@@ -105,7 +105,7 @@ In the next section, we'll explore tweaking an object mass by altering its densi
 
 
 
-![DenseCollision](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46561.gif)
+![DenseCollision](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46561.gif)
 
 
 Similar to the previous case, the more massive object imparts a greater force despite both objects having the same volume. Lastly, let's look into another way of setting an object's mass.
@@ -116,7 +116,7 @@ The [ MassOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_re
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46565.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46565.png)
 
 
 | MassOverride Properties |
@@ -132,7 +132,7 @@ The [ MassOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_re
 
 
 
-![CollidingSquares](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46602.gif)
+![CollidingSquares](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46602.gif)
 
 
 In adding the [ MassOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown) component, we just reset the RedSquare object's mass to 1 despite it still having the Dense resource [PhysicsMaterial](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/physics/physicsmaterial.markdown)
@@ -171,7 +171,7 @@ Another useful feature of [PhysicsMaterial](https://github.com/ZilchEngine/Zilch
 
 
 
-![Bouncy](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46611.gif) ![NotBouncy](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46616.gif)
+![Bouncy](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46611.gif) ![NotBouncy](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46616.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -212,7 +212,7 @@ NOTE: Similar to the case with restitution, PhysicsMaterials have a FrictionImpo
 
 
 
-![Friction](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46630.gif)
+![Friction](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46630.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

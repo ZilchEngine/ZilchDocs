@@ -10,7 +10,7 @@ By default, Zero will set the auto-generated 'Level' as the starting level but t
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47147.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47147.png)
 
 
 
@@ -23,14 +23,14 @@ To give your exported game a custom start-up banner:
 
 
 
-![exporting03](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/979.png)
+![exporting03](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/979.png)
 
 
 When you export your game, your new banner will replace the default one.
 
 
 
-![exporting04](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/980.png)
+![exporting04](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/980.png)
 
 
 
@@ -44,14 +44,14 @@ To give your exported game a custom icon:
 
 
 
-![exporting05](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/981.png)
+![exporting05](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/981.png)
 
 
 Export your game and your new icon will replace the default.
 
 
 
-![exporting06](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/982.png)
+![exporting06](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/982.png)
 
 
 

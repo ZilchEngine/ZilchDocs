@@ -16,7 +16,7 @@ Making a menu, HUD, or simple title screen in Zero is easy when you start with t
 
 
 
-![Level Flow](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98287.png)
+![Level Flow](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98287.png)
 
 
 We'll start with the title screen.
@@ -28,14 +28,14 @@ We'll start with the title screen.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98291.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98291.png)
 
 
 The UI level template includes a RootWidget object object, complete with all the special components that make it tick, such as [ UiRootWidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.markdown) and `UiRenderer`. It also comes with a few placeholder sprites that we won't be using.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98305.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98305.png)
 
 
 - In the `Objects Window`
@@ -60,7 +60,7 @@ It's time to make our first widget object: a text label. The best way to make wi
 
 
 
-![Selecting the UiWidget Library](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98687.gif)
+![Selecting the UiWidget Library](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98687.gif)
 
 
 - In the `Library Window`
@@ -71,7 +71,7 @@ It's time to make our first widget object: a text label. The best way to make wi
 
 
 
-![Adding a UiSpriteText to the RootWidget](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98689.gif)
+![Adding a UiSpriteText to the RootWidget](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98689.gif)
 
 
 - In the `Properties Window`
@@ -99,7 +99,7 @@ NOTE: The `UiWidget` component's `VerticalAlignment` and `HorizontalAlignment` p
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98714.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101906.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98714.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101906.png)
 
 
 *Title screen so far, with hierarchy for reference*
@@ -123,7 +123,7 @@ NOTE: The `UiWidget` component's `VerticalAlignment` and `HorizontalAlignment` p
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98716.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101908.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98716.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101908.png)
 
 
 *Title screen, continued, with hierarchy for reference*
@@ -164,11 +164,11 @@ The StartText object says //Click to Start//, but of course clicking won't do an
    - Set MarginTop  to `218`
    - Set MarginRight  to `20`
 
-(NOTE) **Hierarchy Render Order:** If your game's title contains a letter that has a descender (such as a lowercase //y//), the red horizontal line will be rendered on top of it. To correct this, just move the HorizontalLine object object to the top of its hierarchy in the `Objects Window`: ![Reordering Widgets in a Hierarchy](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98719.gif) This works because, while hierarchy order doesn't affect the way that widgets object are laid out in a `UiFillLayout`, it does still determine the order in which [ Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown) and [ SpriteTexts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown) are rendered by a `UiRenderer`.
+(NOTE) **Hierarchy Render Order:** If your game's title contains a letter that has a descender (such as a lowercase //y//), the red horizontal line will be rendered on top of it. To correct this, just move the HorizontalLine object object to the top of its hierarchy in the `Objects Window`: ![Reordering Widgets in a Hierarchy](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98719.gif) This works because, while hierarchy order doesn't affect the way that widgets object are laid out in a `UiFillLayout`, it does still determine the order in which [ Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown) and [ SpriteTexts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown) are rendered by a `UiRenderer`.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98721.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101910.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98721.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101910.png)
 
 
 *The complete layout of the title screen, with hierarchy for reference*
@@ -225,7 +225,7 @@ Let's get started.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98989.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101912.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98989.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101912.png)
 
 
 *Empty menu window for the main menu, with hierarchy for reference*
@@ -249,7 +249,7 @@ Let's get started.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98991.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101914.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98991.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101914.png)
 
 
 *Main menu, continued, with hierarchy for reference*
@@ -293,7 +293,7 @@ Now to make our first button, the *Start Game* button. When we're done with it, 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/98993.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101916.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98993.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101916.png)
 
 
 *The main menu with the first button (work in progress), with hierarchy for reference*
@@ -341,7 +341,7 @@ Zero's UI system sends the [ LeftClick](https://github.com/ZilchEngine/ZilchDocs
 
 
 
-![Start Game Button Test](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99972.gif)
+![Start Game Button Test](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99972.gif)
 
 
 Now we'll just duplicate this button a few times.
@@ -350,14 +350,14 @@ Now we'll just duplicate this button a few times.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99009.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101918.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99009.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101918.png)
 
 
 *The menu with four copies of the Start Game button, with hierarchy for reference*
 
 
-- Set the Text  properties of the [ SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown) components of the ButtonText object objects to match the following: ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99022.png)
-- Rename the StartGameButton object objects to match the following: ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99032.png)
+- Set the Text  properties of the [ SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown) components of the ButtonText object objects to match the following: ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99022.png)
+- Rename the StartGameButton object objects to match the following: ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99032.png)
 
 The menu is nearly complete; pretty much all that's left to do is to create the levels that the buttons will link to, and then hook them up.
 
@@ -416,7 +416,7 @@ class KeyboardMovement : NadaComponent
 
 
 
-![Player Movement in Gameplay Level](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99686.gif)
+![Player Movement in Gameplay Level](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99686.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -482,7 +482,7 @@ This component loads the specified level when the chosen key is pressed. With th
 
 
 
-![Gameplay Into Menu](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99705.gif)
+![Gameplay Into Menu](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99705.gif)
 
 
 *It's now possible to go from gameplay to the main menu*
@@ -511,7 +511,7 @@ Now to hook up the main menu to go into the gameplay level.
 
 
 
-![Menu Into Gameplay](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99708.gif)
+![Menu Into Gameplay](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99708.gif)
 
 
 Clicking the **Start Game** button now loads the gameplay level, from where the `Escape` key can be used to return to the main menu.
@@ -585,7 +585,7 @@ These all add up to `93`, which is exactly the height of the window.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99801.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101940.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99801.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101940.png)
 
 
 *The credits window, with its SizePolicyY enum set to `Auto`, with hierarchy for reference*
@@ -599,7 +599,7 @@ The credits will be displayed between the menu title and the button. We'll place
  - Under Archetype 
   - `Left drag` `UiSprite` into the `Objects Window`
 - In the `Objects Window`
- - `Drag and drop` the `UiSprite` instance between MenuTitle object and MenuButton object ![Creating a UiSprite Between Things](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99793.gif)
+ - `Drag and drop` the `UiSprite` instance between MenuTitle object and MenuButton object ![Creating a UiSprite Between Things](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99793.gif)
 - In the `Properties Window`
  - Rename the UiSprite object to `CreditsBlock`
  - [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown)
@@ -676,7 +676,7 @@ We'll fill in the actual name of the role later. First, let's put some placehold
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99805.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101942.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99805.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101942.png)
 
 
 *A credit listing, with placeholder text, with hierarchy for reference*
@@ -699,7 +699,7 @@ NOTE: Both of the above [ Duplicate](https://github.com/ZilchEngine/ZilchDocs/bl
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99807.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101948.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99807.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101948.png)
 
 
 *A credit listing, with multiple names for the same role, with hierarchy for reference*
@@ -712,7 +712,7 @@ That looks pretty good. Now let's duplicate the credit listing.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99809.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101944.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99809.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101944.png)
 
 
 *Two credit listings, with bad spacing, with hierarchy for reference*
@@ -727,7 +727,7 @@ The names run on together so that they look like they're one big list. Again, th
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99811.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101944.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99811.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101944.png)
 
 
 *Two credit listings, with good spacing, with hierarchy for reference*
@@ -743,7 +743,7 @@ If any of the names of the roles or team members in your credits extend onto mul
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99814.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/101946.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99814.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101946.png)
 
 
 *A complete credits screen, with hierarchy for reference*
@@ -806,7 +806,7 @@ There's just one more thing to do: make the title screen go to the main menu.
 
 
 
-![Full Game](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99846.gif)
+![Full Game](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99846.gif)
 
 
 *All of the game's levels and screens are now connected*

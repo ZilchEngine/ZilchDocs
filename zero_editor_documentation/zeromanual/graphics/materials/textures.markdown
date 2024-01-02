@@ -25,7 +25,7 @@ The Texture Builder is a collection of settings used to convert your image file 
 
 
 
-![cubemap](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/1145.png)
+![cubemap](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/1145.png)
 
 
  ## Compression

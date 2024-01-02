@@ -4,7 +4,7 @@ Roughness as defined in the [deferred renderer](https://github.com/ZilchEngine/Z
 
 
 
-![CopperSpheres](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47877.png)
+![CopperSpheres](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47877.png)
 
 
 Especially through the first five or six spheres, as the roughness goes up, the reflection gets progressively more pronounced until individual objects reflected from the skybox are no longer visible.
@@ -19,7 +19,7 @@ When the RoughnessValue fragment is applied, the roughness value specified will 
 
 
 
-![AddValue](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47860.gif)
+![AddValue](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47860.gif)
 
 
  ##  Roughness Map
@@ -28,7 +28,7 @@ When the RoughnessMap fragment is applied, different roughness values are applie
 
 
 
-![AddMap](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47858.gif)
+![AddMap](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47858.gif)
 
 
 RoughnessMaps may be broken down into two broad categories: tileable roughness maps, which can be used on any model, and model-specific roughness maps, which are intended to be used with a specific model or set of models.

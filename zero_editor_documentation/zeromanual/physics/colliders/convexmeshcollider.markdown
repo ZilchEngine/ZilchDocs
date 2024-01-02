@@ -10,7 +10,7 @@ If a mesh is non-convex, the convex hull of the shape is used for collision dete
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46628.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46628.png)
 
 
 Pictured above is an illustration of the convex hull of an object. Note that the collision is bigger than the original shape.

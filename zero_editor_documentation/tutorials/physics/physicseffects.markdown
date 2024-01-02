@@ -15,7 +15,7 @@ This lesson focuses on teaching the basics of physics effects and components.
 
 
 
-![FallingSquare](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46396.gif)
+![FallingSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46396.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -31,7 +31,7 @@ Let's take a look at the LevelSettings object in our level:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46967.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46967.png)
 
 
 - In the `Properties window`
@@ -39,7 +39,7 @@ Let's take a look at the LevelSettings object in our level:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46968.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46968.png)
 
 
 | Common GravityEffect Properties |
@@ -56,7 +56,7 @@ Let's take a look at the LevelSettings object in our level:
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46414.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46414.png)
 
 
 Notice that the Sprite object isn't being affected by gravity anymore. That's because components that produce physics effects, when attached to the LevelSettings object object, will apply that effect to all objects within the Space.
@@ -73,7 +73,7 @@ Let's try and move the Sprite object in other ways:
 
 
 
-![SlowingSquare](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46429.gif)
+![SlowingSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46429.gif)
 
 
 The Sprite object appears to be moving in the desired direction and still isn't affected by gravity but it slowed down and stopped. But according to Newton's first law of motion; an object retains its movement at a constant velocity unless acted upon by an external force. So what external force caused our object to stop?
@@ -87,7 +87,7 @@ Let's take a look again at the LevelSettings object:
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : LevelSettings object
 - In the `Properties Window`
  - Under [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown)
-   ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46969.png)
+   ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46969.png)
    - Set Active checkBox to `false`
 
 | Common DragEffect Properties |
@@ -100,7 +100,7 @@ Let's take a look again at the LevelSettings object:
 
 
 
-![EverMovingSquare](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46484.gif)
+![EverMovingSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46484.gif)
 
 
 The [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown)  exists to simulate air resistance and other forces that would prevent your object from moving indefinitely.
@@ -119,7 +119,7 @@ These effects can also be applied to individual objects, let's take a look:
 
 
 
-![FallingSquare](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46396.gif)
+![FallingSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46396.gif)
 
 
 Now we get the same result we had initially, but we could tweak individual gravity and drag effects per object.
@@ -129,7 +129,7 @@ Now we get the same result we had initially, but we could tweak individual gravi
 WARNING: GravityEffect (and some other PhysicsEffects) have the LocalSpaceDirection checkBox property set to true by default. This means that, as the object rotates, the "down direction" will be constantly changing. Set LocalSpaceDirection checkBox to false to avoid this behavior.
 
 
-![TumblingSquare](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46531.gif)
+![TumblingSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46531.gif)
 
 
  # IgnoreSpaceEffects
@@ -140,7 +140,7 @@ Alternatively, you could leave the [GravityEffect](https://github.com/ZilchEngin
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46970.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46970.png)
 
 
 NOTE: The [IgnoreSpaceEffects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown) component will only stop physics effects attached to LevelSettings object or Space to affect the object; if the object has a [GravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gravityeffect.markdown) component or any other physics effects components on itself, they will not be ignored!

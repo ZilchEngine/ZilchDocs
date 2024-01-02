@@ -6,7 +6,7 @@ A new level can be added by using the Add command ([Command](https://github.com/
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47014.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47014.png)
 
 
  - The [LevelSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/architecture/objects/levelsettings.markdown) object is a cog that has a single unique instance per level that cannot be deleted or duplicated. It has several components attached in order to run various effects in the level, such as gravity.
@@ -15,16 +15,16 @@ The background grid will also be turned on. The grid is there to help place obje
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47016.png) *The collapsible toolbar has a few buttons for altering the view.*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47016.png) *The collapsible toolbar has a few buttons for altering the view.*
 
 
 
 | Buttons                             | Purpose |
 |-------------------------------------|---------------------------------------------|
-| ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47018.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47020.png) | Toggles between 2D & 3D camera controls.    |
-| ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47024.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47022.png) | Toggles the editor camera's rendering mode between Orthographic and Perspective Projection. |
-| ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47027.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47029.png) | With the camera options you can either reset the editor camera to its default settings, or align a selected camera with the editor's camera.  |
-| ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47031.png) ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47033.png) | Toggles the grid line visuals in the editor. |
+| ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47018.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47020.png) | Toggles between 2D & 3D camera controls.    |
+| ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47024.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47022.png) | Toggles the editor camera's rendering mode between Orthographic and Perspective Projection. |
+| ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47027.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47029.png) | With the camera options you can either reset the editor camera to its default settings, or align a selected camera with the editor's camera.  |
+| ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47031.png) ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47033.png) | Toggles the grid line visuals in the editor. |
 
  # Levels vs. Spaces
 While levels are resources that store object data to later be loaded, spaces are where those objects are placed upon creation. This allows multiple spaces to load multiple levels at once, which is used to create HUD or UI elements, or to pause the main game while still allowing pause menus to function properly. 

@@ -15,13 +15,13 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zero Market](https://gith
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - Click  the market button in the top right of the editor window
-  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106205.png)
+  ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106205.png)
 - Click  the `Sample Character Controller` package
-  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106207.png)
+  ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106207.png)
 - Click  the download link for the `SAMPLECHARACTERCONTROLLERS[1.0].ZEROPACK`
-  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106209.png)
+  ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106209.png)
 - Click  the Import button button
-  ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106211.png)
+  ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106211.png)
 - Close the `Market Browser`
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createcube)
@@ -33,7 +33,7 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zero Market](https://gith
 - In the `Library Window`
  - Under Archetype 
   - `Click and drag` {nav icon=wrench, name=SweptPlayer2_5D} into the `Level Window`
-    ![SweptArchetype](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106215.gif)
+    ![SweptArchetype](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106215.gif)
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
  - Move left with `A` and right with `D`
@@ -41,7 +41,7 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zero Market](https://gith
 
 
 
-![Swept2DMoving](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106217.gif)
+![Swept2DMoving](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106217.gif)
 
 
 *The Player object moving and jumping*
@@ -108,7 +108,7 @@ Because the SweptCharacter uses a `Kinematic` object, it must handle its own gra
 
 
 
-![SweptGravity](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99693.gif)
+![SweptGravity](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99693.gif)
 
 
 *The Player object jumping with increased Gravity *
@@ -128,7 +128,7 @@ The jump velocity is also adjustable.
 
 
 
-![SweptJumpSpeed](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/99695.gif)
+![SweptJumpSpeed](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/99695.gif)
 
 
 *The Player object jumping with increased Gravity  and increased JumpSpeed *
@@ -149,7 +149,7 @@ When the swept character is in the air, it has slight control by default. The Sw
 
 
 
-![air_control_default](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/103377.gif)
+![air_control_default](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/103377.gif)
 
 
 *The Player object jumping and moving with default AirAcceleration *
@@ -168,7 +168,7 @@ Now let's try increasing the air control.
 
 
 
-![air_control_High](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/103379.gif)
+![air_control_High](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/103379.gif)
 
 
 *The Player object jumping and moving with increased AirAcceleration *
@@ -202,7 +202,7 @@ Something you may not have thought about yet is how the `SweptController` detect
 
 
 
-![ground_angle](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/106219.gif)
+![ground_angle](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106219.gif)
 
 
 *Platforms both above and below the MaxGroundSlope *
@@ -257,7 +257,7 @@ Notice how our print statement from the `CollisionDetector` component is not exe
   - Set ForwardEvents checkBox to `true`
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/105946.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105946.png)
 
 - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Player object
  - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [customcollisioneventtracker](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.markdown)

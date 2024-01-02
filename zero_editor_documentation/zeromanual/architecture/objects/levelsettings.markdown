@@ -15,7 +15,7 @@ The LevelSettings object will always be the first object in the Object Window ma
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46988.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46988.png)
 
 
 Since the LevelSettings object lacks any Graphics or Physics based representation in the level, the only way to select and modify its components in the editor is through the Object Window.
@@ -52,7 +52,7 @@ class ExampleComponent : NadaComponent
  ## Default Components of LevelSettings
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46990.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46990.png)
 
 
  ### GravityEffect & DragEffect

@@ -117,7 +117,7 @@ Since the player doesn't move yet, let's create an object that will allow us to 
 
 
 
-![PausingOnStart](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96091.gif)
+![PausingOnStart](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96091.gif)
 
 
 *Game pausing and unpausing in reaction to `Start` being pressed*
@@ -176,7 +176,7 @@ In the above code block we get the [Real2](https://github.com/ZilchEngine/ZilchD
 
 
 
-![LeftStickMovement](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96110.gif)
+![LeftStickMovement](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96110.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
@@ -194,7 +194,7 @@ this.Gamepad.Vibrate(event.Dt, this.Gamepad.LeftTrigger, this.Gamepad.RightTrigg
 
 
 
-![Rumble](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96129.gif)
+![Rumble](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96129.gif)
 
 
 We can feel the gamepad vibrating in response to the triggers being depressed. You may have noticed that the [Vibrate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#vibrate-void) function takes two parameters called `leftSpeed` and `rightSpeed`. What you may not have realized is that most gamepads have two vibration motors inside. The left motor typically has a heavier weight than the right motor. This difference in the rotating weights creates what is commonly known as the "rumble" effect. You can test this by pulling the triggers one at a time.
@@ -362,7 +362,7 @@ function OnGamepadDisconnected(event : GamepadConnectionEvent)
 
 
 
-![PausingOnDC](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/96084.gif)
+![PausingOnDC](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96084.gif)
 
 
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)

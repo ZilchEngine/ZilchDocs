@@ -6,7 +6,7 @@ The list can be accessed in the same way as any other command
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90634.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90634.png)
 
  
 

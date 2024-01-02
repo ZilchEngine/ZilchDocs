@@ -5,13 +5,13 @@ This page covers the launcher and its multiple subtabs.
  # The Discover Tab
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47808.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47808.png)
 
 The Discover tab is the Launcher's information hub, featuring links to documentation, news, and informative websites.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47822.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47822.png)
 
 
 | Link | Description |
@@ -26,20 +26,20 @@ The Discover tab is the Launcher's information hub, featuring links to documenta
  # The Projects Tab
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47829.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47829.png)
 
 The Projects tab lets the user create new projects and manage existing ones.
 
  ## New Project
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47798.png) *Project Creation*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47798.png) *Project Creation*
 
  ### Project Templates
 The project templates are `EMPTY 2D PROJECT` and `EMPTY 3D PROJECT`. Both options will result in an empty Zero project, but with a few differences in settings.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47778.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47778.png)
 
 
 **New Project Default Settings by Template**
@@ -57,20 +57,20 @@ NOTE: Even if a game starts with the 2D template, it can still become a 3D game 
 The Name  of the project is required, but the `TAGS field` is optional.  Both are ways of labeling a project so that it can be searched for in the [Recent Projects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/launcher.markdown#recent-projects) subtab.  TAGS  will parse a comma-delimited list of strings, where each string becomes a seperate tag: `<tag1>, <tag2>, <tag3>`
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47800.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47800.png)
 
 
  ### Version
 The version can be selected from here as long as it's installed from the [Builds tab](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/launcher.markdown#the-builds-tab).  Optionally, the latest version can be installed by selecting `the version drop-down  > INSTALL LATEST`
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47796.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47796.png)
 
 
  ## Recent Projects
 
 
-![ZeroLauncher_ProjectsTab](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47866.gif)
+![ZeroLauncher_ProjectsTab](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47866.gif)
 
 
 Moving on to projects previously created, by clicking the **Recent** button you will bring up the Recent Projects subtab.
@@ -80,21 +80,21 @@ The recent projects tab a list of the latest Zero projects that were worked on. 
 Each recent project will show up as a project tile, showing information relating to that project.  There is an option to remove a tile from the project list, by clicking on an X on the bottom right of the tile.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47870.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47870.png)
 
 
  ### Search Bar
 The search bar can be used to filter the project list, by name and by tag.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47872.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47872.png)
 
 
  ### In a Project Tile
-Once a project tile is selected, more information and a launch option are displayed.  Clicking on the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47881.png) button will open the directory of the project.  The version selector works the same as the one in the [New subtab](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/launcher.markdown#new-project).
+Once a project tile is selected, more information and a launch option are displayed.  Clicking on the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47881.png) button will open the directory of the project.  The version selector works the same as the one in the [New subtab](https://github.com/ZilchEngine/ZilchDocs/blob/master/zero_editor_documentation/zeromanual/editor/launcher.markdown#new-project).
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47879.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47879.png)
 
 
  ## Browse Projects
@@ -103,17 +103,17 @@ Clicking on the **Browse** subtab will open the systems default explorer to manu
  ## The Builds Tab
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47891.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47891.png)
 
 
-The Builds tab features a list of Zero Engine build versions that are currently installed or available for download.  A new build can be installed by clicking on it's version in the left pane, and finding the ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47885.png) button.  Alternatively, an installed version will have a ![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47889.png) button for uninstalling.
+The Builds tab features a list of Zero Engine build versions that are currently installed or available for download.  A new build can be installed by clicking on it's version in the left pane, and finding the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47885.png) button.  Alternatively, an installed version will have a ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47889.png) button for uninstalling.
 
 (WARNING)**Why Choose a Different Build?**
 While it may seem unnecessary initially, having access to earlier builds of the engine can be beneficial.  Changing the version between project launches can make a project unplayable, unlaunchable, or otherwise broken.  One solution is to fix the project as the latest engine version changes, but time may not permit this.  The quicker more reliable solution is to retain the version of the last working build.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47883.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47883.png)
 
 
 WARNING:
@@ -122,14 +122,14 @@ Any number of builds can be installed and stored at once, but each build install
  ## The Settings Tab
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47893.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47893.png)
 
 
 The settings tab has a number of different properties about how the Launcher itself behaves.
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/47897.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47897.png)
 
 
 `PROJECT SETTINGS`: Choose whether to launch the launcher or the engine when a zero project is opened.

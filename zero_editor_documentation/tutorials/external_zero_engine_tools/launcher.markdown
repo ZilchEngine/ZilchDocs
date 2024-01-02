@@ -17,7 +17,7 @@ This lesson introduces the **Zero Launcher** and explains how to use it.
 The Discover tab is the Launcher's information hub. It features a number of useful links to informative websites:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90305.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90305.png)
 
 
 
@@ -42,7 +42,7 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90326.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90326.png)
 
 1. Choose a template to start with:
  - Empty **2D Project** and **Empty 3D Project** will both result in an empty Zero project, but with a few differences in in editor settings and initial project configuration.
@@ -79,7 +79,7 @@ Clicking the **Recent** button will bring up the Recent Projects subtab.
 Here, you will see a list of the latest Zero projects that you have worked on.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90330.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90330.png)
 
 1. Each recently-used project appears here, with its name and modified date shown next to a thumbnail screenshot.
 2. You may use the **Search** field to search through your recent projects, either by name or by tags.
@@ -89,7 +89,7 @@ Here, you will see a list of the latest Zero projects that you have worked on.
 When you click on a recent project, you will see this:
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90332.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90332.png)
 
 
 *The Recent Projects sub-tab, with a project selected*
@@ -116,7 +116,7 @@ The Builds tab features a list of Zero Engine build versions that are installed 
 
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90356.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90356.png)
 
 
 1. Each build is listed in the **Build List** section of the builds tab, with its build number, release date, and tags.
@@ -138,7 +138,7 @@ NOTE: You may have **any number of different builds** installed simultaneously.
 Finally, there's the **Settings** tab, found by clicking the little orange horizontal lines. Here, you can configure a number of different properties about how the Launcher itself behaves.
 
 
-![image](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/90360.png)
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90360.png)
 
 
 1. The `Project Settings` drop down menu controls what happens when you open a project from your operating system (i.e., by double-clicking on its icon):

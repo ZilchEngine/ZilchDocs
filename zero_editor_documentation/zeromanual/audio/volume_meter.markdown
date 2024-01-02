@@ -1,4 +1,4 @@
-![VolumeMeter](https://media.githubusercontent.com/media/ZilchEngine/ZilchFiles/master/doc_files/46352.png) The Volume Meter tool allows the user to monitor and change the audio system volume. 
+![VolumeMeter](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46352.png) The Volume Meter tool allows the user to monitor and change the audio system volume. 
 
 The slider sets the volume adjustment, in decibels, which will be applied to all audio in the Zero Engine. 
 
