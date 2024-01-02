@@ -22,14 +22,14 @@ The following are usable in the Zilch Engine:
 | `[Virtual]`                             | Nada | Marks a construct as a polymorphic base                     |
 | `[Override]`                            | Nada | Marks a construct as overriding a base construct            |
 | `[Extension(typeid(OtherType))]`        | Nada | Appends construct to preexisting `OtherType`                |
-| `[Display]`                            | Zero  | Allows construct to appear in Property Grid                 |
-| `[Serialize]`                          | Zero  | Allows construct value to be saved by Zero                  |
-| `[Property]`                            | Zero  | Combines `[Display]` and `[Serialize]`                    |
-| `[Dependency]`                          | Zero  | Enables Zero to enforce explicit dependencies               |
-| `[RunInEditor]`                         | Zero  | Allows code to run in the editor                            |
-| `[Tool]`                                | Zero  | Can run in editor and accessible in Tools Window            |
-| `[Command]`                             | Zero  | Can run in editor and accessible in Search Window           |
-| `[ComponentInterface]`                  | Zero  | Defines a class as a generic interface for derived classes  |
+| `[Display]`                            | Zilch  | Allows construct to appear in Property Grid                 |
+| `[Serialize]`                          | Zilch  | Allows construct value to be saved by Zilch                  |
+| `[Property]`                            | Zilch  | Combines `[Display]` and `[Serialize]`                    |
+| `[Dependency]`                          | Zilch  | Enables Zilch to enforce explicit dependencies               |
+| `[RunInEditor]`                         | Zilch  | Allows code to run in the editor                            |
+| `[Tool]`                                | Zilch  | Can run in editor and accessible in Tools Window            |
+| `[Command]`                             | Zilch  | Can run in editor and accessible in Search Window           |
+| `[ComponentInterface]`                  | Zilch  | Defines a class as a generic interface for derived classes  |
 
 (IMPORTANT)**Deprecation Warning**: The `[Editable]` and `[Serialized]` attributes were #deprecated in release [1.1.0](https://dev.zeroengine.io/source/ZeroCore/browse/releases%252F1.1.0/;d3c079aaf84bf52abb6e1c43e8ca88361cd70b10) and will be removed in the next major version of the engine. Use `[Property]` and `[Serialize]` for all engine versions `1.1.0` and newer.
 
@@ -107,7 +107,7 @@ class MyClass : NadaComponent
 }
 ```
 
-Zero works with Nada to offer these additional attributes:
+Zilch works with Nada to offer these additional attributes:
 
  ## [Display]
 
@@ -197,7 +197,7 @@ Allows for a tool to be hooked into the Tools Window such that it shows up in th
 
  ## [Command]
 
-Allows for a class to be hooked into the command system such that it shows up, and can be ran, from Zero's Search Window. The following Paste provides a template for a custom Command that creates an object based on an archetype, allowing the user to make their own "Create" commands similar to `CreateCube` and `CreateSphere`:
+Allows for a class to be hooked into the command system such that it shows up, and can be ran, from Zilch's Search Window. The following Paste provides a template for a custom Command that creates an object based on an archetype, allowing the user to make their own "Create" commands similar to `CreateCube` and `CreateSphere`:
 
 ```
 [Command(autoRegister:true)]
@@ -281,7 +281,7 @@ class CrossBlendDebugNode : AnimationDebugNode
 
  # Parameters in Attributes
 
-Attributes can also take parameters; below is the template generated for creating a new Command by Zero:
+Attributes can also take parameters; below is the template generated for creating a new Command by Zilch:
 
 ```lang=csharp
 [Command(autoRegister:true)] // This template file sets a parameter, autoRegister, to true.
@@ -308,8 +308,8 @@ To manually register, you would add these components to an archetype and then ad
 
  # Related Materials
  ## Manual
-- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/inheritance.markdown)
-- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/variables_and_data_types.markdown)
-- [wysiwyg](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/scripting/wysiwyg.markdown) 
+- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/inheritance.markdown)
+- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.markdown)
+- [wysiwyg](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/wysiwyg.markdown) 
 
  

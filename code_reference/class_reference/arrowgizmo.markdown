@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#arrowgizmo-void)|[ DualHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#dualheads-zero-engine-do)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown)| |
-| |[ FilledHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#filledheads-zero-engine)| | |
-| |[ HeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#headsize-zero-engine-doc)| | |
-| |[ HeadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#headtype-zero-engine-doc)| | |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#length-zero-engine-docum)| | |
-| |[ LineDrawWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#linedrawwidth-zero-engin)| | |
-| |[ SelectRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#selectradius-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#arrowgizmo-void)|[ DualHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#dualheads-zilch-engine-do)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown)| |
+| |[ FilledHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#filledheads-zilch-engine)| | |
+| |[ HeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#headsize-zilch-engine-doc)| | |
+| |[ HeadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#headtype-zilch-engine-doc)| | |
+| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#length-zilch-engine-docum)| | |
+| |[ LineDrawWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#linedrawwidth-zilch-engin)| | |
+| |[ SelectRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown#selectradius-zilch-engine)| | |
 
 
  #  Properties

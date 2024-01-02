@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetGamePad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.markdown#getgamepad-zero-engine-d)|[ MaxGamepadCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.markdown#maxgamepadcount-zero-eng)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+|[ GetGamePad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.markdown#getgamepad-zilch-engine-d)|[ MaxGamepadCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.markdown#maxgamepadcount-zilch-eng)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
 |[ PauseVibration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.markdown#pausevibration-void)| | | |
 |[ ResumeVibration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.markdown#resumevibration-void)| | | |
 

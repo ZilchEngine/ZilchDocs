@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#contactpoint-void)|[ ComplexImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#compleximpulse-zero-engi)| | |
-| |[ FrictionImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#frictionimpulse-zero-eng)| | |
-| |[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#localpoint-zero-engine-d)| | |
-| |[ NormalImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#normalimpulse-zero-engin)| | |
-| |[ OtherLocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#otherlocalpoint-zero-eng)| | |
-| |[ Penetration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#penetration-zero-engine)| | |
-| |[ RelativeVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#relativevelocity-zero-en)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#contactpoint-void)|[ ComplexImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#compleximpulse-zilch-engi)| | |
+| |[ FrictionImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#frictionimpulse-zilch-eng)| | |
+| |[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#localpoint-zilch-engine-d)| | |
+| |[ NormalImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#normalimpulse-zilch-engin)| | |
+| |[ OtherLocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#otherlocalpoint-zilch-eng)| | |
+| |[ Penetration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#penetration-zilch-engine)| | |
+| |[ RelativeVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#relativevelocity-zilch-en)| | |
 | |[ WorldNormalTowardsOther](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#worldnormaltowardsother)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#worldpoint-zero-engine-d)| | |
+| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.markdown#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties

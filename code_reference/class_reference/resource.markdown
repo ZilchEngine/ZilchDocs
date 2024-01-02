@@ -1,6 +1,6 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resource.markdown#name-zero-engine-documen)|EventObject|[animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.markdown)|
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resource.markdown#name-zilch-engine-documen)|EventObject|[animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.markdown)|
 | | | |[archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.markdown)|
 | | | |[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)|
 | | | |[documentresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/documentresource.markdown)|

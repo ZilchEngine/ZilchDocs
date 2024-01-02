@@ -2,35 +2,35 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Compare](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#compare-zero-engine-docu)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#all-zero-engine-document)| | |
-|[ CompareTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#compareto-zero-engine-do)|[ Begin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#begin-zero-engine-docume)| | |
-|[ ComputeRuneCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#computerunecount-zero-en)|[ ByteCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#bytecount-zero-engine-do)| | |
-|[ Concatenate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#concatenate-zero-engine)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#count-zero-engine-docume)| | |
-|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#contains-zero-engine-doc)|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#empty-zero-engine-docume)| | |
-|[ EndsWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#endswith-zero-engine-doc)|[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#end-zero-engine-document)| | |
-|[ FindFirstOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#findfirstof-zero-engine)|[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#isnotempty-zero-engine-d)| | |
-|[ FindLastOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#findlastof-zero-engine-d)| | | |
+|[ Compare](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#compare-zilch-engine-docu)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#all-zilch-engine-document)| | |
+|[ CompareTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#compareto-zilch-engine-do)|[ Begin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#begin-zilch-engine-docume)| | |
+|[ ComputeRuneCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#computerunecount-zilch-en)|[ ByteCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#bytecount-zilch-engine-do)| | |
+|[ Concatenate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#concatenate-zilch-engine)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#count-zilch-engine-docume)| | |
+|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#contains-zilch-engine-doc)|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#empty-zilch-engine-docume)| | |
+|[ EndsWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#endswith-zilch-engine-doc)|[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#end-zilch-engine-document)| | |
+|[ FindFirstOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#findfirstof-zilch-engine)|[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#isnotempty-zilch-engine-d)| | |
+|[ FindLastOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#findlastof-zilch-engine-d)| | | |
 |[ FindRangeExclusive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#findrangeexclusive-zero)| | | |
 |[ FindRangeInclusive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#findrangeinclusive-zero)| | | |
-|[ FormatC](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#formatc-zero-engine-docu)| | | |
-|[ FromRune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#fromrune-zero-engine-doc)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#get-zero-engine-document)| | | |
-|[ IsNullOrEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#isnullorempty-zero-engin)| | | |
+|[ FormatC](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#formatc-zilch-engine-docu)| | | |
+|[ FromRune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#fromrune-zilch-engine-doc)| | | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#get-zilch-engine-document)| | | |
+|[ IsNullOrEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#isnullorempty-zilch-engin)| | | |
 |[ IsNullOrWhitespace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#isnullorwhitespace-zero)| | | |
-|[ Join](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#join-zero-engine-documen)| | | |
-|[ Replace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#replace-zero-engine-docu)| | | |
+|[ Join](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#join-zilch-engine-documen)| | | |
+|[ Replace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#replace-zilch-engine-docu)| | | |
 |[ RuneIteratorFromByteIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#runeiteratorfrombyteinde)| | | |
 |[ RuneIteratorFromRuneIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#runeiteratorfromruneinde)| | | |
-|[ Split](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#split-zero-engine-docume)| | | |
-|[ StartsWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#startswith-zero-engine-d)| | | |
-|[ SubString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#substring-zero-engine-do)| | | |
-|[ SubStringBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#substringbytes-zero-engi)| | | |
+|[ Split](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#split-zilch-engine-docume)| | | |
+|[ StartsWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#startswith-zilch-engine-d)| | | |
+|[ SubString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#substring-zilch-engine-do)| | | |
+|[ SubStringBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#substringbytes-zilch-engi)| | | |
 |[ SubStringFromRuneIndices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#substringfromruneindices)| | | |
-|[ ToLower](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#tolower-zero-engine-docu)| | | |
-|[ ToUpper](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#toupper-zero-engine-docu)| | | |
-|[ Trim](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#trim-zero-engine-documen)| | | |
-|[ TrimEnd](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#trimend-zero-engine-docu)| | | |
-|[ TrimStart](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#trimstart-zero-engine-do)| | | |
+|[ ToLower](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#tolower-zilch-engine-docu)| | | |
+|[ ToUpper](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#toupper-zilch-engine-docu)| | | |
+|[ Trim](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#trim-zilch-engine-documen)| | | |
+|[ TrimEnd](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#trimend-zilch-engine-docu)| | | |
+|[ TrimStart](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown#trimstart-zilch-engine-do)| | | |
 
 
  #  Properties

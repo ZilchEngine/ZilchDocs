@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Root](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectivenode.markdown#root-zero-engine-documen)|[dualblendselectivenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendselectivenode.markdown)| |
+| |[ Root](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectivenode.markdown#root-zilch-engine-documen)|[dualblendselectivenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendselectivenode.markdown)| |
 
 
  #  Properties

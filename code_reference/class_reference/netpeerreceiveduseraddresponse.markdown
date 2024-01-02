@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurNetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#ournetuserid-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#ourrequestbundle-zero-en)| | |
-| |[ TheirAddResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theiraddresponse-zero-en)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theiripaddress-zero-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theirnetpeerid-zero-engi)| | |
+| |[ OurNetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#ournetuserid-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#ourrequestbundle-zilch-en)| | |
+| |[ TheirAddResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theiraddresponse-zilch-en)| | |
+| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theirnetpeerid-zilch-engi)| | |
 | |[ TheirResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.markdown#theirresponsebundle-zero)| | |
 
 

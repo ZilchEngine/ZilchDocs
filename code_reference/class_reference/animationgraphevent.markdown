@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraphevent.markdown#animation-zero-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Node](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraphevent.markdown#node-zero-engine-documen)| | |
-| |[ PlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraphevent.markdown#playmode-zero-engine-doc)| | |
+| |[ Animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraphevent.markdown#animation-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Node](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraphevent.markdown#node-zilch-engine-documen)| | |
+| |[ PlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraphevent.markdown#playmode-zilch-engine-doc)| | |
 
 
  #  Properties

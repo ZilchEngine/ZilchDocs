@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#jointdebugdrawconfig-voi)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ Detail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#detail-zero-engine-docum)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#jointdebugdrawconfig-voi)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ Detail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#detail-zilch-engine-docum)| | |
 | |[ ObjectAPerspective](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#objectaperspective-zero)| | |
 | |[ ObjectBPerspective](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#objectbperspective-zero)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#size-zero-engine-documen)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.markdown#size-zilch-engine-documen)| | |
 
 
  #  Properties

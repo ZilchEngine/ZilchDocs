@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.markdown#sample-zero-engine-docum)| |[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.markdown#sample-zilch-engine-docum)| |[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
 
 
  #  Properties

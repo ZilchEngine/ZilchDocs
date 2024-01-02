@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#debuglinecross-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#color-zero-engine-docume)| | |
-| |[ HalfExtents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#halfextents-zero-engine)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#ontop-zero-engine-docume)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#position-zero-engine-doc)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#viewaligned-zero-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#viewscaled-zero-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#viewscaleoffset-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#debuglinecross-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#color-zilch-engine-docume)| | |
+| |[ HalfExtents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#halfextents-zilch-engine)| | |
+| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#ontop-zilch-engine-docume)| | |
+| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#position-zilch-engine-doc)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.markdown#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

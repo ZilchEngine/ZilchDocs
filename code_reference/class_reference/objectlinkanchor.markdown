@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkanchor.markdown#objectlinkanchor-void)|[ ObjectLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkanchor.markdown#objectlinks-zero-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkanchor.markdown#objectlinkanchor-void)|[ ObjectLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkanchor.markdown#objectlinks-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 
 
  #  Properties

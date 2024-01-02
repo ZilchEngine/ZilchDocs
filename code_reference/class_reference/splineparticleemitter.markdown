@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#splineparticleemitter-vo)|[ ClampT](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#clampt-zero-engine-docum)|[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.markdown)| |
-| |[ EmitRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#emitradius-zero-engine-d)| | |
-| |[ SpawnT](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#spawnt-zero-engine-docum)| | |
-| |[ SpawnTVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#spawntvariance-zero-engi)| | |
-| |[ Spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#spline-zero-engine-docum)| | |
-| |[ TargetSplineCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#targetsplinecog-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#splineparticleemitter-vo)|[ ClampT](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#clampt-zilch-engine-docum)|[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.markdown)| |
+| |[ EmitRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#emitradius-zilch-engine-d)| | |
+| |[ SpawnT](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#spawnt-zilch-engine-docum)| | |
+| |[ SpawnTVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#spawntvariance-zilch-engi)| | |
+| |[ Spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#spline-zilch-engine-docum)| | |
+| |[ TargetSplineCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.markdown#targetsplinecog-zilch-eng)| | |
 
 
  #  Properties

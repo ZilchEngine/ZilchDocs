@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BasicHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#basichostinfo-zero-engin)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
-| |[ ExtraHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#extrahostinfo-zero-engin)| | |
-| |[ IpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#ipaddress-zero-engine-do)| | |
-| |[ Latency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#latency-zero-engine-docu)| | |
-| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#network-zero-engine-docu)| | |
-| |[ RoundTripTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#roundtriptime-zero-engin)| | |
+| |[ BasicHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#basichostinfo-zilch-engin)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
+| |[ ExtraHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#extrahostinfo-zilch-engin)| | |
+| |[ IpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#ipaddress-zilch-engine-do)| | |
+| |[ Latency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#latency-zilch-engine-docu)| | |
+| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#network-zilch-engine-docu)| | |
+| |[ RoundTripTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.markdown#roundtriptime-zilch-engin)| | |
 
 
  #  Properties

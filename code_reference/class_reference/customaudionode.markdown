@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SendBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendbuffer-void)|[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#channels-zero-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ SendMicCompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendmiccompresseddata-vo)|[ MinimumBufferSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#minimumbuffersize-zero-e)| | |
-|[ SendMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendmicuncompresseddata)|[ SystemSampleRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#systemsamplerate-zero-en)| | |
+|[ SendBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendbuffer-void)|[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#channels-zilch-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ SendMicCompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendmiccompresseddata-vo)|[ MinimumBufferSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#minimumbuffersize-zilch-e)| | |
+|[ SendMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendmicuncompresseddata)|[ SystemSampleRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#systemsamplerate-zilch-en)| | |
 |[ SendPartialBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.markdown#sendpartialbuffer-void)| | | |
 
 

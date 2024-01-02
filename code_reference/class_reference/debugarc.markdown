@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#debugarc-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#color-zero-engine-docume)| | |
-| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#end-zero-engine-document)| | |
-| |[ Mid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#mid-zero-engine-document)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#ontop-zero-engine-docume)| | |
-| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#start-zero-engine-docume)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#viewaligned-zero-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#viewscaled-zero-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#viewscaleoffset-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#debugarc-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#color-zilch-engine-docume)| | |
+| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#end-zilch-engine-document)| | |
+| |[ Mid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#mid-zilch-engine-document)| | |
+| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#ontop-zilch-engine-docume)| | |
+| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#start-zilch-engine-docume)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.markdown#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

@@ -13,7 +13,7 @@ The `Length` property sets the length of the reverb tail (the number of seconds 
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
 
  ## Code Reference
 - [ ReverbNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown) 

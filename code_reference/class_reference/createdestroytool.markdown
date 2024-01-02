@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BaseHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#baseheight-zero-engine-d)|[heightmapsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsubtool.markdown)| |
-| |[ PerlinAmplitude](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#perlinamplitude-zero-eng)| | |
-| |[ PerlinFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#perlinfrequency-zero-eng)| | |
-| |[ UsePerlinNoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#useperlinnoise-zero-engi)| | |
+| |[ BaseHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#baseheight-zilch-engine-d)|[heightmapsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsubtool.markdown)| |
+| |[ PerlinAmplitude](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#perlinamplitude-zilch-eng)| | |
+| |[ PerlinFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#perlinfrequency-zilch-eng)| | |
+| |[ UsePerlinNoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.markdown#useperlinnoise-zilch-engi)| | |
 
 
  #  Properties

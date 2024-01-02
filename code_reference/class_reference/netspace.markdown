@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.markdown#netspace-void)|[ NetObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.markdown#netobjectcount-zero-engi)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.markdown)| |
-| |[ NetUserCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.markdown#netusercount-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.markdown#netspace-void)|[ NetObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.markdown#netobjectcount-zilch-engi)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.markdown)| |
+| |[ NetUserCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.markdown#netusercount-zilch-engine)| | |
 
 
  #  Properties

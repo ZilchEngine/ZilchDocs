@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ FromBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#frombytes-zero-engine-do)| | | |
-|[ FromHexString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#fromhexstring-zero-engin)| | | |
-|[ FromHsva](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#fromhsva-zero-engine-doc)| | | |
-|[ FromInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#frominteger-zero-engine)| | | |
-|[ ToBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tobytes-zero-engine-docu)| | | |
-|[ ToHexString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tohexstring-zero-engine)| | | |
-|[ ToHsva](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tohsva-zero-engine-docum)| | | |
-|[ ToInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tointeger-zero-engine-do)| | | |
+|[ FromBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#frombytes-zilch-engine-do)| | | |
+|[ FromHexString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#fromhexstring-zilch-engin)| | | |
+|[ FromHsva](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#fromhsva-zilch-engine-doc)| | | |
+|[ FromInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#frominteger-zilch-engine)| | | |
+|[ ToBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tobytes-zilch-engine-docu)| | | |
+|[ ToHexString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tohexstring-zilch-engine)| | | |
+|[ ToHsva](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tohsva-zilch-engine-docum)| | | |
+|[ ToInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/color.markdown#tointeger-zilch-engine-do)| | | |
 
 
  #  Properties

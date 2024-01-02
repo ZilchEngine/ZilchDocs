@@ -1,19 +1,19 @@
-This tutorial covers how to create custom components and the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown).
+This tutorial covers how to create custom components and the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown).
 
 
  #  Learning Objectives
 
 
 - Creating custom components
-- [ Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown) scripting basics
+- [ Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown) scripting basics
 
 
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 
 
 
@@ -26,14 +26,14 @@ This tutorial covers how to create custom components and the basics of scripting
 
 Until now, we have explored components built into Zilch Engine. These components are essential building blocks for your games, but you'll also need to write your own components to achieve the custom behavior your game needs.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `MyComponent`
 
 Once a component is created, we can add it to objects.
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `MyComponent`
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `MyComponent`
 
 
 
@@ -62,7 +62,7 @@ Upon the creation of a NadaScript, Zilch Engine will open that resource in a new
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/48227.png)
 
 
-NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown) within the Zilch Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
+NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown) within the Zilch Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
 
 
  ##  Classes
@@ -78,11 +78,11 @@ A class is an abstract entity that is responsible for a specific set of tasks. N
 *The `MyComponent` script, line 1*
 
 
-The first keyword `class` indicates that we are providing the definition of a class. Notice that this keyword is highlighted in blue. Zilch Engine will highlight specific keywords that it recognizes as having significance in the [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown) language, which can be very useful for understanding how the engine is interpreting the script.
+The first keyword `class` indicates that we are providing the definition of a class. Notice that this keyword is highlighted in blue. Zilch Engine will highlight specific keywords that it recognizes as having significance in the [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown) language, which can be very useful for understanding how the engine is interpreting the script.
 
 Next, we have `MyComponent`, which is the name we gave this script, confirming that it is the identifier we wish to assign to this class. It is worth mentioning that all classes **must** have a unique name, and you cannot use names already used by Zilch Engine.
 
-Next, we have `: Nada Component`. The colon `:` token is an important one within [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown), and can be interpreted to mean "of type". In this case, we have a `class` named `MyComponent` that is of type `NadaComponent`. NadaComponent is a very commonly used class type, and examples of it will be featured extensively here and in later tutorials.
+Next, we have `: Nada Component`. The colon `:` token is an important one within [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown), and can be interpreted to mean "of type". In this case, we have a `class` named `MyComponent` that is of type `NadaComponent`. NadaComponent is a very commonly used class type, and examples of it will be featured extensively here and in later tutorials.
 
 Lastly, on lines 2 and 11 we have the curly brace symbols `{` and `}`. These symbols denote that our class definition is confined to the space between them, which is called the class's **scope**, and all details pertaining to a class have to be described within it.
 
@@ -116,7 +116,7 @@ Your code should look like this:
 *The `MyComponent` class, updated*
 
 
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -128,7 +128,7 @@ Your code should look like this:
 
 These instructions are telling the **owner** of this component (the Sprite object object) to set its [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown) component's VertexColor  property to red. This topic will be covered in more detail in the [ Variables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/variables.markdown) tutorial.
 
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  ##  Code Comments
@@ -144,7 +144,7 @@ You may have noticed an interesting line within the scope of the **Initialize** 
 *`MyComponent`, line 5*
 
 
-This line is actually a piece of functionality that has been "commented out". In [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown), you can write comments in code by using the `//` token. This causes that token and everything on the line after it to be considered a **comment** that has no effect on the program's behavior.
+This line is actually a piece of functionality that has been "commented out". In [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown), you can write comments in code by using the `//` token. This causes that token and everything on the line after it to be considered a **comment** that has no effect on the program's behavior.
 
 While comments are very useful to write descriptions and explanations of the functionality of your code, another useful utility is to apply them to temporarily toggle functionality off by commenting lines of code out.
 
@@ -184,7 +184,7 @@ This is what your code should look like:
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/48344.png)
 
 
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -196,7 +196,7 @@ This is what your code should look like:
 
 The instruction we just added causes the object to move to the right just slightly, but since our code is running every frame, it causes our Sprite object object to move all the way to the right.
 
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  #  Related Materials
@@ -204,11 +204,11 @@ The instruction we just added causes the object to move to the right just slight
 - [variables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/variables.markdown)
 
  ##  Manual
-- [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown)
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown)
-- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
+- [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown)
+- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
+- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown)
+- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown)
 
  ##  Reference
  ###  Commands

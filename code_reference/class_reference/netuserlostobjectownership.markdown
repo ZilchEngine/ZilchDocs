@@ -7,7 +7,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ CurrentNetUserOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserlostobjectownership.markdown#currentnetuserowner-zero)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ LostObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserlostobjectownership.markdown#lostobject-zero-engine-d)| | |
+| |[ LostObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserlostobjectownership.markdown#lostobject-zilch-engine-d)| | |
 
 
  #  Properties

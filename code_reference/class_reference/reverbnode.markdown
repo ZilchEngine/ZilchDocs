@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateWetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#interpolatewetpercent-vo)|[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#length-zero-engine-docum)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ InterpolateWetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#interpolatewetvalue-void)|[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#wetpercent-zero-engine-d)| | |
-| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#wetvalue-zero-engine-doc)| | |
+|[ InterpolateWetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#interpolatewetpercent-vo)|[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#length-zilch-engine-docum)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ InterpolateWetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#interpolatewetvalue-void)|[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#wetpercent-zilch-engine-d)| | |
+| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.markdown#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties

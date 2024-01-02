@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metagroup.markdown#name-zero-engine-documen)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metagroup.markdown#name-zilch-engine-documen)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
 
 
  #  Properties

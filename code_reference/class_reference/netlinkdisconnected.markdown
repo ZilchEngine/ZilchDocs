@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#direction-zero-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ DisconnectReason](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#disconnectreason-zero-en)| | |
-| |[ RequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#requestbundle-zero-engin)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#theiripaddress-zero-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#theirnetpeerid-zero-engi)| | |
+| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#direction-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ DisconnectReason](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#disconnectreason-zilch-en)| | |
+| |[ RequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#requestbundle-zilch-engin)| | |
+| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.markdown#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

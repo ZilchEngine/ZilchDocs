@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#manipulatorjoint-void)|[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#localpoint-zero-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-| |[ TargetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#targetpoint-zero-engine)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#worldpoint-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#manipulatorjoint-void)|[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#localpoint-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+| |[ TargetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#targetpoint-zilch-engine)| | |
+| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.markdown#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties

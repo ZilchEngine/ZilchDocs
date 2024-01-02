@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#particlewander-void)|[ WanderAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#wanderangle-zero-engine)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#particlewander-void)|[ WanderAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#wanderangle-zilch-engine)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
 | |[ WanderAngleVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#wanderanglevariance-zero)| | |
-| |[ WanderStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#wanderstrength-zero-engi)| | |
+| |[ WanderStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown#wanderstrength-zilch-engi)| | |
 
 
  #  Properties

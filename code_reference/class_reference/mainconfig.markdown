@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#mainconfig-void)|[ ApplicationName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#applicationname-zero-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ BuildDate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#builddate-zero-engine-do)| | |
-| |[ BuildVersion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#buildversion-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#mainconfig-void)|[ ApplicationName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#applicationname-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ BuildDate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#builddate-zilch-engine-do)| | |
+| |[ BuildVersion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown#buildversion-zilch-engine)| | |
 
 
  #  Properties

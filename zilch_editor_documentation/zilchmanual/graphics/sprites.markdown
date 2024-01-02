@@ -6,19 +6,19 @@ Common uses for Sprites include:
    * Putting simple text into a scene in either 2D or 3D games, especially where the text needs to be changed in game
 
 
- # [Base Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/basesprite.markdown)
+ # [Base Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/basesprite.markdown)
 The base class for all sprites.
 
- # [Area Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/area.markdown)
+ # [Area Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/area.markdown)
 Setting the right size for your sprite instance
 
  # Editing Sprite Sources and Animations
-- [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown)
-- [Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spriteimporter.markdown)
+- [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown)
+- [Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spriteimporter.markdown)
 
  # Sprite Types
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/sprite.markdown)
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritetext.markdown)
+- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/sprite.markdown)
+- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.markdown)
  
 
  

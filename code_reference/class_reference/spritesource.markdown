@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown#getorigin-zero-engine-do)|[ FrameCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown#framecount-zero-engine-d)|Resource| |
-|[ GetSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown#getsize-zero-engine-docu)| | | |
+|[ GetOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown#getorigin-zilch-engine-do)|[ FrameCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown#framecount-zilch-engine-d)|Resource| |
+|[ GetSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown#getsize-zilch-engine-docu)| | | |
 
 
  #  Properties

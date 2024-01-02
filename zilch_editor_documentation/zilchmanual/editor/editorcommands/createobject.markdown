@@ -6,7 +6,7 @@ Creating an object is a common action within Zilch Engine, in this page we outli
 
  ![CreateSprite](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46945.gif)
 
- # Open the [Search Window](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) and type `CreateSprite`
+ # Open the [Search Window](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) and type `CreateSprite`
 
  ![CreateSpriteCommand](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/85180.gif)
 

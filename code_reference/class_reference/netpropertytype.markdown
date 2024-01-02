@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ResetConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertytype.markdown#resetconfig-void)|[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertytype.markdown#name-zero-engine-documen)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+|[ ResetConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertytype.markdown#resetconfig-void)|[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertytype.markdown#name-zilch-engine-documen)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
 |[ SetConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertytype.markdown#setconfig-void)| | | |
 
 

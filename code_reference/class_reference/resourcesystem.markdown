@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetResourceByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcesystem.markdown#getresourcebyname-zero-e)| |[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+|[ GetResourceByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcesystem.markdown#getresourcebyname-zilch-e)| |[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
 |[ GetResourceByTypeAndName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcesystem.markdown#getresourcebytypeandname)| | | |
 
 

@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#add-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#count-zero-engine-docume)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
+|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#add-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#count-zilch-engine-docume)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
 |[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#clear-void)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#get-zero-engine-document)| | | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.markdown#get-zilch-engine-document)| | | |
 
 
  #  Properties

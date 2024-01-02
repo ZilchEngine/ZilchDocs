@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#debugtriangle-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#color-zero-engine-docume)| | |
-| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#filled-zero-engine-docum)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#ontop-zero-engine-docume)| | |
-| |[ Point0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#point0-zero-engine-docum)| | |
-| |[ Point1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#point1-zero-engine-docum)| | |
-| |[ Point2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#point2-zero-engine-docum)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#viewaligned-zero-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#viewscaled-zero-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#viewscaleoffset-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#debugtriangle-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#color-zilch-engine-docume)| | |
+| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#filled-zilch-engine-docum)| | |
+| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#ontop-zilch-engine-docume)| | |
+| |[ Point0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#point0-zilch-engine-docum)| | |
+| |[ Point1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#point1-zilch-engine-docum)| | |
+| |[ Point2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#point2-zilch-engine-docum)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.markdown#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

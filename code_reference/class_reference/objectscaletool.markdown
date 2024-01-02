@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#objectscaletool-void)|[ AffectScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#affectscale-zero-engine)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown)| |
-| |[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#affecttranslation-zero-e)| | |
-| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#snapdistance-zero-engine)| | |
-| |[ SnapMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#snapmode-zero-engine-doc)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#snapping-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#objectscaletool-void)|[ AffectScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#affectscale-zilch-engine)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown)| |
+| |[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#affecttranslation-zilch-e)| | |
+| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#snapdistance-zilch-engine)| | |
+| |[ SnapMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#snapmode-zilch-engine-doc)| | |
+| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

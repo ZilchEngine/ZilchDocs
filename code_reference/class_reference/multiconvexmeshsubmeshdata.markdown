@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#add-zero-engine-document)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#all-zero-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#count-zero-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#get-zero-engine-document)| | | |
+|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#add-zilch-engine-document)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#count-zilch-engine-docume)| | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#get-zilch-engine-document)| | | |
 |[ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.markdown#removeat-void)| | | |
 
 

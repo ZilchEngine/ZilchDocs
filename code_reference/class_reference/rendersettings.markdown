@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#rendersettings-void)|[ BlendSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#blendsettings-zero-engin)| | |
-| |[ ColorTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#colortarget-zero-engine)| | |
-| |[ CullMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#cullmode-zero-engine-doc)| | |
-| |[ DepthSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#depthsettings-zero-engin)| | |
-| |[ DepthTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#depthtarget-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#rendersettings-void)|[ BlendSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#blendsettings-zilch-engin)| | |
+| |[ ColorTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#colortarget-zilch-engine)| | |
+| |[ CullMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#cullmode-zilch-engine-doc)| | |
+| |[ DepthSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#depthsettings-zilch-engin)| | |
+| |[ DepthTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#depthtarget-zilch-engine)| | |
 | |[ GlobalShaderInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#globalshaderinputs-zero)| | |
-| |[ MultiRenderTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#multirendertarget-zero-e)| | |
+| |[ MultiRenderTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.markdown#multirendertarget-zilch-e)| | |
 
 
  #  Properties

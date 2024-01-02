@@ -7,11 +7,11 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectsettings-void)|[ AutoTakeProjectScreenshot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#autotakeprojectscreensho)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ ContentFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#contentfolder-zero-engin)| | |
+| |[ ContentFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#contentfolder-zilch-engin)| | |
 | |[ EditorContentFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#editorcontentfolder-zero)| | |
-| |[ ProjectFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectfolder-zero-engin)| | |
-| |[ ProjectName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectname-zero-engine)| | |
-| |[ ProjectOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectowner-zero-engine)| | |
+| |[ ProjectFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectfolder-zilch-engin)| | |
+| |[ ProjectName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectname-zilch-engine)| | |
+| |[ ProjectOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown#projectowner-zilch-engine)| | |
 
 
  #  Properties

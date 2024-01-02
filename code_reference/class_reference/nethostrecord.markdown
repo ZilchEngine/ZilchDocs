@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BasicHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.markdown#basichostinfo-zero-engin)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
-| |[ IpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.markdown#ipaddress-zero-engine-do)| | |
-| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.markdown#lifetime-zero-engine-doc)| | |
+| |[ BasicHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.markdown#basichostinfo-zilch-engin)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
+| |[ IpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.markdown#ipaddress-zilch-engine-do)| | |
+| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.markdown#lifetime-zilch-engine-doc)| | |
 
 
  #  Properties

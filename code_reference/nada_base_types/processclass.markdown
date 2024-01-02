@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#close-void)|[ StandardError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#standarderror-zero-engin)| | |
-|[ IsRunning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#isrunning-zero-engine-do)|[ StandardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#standardinput-zero-engin)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#processclass-void)|[ StandardOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#standardoutput-zero-engi)| | |
+|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#close-void)|[ StandardError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#standarderror-zilch-engin)| | |
+|[ IsRunning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#isrunning-zilch-engine-do)|[ StandardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#standardinput-zilch-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#processclass-void)|[ StandardOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#standardoutput-zilch-engi)| | |
 |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#start-void)| | | |
 |[ Terminate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#terminate-void)| | | |
-|[ WaitForClose](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#waitforclose-zero-engine)| | | |
+|[ WaitForClose](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.markdown#waitforclose-zilch-engine)| | | |
 
 
  #  Properties

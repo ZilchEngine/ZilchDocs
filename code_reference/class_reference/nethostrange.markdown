@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#all-zero-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#nethostrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#current-zero-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#isnotempty-zero-engine-d)| | |
+|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#all-zilch-engine-document)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#nethostrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#current-zilch-engine-docu)| | |
+| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

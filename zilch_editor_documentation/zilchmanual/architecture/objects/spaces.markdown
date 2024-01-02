@@ -4,7 +4,7 @@ Spaces in the Zilch Engine are containers for game objects. When a level is load
 
  # Using the Space
  ## Creating a Space
-You can create a space through the [GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/objects/gamesession.markdown) object.
+You can create a space through the [GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/objects/gamesession.markdown) object.
 
 ```
     class SpaceCreator : NadaComponent
@@ -72,7 +72,7 @@ n some games you may have multiple spaces in order to implement certain features
  # Space Components
 Spaces have special space components that can not be removed. These are core engine components for containing different aspects of the game objects like physics, graphics, and sound.
 
-Spaces are stored as [Archetypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/archetypes.markdown) and can be modified to change the properties of a space.
+Spaces are stored as [Archetypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes.markdown) and can be modified to change the properties of a space.
 
 To access the space of the current level Press: 
 
@@ -109,13 +109,13 @@ NOTE: The ReactiveSpace component is deprecated and changes made to it will have
 
  # Related Materials
  ## Manual
-- [Archetypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/archetypes.markdown)
-- [GameSession object](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/objects/gamesession.markdown)
+- [Archetypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes.markdown)
+- [GameSession object](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/objects/gamesession.markdown)
  ## Code Reference
 - [timespace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown)
 - [graphicsspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown)
-- [physicsspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicsspace.markdown)
-- [soundspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundspace.markdown)
+- [physicsspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsspace.markdown)
+- [soundspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundspace.markdown)
 - [objectevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/objectevent.markdown)
 - [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/updateevent.markdown)
  

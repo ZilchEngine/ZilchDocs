@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#createruntime-zero-engin)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#addressingx-zero-engine)|Resource| |
-|[ SubUpload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#subupload-void)|[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#addressingy-zero-engine)| | |
-|[ Upload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#upload-void)|[ Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#anisotropy-zero-engine-d)| | |
-| |[ CompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#comparefunc-zero-engine)| | |
-| |[ CompareMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#comparemode-zero-engine)| | |
-| |[ Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#compression-zero-engine)| | |
-| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#filtering-zero-engine-do)| | |
-| |[ Format](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#format-zero-engine-docum)| | |
-| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#height-zero-engine-docum)| | |
-| |[ MipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#mipmapping-zero-engine-d)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#size-zero-engine-documen)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#type-zero-engine-documen)| | |
-| |[ Width](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#width-zero-engine-docume)| | |
+|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#createruntime-zilch-engin)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#addressingx-zilch-engine)|Resource| |
+|[ SubUpload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#subupload-void)|[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#addressingy-zilch-engine)| | |
+|[ Upload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#upload-void)|[ Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#anisotropy-zilch-engine-d)| | |
+| |[ CompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#comparefunc-zilch-engine)| | |
+| |[ CompareMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#comparemode-zilch-engine)| | |
+| |[ Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#compression-zilch-engine)| | |
+| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#filtering-zilch-engine-do)| | |
+| |[ Format](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#format-zilch-engine-docum)| | |
+| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#height-zilch-engine-docum)| | |
+| |[ MipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#mipmapping-zilch-engine-d)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#size-zilch-engine-documen)| | |
+| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#type-zilch-engine-documen)| | |
+| |[ Width](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown#width-zilch-engine-docume)| | |
 
 
  #  Properties

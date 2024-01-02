@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ViewingObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalevent.markdown#viewingobject-zero-engin)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ ViewingObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalevent.markdown#viewingobject-zilch-engin)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

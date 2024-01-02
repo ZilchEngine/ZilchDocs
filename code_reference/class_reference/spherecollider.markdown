@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown#spherecollider-void)|[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown#radius-zero-engine-docum)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
-| |[ WorldRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown#worldradius-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown#spherecollider-void)|[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown#radius-zilch-engine-docum)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
+| |[ WorldRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown#worldradius-zilch-engine)| | |
 
 
  #  Properties

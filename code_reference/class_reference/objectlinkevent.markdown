@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EdgeId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.markdown#edgeid-zero-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ NewCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.markdown#newcog-zero-engine-docum)| | |
-| |[ OldCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.markdown#oldcog-zero-engine-docum)| | |
+| |[ EdgeId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.markdown#edgeid-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ NewCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.markdown#newcog-zilch-engine-docum)| | |
+| |[ OldCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.markdown#oldcog-zilch-engine-docum)| | |
 
 
  #  Properties

@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#bottom-zero-engine-docum)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
-| |[ CurrentFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#currentframe-zero-engine)| | |
-| |[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#framerate-zero-engine-do)| | |
-| |[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#left-zero-engine-documen)| | |
-| |[ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#looping-zero-engine-docu)| | |
-| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#origin-zero-engine-docum)| | |
-| |[ OriginX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#originx-zero-engine-docu)| | |
-| |[ OriginY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#originy-zero-engine-docu)| | |
-| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#pixelsperunit-zero-engin)| | |
-| |[ PreviewAnimation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#previewanimation-zero-en)| | |
-| |[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#right-zero-engine-docume)| | |
-| |[ Sampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#sampling-zero-engine-doc)| | |
-| |[ SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#spritefill-zero-engine-d)| | |
-| |[ SpriteName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#spritename-zero-engine-d)| | |
-| |[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#top-zero-engine-document)| | |
+| |[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#bottom-zilch-engine-docum)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
+| |[ CurrentFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#currentframe-zilch-engine)| | |
+| |[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#framerate-zilch-engine-do)| | |
+| |[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#left-zilch-engine-documen)| | |
+| |[ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#looping-zilch-engine-docu)| | |
+| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#origin-zilch-engine-docum)| | |
+| |[ OriginX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#originx-zilch-engine-docu)| | |
+| |[ OriginY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#originy-zilch-engine-docu)| | |
+| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#pixelsperunit-zilch-engin)| | |
+| |[ PreviewAnimation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#previewanimation-zilch-en)| | |
+| |[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#right-zilch-engine-docume)| | |
+| |[ Sampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#sampling-zilch-engine-doc)| | |
+| |[ SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#spritefill-zilch-engine-d)| | |
+| |[ SpriteName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#spritename-zilch-engine-d)| | |
+| |[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.markdown#top-zilch-engine-document)| | |
 
 
  #  Properties

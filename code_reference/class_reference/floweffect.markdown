@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#floweffect-void)|[ AttractSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#attractspeed-zero-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#floweffect-void)|[ AttractSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#attractspeed-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
 | |[ AttractToFlowCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#attracttoflowcenter-zero)| | |
-| |[ FlowDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#flowdirection-zero-engin)| | |
-| |[ FlowSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#flowspeed-zero-engine-do)| | |
-| |[ LocalForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#localforce-zero-engine-d)| | |
-| |[ MaxAttractForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#maxattractforce-zero-eng)| | |
-| |[ MaxFlowForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#maxflowforce-zero-engine)| | |
+| |[ FlowDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#flowdirection-zilch-engin)| | |
+| |[ FlowSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#flowspeed-zilch-engine-do)| | |
+| |[ LocalForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#localforce-zilch-engine-d)| | |
+| |[ MaxAttractForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#maxattractforce-zilch-eng)| | |
+| |[ MaxFlowForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#maxflowforce-zilch-engine)| | |
 | |[ WorldFlowDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.markdown#worldflowdirection-zero)| | |
 
 

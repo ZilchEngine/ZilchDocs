@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#capsulecollider-void)|[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#direction-zero-engine-do)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
-| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#height-zero-engine-docum)| | |
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#radius-zero-engine-docum)| | |
-| |[ ScalingMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#scalingmode-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#capsulecollider-void)|[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#direction-zilch-engine-do)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
+| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#height-zilch-engine-docum)| | |
+| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#radius-zilch-engine-docum)| | |
+| |[ ScalingMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#scalingmode-zilch-engine)| | |
 | |[ WorldCylinderHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#worldcylinderheight-zero)| | |
-| |[ WorldRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#worldradius-zero-engine)| | |
+| |[ WorldRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.markdown#worldradius-zilch-engine)| | |
 
 
  #  Properties

@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendsettings-void)|[ BlendEquation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendequation-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendsettings-void)|[ BlendEquation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendequation-zilch-engin)| | |
 | |[ BlendEquationAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendequationalpha-zero)| | |
-| |[ BlendMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendmode-zero-engine-do)| | |
-| |[ DestFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#destfactor-zero-engine-d)| | |
-| |[ DestFactorAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#destfactoralpha-zero-eng)| | |
-| |[ SourceFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#sourcefactor-zero-engine)| | |
-| |[ SourceFactorAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#sourcefactoralpha-zero-e)| | |
+| |[ BlendMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#blendmode-zilch-engine-do)| | |
+| |[ DestFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#destfactor-zilch-engine-d)| | |
+| |[ DestFactorAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#destfactoralpha-zilch-eng)| | |
+| |[ SourceFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#sourcefactor-zilch-engine)| | |
+| |[ SourceFactorAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.markdown#sourcefactoralpha-zilch-e)| | |
 
 
  #  Properties

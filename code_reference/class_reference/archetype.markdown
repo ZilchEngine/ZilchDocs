@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ StoredType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.markdown#storedtype-zero-engine-d)|Resource| |
+| |[ StoredType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.markdown#storedtype-zilch-engine-d)|Resource| |
 
 
  #  Properties

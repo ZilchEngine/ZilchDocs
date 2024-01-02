@@ -7,8 +7,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown#convexmesh-void)| |[genericphysicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown)| |
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown#createruntime-zero-engin)| | | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown#runtimeclone-zero-engine)| | | |
+|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown#createruntime-zilch-engin)| | | |
+|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown#runtimeclone-zilch-engine)| | | |
 
 
  #  Properties

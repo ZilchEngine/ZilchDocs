@@ -5,7 +5,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ ScreenPixelPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpointqueryevent.markdown#screenpixelposition-zero)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
-| |[ ViewPixelPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpointqueryevent.markdown#viewpixelposition-zero-e)| | |
+| |[ ViewPixelPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpointqueryevent.markdown#viewpixelposition-zilch-e)| | |
 
 
  #  Properties

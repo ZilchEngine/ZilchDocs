@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#simplegizmobase-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#color-zero-engine-docume)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[arrowgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown)|
-| |[ DrawOnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#drawontop-zero-engine-do)| |[ringgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown)|
-| |[ HoverColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#hovercolor-zero-engine-d)| |[squaregizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown)|
-| |[ MouseInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#mouseinput-zero-engine-d)| | |
-| |[ PickingPriority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#pickingpriority-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#simplegizmobase-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#color-zilch-engine-docume)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[arrowgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.markdown)|
+| |[ DrawOnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#drawontop-zilch-engine-do)| |[ringgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown)|
+| |[ HoverColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#hovercolor-zilch-engine-d)| |[squaregizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown)|
+| |[ MouseInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#mouseinput-zilch-engine-d)| | |
+| |[ PickingPriority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#pickingpriority-zilch-eng)| | |
 | |[ UseParentAsViewScaleOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#useparentasviewscaleorig)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#viewscaled-zero-engine-d)| | |
+| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown#viewscaled-zilch-engine-d)| | |
 
 
  #  Properties

@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#empty-zero-engine-docume)| | | |
-|[ Front](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#front-zero-engine-docume)| | | |
+|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#empty-zilch-engine-docume)| | | |
+|[ Front](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#front-zilch-engine-docume)| | | |
 |[ PopFront](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#popfront-void)| | | |
-|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#size-zero-engine-documen)| | | |
+|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.markdown#size-zilch-engine-documen)| | | |
 
 
  #  Properties

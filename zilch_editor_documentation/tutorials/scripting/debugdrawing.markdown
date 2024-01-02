@@ -2,19 +2,19 @@
  # Learning Objectives
 - Drawing debug primitives
 
-Often when developing a game we may we run into data that is hard to interpret from just printing to the [console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown). Values such as [Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zero-engine-doc) or the direction a [ Cog ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.markdown) is facing are better represented visually than by numerical values. DebugDraw objects are a useful debuging technique that allows us to draw simple primitives to visually represent data in the game itself.
+Often when developing a game we may we run into data that is hard to interpret from just printing to the [console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown). Values such as [Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zilch-engine-doc) or the direction a [ Cog ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.markdown) is facing are better represented visually than by numerical values. DebugDraw objects are a useful debuging technique that allows us to draw simple primitives to visually represent data in the game itself.
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createcube)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ CreateCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createcube)
 - In the `Properties Window`
  - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown)
   - Set Translation  to `[0, -2, 0]`
   - Set Scale  to `[20, 1, 1]`
-- [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
+- [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `DebugLauncher`
 
 - Update the `DebugLauncher` class to the following:
@@ -68,12 +68,12 @@ class DebugLauncher : NadaComponent
 
 Notice we use [FrameUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#frameupdate) as opposed to [LogicUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#logicupdate). Generally, debug drawing should still occur when a [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown) is paused, and FrameUpdate is sent every frame, whether a space is paused or not. 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsphere)
-- [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `DebugLauncher`
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ CreateSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsphere)
+- [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `DebugLauncher`
 - In the `Properties Window`
  - Under `DebugLauncher`
   - Set Camera  to GameCamera object
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 - `Click + Hold` and `Release` around on the screen above the platform
 
 
@@ -85,7 +85,7 @@ NOTE: The yellow circle overlaying the cursor is added to the image by the scree
 
 We can see when the mouse button is released that the velocity of the ball is set and the ball launches towards the cursor position. This is a prime example of a physics-based behavior that can be hard to debug or tune without further visual assistance.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  # DebugLine
 One of the most common debug draw type is [DebugLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown), which is actually a line segment as it has start and end points. 
@@ -111,7 +111,7 @@ this.DrawDebug();
 
 Calling our `DrawDebug` function every frame that the mouse is down allows our drawing of the line segment to be reactive to when we want to communicate the information about the launch velocity. Integrating debug drawing into functionality you are implementing is a fairly common task.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 - `Click + Hold` and `Release` around on the screen above the platform
 
 
@@ -119,12 +119,12 @@ Calling our `DrawDebug` function every frame that the mouse is down allows our d
 ![DebugLauncherDraw](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98968.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  # DebugCircle
 There are many types that can be debug drawn, as can be seen in the [Related Materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/debugdrawing/.markdown#related_materials)[DebugCircle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcircle.markdown), which will be used to make a clock.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `DebugClock`
 - Update the `DebugClock` class to the following:
 ```name=DebugClock, lang=csharp
@@ -158,11 +158,11 @@ class DebugClock : NadaComponent
 }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
-- [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `DebugClock`
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
+- [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `DebugClock`
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -171,7 +171,7 @@ class DebugClock : NadaComponent
 
 We can see the [DebugCircle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcircle.markdown) being drawn in the background now. Just like we set the color of the line we can set the color of the circle. 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 - Add the following to the `DebugClock` class:
 ```name=New DebugClock Variables, lang=csharp
@@ -270,7 +270,7 @@ function OnFrameUpdate(event : UpdateEvent)
 }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 - Watch the clock
 
@@ -286,15 +286,15 @@ function OnFrameUpdate(event : UpdateEvent)
 *Here we see the clock in motion at different point in it's cycle*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now we know how to debug draw simple objects. Let's look at a more complicated built-in example.
 
  # VortexEffect
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [VortexEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown)
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [VortexEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown)
  - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown)
   - Set Translation  to `[0,5,0]`
  - Under [VortexEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown)
@@ -309,10 +309,10 @@ Here is an example of a built-in debug draw effect in action. You actually see d
 
  # Related Materials
  ## Manual
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
-- [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
+- [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown)
+- [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown)
 
  ## Tutorial
 - [PhysicsEffects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/physics/physicseffects.markdown)

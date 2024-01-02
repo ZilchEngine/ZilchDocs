@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.markdown#current-zero-engine-docu)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.markdown)| |
-| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.markdown#end-zero-engine-document)| | |
-| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.markdown#start-zero-engine-docume)| | |
+| |[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.markdown#current-zilch-engine-docu)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.markdown)| |
+| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.markdown#end-zilch-engine-document)| | |
+| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.markdown#start-zilch-engine-docume)| | |
 
 
  #  Properties

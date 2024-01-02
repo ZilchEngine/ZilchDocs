@@ -59,7 +59,7 @@ class GameQuitTest : NadaComponent
 
  # Related Materials
  ## Manual Pages
-- [Events and Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/scripting/eventsandconnections.markdown)
+- [Events and Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/eventsandconnections.markdown)
 
  ## Code Reference
 - [GameEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/gameevent.markdown) 

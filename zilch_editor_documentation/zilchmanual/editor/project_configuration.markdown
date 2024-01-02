@@ -1,4 +1,4 @@
-Each Zero project has a handful of settings that can be configured within the editor, such as frame rate and fullscreen editing settings.
+Each Zilch project has a handful of settings that can be configured within the editor, such as frame rate and fullscreen editing settings.
 
  #  Selecting the Project Cog
 
@@ -13,7 +13,7 @@ To modify a project's settings, first open the project. Then, select the Project
 
  #  Project Components
 
-Components found on the Project object cog are unique to it, and cannot be attached to other objects. Not all of the Project object components are accessible from within the Zero Editor.
+Components found on the Project object cog are unique to it, and cannot be attached to other objects. Not all of the Project object components are accessible from within the Zilch Editor.
 
 
 
@@ -34,13 +34,13 @@ The [ FrameRateSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/co
 
  ##  LauncherProjectInfo
 
-The **LauncherProjectInfo** component is a proxy of a component used by the [ Zero Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/launcher.markdown), and is not accessible from within the Zero Editor.
+The **LauncherProjectInfo** component is a proxy of a component used by the [ Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.markdown), and is not accessible from within the Zilch Editor.
 
  #  Related Materials
 
  ##  Manual
-- [Editor Configuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editor_configuration.markdown)
-- [ The Zero Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/launcher.markdown)
+- [Editor Configuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editor_configuration.markdown)
+- [ The Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.markdown)
 
  ##  Code Reference
 - [ ProjectSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.markdown)

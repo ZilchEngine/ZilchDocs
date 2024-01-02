@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#forcerebuild-void)|[ Closed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#closed-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#hierarchyspline-void)|[ DebugDrawSpline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#debugdrawspline-zero-eng)| | |
-|[ RebuildIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#rebuildifmodified-void)|[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#error-zero-engine-docume)| | |
-| |[ Spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#spline-zero-engine-docum)| | |
-| |[ SplineColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#splinecolor-zero-engine)| | |
-| |[ SplineType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#splinetype-zero-engine-d)| | |
+|[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#forcerebuild-void)|[ Closed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#closed-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#hierarchyspline-void)|[ DebugDrawSpline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#debugdrawspline-zilch-eng)| | |
+|[ RebuildIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#rebuildifmodified-void)|[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#error-zilch-engine-docume)| | |
+| |[ Spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#spline-zilch-engine-docum)| | |
+| |[ SplineColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#splinecolor-zilch-engine)| | |
+| |[ SplineType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyspline.markdown#splinetype-zilch-engine-d)| | |
 
 
  #  Properties

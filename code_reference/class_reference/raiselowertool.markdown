@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Relative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.markdown#relative-zero-engine-doc)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown)| |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.markdown#strength-zero-engine-doc)| | |
+| |[ Relative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.markdown#relative-zilch-engine-doc)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown)| |
+| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.markdown#strength-zilch-engine-doc)| | |
 
 
  #  Properties

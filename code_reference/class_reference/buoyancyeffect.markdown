@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#buoyancyeffect-void)|[ DebugDrawRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#debugdrawruntime-zero-en)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
-| |[ Density](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#density-zero-engine-docu)| | |
-| |[ Detail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#detail-zero-engine-docum)| | |
-| |[ Gravity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#gravity-zero-engine-docu)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#buoyancyeffect-void)|[ DebugDrawRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#debugdrawruntime-zilch-en)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
+| |[ Density](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#density-zilch-engine-docu)| | |
+| |[ Detail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#detail-zilch-engine-docum)| | |
+| |[ Gravity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown#gravity-zilch-engine-docu)| | |
 
 
  #  Properties

@@ -1,7 +1,7 @@
-This affects your {icon university}[[zilch_engine_documentation/zilch_editor_documentation/zeromanual/graphics/camerasviewportsrenderers/|Camera's]] projection mode.
+This affects your {icon university}[[zilch_engine_documentation/zilch_editor_documentation/zilchmanual/graphics/camerasviewportsrenderers/|Camera's]] projection mode.
 
  # Switch to Mode2D
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Mode2D](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#mode2d)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Mode2D](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#mode2d)
 
  ## Manually Change *just the camera*
 
@@ -13,7 +13,7 @@ This affects your {icon university}[[zilch_engine_documentation/zilch_editor_doc
    - Set ProjectionMode enum to: [Orthographic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#perspectivemode)
 
  # Switch to Mode3D
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Mode3D](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#mode3d)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Mode3D](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#mode3d)
 
 
  ## Manually change *just the camera*

@@ -12,14 +12,14 @@ A NadaScript resource is an in-editor representation of a NadaScript file, which
 ## Using NadaScripts
 
 ###Creating a NadaScript
-A new NadaScript can be added by using the Add command [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : `Add` or clicking on the `Add` button, followed by selecting `NadaScript`. After giving the new NadaScript a name it's also possible to choose a template to use for the NadaScript, depending on what the script will be used for. 
+A new NadaScript can be added by using the Add command [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : `Add` or clicking on the `Add` button, followed by selecting `NadaScript`. After giving the new NadaScript a name it's also possible to choose a template to use for the NadaScript, depending on what the script will be used for. 
 
 
 
 ![nadatemplates](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/841.png)
 
 
-The most commonly used template is `Component` and is therefore the default, however a NadaScript can also be used to create a custom Zero Command or Tool. 
+The most commonly used template is `Component` and is therefore the default, however a NadaScript can also be used to create a custom Zilch Command or Tool. 
 
 
 ### Component Template
@@ -65,7 +65,7 @@ class TestCommand : NadaComponent
 ```
 
 
-The `[Command(autoRegister:true)]` will register the NadaScript so that it can be used just like any other Command in Zero, and the connection to `Events.CommandExecute` will trigger the `OnCommandExecute` function whenever the custom command is used.
+The `[Command(autoRegister:true)]` will register the NadaScript so that it can be used just like any other Command in Zilch, and the connection to `Events.CommandExecute` will trigger the `OnCommandExecute` function whenever the custom command is used.
 
 
 
@@ -181,8 +181,8 @@ Also a part of the Tool template is a section of comments giving the user a list
 ## Related Materials
 
 ###Manual Pages
-- [Scripting in Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/scripting.markdown)
-- [Nada in Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [Scripting in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting.markdown)
+- [Nada in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown)
 
 
 ### Tutorial Pages

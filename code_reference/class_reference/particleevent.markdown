@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NewParticleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleevent.markdown#newparticlecount-zero-en)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ NewParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleevent.markdown#newparticles-zero-engine)| | |
+| |[ NewParticleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleevent.markdown#newparticlecount-zilch-en)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ NewParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleevent.markdown#newparticles-zilch-engine)| | |
 
 
  #  Properties

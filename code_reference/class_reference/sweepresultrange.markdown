@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#all-zero-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#sweepresultrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#current-zero-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#isnotempty-zero-engine-d)| | |
+|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#all-zilch-engine-document)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#sweepresultrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#current-zilch-engine-docu)| | |
+| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

@@ -18,8 +18,8 @@ The `AttackMillisec` and `ReleaseMillisec` properties control how quickly the fi
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
-- [compressornode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/compressornode.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
+- [compressornode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/compressornode.markdown)
 
  ## Code Reference
 - [ ExpanderNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown) 

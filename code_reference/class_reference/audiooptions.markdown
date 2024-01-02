@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GenerateCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.markdown#generatecue-zero-engine)|Object| |
-| |[ GroupCueName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.markdown#groupcuename-zero-engine)| | |
-| |[ StreamingMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.markdown#streamingmode-zero-engin)| | |
+| |[ GenerateCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.markdown#generatecue-zilch-engine)|Object| |
+| |[ GroupCueName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.markdown#groupcuename-zilch-engine)| | |
+| |[ StreamingMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.markdown#streamingmode-zilch-engin)| | |
 
 
  #  Properties

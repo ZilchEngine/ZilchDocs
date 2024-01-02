@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ SoundInstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstanceevent.markdown#soundinstance-zero-engin)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ SoundInstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstanceevent.markdown#soundinstance-zilch-engin)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

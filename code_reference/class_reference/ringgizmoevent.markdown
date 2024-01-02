@@ -7,9 +7,9 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ DeltaRadiansAroundAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#deltaradiansaroundaxis-z)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
-| |[ RadiansAroundAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#radiansaroundaxis-zero-e)| | |
-| |[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#worldrotation-zero-engin)| | |
-| |[ WorldRotationAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#worldrotationaxis-zero-e)| | |
+| |[ RadiansAroundAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#radiansaroundaxis-zilch-e)| | |
+| |[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#worldrotation-zilch-engin)| | |
+| |[ WorldRotationAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown#worldrotationaxis-zilch-e)| | |
 
 
  #  Properties

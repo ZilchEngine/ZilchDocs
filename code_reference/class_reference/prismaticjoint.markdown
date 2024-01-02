@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#prismaticjoint-void)|[ LocalAxisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localaxisa-zero-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#setworldpoints-void)|[ LocalAxisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localaxisb-zero-engine-d)| | |
-| |[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localbasisa-zero-engine)| | |
-| |[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localbasisb-zero-engine)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localpointa-zero-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localpointb-zero-engine)| | |
-| |[ WorldAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#worldaxis-zero-engine-do)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#worldpointa-zero-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#worldpointb-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#prismaticjoint-void)|[ LocalAxisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localaxisa-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#setworldpoints-void)|[ LocalAxisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localaxisb-zilch-engine-d)| | |
+| |[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localbasisa-zilch-engine)| | |
+| |[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localbasisb-zilch-engine)| | |
+| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localpointa-zilch-engine)| | |
+| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#localpointb-zilch-engine)| | |
+| |[ WorldAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#worldaxis-zilch-engine-do)| | |
+| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.markdown#worldpointb-zilch-engine)| | |
 
 
  #  Properties

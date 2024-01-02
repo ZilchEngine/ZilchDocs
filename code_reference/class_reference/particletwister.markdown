@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#particletwister-void)|[ Axis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#axis-zero-engine-documen)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#maxdistance-zero-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#mindistance-zero-engine)| | |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#strength-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#particletwister-void)|[ Axis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#axis-zilch-engine-documen)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#maxdistance-zilch-engine)| | |
+| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#mindistance-zilch-engine)| | |
+| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particletwister.markdown#strength-zilch-engine-doc)| | |
 
 
  #  Properties

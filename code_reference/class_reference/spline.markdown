@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#clone-zero-engine-docume)|[ BakedPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#bakedpoints-zero-engine)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
-|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#create-zero-engine-docum)|[ Closed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#closed-zero-engine-docum)| | |
-|[ DebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#debugdraw-void)|[ ControlPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#controlpoints-zero-engin)| | |
-|[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#forcerebuild-void)|[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#error-zero-engine-docume)| | |
-|[ RebuildIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#rebuildifmodified-void)|[ SplineType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#splinetype-zero-engine-d)| | |
-|[ SampleDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#sampledistance-zero-engi)|[ TotalDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#totaldistance-zero-engin)| | |
-|[ SampleNormalized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#samplenormalized-zero-en)| | | |
+|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#clone-zilch-engine-docume)|[ BakedPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#bakedpoints-zilch-engine)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
+|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#create-zilch-engine-docum)|[ Closed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#closed-zilch-engine-docum)| | |
+|[ DebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#debugdraw-void)|[ ControlPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#controlpoints-zilch-engin)| | |
+|[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#forcerebuild-void)|[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#error-zilch-engine-docume)| | |
+|[ RebuildIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#rebuildifmodified-void)|[ SplineType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#splinetype-zilch-engine-d)| | |
+|[ SampleDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#sampledistance-zilch-engi)|[ TotalDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#totaldistance-zilch-engin)| | |
+|[ SampleNormalized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.markdown#samplenormalized-zilch-en)| | | |
 
 
  #  Properties

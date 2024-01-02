@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Step](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#step-void)|[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#dt-zero-engine-documenta)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timespace-void)|[ DtOrZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#dtorzero-zero-engine-doc)| | |
-|[ TogglePause](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#togglepause-void)|[ Frame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#frame-zero-engine-docume)| | |
-| |[ GloballyPaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#globallypaused-zero-engi)| | |
-| |[ MaxDt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#maxdt-zero-engine-docume)| | |
-| |[ MinDt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#mindt-zero-engine-docume)| | |
-| |[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#paused-zero-engine-docum)| | |
-| |[ RealDt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#realdt-zero-engine-docum)| | |
-| |[ RealTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#realtimepassed-zero-engi)| | |
-| |[ StepCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#stepcount-zero-engine-do)| | |
-| |[ TimeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timemode-zero-engine-doc)| | |
-| |[ TimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timepassed-zero-engine-d)| | |
-| |[ TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timescale-zero-engine-do)| | |
+|[ Step](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#step-void)|[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#dt-zilch-engine-documenta)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timespace-void)|[ DtOrZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#dtorzilch-zilch-engine-doc)| | |
+|[ TogglePause](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#togglepause-void)|[ Frame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#frame-zilch-engine-docume)| | |
+| |[ GloballyPaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#globallypaused-zilch-engi)| | |
+| |[ MaxDt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#maxdt-zilch-engine-docume)| | |
+| |[ MinDt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#mindt-zilch-engine-docume)| | |
+| |[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#paused-zilch-engine-docum)| | |
+| |[ RealDt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#realdt-zilch-engine-docum)| | |
+| |[ RealTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#realtimepassed-zilch-engi)| | |
+| |[ StepCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#stepcount-zilch-engine-do)| | |
+| |[ TimeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timemode-zilch-engine-doc)| | |
+| |[ TimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timepassed-zilch-engine-d)| | |
+| |[ TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.markdown#timescale-zilch-engine-do)| | |
 
 
  #  Properties

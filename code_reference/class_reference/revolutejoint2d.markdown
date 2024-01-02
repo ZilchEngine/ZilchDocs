@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#revolutejoint2d-void)|[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#localpointa-zero-engine)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#setworldpoints-void)|[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#localpointb-zero-engine)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#worldpointa-zero-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#worldpointb-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#revolutejoint2d-void)|[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#localpointa-zilch-engine)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#setworldpoints-void)|[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#localpointb-zilch-engine)| | |
+| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.markdown#worldpointb-zilch-engine)| | |
 
 
  #  Properties

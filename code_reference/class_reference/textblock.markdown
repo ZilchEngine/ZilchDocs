@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textblock.markdown#text-zero-engine-documen)|[documentresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/documentresource.markdown)| |
+| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textblock.markdown#text-zilch-engine-documen)|[documentresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/documentresource.markdown)| |
 
 
  #  Properties

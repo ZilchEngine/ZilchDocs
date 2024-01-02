@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#castfilter-void)|[ CallbackEventName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#callbackeventname-zero-e)|[basecastfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#castfilter-void)|[ CallbackEventName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#callbackeventname-zilch-e)|[basecastfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown)| |
 | |[ CallbackObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#callbackobject-object)| | |
-| |[ CollisionGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#collisiongroup-zero-engi)| | |
-| |[ IgnoreCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#ignorecog-zero-engine-do)| | |
+| |[ CollisionGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#collisiongroup-zilch-engi)| | |
+| |[ IgnoreCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown#ignorecog-zilch-engine-do)| | |
 
 
  #  Properties

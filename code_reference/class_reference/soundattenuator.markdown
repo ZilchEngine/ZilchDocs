@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FalloffCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#falloffcurve-zero-engine)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-| |[ FalloffCurveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#falloffcurvetype-zero-en)| | |
-| |[ LowPassCutoffFreq](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#lowpasscutofffreq-zero-e)| | |
+| |[ FalloffCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#falloffcurve-zilch-engine)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+| |[ FalloffCurveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#falloffcurvetype-zilch-en)| | |
+| |[ LowPassCutoffFreq](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#lowpasscutofffreq-zilch-e)| | |
 | |[ LowPassStartDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#lowpassstartdistance-zer)| | |
 | |[ MinAttenuatedVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#minattenuatedvolume-zero)| | |
-| |[ StartDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#startdistance-zero-engin)| | |
-| |[ StopDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#stopdistance-zero-engine)| | |
-| |[ UseLowPassFilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#uselowpassfilter-zero-en)| | |
+| |[ StartDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#startdistance-zilch-engin)| | |
+| |[ StopDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#stopdistance-zilch-engine)| | |
+| |[ UseLowPassFilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.markdown#uselowpassfilter-zilch-en)| | |
 
 
  #  Properties

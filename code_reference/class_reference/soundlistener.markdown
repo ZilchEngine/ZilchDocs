@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#soundlistener-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ AttenuationScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#attenuationscale-zero-en)| | |
-| |[ SoundNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#soundnode-zero-engine-do)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#soundlistener-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ AttenuationScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#attenuationscale-zilch-en)| | |
+| |[ SoundNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.markdown#soundnode-zilch-engine-do)| | |
 
 
  #  Properties

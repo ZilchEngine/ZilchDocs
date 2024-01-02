@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#indexedhalfedgemesh-void)|[ Edges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#edges-zero-engine-docume)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.markdown)| |
-| |[ Faces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#faces-zero-engine-docume)| | |
-| |[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#vertices-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#indexedhalfedgemesh-void)|[ Edges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#edges-zilch-engine-docume)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.markdown)| |
+| |[ Faces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#faces-zilch-engine-docume)| | |
+| |[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.markdown#vertices-zilch-engine-doc)| | |
 
 
  #  Properties

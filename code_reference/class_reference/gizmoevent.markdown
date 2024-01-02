@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Finished](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#finished-zero-engine-doc)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)|
-| |[ Gizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#gizmo-zero-engine-docume)| |[objecttransformgizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.markdown)|
-| |[ OperationQueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#operationqueue-zero-engi)| | |
-| |[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#source-zero-engine-docum)| | |
+| |[ Finished](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#finished-zilch-engine-doc)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)|
+| |[ Gizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#gizmo-zilch-engine-docume)| |[objecttransformgizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.markdown)|
+| |[ OperationQueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#operationqueue-zilch-engi)| | |
+| |[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#source-zilch-engine-docum)| | |
 | |[ ViewportMouseEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown#viewportmouseevent-zero)| | |
 
 

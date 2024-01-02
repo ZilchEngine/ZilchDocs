@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AttackMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#attackmillisec-zero-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ InputGainDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#inputgaindecibels-zero-e)| | |
-| |[ KneeWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#kneewidth-zero-engine-do)| | |
+| |[ AttackMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#attackmillisec-zilch-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ InputGainDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#inputgaindecibels-zilch-e)| | |
+| |[ KneeWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#kneewidth-zilch-engine-do)| | |
 | |[ OutputGainDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#outputgaindecibels-zero)| | |
-| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#ratio-zero-engine-docume)| | |
-| |[ ReleaseMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#releasemillisec-zero-eng)| | |
-| |[ ThresholdDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#thresholddecibels-zero-e)| | |
+| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#ratio-zilch-engine-docume)| | |
+| |[ ReleaseMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#releasemillisec-zilch-eng)| | |
+| |[ ThresholdDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.markdown#thresholddecibels-zilch-e)| | |
 
 
  #  Properties

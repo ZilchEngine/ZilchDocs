@@ -1,4 +1,4 @@
-While Zero implements many features found in other common code editors, it also has many additional features users may find useful in their workflow.
+While Zilch implements many features found in other common code editors, it also has many additional features users may find useful in their workflow.
 
  # The Cursor
 The Cursor serves to indicate the location in a text file or script where new text will be entered. By default the cursor is set to insertion mode like most text editors. In insertion mode the cursor highlights the space between two characters. Pressing a character key will insert the character at the location of the cursor.
@@ -47,7 +47,7 @@ Continuing the trend of minimizing unnecessary mouse use while typing in the tex
 
 
  ## Multi-Cursors
-The Zero text editor has the capability of placing multiple cursors in the file from which one is currently editing. Holding `Control` while clicking in the text file will result in the placement of additional cursors instead of moving the original cursor.
+The Zilch text editor has the capability of placing multiple cursors in the file from which one is currently editing. Holding `Control` while clicking in the text file will result in the placement of additional cursors instead of moving the original cursor.
 
 
 
@@ -202,7 +202,7 @@ The hotkeys `Control + Shift + Up` or `Control + Shift + Down` to swap each line
 This command also shifts the cursor to the newline. This allows the line to be continuously shifted up or down by repeating the hotkey sequence.
 
  # Clipboard Operations
-The Zero Editor supports the standard clipboard operations of copy, cut, and paste. To copy selected text to the clipboard use the `Control + C` hotkey. To copy selected text to the clipboard and remove it from the file use the `Control + X` hotkey. To paste the text from the clipboard to the location of each cursor in a file use the `Control + V` hotkey. All three operations are shown in the gif below.
+The Zilch Editor supports the standard clipboard operations of copy, cut, and paste. To copy selected text to the clipboard use the `Control + C` hotkey. To copy selected text to the clipboard and remove it from the file use the `Control + X` hotkey. To paste the text from the clipboard to the location of each cursor in a file use the `Control + V` hotkey. All three operations are shown in the gif below.
 
 
 
@@ -242,7 +242,7 @@ If there is an active selection in the current text file, it will be pasted in a
 
 
  ## Go to Definition
-One of the most common patterns while programming is to reference the definition of a particular type being used. This can be done in Zero via a shortcut.
+One of the most common patterns while programming is to reference the definition of a particular type being used. This can be done in Zilch via a shortcut.
 
 
 
@@ -324,8 +324,8 @@ The tables below are meant for both quick reference via the name column as well 
 
  # Related Materials
  ## Manual Pages
-- [Code Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/texteditor/codecompletion.markdown)
-- [Text Editor Config](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/texteditor/texteditorconfig.markdown)
+- [Code Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/codecompletion.markdown)
+- [Text Editor Config](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorconfig.markdown)
  ## Code Reference
 - [TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/texteditorconfig.markdown) 
 

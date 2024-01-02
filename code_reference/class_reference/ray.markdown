@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#getpoint-zero-engine-doc)|[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#direction-zero-engine-do)| | |
-|[ GetTValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#gettvalue-zero-engine-do)|[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#start-zero-engine-docume)| | |
+|[ GetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#getpoint-zilch-engine-doc)|[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#direction-zilch-engine-do)| | |
+|[ GetTValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#gettvalue-zilch-engine-do)|[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#start-zilch-engine-docume)| | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.markdown#ray-void)| | | |
 
 

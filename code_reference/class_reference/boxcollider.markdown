@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#boxcollider-void)|[ HalfSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#halfsize-zero-engine-doc)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#size-zero-engine-documen)| | |
-| |[ WorldSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#worldsize-zero-engine-do)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#boxcollider-void)|[ HalfSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#halfsize-zilch-engine-doc)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#size-zilch-engine-documen)| | |
+| |[ WorldSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown#worldsize-zilch-engine-do)| | |
 
 
  #  Properties

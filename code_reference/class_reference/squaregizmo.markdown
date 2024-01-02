@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#squaregizmo-void)|[ Bordered](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#bordered-zero-engine-doc)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown)| |
-| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#filled-zero-engine-docum)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#size-zero-engine-documen)| | |
-| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#snapdistance-zero-engine)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#viewaligned-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#squaregizmo-void)|[ Bordered](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#bordered-zilch-engine-doc)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown)| |
+| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#filled-zilch-engine-docum)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#size-zilch-engine-documen)| | |
+| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#snapdistance-zilch-engine)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.markdown#viewaligned-zilch-engine)| | |
 
 
  #  Properties

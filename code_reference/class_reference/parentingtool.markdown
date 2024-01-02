@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/parentingtool.markdown#parentingtool-void)|[ MaintainPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/parentingtool.markdown#maintainposition-zero-en)|[objectconnectingtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectconnectingtool.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/parentingtool.markdown#parentingtool-void)|[ MaintainPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/parentingtool.markdown#maintainposition-zilch-en)|[objectconnectingtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectconnectingtool.markdown)| |
 
 
  #  Properties

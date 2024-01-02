@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Handled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserurlevent.markdown#handled-zero-engine-docu)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserurlevent.markdown#url-zero-engine-document)| | |
+| |[ Handled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserurlevent.markdown#handled-zilch-engine-docu)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
+| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserurlevent.markdown#url-zilch-engine-document)| | |
 
 
  #  Properties

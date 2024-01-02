@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.markdown#multispriteentry-void)|[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.markdown#index-zero-engine-docume)| | |
-| |[ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.markdown#spritesource-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.markdown#multispriteentry-void)|[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.markdown#index-zilch-engine-docume)| | |
+| |[ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.markdown#spritesource-zilch-engine)| | |
 
 
  #  Properties

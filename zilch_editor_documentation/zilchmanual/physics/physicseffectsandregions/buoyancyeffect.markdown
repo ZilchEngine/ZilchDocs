@@ -10,7 +10,7 @@ BuoyancyEffect can only be applied as a Region effect.
 ---
  #  Related Materials
  ##  Manual
-- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions.markdown)
+- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.markdown)
 
  ##  Reference
 - [BuoyancyEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.markdown)

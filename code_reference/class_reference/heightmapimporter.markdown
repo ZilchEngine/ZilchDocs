@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BaseHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#baseheight-zero-engine-d)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
-| |[ ImportMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#importmode-zero-engine-d)| | |
-| |[ MaxHeightRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#maxheightrange-zero-engi)| | |
-| |[ MinHeightRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#minheightrange-zero-engi)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#name-zero-engine-documen)| | |
-| |[ PatchColumns](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#patchcolumns-zero-engine)| | |
-| |[ PatchRows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#patchrows-zero-engine-do)| | |
-| |[ PatchSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#patchsize-zero-engine-do)| | |
+| |[ BaseHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#baseheight-zilch-engine-d)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
+| |[ ImportMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#importmode-zilch-engine-d)| | |
+| |[ MaxHeightRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#maxheightrange-zilch-engi)| | |
+| |[ MinHeightRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#minheightrange-zilch-engi)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#name-zilch-engine-documen)| | |
+| |[ PatchColumns](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#patchcolumns-zilch-engine)| | |
+| |[ PatchRows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#patchrows-zilch-engine-do)| | |
+| |[ PatchSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.markdown#patchsize-zilch-engine-do)| | |
 
 
  #  Properties

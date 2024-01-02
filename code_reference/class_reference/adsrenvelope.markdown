@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#adsrenvelope-void)|[ AttackTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#attacktime-zero-engine-d)| | |
-| |[ DecayTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#decaytime-zero-engine-do)| | |
-| |[ DelayTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#delaytime-zero-engine-do)| | |
-| |[ ReleaseTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#releasetime-zero-engine)| | |
-| |[ SustainLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#sustainlevel-zero-engine)| | |
-| |[ SustainTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#sustaintime-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#adsrenvelope-void)|[ AttackTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#attacktime-zilch-engine-d)| | |
+| |[ DecayTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#decaytime-zilch-engine-do)| | |
+| |[ DelayTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#delaytime-zilch-engine-do)| | |
+| |[ ReleaseTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#releasetime-zilch-engine)| | |
+| |[ SustainLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#sustainlevel-zilch-engine)| | |
+| |[ SustainTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.markdown#sustaintime-zilch-engine)| | |
 
 
  #  Properties

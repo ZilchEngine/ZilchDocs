@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.markdown#dt-zero-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.markdown#owner-zero-engine-docume)| | |
+| |[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.markdown#dt-zilch-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.markdown#owner-zilch-engine-docume)| | |
 
 
  #  Properties

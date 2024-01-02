@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#drageffect-void)|[ AngularDamping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#angulardamping-zero-engi)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
-| |[ AngularDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#angulardrag-zero-engine)| | |
-| |[ LinearDamping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#lineardamping-zero-engin)| | |
-| |[ LinearDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#lineardrag-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#drageffect-void)|[ AngularDamping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#angulardamping-zilch-engi)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
+| |[ AngularDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#angulardrag-zilch-engine)| | |
+| |[ LinearDamping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#lineardamping-zilch-engin)| | |
+| |[ LinearDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown#lineardrag-zilch-engine-d)| | |
 
 
  #  Properties

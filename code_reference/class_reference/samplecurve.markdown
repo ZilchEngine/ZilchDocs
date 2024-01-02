@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DebugSample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#debugsample-zero-engine)|[ HeightMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#heightmax-zero-engine-do)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#sample-zero-engine-docum)|[ WidthMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#widthmax-zero-engine-doc)| | |
+|[ DebugSample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#debugsample-zilch-engine)|[ HeightMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#heightmax-zilch-engine-do)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#sample-zilch-engine-docum)|[ WidthMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplecurve.markdown#widthmax-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netgamestarted.markdown#gamesession-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netgamestarted.markdown#gamesession-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

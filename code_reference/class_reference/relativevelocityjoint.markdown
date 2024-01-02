@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getaxis-zero-engine-docu)| |[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-|[ GetAxisActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getaxisactive-zero-engin)| | | |
-|[ GetMaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getmaximpulse-zero-engin)| | | |
-|[ GetSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getspeed-zero-engine-doc)| | | |
+|[ GetAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getaxis-zilch-engine-docu)| |[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ GetAxisActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getaxisactive-zilch-engin)| | | |
+|[ GetMaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getmaximpulse-zilch-engin)| | | |
+|[ GetSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#getspeed-zilch-engine-doc)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#relativevelocityjoint-vo)| | | |
 |[ SetAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#setaxis-void)| | | |
 |[ SetAxisActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/relativevelocityjoint.markdown#setaxisactive-void)| | | |

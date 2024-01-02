@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthsettings-void)|[ DepthCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthcomparefunc-zero-en)| | |
-| |[ DepthFailOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailop-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthsettings-void)|[ DepthCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthcomparefunc-zilch-en)| | |
+| |[ DepthFailOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailop-zilch-engine)| | |
 | |[ DepthFailOpBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthfailopbackface-zero)| | |
-| |[ DepthMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthmode-zero-engine-do)| | |
-| |[ DepthPassOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassop-zero-engine)| | |
+| |[ DepthMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthmode-zilch-engine-do)| | |
+| |[ DepthPassOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassop-zilch-engine)| | |
 | |[ DepthPassOpBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#depthpassopbackface-zero)| | |
 | |[ StencilCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilcomparefunc-zero)| | |
 | |[ StencilCompareFuncBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilcomparefuncbackfa)| | |
-| |[ StencilFailOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailop-zero-engin)| | |
+| |[ StencilFailOp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailop-zilch-engin)| | |
 | |[ StencilFailOpBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilfailopbackface-ze)| | |
-| |[ StencilMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilmode-zero-engine)| | |
-| |[ StencilReadMask](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmask-zero-eng)| | |
+| |[ StencilMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilmode-zilch-engine)| | |
+| |[ StencilReadMask](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmask-zilch-eng)| | |
 | |[ StencilReadMaskBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilreadmaskbackface)| | |
-| |[ StencilTestValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvalue-zero-en)| | |
+| |[ StencilTestValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvalue-zilch-en)| | |
 | |[ StencilTestValueBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stenciltestvaluebackface)| | |
-| |[ StencilWriteMask](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemask-zero-en)| | |
+| |[ StencilWriteMask](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemask-zilch-en)| | |
 | |[ StencilWriteMaskBackFace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.markdown#stencilwritemaskbackface)| | |
 
 

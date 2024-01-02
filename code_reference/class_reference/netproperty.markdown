@@ -8,9 +8,9 @@
 |---|---|---|---|
 | |[ LastChangeTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#lastchangetimepassed-zer)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
 | |[ LastChangeTimestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#lastchangetimestamp-zero)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#name-zero-engine-documen)| | |
-| |[ NetChannel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#netchannel-zero-engine-d)| | |
-| |[ NetPropertyType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#netpropertytype-zero-eng)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#name-zilch-engine-documen)| | |
+| |[ NetChannel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#netchannel-zilch-engine-d)| | |
+| |[ NetPropertyType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.markdown#netpropertytype-zilch-eng)| | |
 
 
  #  Properties

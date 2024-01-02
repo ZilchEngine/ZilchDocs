@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#joint-zero-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ JointCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#jointcog-zero-engine-doc)| | |
-| |[ ObjectA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#objecta-zero-engine-docu)| | |
-| |[ ObjectB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#objectb-zero-engine-docu)| | |
+| |[ Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#joint-zilch-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ JointCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#jointcog-zilch-engine-doc)| | |
+| |[ ObjectA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#objecta-zilch-engine-docu)| | |
+| |[ ObjectB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.markdown#objectb-zilch-engine-docu)| | |
 
 
  #  Properties

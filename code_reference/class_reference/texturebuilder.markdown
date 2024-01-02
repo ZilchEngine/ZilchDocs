@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#texturebuilder-void)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#addressingx-zero-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
-| |[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#addressingy-zero-engine)| | |
-| |[ Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#anisotropy-zero-engine-d)| | |
-| |[ Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#compression-zero-engine)| | |
-| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#filtering-zero-engine-do)| | |
-| |[ GammaCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#gammacorrection-zero-eng)| | |
-| |[ HalfScaleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#halfscalecount-zero-engi)| | |
-| |[ MipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#mipmapping-zero-engine-d)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#name-zero-engine-documen)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#texturebuilder-void)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#addressingx-zilch-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
+| |[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#addressingy-zilch-engine)| | |
+| |[ Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#anisotropy-zilch-engine-d)| | |
+| |[ Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#compression-zilch-engine)| | |
+| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#filtering-zilch-engine-do)| | |
+| |[ GammaCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#gammacorrection-zilch-eng)| | |
+| |[ HalfScaleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#halfscalecount-zilch-engi)| | |
+| |[ MipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#mipmapping-zilch-engine-d)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#name-zilch-engine-documen)| | |
 | |[ PremultipliedAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#premultipliedalpha-zero)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#type-zero-engine-documen)| | |
+| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.markdown#type-zilch-engine-documen)| | |
 
 
  #  Properties

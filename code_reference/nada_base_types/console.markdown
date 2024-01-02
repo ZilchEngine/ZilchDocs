@@ -3,10 +3,10 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ DumpValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#dumpvalue-void)| | | |
-|[ ReadBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readboolean-zero-engine)| | | |
-|[ ReadInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readinteger-zero-engine)| | | |
-|[ ReadReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readreal-zero-engine-doc)| | | |
-|[ ReadString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readstring-zero-engine-d)| | | |
+|[ ReadBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readboolean-zilch-engine)| | | |
+|[ ReadInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readinteger-zilch-engine)| | | |
+|[ ReadReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readreal-zilch-engine-doc)| | | |
+|[ ReadString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#readstring-zilch-engine-d)| | | |
 |[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#write-void)| | | |
 |[ WriteLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown#writeline-void)| | | |
 

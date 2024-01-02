@@ -2,26 +2,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetOffsetX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#getoffsetx-zero-engine-d)|[ AlphaColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#alphacolor-zero-engine-d)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
-|[ GetOffsetY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#getoffsety-zero-engine-d)|[ CreatePalette](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#createpalette-zero-engin)| | |
-|[ SetOffsetX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#setoffsetx-void)|[ FrameCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framecount-zero-engine-d)| | |
-|[ SetOffsetY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#setoffsety-void)|[ FrameHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#frameheight-zero-engine)| | |
-| |[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framerate-zero-engine-do)| | |
-| |[ FramesPerRow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framesperrow-zero-engine)| | |
-| |[ FrameWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framewidth-zero-engine-d)| | |
-| |[ ImportFrames](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#importframes-zero-engine)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#name-zero-engine-documen)| | |
-| |[ NumberOfRows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#numberofrows-zero-engine)| | |
-| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#origin-zero-engine-docum)| | |
-| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#pixelsperunit-zero-engin)| | |
-| |[ PreviewAnimate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#previewanimate-zero-engi)| | |
-| |[ PreviewFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#previewframe-zero-engine)| | |
-| |[ Smoothing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#smoothing-zero-engine-do)| | |
-| |[ SourceSizeX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#sourcesizex-zero-engine)| | |
-| |[ SourceSizeY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#sourcesizey-zero-engine)| | |
-| |[ SpacingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#spacingx-zero-engine-doc)| | |
-| |[ SpacingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#spacingy-zero-engine-doc)| | |
-| |[ UseAlphaColorKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#usealphacolorkey-zero-en)| | |
+|[ GetOffsetX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#getoffsetx-zilch-engine-d)|[ AlphaColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#alphacolor-zilch-engine-d)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
+|[ GetOffsetY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#getoffsety-zilch-engine-d)|[ CreatePalette](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#createpalette-zilch-engin)| | |
+|[ SetOffsetX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#setoffsetx-void)|[ FrameCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framecount-zilch-engine-d)| | |
+|[ SetOffsetY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#setoffsety-void)|[ FrameHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#frameheight-zilch-engine)| | |
+| |[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framerate-zilch-engine-do)| | |
+| |[ FramesPerRow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framesperrow-zilch-engine)| | |
+| |[ FrameWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#framewidth-zilch-engine-d)| | |
+| |[ ImportFrames](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#importframes-zilch-engine)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#name-zilch-engine-documen)| | |
+| |[ NumberOfRows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#numberofrows-zilch-engine)| | |
+| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#origin-zilch-engine-docum)| | |
+| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#pixelsperunit-zilch-engin)| | |
+| |[ PreviewAnimate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#previewanimate-zilch-engi)| | |
+| |[ PreviewFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#previewframe-zilch-engine)| | |
+| |[ Smoothing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#smoothing-zilch-engine-do)| | |
+| |[ SourceSizeX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#sourcesizex-zilch-engine)| | |
+| |[ SourceSizeY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#sourcesizey-zilch-engine)| | |
+| |[ SpacingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#spacingx-zilch-engine-doc)| | |
+| |[ SpacingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#spacingy-zilch-engine-doc)| | |
+| |[ UseAlphaColorKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.markdown#usealphacolorkey-zilch-en)| | |
 
 
  #  Properties

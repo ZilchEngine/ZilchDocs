@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameter.markdown#name-zero-engine-documen)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameter.markdown#type-zero-engine-documen)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameter.markdown#name-zilch-engine-documen)| | |
+| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameter.markdown#type-zilch-engine-documen)| | |
 
 
  #  Properties

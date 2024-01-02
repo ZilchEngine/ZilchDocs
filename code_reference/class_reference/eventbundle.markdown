@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#addevent-zero-engine-doc)|[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#gamesession-zero-engine)|Object| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#clear-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#isempty-zero-engine-docu)| | |
+|[ AddEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#addevent-zilch-engine-doc)|[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#gamesession-zilch-engine)|Object| |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#clear-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#isempty-zilch-engine-docu)| | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#eventbundle-void)| | | |
-|[ GetEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#getevents-zero-engine-do)| | | |
-|[ RemoveEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#removeevent-zero-engine)| | | |
+|[ GetEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#getevents-zilch-engine-do)| | | |
+|[ RemoveEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.markdown#removeevent-zilch-engine)| | | |
 
 
  #  Properties

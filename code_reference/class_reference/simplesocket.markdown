@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesocket.markdown#simplesocket-void)|[ Socket](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesocket.markdown#socket-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesocket.markdown#simplesocket-void)|[ Socket](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesocket.markdown#socket-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 
 
  #  Properties

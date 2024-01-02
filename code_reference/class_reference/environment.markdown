@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetEnvironmentalVariable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.markdown#getenvironmentalvariable)|[ CommandLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.markdown#commandline-zero-engine)|Object| |
-|[ GetParsedArgument](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.markdown#getparsedargument-zero-e)| | | |
+|[ GetEnvironmentalVariable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.markdown#getenvironmentalvariable)|[ CommandLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.markdown#commandline-zilch-engine)|Object| |
+|[ GetParsedArgument](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.markdown#getparsedargument-zilch-e)| | | |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Buffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/receiveddataevent.markdown#buffer-zero-engine-docum)|[connectionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown)| |
+| |[ Buffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/receiveddataevent.markdown#buffer-zilch-engine-docum)|[connectionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown)| |
 
 
  #  Properties

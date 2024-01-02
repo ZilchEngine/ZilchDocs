@@ -2,7 +2,7 @@ The Animator allows one to change the value of properties on components over tim
 
  # Why it exists
 
-Animator allows one to custom build complex animations through the Zero Editor using a graphical representation. Using the Animator, one can create multiple Keyframes (explained below) of a component's properties on a timeline to achieve complex animation.
+Animator allows one to custom build complex animations through the Zilch Editor using a graphical representation. Using the Animator, one can create multiple Keyframes (explained below) of a component's properties on a timeline to achieve complex animation.
 
 These are some examples of the type of animation the Animator can do:
  -   Moving Platforms
@@ -15,13 +15,13 @@ These are some examples of the type of animation the Animator can do:
 
  # Opening the Animator
 
-The Animator can be accessed by pressing the following button at the top of the Zero Editor window:
+The Animator can be accessed by pressing the following button at the top of the Zilch Editor window:
 
 
 ![AnimatorToolButton](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47602.png)
 
 
-Alternatively, it can also be opened through the `Zero Search` window:
+Alternatively, it can also be opened through the `Zilch Search` window:
 
 
 ![AnimatorSearchWindow](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47604.png)
@@ -35,7 +35,7 @@ Once it has been opened, a window will appear at the bottom of the Editor :
 
  # AnimationGraph Component
 
-Before animating an object's properties using the Animator, the [AnimationGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown) component must first be added to that object. This tells Zero that this object's properties are now able to be animated as well as how fast it should be played. The `AnimationGraph` component is added to an object the same as any other component or by clicking on the highlighted text at the bottom of the screen:
+Before animating an object's properties using the Animator, the [AnimationGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown) component must first be added to that object. This tells Zilch that this object's properties are now able to be animated as well as how fast it should be played. The `AnimationGraph` component is added to an object the same as any other component or by clicking on the highlighted text at the bottom of the screen:
 
 
 ![AddAnimationGraph](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47608.png)
@@ -44,7 +44,7 @@ NOTE: **"No Object Selected."**  If the Animator shows `No Object Selected` inst
 
  # Adding an Animation
 
-The last setup step is to create an Animation with the RichAnimation template. This can be done, through Zero's `Add a Resource` window:
+The last setup step is to create an Animation with the RichAnimation template. This can be done, through Zilch's `Add a Resource` window:
 
 
 ![AddAnimationResource](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47610.png)

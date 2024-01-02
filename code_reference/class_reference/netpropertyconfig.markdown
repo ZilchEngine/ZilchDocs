@@ -7,7 +7,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ ActiveConvergenceWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#activeconvergenceweight)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-| |[ BasicNetType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#basicnettype-zero-engine)| | |
+| |[ BasicNetType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#basicnettype-zilch-engine)| | |
 | |[ ConvergenceInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#convergenceinterval-zero)| | |
 | |[ DeltaThresholdDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#deltathresholddoubleinte)| | |
 | |[ DeltaThresholdDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#deltathresholddoublereal)| | |
@@ -46,8 +46,8 @@
 | |[ QuantizationRangeMinReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#quantizationrangeminreal)| | |
 | |[ QuantizationRangeMinReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#quantizationrangeminreal)| | |
 | |[ RestingConvergenceDuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#restingconvergencedurati)| | |
-| |[ SampleTimeOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#sampletimeoffset-zero-en)| | |
-| |[ SerializationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#serializationmode-zero-e)| | |
+| |[ SampleTimeOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#sampletimeoffset-zilch-en)| | |
+| |[ SerializationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#serializationmode-zilch-e)| | |
 | |[ SnapThresholdDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholddoubleinteg)| | |
 | |[ SnapThresholdDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholddoublereal)| | |
 | |[ SnapThresholdInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdinteger-zer)| | |
@@ -55,15 +55,15 @@
 | |[ SnapThresholdInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdinteger3-ze)| | |
 | |[ SnapThresholdInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdinteger4-ze)| | |
 | |[ SnapThresholdQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdquaternion)| | |
-| |[ SnapThresholdReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdreal-zero-e)| | |
+| |[ SnapThresholdReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdreal-zilch-e)| | |
 | |[ SnapThresholdReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdreal2-zero)| | |
 | |[ SnapThresholdReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdreal3-zero)| | |
 | |[ SnapThresholdReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#snapthresholdreal4-zero)| | |
-| |[ UseConvergence](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#useconvergence-zero-engi)| | |
-| |[ UseDeltaThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#usedeltathreshold-zero-e)| | |
-| |[ UseHalfFloats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#usehalffloats-zero-engin)| | |
-| |[ UseInterpolation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#useinterpolation-zero-en)| | |
-| |[ UseQuantization](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#usequantization-zero-eng)| | |
+| |[ UseConvergence](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#useconvergence-zilch-engi)| | |
+| |[ UseDeltaThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#usedeltathreshold-zilch-e)| | |
+| |[ UseHalfFloats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#usehalffloats-zilch-engin)| | |
+| |[ UseInterpolation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#useinterpolation-zilch-en)| | |
+| |[ UseQuantization](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.markdown#usequantization-zilch-eng)| | |
 
 
  #  Properties

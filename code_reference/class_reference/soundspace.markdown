@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#decibels-zero-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatepitch-void)|[ InputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#inputnode-zero-engine-do)| | |
-|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatesemitones-voi)|[ MuteAudio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#muteaudio-zero-engine-do)| | |
-|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatevolume-void)|[ OutputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#outputnode-zero-engine-d)| | |
-|[ PlayCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#playcue-zero-engine-docu)|[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#paused-zero-engine-docum)| | |
-|[ PlayCuePaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#playcuepaused-zero-engin)|[ PauseWithTimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#pausewithtimespace-zero)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#soundspace-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#pitch-zero-engine-docume)| | |
+|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#decibels-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatepitch-void)|[ InputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#inputnode-zilch-engine-do)| | |
+|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatesemitones-voi)|[ MuteAudio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#muteaudio-zilch-engine-do)| | |
+|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#interpolatevolume-void)|[ OutputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#outputnode-zilch-engine-d)| | |
+|[ PlayCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#playcue-zilch-engine-docu)|[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#paused-zilch-engine-docum)| | |
+|[ PlayCuePaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#playcuepaused-zilch-engin)|[ PauseWithTimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#pausewithtimespace-zero)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#soundspace-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#pitch-zilch-engine-docume)| | |
 | |[ PitchWithTimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#pitchwithtimespace-zero)| | |
-| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#semitones-zero-engine-do)| | |
-| |[ SoundNodeInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#soundnodeinput-zero-engi)| | |
-| |[ SoundNodeOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#soundnodeoutput-zero-eng)| | |
-| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#volume-zero-engine-docum)| | |
+| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#semitones-zilch-engine-do)| | |
+| |[ SoundNodeInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#soundnodeinput-zilch-engi)| | |
+| |[ SoundNodeOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#soundnodeoutput-zilch-eng)| | |
+| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.markdown#volume-zilch-engine-docum)| | |
 
 
  #  Properties

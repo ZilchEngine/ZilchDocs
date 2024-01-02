@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#hashmapkeyrange-key-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#all-zero-engine-document)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#hashmapkeyrange-key-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#all-zilch-engine-document)| | |
 |[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#current-key)| | |
-|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#reset-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#isnotempty-zero-engine-d)| | |
+|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#reset-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapkeyrange_key .markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

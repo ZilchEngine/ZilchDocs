@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AcquiredObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuseracquiredobjectownership.markdown#acquiredobject-zero-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ AcquiredObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuseracquiredobjectownership.markdown#acquiredobject-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 | |[ PreviousNetUserOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuseracquiredobjectownership.markdown#previousnetuserowner-zer)| | |
 
 

@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#particleattractor-void)|[ AttractPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#attractposition-zero-eng)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#maxdistance-zero-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#mindistance-zero-engine)| | |
-| |[ PositionSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#positionspace-zero-engin)| | |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#strength-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#particleattractor-void)|[ AttractPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#attractposition-zilch-eng)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#maxdistance-zilch-engine)| | |
+| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#mindistance-zilch-engine)| | |
+| |[ PositionSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#positionspace-zilch-engin)| | |
+| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown#strength-zilch-engine-doc)| | |
 
 
  #  Properties

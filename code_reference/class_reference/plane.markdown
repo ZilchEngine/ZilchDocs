@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#plane-void)|[ Data](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#data-zero-engine-documen)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#set-void)|[ Distance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#distance-zero-engine-doc)| | |
-| |[ Normal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#normal-zero-engine-docum)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#plane-void)|[ Data](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#data-zilch-engine-documen)| | |
+|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#set-void)|[ Distance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#distance-zilch-engine-doc)| | |
+| |[ Normal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.markdown#normal-zilch-engine-docum)| | |
 
 
  #  Properties

@@ -1,4 +1,4 @@
-Commands are actions you can take in the Zero Editor through the search (sometimes called command) bar.
+Commands are actions you can take in the Zilch Editor through the search (sometimes called command) bar.
 
  # Executing Commands
 
@@ -15,17 +15,17 @@ Menu options will be referred to like this `Project  > New Project` which should
 
  ## Use the Search Window
 
- - Click on the `Zero Search Button` ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47137.png) located at the top left corner of the editor :
+ - Click on the `Zilch Search Button` ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47137.png) located at the top left corner of the editor :
  - Or Press `Space` in the main window
  - Or From **any** window press `ctrl + shift + space`
 
-* The Zero Search Window will appear:
+* The Zilch Search Window will appear:
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47141.png)
 
 
-*Zero Search Window, often abbreviated to just "Search Window"*
+*Zilch Search Window, often abbreviated to just "Search Window"*
 
 * Type the command name into the text box
 * Command names will be referred to like this [ New Project ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)

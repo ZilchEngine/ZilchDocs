@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#jointspring-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#atomids-zero-engine-docu)| | |
-| |[ DampingRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#dampingratio-zero-engine)| | |
-| |[ FrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#frequencyhz-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#jointspring-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#atomids-zilch-engine-docu)| | |
+| |[ DampingRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#dampingratio-zilch-engine)| | |
+| |[ FrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.markdown#frequencyhz-zilch-engine)| | |
 
 
  #  Properties

@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetNormalizedTimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#setnormalizedtimescale-v)|[ Mode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#mode-zero-engine-documen)|[dualblendcrossblend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendcrossblend.markdown)| |
-|[ SyncCadence](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#synccadence-void)|[ TimeScaleFrom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#timescalefrom-zero-engin)| | |
-| |[ TimeScaleTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#timescaleto-zero-engine)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#type-zero-engine-documen)| | |
+|[ SetNormalizedTimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#setnormalizedtimescale-v)|[ Mode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#mode-zilch-engine-documen)|[dualblendcrossblend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendcrossblend.markdown)| |
+|[ SyncCadence](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#synccadence-void)|[ TimeScaleFrom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#timescalefrom-zilch-engin)| | |
+| |[ TimeScaleTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#timescaleto-zilch-engine)| | |
+| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.markdown#type-zilch-engine-documen)| | |
 
 
  #  Properties

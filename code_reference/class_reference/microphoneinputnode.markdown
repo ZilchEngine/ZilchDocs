@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/microphoneinputnode.markdown#active-zero-engine-docum)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/microphoneinputnode.markdown#volume-zero-engine-docum)| | |
+| |[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/microphoneinputnode.markdown#active-zilch-engine-docum)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/microphoneinputnode.markdown#volume-zilch-engine-docum)| | |
 
 
  #  Properties

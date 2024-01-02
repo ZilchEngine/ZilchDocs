@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#contactgraphedge-void)|[ ContactPointCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#contactpointcount-zero-e)|BaseConstraintGraphEdge<Physics::Contact,Physics::ContactEdge>| |
-| |[ ContactPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#contactpoints-zero-engin)| | |
-| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#firstpoint-zero-engine-d)| | |
-| |[ IsGhost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#isghost-zero-engine-docu)| | |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#object-zero-engine-docum)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#otherobject-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#contactgraphedge-void)|[ ContactPointCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#contactpointcount-zilch-e)|BaseConstraintGraphEdge<Physics::Contact,Physics::ContactEdge>| |
+| |[ ContactPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#contactpoints-zilch-engin)| | |
+| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#firstpoint-zilch-engine-d)| | |
+| |[ IsGhost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#isghost-zilch-engine-docu)| | |
+| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#object-zilch-engine-docum)| | |
+| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.markdown#otherobject-zilch-engine)| | |
 
 
  #  Properties

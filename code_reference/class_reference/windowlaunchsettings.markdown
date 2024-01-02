@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.markdown#windowlaunchsettings-voi)|[ LaunchFullscreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.markdown#launchfullscreen-zero-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.markdown#windowlaunchsettings-voi)|[ LaunchFullscreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.markdown#launchfullscreen-zilch-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 | |[ WindowedResolution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.markdown#windowedresolution-zero)| | |
 
 

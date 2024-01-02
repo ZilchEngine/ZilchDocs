@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ FindRoot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#findroot-zero-engine-doc)|[ Children](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#children-zero-engine-doc)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)|[operationbatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationbatch.markdown)|
-| |[ InvalidReason](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#invalidreason-zero-engin)| |[propertyoperation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyoperation.markdown)|
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#name-zero-engine-documen)| | |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#parent-zero-engine-docum)| | |
+|[ FindRoot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#findroot-zilch-engine-doc)|[ Children](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#children-zilch-engine-doc)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)|[operationbatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationbatch.markdown)|
+| |[ InvalidReason](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#invalidreason-zilch-engin)| |[propertyoperation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyoperation.markdown)|
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#name-zilch-engine-documen)| | |
+| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.markdown#parent-zilch-engine-docum)| | |
 
 
  #  Properties

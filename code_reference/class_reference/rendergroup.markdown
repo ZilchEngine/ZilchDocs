@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsSubRenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#issubrendergroup-zero-en)|[ ChildRenderGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#childrendergroups-zero-e)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ IsSubRenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#issubrendergroup-zilch-en)|[ ChildRenderGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#childrendergroups-zilch-e)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
 |[ IsSubRenderGroupOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#issubrendergroupof-zero)|[ GraphicalSortMethod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#graphicalsortmethod-zero)| | |
-| |[ Materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#materials-zero-engine-do)| | |
-| |[ ParentRenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#parentrendergroup-zero-e)| | |
-| |[ ReferencedByList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#referencedbylist-zero-en)| | |
+| |[ Materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#materials-zilch-engine-do)| | |
+| |[ ParentRenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#parentrendergroup-zilch-e)| | |
+| |[ ReferencedByList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.markdown#referencedbylist-zilch-en)| | |
 
 
  #  Properties

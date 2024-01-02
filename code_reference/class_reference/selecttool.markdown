@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RayCast](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#raycast-zero-engine-docu)|[ ArchetypeSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#archetypeselect-zero-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#selecttool-void)|[ Raycaster](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#raycaster-zero-engine-do)| | |
-|[ SmartSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#smartselect-zero-engine)|[ RootSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#rootselect-zero-engine-d)| | |
-| |[ SmartGroupSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#smartgroupselect-zero-en)| | |
+|[ RayCast](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#raycast-zilch-engine-docu)|[ ArchetypeSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#archetypeselect-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#selecttool-void)|[ Raycaster](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#raycaster-zilch-engine-do)| | |
+|[ SmartSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#smartselect-zilch-engine)|[ RootSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#rootselect-zilch-engine-d)| | |
+| |[ SmartGroupSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttool.markdown#smartgroupselect-zilch-en)| | |
 
 
  #  Properties

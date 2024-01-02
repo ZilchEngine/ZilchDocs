@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateWetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#interpolatewetpercent-vo)|[ Delay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#delay-zero-engine-docume)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ InterpolateWetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#interpolatewetvalue-void)|[ FeedbackPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#feedbackpercent-zero-eng)| | |
-| |[ FeedbackValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#feedbackvalue-zero-engin)| | |
-| |[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#wetpercent-zero-engine-d)| | |
-| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#wetvalue-zero-engine-doc)| | |
+|[ InterpolateWetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#interpolatewetpercent-vo)|[ Delay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#delay-zilch-engine-docume)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ InterpolateWetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#interpolatewetvalue-void)|[ FeedbackPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#feedbackpercent-zilch-eng)| | |
+| |[ FeedbackValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#feedbackvalue-zilch-engin)| | |
+| |[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#wetpercent-zilch-engine-d)| | |
+| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown#geometrymode-zero-engine)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown)|[multisprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown)|
-| |[ VertexColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown#vertexcolor-zero-engine)| |[sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown)|
+| |[ GeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown#geometrymode-zilch-engine)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown)|[multisprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown)|
+| |[ VertexColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown#vertexcolor-zilch-engine)| |[sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown)|
 | | | |[spritetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown)|
 
 

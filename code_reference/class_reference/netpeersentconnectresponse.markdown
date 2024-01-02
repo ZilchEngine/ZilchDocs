@@ -7,10 +7,10 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ OurConnectResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#ourconnectresponse-zero)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ OurIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#ouripaddress-zero-engine)| | |
-| |[ OurResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#ourresponsebundle-zero-e)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#theiripaddress-zero-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#theirnetpeerid-zero-engi)| | |
+| |[ OurIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#ouripaddress-zilch-engine)| | |
+| |[ OurResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#ourresponsebundle-zilch-e)| | |
+| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#theirnetpeerid-zilch-engi)| | |
 | |[ TheirPendingUserAddRequestCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#theirpendinguseraddreque)| | |
 | |[ TheirRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectresponse.markdown#theirrequestbundle-zero)| | |
 

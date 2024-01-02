@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#torqueeffect-void)|[ LocalTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#localtorque-zero-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
-| |[ TorqueAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#torqueaxis-zero-engine-d)| | |
-| |[ TorqueStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#torquestrength-zero-engi)| | |
-| |[ WorldTorqueAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#worldtorqueaxis-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#torqueeffect-void)|[ LocalTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#localtorque-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
+| |[ TorqueAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#torqueaxis-zilch-engine-d)| | |
+| |[ TorqueStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#torquestrength-zilch-engi)| | |
+| |[ WorldTorqueAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown#worldtorqueaxis-zilch-eng)| | |
 
 
  #  Properties

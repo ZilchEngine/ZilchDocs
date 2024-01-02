@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ClearStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#clearstore-void)|[ EntryCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#entrycount-zero-engine-d)| | |
+|[ ClearStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#clearstore-void)|[ EntryCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#entrycount-zilch-engine-d)| | |
 |[ Erase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#erase-void)| | | |
-|[ GetDirectoryPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#getdirectorypath-zero-en)| | | |
-|[ GetEntryAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#getentryat-zero-engine-d)| | | |
-|[ IsEntryStored](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#isentrystored-zero-engin)| | | |
-|[ IsStored](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#isstored-zero-engine-doc)| | | |
-|[ Restore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#restore-zero-engine-docu)| | | |
+|[ GetDirectoryPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#getdirectorypath-zilch-en)| | | |
+|[ GetEntryAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#getentryat-zilch-engine-d)| | | |
+|[ IsEntryStored](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#isentrystored-zilch-engin)| | | |
+|[ IsStored](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#isstored-zilch-engine-doc)| | | |
+|[ Restore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#restore-zilch-engine-docu)| | | |
 |[ RestoreOrArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#restoreorarchetype-zero)| | | |
-|[ Store](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#store-zero-engine-docume)| | | |
+|[ Store](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.markdown#store-zilch-engine-docume)| | | |
 
 
  #  Properties

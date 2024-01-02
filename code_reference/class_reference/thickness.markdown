@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#all-zero-engine-document)|[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#bottom-zero-engine-docum)| | |
-|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#size-zero-engine-documen)|[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#left-zero-engine-documen)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#thickness-void)|[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#right-zero-engine-docume)| | |
-|[ TopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#topleft-zero-engine-docu)|[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#top-zero-engine-document)| | |
-| |[ Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#zero-zero-engine-documen)| | |
+|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#all-zilch-engine-document)|[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#bottom-zilch-engine-docum)| | |
+|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#size-zilch-engine-documen)|[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#left-zilch-engine-documen)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#thickness-void)|[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#right-zilch-engine-docume)| | |
+|[ TopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#topleft-zilch-engine-docu)|[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#top-zilch-engine-document)| | |
+| |[ Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.markdown#zilch-zilch-engine-documen)| | |
 
 
  #  Properties

@@ -11,7 +11,7 @@ Before starting to use Gamepads in a project, take the time to check that they a
 
  # Using Gamepads
  ## Initial Setup
-Unlike most things in Zero, it's not possible to make a simple reference to `Zilch.Gamepads` and have the Engine understand what is meant, even if only a single Gamepad is connected. Rather, whenever any number of Gamepads are detected, Zero will store them in a list that must be accessed to select the desired Gamepad. 
+Unlike most things in Zilch, it's not possible to make a simple reference to `Zilch.Gamepads` and have the Engine understand what is meant, even if only a single Gamepad is connected. Rather, whenever any number of Gamepads are detected, Zilch will store them in a list that must be accessed to select the desired Gamepad. 
 
 ```
 class GamepadLogic : NadaComponent
@@ -30,7 +30,7 @@ class GamepadLogic : NadaComponent
 ```
 
 
-`Zilch.Gamepads` is a reference to the ZeroObject `Gamepads`, which keeps track of all detected Gamepads. The `GetGamePad` function will return a reference to whichever Gamepad corresponds to the ID passed to the function. In the case above, the Gamepad in the first element (at index 0 in the list) is accessed. `Zilch.Gamepads` is a helpful reference to remember for the future, as it can be used to affect all Gamepads at once. 
+`Zilch.Gamepads` is a reference to the ZilchObject `Gamepads`, which keeps track of all detected Gamepads. The `GetGamePad` function will return a reference to whichever Gamepad corresponds to the ID passed to the function. In the case above, the Gamepad in the first element (at index 0 in the list) is accessed. `Zilch.Gamepads` is a helpful reference to remember for the future, as it can be used to affect all Gamepads at once. 
 
  ## Reading from Thumbsticks
 Thumbsticks on a Gamepad are typically used for moving the player or aiming. When accessed, they return a normalized 2D vector that is stored in corresponding `LeftStick` and `RightStick` Real2 variables on each Gamepad object. 
@@ -57,7 +57,7 @@ function OnLogicUpdate(event : UpdateEvent)
 Since the thumbsticks return a Real2 at a range from `-1` to `1`, this can easily be translated into creating movement on a 2D plane. Keep in mind this example does not use the `RightStick`, only the `LeftStick`. 
 
  ## Button Input
-Similar to [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/mouseinput.markdown), assigning logic to the various buttons on the Gamepad can be Frame Based or Event Based. Both have their strengths and weaknesses; determining which approach is better for a specific project should be decided on a case by case basis. 
+Similar to [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/mouseinput.markdown), assigning logic to the various buttons on the Gamepad can be Frame Based or Event Based. Both have their strengths and weaknesses; determining which approach is better for a specific project should be decided on a case by case basis. 
 
  ## Frame Based Button Input
 The example given above is Frame Based, and the reason for that is simple: Frame Based Input from a Gamepad works best when there will be sustained action, such as when a thumbstick is held down to move a player character. This same logic applies to buttons as well. 
@@ -137,7 +137,7 @@ function OnGamepadStickFlicked(event : GamepadEvent)
 This event is useful for something like a dodging mechanic, as it can be called side by side with an UpdateEvent (e.g., LogicUpdate), allowing for normal movement to continue at the same time. 
 
  ## Vibration
-Provided that the Gamepad being used has a Vibration feature, Zero simply needs a function call to access it. As it is a physical reaction, however, an example works best to explain.
+Provided that the Gamepad being used has a Vibration feature, Zilch simply needs a function call to access it. As it is a physical reaction, however, an example works best to explain.
 
 ```
 function OnLogicUpdate(event : UpdateEvent)
@@ -170,7 +170,7 @@ Most Gamepads that have vibration functionality will create it by utilizing two 
 which will cause the controller to vibrate for a quarter of a second, with the left side vibrating at full power and the right side vibrating at half. 
 
  ## Using Multiple Gamepads
-When using multiple Gamepads, Zero will need to keep a reference of which object is associated with which Gamepad. This is easily done with the addition of a Property. 
+When using multiple Gamepads, Zilch will need to keep a reference of which object is associated with which Gamepad. This is easily done with the addition of a Property. 
 
 ```
 // Which Gamepad is meant to control this object
@@ -230,7 +230,7 @@ function OnGamepadStickFlicked(event : GamepadEvent)
 
  # Related Materials
  ## Manual
-- [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/mouseinput.markdown)
+- [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/mouseinput.markdown)
 
  ## Code Reference
 - [Gamepad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown) 

@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#decibels-zero-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#interpolatevolume-void)|[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#volume-zero-engine-docum)| | |
+|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#decibels-zilch-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#interpolatevolume-void)|[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.markdown#volume-zilch-engine-docum)| | |
 
 
  #  Properties

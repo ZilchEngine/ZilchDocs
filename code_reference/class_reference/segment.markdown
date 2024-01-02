@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#getpoint-zero-engine-doc)|[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#end-zero-engine-document)| | |
-|[ GetTValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#gettvalue-zero-engine-do)|[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#start-zero-engine-docume)| | |
+|[ GetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#getpoint-zilch-engine-doc)|[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#end-zilch-engine-document)| | |
+|[ GetTValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#gettvalue-zilch-engine-do)|[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#start-zilch-engine-docume)| | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.markdown#segment-void)| | | |
 
 

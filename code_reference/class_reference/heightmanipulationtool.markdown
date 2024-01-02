@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeatherRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown#featherradius-zero-engin)|[heightmapsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsubtool.markdown)|[flattentool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown)|
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown#radius-zero-engine-docum)| |[raiselowertool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.markdown)|
+| |[ FeatherRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown#featherradius-zilch-engin)|[heightmapsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsubtool.markdown)|[flattentool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown)|
+| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown#radius-zilch-engine-docum)| |[raiselowertool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.markdown)|
 | | | |[smoothsharpentool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown)|
 
 

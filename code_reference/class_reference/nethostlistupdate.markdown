@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostlistupdate.markdown#network-zero-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostlistupdate.markdown#network-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

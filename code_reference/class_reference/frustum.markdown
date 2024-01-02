@@ -3,8 +3,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.markdown#frustum-void)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.markdown#get-zero-engine-document)| | | |
-|[ GetAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.markdown#getaabb-zero-engine-docu)| | | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.markdown#get-zilch-engine-document)| | | |
+|[ GetAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.markdown#getaabb-zilch-engine-docu)| | | |
 |[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.markdown#set-void)| | | |
 
 

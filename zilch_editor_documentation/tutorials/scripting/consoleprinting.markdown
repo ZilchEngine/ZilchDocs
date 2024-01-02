@@ -1,4 +1,4 @@
-This lesson covers the basics of using the Console Window and Debugging in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown).
+This lesson covers the basics of using the Console Window and Debugging in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown).
 
  # Learning Objectives
 
@@ -8,26 +8,26 @@ This lesson covers the basics of using the Console Window and Debugging in [Nada
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `MyBehavior`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
  - Rename it to `Square`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `MyBehavior`
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `MyBehavior`
 
  # Console Window
 
 The `Console Window` is where the engine and your game may print messages to help you keep track of the logic being performed. It serves as a very helpful tool in identifying when and where the game performs differently than intended. Let's examine it:
 
-- With the Zero Editor in focus
+- With the Zilch Editor in focus
 - Press  : ```
 
 NOTE: ``` is right under `Esc`
 
-By default, you'll notice the `Console Window` sliding up from the bottom; it will display information provided by the engine regarding loading of the project, [running the game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/runthegame.markdown) and more.
+By default, you'll notice the `Console Window` sliding up from the bottom; it will display information provided by the engine regarding loading of the project, [running the game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/runthegame.markdown) and more.
 
 
 
@@ -49,9 +49,9 @@ Console.WriteLine("Hello World!");
 `"Hello World!"` - Literal string of characters that will be printed to the console.
 `;` - Indicates that we're done with instructions on this line of code.
 
-By adding this line of code we can see our message printed to the console when we [play the game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/runthegame.markdown).
+By adding this line of code we can see our message printed to the console when we [play the game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/runthegame.markdown).
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -62,7 +62,7 @@ NOTE: Within Console, you'll also find the function `Write()` which behaves simi
 
 In addition to literals, we can also print variable values or even convert those values into string form to create more complex messages.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  # Printing Literals
 
@@ -74,14 +74,14 @@ Console.WriteLine("This is a String");
 ```lang=csharp, name=Literal Integer Printing
 Console.WriteLine(3);
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88674.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  # Printing Variables
 
@@ -96,16 +96,16 @@ var lives : Integer = 3;
 
 Console.WriteLine(lives);
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88676.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
-In this case, Zero will convert the variable into a string and then print it to the console.
+In this case, Zilch will convert the variable into a string and then print it to the console.
 
  # Printing Compound Statements
 
@@ -119,14 +119,14 @@ var lives : Integer = 3;
 Console.Write("Current value of lives: ");
 Console.WriteLine(lives);
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88678.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  # String Interpolation
 
@@ -140,14 +140,14 @@ var lives : Integer = 3;
 Console.WriteLine("Current value of lives: `lives`");
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88678.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 By putting a variable within grates ``` we indicate that we want to convert the variable's value to a string and print it at the specified location.
 
@@ -165,11 +165,11 @@ Verifying that your code behaves as intended is a critical part of programming a
  # Related Materials
 
  ## Manual
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components.markdown)
-- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown)
-- [ Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/functions.markdown)
-- [ Strings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/strings.markdown)
-- [running the game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/runthegame.markdown)
+- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.markdown)
+- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown)
+- [ Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.markdown)
+- [ Strings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/strings.markdown)
+- [running the game](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/runthegame.markdown)
 
  ## Reference
  ### Classes
@@ -177,7 +177,7 @@ Verifying that your code behaves as intended is a critical part of programming a
 - [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown)
 - [NadaScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadascript.markdown)
 - [ Console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.markdown)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 
  ### Commands
 - [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)

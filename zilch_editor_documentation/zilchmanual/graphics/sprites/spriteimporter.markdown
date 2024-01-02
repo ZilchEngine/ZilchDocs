@@ -1,4 +1,4 @@
-(NOTE)**Recommended Reading** This page includes topics one might not have addressed yet. To learn about or review these topics, the following list provides the links to their respective Manual or Tutorial pages: [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown)
+(NOTE)**Recommended Reading** This page includes topics one might not have addressed yet. To learn about or review these topics, the following list provides the links to their respective Manual or Tutorial pages: [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown)
 
  # Using the Sprite Importer
 By taking a SpriteSource that has multiple frames and opening it in the Sprite Source Editor, it is possible to turn it into a moving animation. The first step is to open a `SpriteSource` in the Sprite Source Editor, then click on `Convert To Animation`. 
@@ -89,7 +89,7 @@ If your SpriteSource doesn't have a blank background, it's possible to use the S
 
  # Related Materials
  ## Manual
-- [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown)
+- [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown)
 - [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation.markdown)
 
  ## Code Reference

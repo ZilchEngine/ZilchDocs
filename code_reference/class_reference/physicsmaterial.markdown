@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#createruntime-zero-engin)|[ Density](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#density-zero-engine-docu)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#physicsmaterial-void)|[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#friction-zero-engine-doc)| | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#runtimeclone-zero-engine)|[ FrictionImportance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#frictionimportance-zero)| | |
-|[ UpdateAndNotifyIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#updateandnotifyifmodifie)|[ HighPriority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#highpriority-zero-engine)| | |
-| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#restitution-zero-engine)| | |
+|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#createruntime-zilch-engin)|[ Density](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#density-zilch-engine-docu)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#physicsmaterial-void)|[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#friction-zilch-engine-doc)| | |
+|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#runtimeclone-zilch-engine)|[ FrictionImportance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#frictionimportance-zero)| | |
+|[ UpdateAndNotifyIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#updateandnotifyifmodifie)|[ HighPriority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#highpriority-zilch-engine)| | |
+| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#restitution-zilch-engine)| | |
 | |[ RestitutionImportance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.markdown#restitutionimportance-ze)| | |
 
 

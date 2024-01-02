@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#get-zero-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#count-zero-engine-docume)| | |
-|[ GetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#getbyindex-zero-engine-d)|[ CountX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#countx-zero-engine-docum)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#integer2x2-void)|[ CountY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#county-zero-engine-docum)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#set-void)|[ M00](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m00-zero-engine-document)| | |
-|[ SetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#setbyindex-void)|[ M01](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m01-zero-engine-document)| | |
-| |[ M10](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m10-zero-engine-document)| | |
-| |[ M11](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m11-zero-engine-document)| | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#get-zilch-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#count-zilch-engine-docume)| | |
+|[ GetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#getbyindex-zilch-engine-d)|[ CountX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#countx-zilch-engine-docum)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#integer2x2-void)|[ CountY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#county-zilch-engine-docum)| | |
+|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#set-void)|[ M00](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m00-zilch-engine-document)| | |
+|[ SetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#setbyindex-void)|[ M01](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m01-zilch-engine-document)| | |
+| |[ M10](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m10-zilch-engine-document)| | |
+| |[ M11](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2x2.markdown#m11-zilch-engine-document)| | |
 
 
  #  Properties

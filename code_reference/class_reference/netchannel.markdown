@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetNetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#getnetproperty-zero-engi)|[ Authority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#authority-zero-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
-|[ HasNetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#hasnetproperty-zero-engi)|[ ChangeFlag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#changeflag-zero-engine-d)| | |
-|[ ReplicateNow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#replicatenow-zero-engine)|[ IsNapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#isnapping-zero-engine-do)| | |
-|[ TakeNap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#takenap-void)|[ IsScheduled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#isscheduled-zero-engine)| | |
+|[ GetNetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#getnetproperty-zilch-engi)|[ Authority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#authority-zilch-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+|[ HasNetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#hasnetproperty-zilch-engi)|[ ChangeFlag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#changeflag-zilch-engine-d)| | |
+|[ ReplicateNow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#replicatenow-zilch-engine)|[ IsNapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#isnapping-zilch-engine-do)| | |
+|[ TakeNap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#takenap-void)|[ IsScheduled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#isscheduled-zilch-engine)| | |
 |[ WakeUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#wakeup-void)|[ LastChangeTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#lastchangetimepassed-zer)| | |
 | |[ LastChangeTimestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#lastchangetimestamp-zero)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#name-zero-engine-documen)| | |
-| |[ NetChannelType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#netchanneltype-zero-engi)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#name-zilch-engine-documen)| | |
+| |[ NetChannelType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.markdown#netchanneltype-zilch-engi)| | |
 
 
  #  Properties

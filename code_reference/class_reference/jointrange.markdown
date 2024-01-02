@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#jointrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#all-zero-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#current-zero-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#isnotempty-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#jointrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#all-zilch-engine-document)| | |
+|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#current-zilch-engine-docu)| | |
+| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

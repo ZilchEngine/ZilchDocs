@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#indexedhalfedgemeshedgea)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#all-zero-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#current-zero-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#isnotempty-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#indexedhalfedgemeshedgea)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#all-zilch-engine-document)| | |
+|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#current-zilch-engine-docu)| | |
+| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

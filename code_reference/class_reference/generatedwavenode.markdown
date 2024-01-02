@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#decibels-zero-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#decibels-zilch-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
 |[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#interpolatevolume-void)|[ SquareWavePulseValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#squarewavepulsevalue-zer)| | |
-|[ InterpolateWaveFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#interpolatewavefrequency)|[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#volume-zero-engine-docum)| | |
-|[ Play](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#play-void)|[ WaveFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#wavefrequency-zero-engin)| | |
-|[ Stop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#stop-void)|[ WaveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#wavetype-zero-engine-doc)| | |
+|[ InterpolateWaveFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#interpolatewavefrequency)|[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#volume-zilch-engine-docum)| | |
+|[ Play](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#play-void)|[ WaveFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#wavefrequency-zilch-engin)| | |
+|[ Stop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#stop-void)|[ WaveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.markdown#wavetype-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.markdown#gamesession-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ LevelName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.markdown#levelname-zero-engine-do)| | |
-| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.markdown#space-zero-engine-docume)| | |
+| |[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.markdown#gamesession-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ LevelName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.markdown#levelname-zilch-engine-do)| | |
+| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.markdown#space-zilch-engine-docume)| | |
 
 
  #  Properties

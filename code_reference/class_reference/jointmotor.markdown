@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#jointmotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#atomids-zero-engine-docu)| | |
-| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#maximpulse-zero-engine-d)| | |
-| |[ Reverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#reverse-zero-engine-docu)| | |
-| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#speed-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#jointmotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#atomids-zilch-engine-docu)| | |
+| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#maximpulse-zilch-engine-d)| | |
+| |[ Reverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#reverse-zilch-engine-docu)| | |
+| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.markdown#speed-zilch-engine-docume)| | |
 
 
  #  Properties

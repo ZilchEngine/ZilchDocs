@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AutoFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#autofocus-zero-engine-do)| | |
-| |[ AutoKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#autokey-zero-engine-docu)| | |
-| |[ EditFps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#editfps-zero-engine-docu)| | |
-| |[ OnionSkinning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#onionskinning-zero-engin)| | |
-| |[ PlaybackSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#playbackspeed-zero-engin)| | |
-| |[ PreviewMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#previewmode-zero-engine)| | |
-| |[ SnappingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#snappingx-zero-engine-do)| | |
-| |[ SnappingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#snappingy-zero-engine-do)| | |
-| |[ TimeDisplay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#timedisplay-zero-engine)| | |
+| |[ AutoFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#autofocus-zilch-engine-do)| | |
+| |[ AutoKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#autokey-zilch-engine-docu)| | |
+| |[ EditFps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#editfps-zilch-engine-docu)| | |
+| |[ OnionSkinning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#onionskinning-zilch-engin)| | |
+| |[ PlaybackSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#playbackspeed-zilch-engin)| | |
+| |[ PreviewMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#previewmode-zilch-engine)| | |
+| |[ SnappingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#snappingx-zilch-engine-do)| | |
+| |[ SnappingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#snappingy-zilch-engine-do)| | |
+| |[ TimeDisplay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationsettings.markdown#timedisplay-zilch-engine)| | |
 
 
  #  Properties

@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Channel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.markdown#channel-zero-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ MIDINumber](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.markdown#midinumber-zero-engine-d)| | |
-| |[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.markdown#value-zero-engine-docume)| | |
+| |[ Channel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.markdown#channel-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ MIDINumber](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.markdown#midinumber-zilch-engine-d)| | |
+| |[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.markdown#value-zilch-engine-docume)| | |
 
 
  #  Properties

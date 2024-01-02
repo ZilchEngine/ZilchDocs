@@ -3,13 +3,13 @@ The [TorqueEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_ref
 Torque is applied about an axis with a strength. The resultant force will cause an object to spin about the axis according to the [right-hand rule](https://en.wikipedia.org/wiki/Right-hand_rule ). By default, torque is applied in the local space of the object.
 
  #  Application Modes
-Torque is only assumed to be used as a [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions/rigidbody.markdown) effect. This will cause the object to twist about its center of mass. Other application modes are undefined.
+Torque is only assumed to be used as a [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/rigidbody.markdown) effect. This will cause the object to twist about its center of mass. Other application modes are undefined.
 
 ---
  #  Related Materials
  ##  Manual
-- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions.markdown)
-- [rigidbody.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions/rigidbody.markdown)
+- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.markdown)
+- [rigidbody.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/rigidbody.markdown)
 
  ##  Reference
 - [TorqueEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.markdown)

@@ -15,24 +15,24 @@ Actions are a handy way to animate properties with just a few lines of code. The
  #  Level Setup
 
 
-- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
+- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.markdown)
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `SpriteFader`
 
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : GameCamera object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : GameCamera object
 - In the `Properties Window`
  - Under [Camera](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown)
   - Set Size  to `5`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown)
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `SpriteFader`
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `SpriteFader`
 
  # What Are Actions
-Often in games we find that we wish to smoothly transition a property from its existing value to another target value. This is often done by calculating interpolated values on logic update between an the existing value and the target value using a function such as [Math.Lerp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#lerp-zero-engine-documen). While there are times when it is advantageous to perform these operations in an update function it is more common to want to begin an interpolation operation and have it finish on its own. Actions can do this and more and act as a generic structure to organize in game *actions* that need to occur in sequence or parrallel.
+Often in games we find that we wish to smoothly transition a property from its existing value to another target value. This is often done by calculating interpolated values on logic update between an the existing value and the target value using a function such as [Math.Lerp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#lerp-zilch-engine-documen). While there are times when it is advantageous to perform these operations in an update function it is more common to want to begin an interpolation operation and have it finish on its own. Actions can do this and more and act as a generic structure to organize in game *actions* that need to occur in sequence or parrallel.
 
 
  # Property Actions
@@ -49,8 +49,8 @@ Actions.Property(this.Owner.Actions,
 | Action Property Parameters | | |
 | **Example Value** | **Paremeter Type** |**Description** |
 | `this.Owner.Actions` | [ActionSet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actionset.markdown) | The ActionSet which will update this action |
-|`@this.Area.Size` |[ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zeromanual/nada_in_zero/property_delegates.markdown) | Delegate of the property to be modified by the action |
-| `this.TargetValue` | Property type of the [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zeromanual/nada_in_zero/property_delegates.markdown) passed into the previous parameter (**i.e.** [Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown) in this example) | Value to which the action will interpolate the given property |
+|`@this.Area.Size` |[ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.markdown) | Delegate of the property to be modified by the action |
+| `this.TargetValue` | Property type of the [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.markdown) passed into the previous parameter (**i.e.** [Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown) in this example) | Value to which the action will interpolate the given property |
 | `this.Duration` | [Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown) | The duration over which the action will be completed |
 | `Ease.Linear` | [Ease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#ease) | The [Ease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#ease) function used to calculate the rate of interpolation |
 
@@ -88,14 +88,14 @@ class SpriteFader : NadaComponent
   }
 }
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![ScaleOnly](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93871.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Here you can see the property action interpolating the title scale over the given period of one second.
 
@@ -128,14 +128,14 @@ You may already be wondering how to chain actions together, well this is the pur
   }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![ScaleThenColor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93873.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Here we can see sequences allow up to play actions in a linear order. This is very helpful, but what if we want to make these actions happen at the same time?
 
@@ -162,14 +162,14 @@ Similiar to how an [ActionSequence](https://github.com/ZilchEngine/ZilchDocs/blo
                      Ease.Linear);
   }
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![ScaleAndColor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93875.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now that the property actions are in a `group` instead of in a `sequence` they happen at the same time.
 
@@ -234,14 +234,14 @@ So far we have seen sequences and groups working seperately but what if we wante
   }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![GroupedSequences](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93877.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 It should be noted that `this.Owner.Actions` is an [ActionGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actiongroup.markdown) so in this simple case we could have just passed it to the constructor for the action sequences. We could also invert the group and sequence nesting to achieve the same affect from a different approach.
 
@@ -282,14 +282,14 @@ It should be noted that `this.Owner.Actions` is an [ActionGroup](https://github.
   }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![SequencedGroups](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93879.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now we can see both property actions in the `scaleUpGroup` complete and then the two actions in the `scaleDownGroup` run. 
 
@@ -345,7 +345,7 @@ Another type of action is the call option. This allows you to put calls to funct
   }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -360,7 +360,7 @@ Animation sequence started
 Animation sequence complete
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now you can see the print function executed at the beginning and end of the sequence. This can be very helpful with debugging the behaviors of actions but it also has a slightly more complex application.
 
@@ -418,7 +418,7 @@ Now you can see the print function executed at the beginning and end of the sequ
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -429,7 +429,7 @@ Now you can see the print function executed at the beginning and end of the sequ
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now we can see the action sequence call the function that originally set it up. This create a loop in the sequence of actions which will repeat. You should also notice that we started storing the action sequence in a member variable of `SpriteFader` instead of a local variable. This does not change the behavior of the action sequence, but it does allow us to examine, pause, and cancel the sequence while it is running. This usually good practice for all action sets. We actually already introduced a small example of how one may use an [ ActionSet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actionset.markdown) member variable when we introduced these two lines at the top of `animate`.
 
@@ -490,7 +490,7 @@ Delay actions allow the insertion of a time based delay in an action sequence. W
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -501,7 +501,7 @@ Delay actions allow the insertion of a time based delay in an action sequence. W
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence after a short delay*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now we have the title animating in a loop with a short delay in the sequence before the next itteration of the loop.
 
@@ -583,7 +583,7 @@ The final action type is the event action. This allows you to instantiate an eve
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -594,14 +594,14 @@ The final action type is the event action. This allows you to instantiate an eve
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence after a short delay*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  # Related Materials
 
  ## Manual
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zeromanual/nada_in_zero/property_delegates.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.markdown)
 
  ## Reference
  ### Classes
@@ -616,7 +616,7 @@ The final action type is the event action. This allows you to instantiate an eve
  ### Nada Base Types
 - [Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.markdown)
 - [Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.markdown)
-- [Math.Lerp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#lerp-zero-engine-documen)
+- [Math.Lerp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#lerp-zilch-engine-documen)
 
  ### Commands
 - [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)

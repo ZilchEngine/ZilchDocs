@@ -1,4 +1,4 @@
-The Zero Editor has a number of configuration settings that can be modified within the editor, such as text editor preferences.
+The Zilch Editor has a number of configuration settings that can be modified within the editor, such as text editor preferences.
 
  #  Selecting the EditorConfig Object
 
@@ -37,13 +37,13 @@ The [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refe
 
  ##  ContentConfig
 
-The **ContentConfig** component contains settings controlling the loading of additional content libraries when using the Zero Editor.
+The **ContentConfig** component contains settings controlling the loading of additional content libraries when using the Zilch Editor.
 
- - *This component is #deprecated and is not accessible from within the Zero Editor. It currently exists for #legacy purposes.*
+ - *This component is #deprecated and is not accessible from within the Zilch Editor. It currently exists for #legacy purposes.*
 
  ##  TextEditorConfig
 
-The [ TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown) component allows the user to view and modify various settings of Zero's text editor.
+The [ TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown) component allows the user to view and modify various settings of Zilch's text editor.
 
  ###  TabWidth
 The text editor may be configured to insert either two or four spaces when the `Tab` key is pressed.
@@ -76,7 +76,7 @@ If this is `true`, Nada files will display their line numbers in the gutter.
 
 
  ###  CodeFolding
-**Code folding** is a common feature of code editors that allows the user to hide code that they don't want to see at the moment. In the Zero Editor, with code folding enabled, any paired set of curly braces may be collapsed by clicking its toggle button in the editor. If code folding is disabled, these controls will be hidden, and the code folding section of the gutter will be collapsed.
+**Code folding** is a common feature of code editors that allows the user to hide code that they don't want to see at the moment. In the Zilch Editor, with code folding enabled, any paired set of curly braces may be collapsed by clicking its toggle button in the editor. If code folding is disabled, these controls will be hidden, and the code folding section of the gutter will be collapsed.
 
 
 ![Code Folding Example](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66668.gif)
@@ -120,13 +120,13 @@ This defines what happens in the event that an open project's content library is
 
 The **EditorConfig** component contains settings that define which project and which level from that project are opened when the editor is opened. It has no editable properties from within the editor because it is not intended to be modified by the user.
 
-NOTE: The data from EditorConfig object is read from and written to a config file on the user's hard drive, in the `Documents  > ZeroEditor` folder. This includes data that cannot be modified from within the Zero Editor. An experienced user may make changes to the config file directly. While this is not strictly forbidden, it is generally not recommended. The config file is called {nav icon=file, name=ConfigurationVX.data}, where *X* is a number, with more recent config files using larger numbers. Later versions of the engine may use the same config file, or they may create a new one with a larger number. In general, the latest engine version will always use the latest config file.
+NOTE: The data from EditorConfig object is read from and written to a config file on the user's hard drive, in the `Documents  > ZilchEditor` folder. This includes data that cannot be modified from within the Zilch Editor. An experienced user may make changes to the config file directly. While this is not strictly forbidden, it is generally not recommended. The config file is called {nav icon=file, name=ConfigurationVX.data}, where *X* is a number, with more recent config files using larger numbers. Later versions of the engine may use the same config file, or they may create a new one with a larger number. In general, the latest engine version will always use the latest config file.
 
  #  Related Materials
 
  ##  Manual
-- [Project Configuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/project_configuration.markdown)
-- [ Tab Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/texteditor/tab_completion.markdown)
+- [Project Configuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/project_configuration.markdown)
+- [ Tab Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/tab_completion.markdown)
 
  ##  Reference
 - [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.markdown)

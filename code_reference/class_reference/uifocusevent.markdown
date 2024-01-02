@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ LostFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifocusevent.markdown#lostfocus-zero-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ ReceivedFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifocusevent.markdown#receivedfocus-zero-engin)| | |
+| |[ LostFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifocusevent.markdown#lostfocus-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ ReceivedFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifocusevent.markdown#receivedfocus-zilch-engin)| | |
 
 
  #  Properties

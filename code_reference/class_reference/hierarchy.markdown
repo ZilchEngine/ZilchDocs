@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchy.markdown#hierarchy-void)|[ Children](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchy.markdown#children-zero-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchy.markdown#hierarchy-void)|[ Children](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchy.markdown#children-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 
 
  #  Properties

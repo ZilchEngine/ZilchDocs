@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisionfilter-void)|[ CollisionFlag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisionflag-zero-engin)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)| |
-| |[ CollisionGroupA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisiongroupa-zero-eng)| | |
-| |[ CollisionGroupB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisiongroupb-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisionfilter-void)|[ CollisionFlag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisionflag-zilch-engin)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)| |
+| |[ CollisionGroupA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisiongroupa-zilch-eng)| | |
+| |[ CollisionGroupB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.markdown#collisiongroupb-zilch-eng)| | |
 
 
  #  Properties

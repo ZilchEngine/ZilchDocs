@@ -6,23 +6,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#addorerror-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#all-zero-engine-document)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-|[ AddOrIgnore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#addorignore-zero-engine)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#count-zero-engine-docume)| | |
-|[ AddOrOverwrite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#addoroverwrite-zero-engi)|[ MaxWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#maxweight-zero-engine-do)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#clear-void)|[ ResourceType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#resourcetype-zero-engine)| | |
-|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#contains-zero-engine-doc)| | | |
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#createruntime-zero-engin)| | | |
+|[ AddOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#addorerror-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#all-zilch-engine-document)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ AddOrIgnore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#addorignore-zilch-engine)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#count-zilch-engine-docume)| | |
+|[ AddOrOverwrite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#addoroverwrite-zilch-engi)|[ MaxWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#maxweight-zilch-engine-do)| | |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#clear-void)|[ ResourceType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#resourcetype-zilch-engine)| | |
+|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#contains-zilch-engine-doc)| | | |
+|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#createruntime-zilch-engin)| | | |
 |[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#forcerebuild-void)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#get-zero-engine-document)| | | |
-|[ GetOrDefault](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#getordefault-zero-engine)| | | |
-|[ GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#getorerror-zero-engine-d)| | | |
-|[ GetOrNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#getornull-zero-engine-do)| | | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#get-zilch-engine-document)| | | |
+|[ GetOrDefault](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#getordefault-zilch-engine)| | | |
+|[ GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#getorerror-zilch-engine-d)| | | |
+|[ GetOrNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#getornull-zilch-engine-do)| | | |
 |[ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#removeat-void)| | | |
 |[ RemoveOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#removeorerror-void)| | | |
-|[ RemoveOrIgnore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#removeorignore-zero-engi)| | | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#runtimeclone-zero-engine)| | | |
-|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#sample-zero-engine-docum)| | | |
-|[ SampleIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#sampleindex-zero-engine)| | | |
+|[ RemoveOrIgnore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#removeorignore-zilch-engi)| | | |
+|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#runtimeclone-zilch-engine)| | | |
+|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#sample-zilch-engine-docum)| | | |
+|[ SampleIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#sampleindex-zilch-engine)| | | |
 |[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.markdown#set-void)| | | |
 
 

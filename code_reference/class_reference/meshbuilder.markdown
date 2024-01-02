@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#meshbuilder-void)|[ FlipNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#flipnormals-zero-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
-| |[ FlipWindingOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#flipwindingorder-zero-en)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#meshbuilder-void)|[ FlipNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#flipnormals-zilch-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
+| |[ FlipWindingOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#flipwindingorder-zilch-en)| | |
 | |[ GenerateSmoothNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#generatesmoothnormals-ze)| | |
 | |[ GenerateTangentSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#generatetangentspace-zer)| | |
-| |[ InvertUvYAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#invertuvyaxis-zero-engin)| | |
+| |[ InvertUvYAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#invertuvyaxis-zilch-engin)| | |
 | |[ SmoothingAngleDegreesThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.markdown#smoothingangledegreesthr)| | |
 
 

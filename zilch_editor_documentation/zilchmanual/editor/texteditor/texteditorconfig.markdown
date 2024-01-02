@@ -13,8 +13,8 @@ The `TextEditorConfig` component which manages the editable properties of the Zi
 
  # Related Materials
  ## Manual Pages
-- [Text Editor Hotkeys](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/texteditor/texteditorhotkeys.markdown)
-- [Tab Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/texteditor/tab_completion.markdown)
+- [Text Editor Hotkeys](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorhotkeys.markdown)
+- [Tab Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/tab_completion.markdown)
 
  ## Code Reference
 - [texteditorconfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown) 

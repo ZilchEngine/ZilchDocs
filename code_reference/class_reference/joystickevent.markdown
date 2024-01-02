@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Button](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joystickevent.markdown#button-zero-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Joystick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joystickevent.markdown#joystick-zero-engine-doc)| | |
+| |[ Button](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joystickevent.markdown#button-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Joystick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joystickevent.markdown#joystick-zilch-engine-doc)| | |
 
 
  #  Properties

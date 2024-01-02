@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#pulleyjoint-void)|[ JointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointa-zero-engine-docum)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-| |[ JointAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointapath-zero-engine-d)| | |
-| |[ JointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointb-zero-engine-docum)| | |
-| |[ JointBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointbpath-zero-engine-d)| | |
-| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#ratio-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#pulleyjoint-void)|[ JointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointa-zilch-engine-docum)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+| |[ JointAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointapath-zilch-engine-d)| | |
+| |[ JointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointb-zilch-engine-docum)| | |
+| |[ JointBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#jointbpath-zilch-engine-d)| | |
+| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.markdown#ratio-zilch-engine-docume)| | |
 
 
  #  Properties

@@ -1,4 +1,4 @@
-The keyboard is a common channel of providing user input to a Zero project. Keyboard controls are quick and easy to set up, but there are a few details that are important to bear in mind.
+The keyboard is a common channel of providing user input to a Zilch project. Keyboard controls are quick and easy to set up, but there are a few details that are important to bear in mind.
 
  #  Polling-Based Input vs. Event-Based Input
 
@@ -19,7 +19,7 @@ The keyboard may be polled using a handful of functions on `Zilch.Keyboard`.
 
  ###  KeyIsDown
 
-The [ KeyIsDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do) function returns whether the given keyboard key is down on the current frame. It is often used for movement and other actions that are performed over the course of many consecutive frames:
+The [ KeyIsDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zilch-engine-do) function returns whether the given keyboard key is down on the current frame. It is often used for movement and other actions that are performed over the course of many consecutive frames:
 
 ```lang=csharp, name=KeyIsDown Example
 if (Zilch.Keyboard.KeyIsDown(Keys.Up))
@@ -30,7 +30,7 @@ if (Zilch.Keyboard.KeyIsDown(Keys.Up))
 
  ###  KeyIsUp
 
-The [ KeyIsUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisup-zero-engine-docu) function returns whether the given keyboard key is *not* down on the current frame. It is sometimes used in combination with **KeyIsDown** in movement code:
+The [ KeyIsUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisup-zilch-engine-docu) function returns whether the given keyboard key is *not* down on the current frame. It is sometimes used in combination with **KeyIsDown** in movement code:
 
 ```lang=csharp, name=KeyIsUp Example
 if (Zilch.Keyboard.KeyIsDown(Keys.Right) && Zilch.Keyboard.KeyIsUp(Keys.Left))
@@ -46,7 +46,7 @@ if (Zilch.Keyboard.KeyIsDown(Keys.Left) && Zilch.Keyboard.KeyIsUp(Keys.Right))
 
  ###  KeyIsPressed
 
-The [ KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyispressed-zero-engine) function returns whether the given keyboard key is down on the current frame *and* was up on the previous frame. It is often used for discrete actions, like activating character abilities and interacting with menus:
+The [ KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyispressed-zilch-engine) function returns whether the given keyboard key is down on the current frame *and* was up on the previous frame. It is often used for discrete actions, like activating character abilities and interacting with menus:
 
 ```lang=csharp, name=KeyIsPressed Example
 if (Zilch.Keyboard.KeyIsPressed(Keys.Space))
@@ -57,7 +57,7 @@ if (Zilch.Keyboard.KeyIsPressed(Keys.Space))
 
  ###  KeyIsReleased
 
-The [ KeyIsReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisreleased-zero-engin) function returns whether the given keyboard key is up on the current frame, but was down on the previous frame. It is often used to end actions or processes that were started by the same key in a KeyIsPressed check:
+The [ KeyIsReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisreleased-zilch-engin) function returns whether the given keyboard key is up on the current frame, but was down on the previous frame. It is often used to end actions or processes that were started by the same key in a KeyIsPressed check:
 
 ```lang=csharp, name=KeyIsReleased Example
 if (Zilch.Keyboard.KeyIsReleased(Keys.Space))
@@ -165,8 +165,8 @@ Some input tasks don't lend themselves to being done with event-based input. For
 
  #  Related Materials
  ##  Manual
-- [ Events & Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/scripting/eventsandconnections.markdown)
-- [ Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components.markdown)
+- [ Events & Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/eventsandconnections.markdown)
+- [ Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.markdown)
 
  ##  Code Reference
 - [ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown)

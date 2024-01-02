@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ReturnHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/acquirenethostinfo.markdown#returnhostinfo-zero-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ ReturnHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/acquirenethostinfo.markdown#returnhostinfo-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

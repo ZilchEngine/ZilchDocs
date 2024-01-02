@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeedbackPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#feedbackpercent-zero-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ FeedbackValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#feedbackvalue-zero-engin)| | |
-| |[ MaxDelayMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#maxdelaymillisec-zero-en)| | |
+| |[ FeedbackPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#feedbackpercent-zilch-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ FeedbackValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#feedbackvalue-zilch-engin)| | |
+| |[ MaxDelayMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#maxdelaymillisec-zilch-en)| | |
 | |[ ModulationFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.markdown#modulationfrequency-zero)| | |
 
 

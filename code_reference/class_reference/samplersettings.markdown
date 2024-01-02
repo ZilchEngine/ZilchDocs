@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#samplersettings-void)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#addressingx-zero-engine)| | |
-| |[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#addressingy-zero-engine)| | |
-| |[ CompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#comparefunc-zero-engine)| | |
-| |[ CompareMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#comparemode-zero-engine)| | |
-| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#filtering-zero-engine-do)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#samplersettings-void)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#addressingx-zilch-engine)| | |
+| |[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#addressingy-zilch-engine)| | |
+| |[ CompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#comparefunc-zilch-engine)| | |
+| |[ CompareMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#comparemode-zilch-engine)| | |
+| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.markdown#filtering-zilch-engine-do)| | |
 
 
  #  Properties

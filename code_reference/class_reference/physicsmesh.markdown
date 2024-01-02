@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown#createruntime-zero-engin)| |[genericphysicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown)| |
+|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown#createruntime-zilch-engin)| |[genericphysicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown)| |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown#physicsmesh-void)| | | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown#runtimeclone-zero-engine)| | | |
+|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown#runtimeclone-zilch-engine)| | | |
 
 
  #  Properties

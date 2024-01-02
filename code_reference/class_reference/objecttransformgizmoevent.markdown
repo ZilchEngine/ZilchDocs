@@ -5,7 +5,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ FinalLocalRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.markdown#finallocalrotation-zero)|[gizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown)| |
-| |[ FinalLocalScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.markdown#finallocalscale-zero-eng)| | |
+| |[ FinalLocalScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.markdown#finallocalscale-zilch-eng)| | |
 | |[ FinalLocalTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.markdown#finallocaltranslation-ze)| | |
 
 

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ UpdateAndNotifyIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#updateandnotifyifmodifie)|[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#indices-zero-engine-docu)|Resource|[convexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown)|
-|[ Validate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#validate-zero-engine-doc)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#vertices-zero-engine-doc)| |[physicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown)|
+|[ UpdateAndNotifyIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#updateandnotifyifmodifie)|[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#indices-zilch-engine-docu)|Resource|[convexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.markdown)|
+|[ Validate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#validate-zilch-engine-doc)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.markdown#vertices-zilch-engine-doc)| |[physicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown)|
 
 
  #  Properties

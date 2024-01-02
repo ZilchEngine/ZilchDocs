@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.markdown#userconfig-void)|[ UserEmail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.markdown#useremail-zero-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ UserName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.markdown#username-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.markdown#userconfig-void)|[ UserEmail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.markdown#useremail-zilch-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ UserName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.markdown#username-zilch-engine-doc)| | |
 
 
  #  Properties

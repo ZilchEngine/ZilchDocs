@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#ringgizmo-void)|[ BackShade](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#backshade-zero-engine-do)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#ringgizmo-void)|[ BackShade](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#backshade-zilch-engine-do)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.markdown)| |
 | |[ DragRadiansPerPixel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#dragradiansperpixel-zero)| | |
-| |[ GrabArrowColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowcolor-zero-engi)| | |
-| |[ GrabArrowHeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowheadsize-zero-e)| | |
-| |[ GrabArrowLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowlength-zero-eng)| | |
-| |[ GrabArrowOnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowontop-zero-engi)| | |
+| |[ GrabArrowColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowcolor-zilch-engi)| | |
+| |[ GrabArrowHeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowheadsize-zilch-e)| | |
+| |[ GrabArrowLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowlength-zilch-eng)| | |
+| |[ GrabArrowOnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowontop-zilch-engi)| | |
 | |[ GrabArrowViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#grabarrowviewscaled-zero)| | |
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#radius-zero-engine-docum)| | |
-| |[ SelectRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#selectradius-zero-engine)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#viewaligned-zero-engine)| | |
+| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#radius-zilch-engine-docum)| | |
+| |[ SelectRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#selectradius-zilch-engine)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.markdown#viewaligned-zilch-engine)| | |
 
 
  #  Properties

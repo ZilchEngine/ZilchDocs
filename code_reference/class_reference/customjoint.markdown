@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#addconstraint-void)|[ ConstraintCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#constraintcount-zero-eng)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ AddConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#addconstraint-void)|[ ConstraintCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#constraintcount-zilch-eng)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
 |[ ClearConstraints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#clearconstraints-void)| | | |
-|[ CreateConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#createconstraint-zero-en)| | | |
+|[ CreateConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#createconstraint-zilch-en)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#customjoint-void)| | | |
-|[ GetConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#getconstraint-zero-engin)| | | |
+|[ GetConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#getconstraint-zilch-engin)| | | |
 |[ RemoveConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.markdown#removeconstraint-void)| | | |
 
 

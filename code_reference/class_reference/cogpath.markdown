@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#clone-zero-engine-docume)|[ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#cog-zero-engine-document)|Object| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#cogpath-void)|[ DirectCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#directcog-zero-engine-do)| | |
-|[ ComputePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#computepath-zero-engine)|[ ErrorOnDirectLinkFail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#errorondirectlinkfail-ze)| | |
-|[ Refresh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#refresh-zero-engine-docu)|[ ErrorOnPathCantCompute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#erroronpathcantcompute-z)| | |
-|[ RefreshIfNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#refreshifnull-zero-engin)|[ ErrorOnResolveToNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#erroronresolvetonull-zer)| | |
-|[ Resolve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#resolve-zero-engine-docu)|[ Path](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#path-zero-engine-documen)| | |
-| |[ PathPreference0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#pathpreference0-zero-eng)| | |
-| |[ PathPreference1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#pathpreference1-zero-eng)| | |
-| |[ PathPreference2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#pathpreference2-zero-eng)| | |
-| |[ RelativeTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#relativeto-zero-engine-d)| | |
+|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#clone-zilch-engine-docume)|[ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#cog-zilch-engine-document)|Object| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#cogpath-void)|[ DirectCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#directcog-zilch-engine-do)| | |
+|[ ComputePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#computepath-zilch-engine)|[ ErrorOnDirectLinkFail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#errorondirectlinkfail-ze)| | |
+|[ Refresh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#refresh-zilch-engine-docu)|[ ErrorOnPathCantCompute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#erroronpathcantcompute-z)| | |
+|[ RefreshIfNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#refreshifnull-zilch-engin)|[ ErrorOnResolveToNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#erroronresolvetonull-zer)| | |
+|[ Resolve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#resolve-zilch-engine-docu)|[ Path](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#path-zilch-engine-documen)| | |
+| |[ PathPreference0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#pathpreference0-zilch-eng)| | |
+| |[ PathPreference1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#pathpreference1-zilch-eng)| | |
+| |[ PathPreference2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#pathpreference2-zilch-eng)| | |
+| |[ RelativeTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#relativeto-zilch-engine-d)| | |
 | |[ UpdateCogOnInitialize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#updatecogoninitialize-ze)| | |
 | |[ UpdateCogOnPathChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#updatecogonpathchange-ze)| | |
 | |[ UpdatePathOnCogChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown#updatepathoncogchange-ze)| | |

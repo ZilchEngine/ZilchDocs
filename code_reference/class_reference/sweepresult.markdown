@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#sweepresult-void)|[ OtherCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#othercollider-zero-engin)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#otherobject-zero-engine)| | |
-| |[ Penetration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#penetration-zero-engine)| | |
-| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#time-zero-engine-documen)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#sweepresult-void)|[ OtherCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#othercollider-zilch-engin)| | |
+| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#otherobject-zilch-engine)| | |
+| |[ Penetration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#penetration-zilch-engine)| | |
+| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#time-zilch-engine-documen)| | |
 | |[ WorldNormalTowardsOther](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#worldnormaltowardsother)| | |
 | |[ WorldNormalTowardsSelf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#worldnormaltowardsself-z)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#worldpoint-zero-engine-d)| | |
+| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.markdown#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties

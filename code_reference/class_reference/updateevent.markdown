@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.markdown#dt-zero-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ RealTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.markdown#realtimepassed-zero-engi)| | |
-| |[ TimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.markdown#timepassed-zero-engine-d)| | |
+| |[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.markdown#dt-zilch-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ RealTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.markdown#realtimepassed-zilch-engi)| | |
+| |[ TimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.markdown#timepassed-zilch-engine-d)| | |
 
 
  #  Properties

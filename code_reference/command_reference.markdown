@@ -669,7 +669,7 @@ Enables the Manipulator Tool
 
 ---  
  #  Market
-Show the Zero Market where you can download content for your projects
+Show the Zilch Market where you can download content for your projects
 
 |Tags|Shortcut|Menu Selection|
 |---|---|---|
@@ -1246,7 +1246,7 @@ Show the Volume Meter Window
 
 
 ---  
- #  ZeroHub
+ #  ZilchHub
 |Tags|Shortcut|Menu Selection|
 |---|---|---|
 |No Tags | No Keyboard Shortcut |  |

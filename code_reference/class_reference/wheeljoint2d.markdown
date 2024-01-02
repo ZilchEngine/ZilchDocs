@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#setworldpoints-void)|[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localbasisa-zero-engine)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#wheeljoint2d-void)|[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localbasisb-zero-engine)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localpointa-zero-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localpointb-zero-engine)| | |
-| |[ ShockAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#shockaxis-zero-engine-do)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#worldpointa-zero-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#worldpointb-zero-engine)| | |
-| |[ WorldShockAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#worldshockaxis-zero-engi)| | |
+|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#setworldpoints-void)|[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localbasisa-zilch-engine)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#wheeljoint2d-void)|[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localbasisb-zilch-engine)| | |
+| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localpointa-zilch-engine)| | |
+| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#localpointb-zilch-engine)| | |
+| |[ ShockAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#shockaxis-zilch-engine-do)| | |
+| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#worldpointb-zilch-engine)| | |
+| |[ WorldShockAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.markdown#worldshockaxis-zilch-engi)| | |
 
 
  #  Properties

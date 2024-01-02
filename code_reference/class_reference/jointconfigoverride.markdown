@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#jointconfigoverride-void)|[ AngularBaumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#angularbaumgarte-zero-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#jointconfigoverride-void)|[ AngularBaumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#angularbaumgarte-zilch-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 | |[ AngularErrorCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#angularerrorcorrection-z)| | |
-| |[ LinearBaumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#linearbaumgarte-zero-eng)| | |
+| |[ LinearBaumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#linearbaumgarte-zilch-eng)| | |
 | |[ LinearErrorCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#linearerrorcorrection-ze)| | |
 | |[ PositionCorrectionType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#positioncorrectiontype-z)| | |
-| |[ Slop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#slop-zero-engine-documen)| | |
+| |[ Slop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.markdown#slop-zilch-engine-documen)| | |
 
 
  #  Properties

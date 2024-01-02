@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GroupSortValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#groupsortvalue-zero-engi)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[basesprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown)|
-| |[ LocalAabbCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#localaabbcenter-zero-eng)| |[debuggraphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuggraphical.markdown)|
+| |[ GroupSortValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#groupsortvalue-zilch-engi)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[basesprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown)|
+| |[ LocalAabbCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#localaabbcenter-zilch-eng)| |[debuggraphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuggraphical.markdown)|
 | |[ LocalAabbHalfExtents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#localaabbhalfextents-zer)| |[heightmapmodel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapmodel.markdown)|
-| |[ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#material-zero-engine-doc)| |[model](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown)|
+| |[ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#material-zilch-engine-doc)| |[model](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown)|
 | |[ OverrideBoundingBox](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#overrideboundingbox-zero)| |[particlesystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlesystem.markdown)|
-| |[ ShaderInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#shaderinputs-zero-engine)| |[skinnedmodel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown)|
-| |[ ViewCulling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#viewculling-zero-engine)| | |
-| |[ VisibilityEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#visibilityevents-zero-en)| | |
-| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#visible-zero-engine-docu)| | |
-| |[ WorldAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#worldaabb-zero-engine-do)| | |
+| |[ ShaderInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#shaderinputs-zilch-engine)| |[skinnedmodel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown)|
+| |[ ViewCulling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#viewculling-zilch-engine)| | |
+| |[ VisibilityEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#visibilityevents-zilch-en)| | |
+| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#visible-zilch-engine-docu)| | |
+| |[ WorldAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown#worldaabb-zilch-engine-do)| | |
 
 
  #  Properties

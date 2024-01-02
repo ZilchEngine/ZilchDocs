@@ -4,9 +4,9 @@
 |---|---|---|---|
 | |[ AutoDetermineSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#autodeterminesamples-zer)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown)| |
 | |[ RandomSampleDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#randomsampledistance-zer)| | |
-| |[ RandomSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#randomsamples-zero-engin)| | |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#strength-zero-engine-doc)| | |
-| |[ UniformSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#uniformsamples-zero-engi)| | |
+| |[ RandomSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#randomsamples-zilch-engin)| | |
+| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#strength-zilch-engine-doc)| | |
+| |[ UniformSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.markdown#uniformsamples-zilch-engi)| | |
 
 
  #  Properties

@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#phygunjoint-void)|[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#localpoint-zero-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-| |[ TargetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#targetpoint-zero-engine)| | |
-| |[ TargetRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#targetrotation-zero-engi)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#worldpoint-zero-engine-d)| | |
-| |[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#worldrotation-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#phygunjoint-void)|[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#localpoint-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+| |[ TargetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#targetpoint-zilch-engine)| | |
+| |[ TargetRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#targetrotation-zilch-engi)| | |
+| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#worldpoint-zilch-engine-d)| | |
+| |[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/phygunjoint.markdown#worldrotation-zilch-engin)| | |
 
 
  #  Properties

@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsButtonHeld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isbuttonheld-zero-engine)|[ GamepadIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#gamepadindex-zero-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
-|[ IsButtonPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isbuttonpressed-zero-eng)|[ IsActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isactive-zero-engine-doc)| | |
-|[ IsButtonReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isbuttonreleased-zero-en)|[ LeftStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#leftstick-zero-engine-do)| | |
-|[ TimeButtonHeld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#timebuttonheld-zero-engi)|[ LeftStickDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#leftstickdelta-zero-engi)| | |
-|[ Vibrate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#vibrate-void)|[ LeftTrigger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#lefttrigger-zero-engine)| | |
-| |[ RightStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#rightstick-zero-engine-d)| | |
-| |[ RightStickDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#rightstickdelta-zero-eng)| | |
-| |[ RightTrigger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#righttrigger-zero-engine)| | |
+|[ IsButtonHeld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isbuttonheld-zilch-engine)|[ GamepadIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#gamepadindex-zilch-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+|[ IsButtonPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isbuttonpressed-zilch-eng)|[ IsActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isactive-zilch-engine-doc)| | |
+|[ IsButtonReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#isbuttonreleased-zilch-en)|[ LeftStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#leftstick-zilch-engine-do)| | |
+|[ TimeButtonHeld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#timebuttonheld-zilch-engi)|[ LeftStickDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#leftstickdelta-zilch-engi)| | |
+|[ Vibrate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#vibrate-void)|[ LeftTrigger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#lefttrigger-zilch-engine)| | |
+| |[ RightStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#rightstick-zilch-engine-d)| | |
+| |[ RightStickDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#rightstickdelta-zilch-eng)| | |
+| |[ RightTrigger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.markdown#righttrigger-zilch-engine)| | |
 
 
  #  Properties

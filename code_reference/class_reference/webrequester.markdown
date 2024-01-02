@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#clear-void)|[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#url-zero-engine-document)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#clear-void)|[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#url-zilch-engine-document)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 |[ Run](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#run-void)| | | |
 |[ SetHeader](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#setheader-void)| | | |
 |[ SetPostData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.markdown#setpostdata-void)| | | |

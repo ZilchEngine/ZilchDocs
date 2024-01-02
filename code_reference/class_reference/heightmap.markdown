@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.markdown#heightmap-void)|[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.markdown#source-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ UnitsPerPatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.markdown#unitsperpatch-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.markdown#heightmap-void)|[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.markdown#source-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ UnitsPerPatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.markdown#unitsperpatch-zilch-engin)| | |
 
 
  #  Properties

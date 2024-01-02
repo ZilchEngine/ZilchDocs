@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#graphicsspace-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ RandomSeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#randomseed-zero-engine-d)| | |
-| |[ Seed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#seed-zero-engine-documen)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#graphicsspace-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ RandomSeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#randomseed-zilch-engine-d)| | |
+| |[ Seed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.markdown#seed-zilch-engine-documen)| | |
 
 
  #  Properties

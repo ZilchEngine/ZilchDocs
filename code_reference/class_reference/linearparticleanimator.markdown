@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#linearparticleanimator-v)|[ Dampening](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#dampening-zero-engine-do)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ Force](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#force-zero-engine-docume)| | |
-| |[ Growth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#growth-zero-engine-docum)| | |
-| |[ RandomForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#randomforce-zero-engine)| | |
-| |[ Torque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#torque-zero-engine-docum)| | |
-| |[ Twist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#twist-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#linearparticleanimator-v)|[ Dampening](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#dampening-zilch-engine-do)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+| |[ Force](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#force-zilch-engine-docume)| | |
+| |[ Growth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#growth-zilch-engine-docum)| | |
+| |[ RandomForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#randomforce-zilch-engine)| | |
+| |[ Torque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#torque-zilch-engine-docum)| | |
+| |[ Twist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.markdown#twist-zilch-engine-docume)| | |
 
 
  #  Properties

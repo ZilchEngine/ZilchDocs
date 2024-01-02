@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown#channels-zero-engine-doc)|Resource| |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown#length-zero-engine-docum)| | |
+| |[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown#channels-zilch-engine-doc)|Resource| |
+| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown#length-zilch-engine-docum)| | |
 
 
  #  Properties

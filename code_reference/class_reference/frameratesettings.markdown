@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#frameratesettings-void)|[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#framerate-zero-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ LimitFrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#limitframerate-zero-engi)| | |
-| |[ VerticalSync](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#verticalsync-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#frameratesettings-void)|[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#framerate-zilch-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ LimitFrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#limitframerate-zilch-engi)| | |
+| |[ VerticalSync](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.markdown#verticalsync-zilch-engine)| | |
 
 
  #  Properties

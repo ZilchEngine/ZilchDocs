@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#debugtext-void)|[ Centered](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#centered-zero-engine-doc)| | |
-| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#color-zero-engine-docume)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#ontop-zero-engine-docume)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#position-zero-engine-doc)| | |
-| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#rotation-zero-engine-doc)| | |
-| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#text-zero-engine-documen)| | |
-| |[ TextHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#textheight-zero-engine-d)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#viewaligned-zero-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#viewscaled-zero-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#viewscaleoffset-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#debugtext-void)|[ Centered](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#centered-zilch-engine-doc)| | |
+| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#color-zilch-engine-docume)| | |
+| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#ontop-zilch-engine-docume)| | |
+| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#position-zilch-engine-doc)| | |
+| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#rotation-zilch-engine-doc)| | |
+| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#text-zilch-engine-documen)| | |
+| |[ TextHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#textheight-zilch-engine-d)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.markdown#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

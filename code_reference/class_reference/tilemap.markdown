@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilemap.markdown#tilemap-void)|[ MeshThickness](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilemap.markdown#meshthickness-zero-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilemap.markdown#source-zero-engine-docum)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilemap.markdown#tilemap-void)|[ MeshThickness](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilemap.markdown#meshthickness-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilemap.markdown#source-zilch-engine-docum)| | |
 
 
  #  Properties

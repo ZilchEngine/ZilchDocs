@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ IsStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#isstatic-zero-engine-doc)|[reflectionobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/reflectionobject.markdown)|[function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown)|
-| |[ Library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#library-zero-engine-docu)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#name-zero-engine-documen)| | |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#owner-zero-engine-docume)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#type-zero-engine-documen)| | |
+| |[ IsStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#isstatic-zilch-engine-doc)|[reflectionobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/reflectionobject.markdown)|[function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown)|
+| |[ Library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#library-zilch-engine-docu)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#name-zilch-engine-documen)| | |
+| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#owner-zilch-engine-docume)| | |
+| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown#type-zilch-engine-documen)| | |
 
 
  #  Properties

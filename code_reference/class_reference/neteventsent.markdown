@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Destination](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.markdown#destination-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ NetEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.markdown#netevent-zero-engine-doc)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.markdown#theirnetpeerid-zero-engi)| | |
+| |[ Destination](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.markdown#destination-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ NetEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.markdown#netevent-zilch-engine-doc)| | |
+| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.markdown#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

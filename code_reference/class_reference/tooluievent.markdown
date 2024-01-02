@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NeedsPropertyGrid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.markdown#needspropertygrid-zero-e)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.markdown#parent-zero-engine-docum)| | |
-| |[ SelectTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.markdown#selecttool-zero-engine-d)| | |
+| |[ NeedsPropertyGrid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.markdown#needspropertygrid-zilch-e)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.markdown#parent-zilch-engine-docum)| | |
+| |[ SelectTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.markdown#selecttool-zilch-engine-d)| | |
 
 
  #  Properties

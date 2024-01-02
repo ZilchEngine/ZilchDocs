@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#parse-zero-engine-docume)|[ NegativeMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#negativemin-zero-engine)| | |
+|[ Parse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#parse-zilch-engine-docume)|[ NegativeMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#negativemin-zilch-engine)| | |
 | |[ NegativeValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#negativevalueclosesttoze)| | |
-| |[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#positivemax-zero-engine)| | |
+| |[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#positivemax-zilch-engine)| | |
 | |[ PositiveValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.markdown#positivevalueclosesttoze)| | |
 
 

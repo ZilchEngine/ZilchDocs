@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.markdown#rotategizmo-void)|[ SnapAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.markdown#snapangle-zero-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.markdown#snapping-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.markdown#rotategizmo-void)|[ SnapAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.markdown#snapangle-zilch-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.markdown#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

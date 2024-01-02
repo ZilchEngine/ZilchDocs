@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Address](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#address-zero-engine-docu)| | |
-| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#host-zero-engine-documen)| | |
-| |[ Incoming](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#incoming-zero-engine-doc)| | |
-| |[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#index-zero-engine-docume)| | |
-| |[ Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#port-zero-engine-documen)| | |
+| |[ Address](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#address-zilch-engine-docu)| | |
+| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#host-zilch-engine-documen)| | |
+| |[ Incoming](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#incoming-zilch-engine-doc)| | |
+| |[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#index-zilch-engine-docume)| | |
+| |[ Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectiondata.markdown#port-zilch-engine-documen)| | |
 
 
  #  Properties

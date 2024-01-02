@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Data](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webresponseevent.markdown#data-zero-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ ResponseCode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webresponseevent.markdown#responsecode-zero-engine)| | |
+| |[ Data](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webresponseevent.markdown#data-zilch-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ ResponseCode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webresponseevent.markdown#responsecode-zilch-engine)| | |
 
 
  #  Properties

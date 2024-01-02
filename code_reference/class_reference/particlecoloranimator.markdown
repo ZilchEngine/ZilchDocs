@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#particlecoloranimator-vo)|[ MaxParticleSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#maxparticlespeed-zero-en)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ TimeGradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#timegradient-zero-engine)| | |
-| |[ VelocityGradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#velocitygradient-zero-en)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#particlecoloranimator-vo)|[ MaxParticleSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#maxparticlespeed-zilch-en)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+| |[ TimeGradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#timegradient-zilch-engine)| | |
+| |[ VelocityGradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown#velocitygradient-zilch-en)| | |
 
 
  #  Properties

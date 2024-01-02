@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown#add-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown#count-zero-engine-docume)| | |
+|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown#add-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown#count-zilch-engine-docume)| | |
 |[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown#clear-void)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.markdown#graphicalrangeinterface)| | | |
 

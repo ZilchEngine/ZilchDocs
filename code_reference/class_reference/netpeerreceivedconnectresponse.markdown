@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ouripaddress-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ OurNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ournetpeerid-zero-engine)| | |
+| |[ OurIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ouripaddress-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ OurNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ournetpeerid-zilch-engine)| | |
 | |[ OurPendingUserAddRequestCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ourpendinguseraddrequest)| | |
-| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ourrequestbundle-zero-en)| | |
+| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#ourrequestbundle-zilch-en)| | |
 | |[ TheirConnectResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#theirconnectresponse-zer)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#theiripaddress-zero-engi)| | |
+| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#theiripaddress-zilch-engi)| | |
 | |[ TheirResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectresponse.markdown#theirresponsebundle-zero)| | |
 
 

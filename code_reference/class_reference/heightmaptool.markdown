@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#heightmaptool-void)|[ CellIndexType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#cellindextype-zero-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ CurrentTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#currenttool-zero-engine)| | |
-| |[ ShowCellIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#showcellindex-zero-engin)| | |
-| |[ ShowPatchIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#showpatchindex-zero-engi)| | |
-| |[ SubTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#subtool-zero-engine-docu)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#heightmaptool-void)|[ CellIndexType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#cellindextype-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ CurrentTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#currenttool-zilch-engine)| | |
+| |[ ShowCellIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#showcellindex-zilch-engin)| | |
+| |[ ShowPatchIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#showpatchindex-zilch-engi)| | |
+| |[ SubTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmaptool.markdown#subtool-zilch-engine-docu)| | |
 
 
  #  Properties

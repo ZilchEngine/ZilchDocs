@@ -3,7 +3,7 @@ The [ PanningNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_re
  # Common Uses
 
 - Moving sounds from left to right and right to left (such as an ambient wind sound)
-- Positioning sounds without using a [SoundEmitter ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soundemitter.markdown)
+- Positioning sounds without using a [SoundEmitter ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soundemitter.markdown)
 
  # Using the PanningNode
 
@@ -80,7 +80,7 @@ class MovingNoise : NadaComponent
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
 
  ## Code Reference
 - [ PanningNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown) 

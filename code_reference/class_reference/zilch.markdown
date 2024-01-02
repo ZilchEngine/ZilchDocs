@@ -1,20 +1,20 @@
  `Gameplay`
 
-(NOTE) Global functionality exposed to Nada script. Bound as "Zero" to script (e.g. Zilch.Keyboard) ZeroStatic was used to avoid the conflict with namespace Zero).
+(NOTE) Global functionality exposed to Nada script. Bound as "Zilch" to script (e.g. Zilch.Keyboard) ZilchStatic was used to avoid the conflict with namespace Zilch).
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#connect-void)|[ Audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#audio-zero-engine-docume)| | |
-|[ Disconnect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#disconnect-void)|[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#editor-zero-engine-docum)| | |
-|[ DisconnectAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#disconnectall-void)|[ Engine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#engine-zero-engine-docum)| | |
-| |[ Environment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#environment-zero-engine)| | |
-| |[ Gamepads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#gamepads-zero-engine-doc)| | |
-| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#joysticks-zero-engine-do)| | |
-| |[ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#keyboard-zero-engine-doc)| | |
-| |[ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#mouse-zero-engine-docume)| | |
-| |[ ObjectStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#objectstore-zero-engine)| | |
-| |[ OsShell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#osshell-zero-engine-docu)| | |
-| |[ ResourceSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#resourcesystem-zero-engi)| | |
+|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#connect-void)|[ Audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#audio-zilch-engine-docume)| | |
+|[ Disconnect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#disconnect-void)|[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#editor-zilch-engine-docum)| | |
+|[ DisconnectAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#disconnectall-void)|[ Engine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#engine-zilch-engine-docum)| | |
+| |[ Environment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#environment-zilch-engine)| | |
+| |[ Gamepads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#gamepads-zilch-engine-doc)| | |
+| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#joysticks-zilch-engine-do)| | |
+| |[ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#keyboard-zilch-engine-doc)| | |
+| |[ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#mouse-zilch-engine-docume)| | |
+| |[ ObjectStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#objectstore-zilch-engine)| | |
+| |[ OsShell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#osshell-zilch-engine-docu)| | |
+| |[ ResourceSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#resourcesystem-zilch-engi)| | |
 
 
  #  Properties

@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#add-void)|[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#index-zero-engine-docume)| | |
-|[ Build](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#build-zero-engine-docume)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#mesh-zero-engine-documen)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#clear-void)|[ ShowDebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#showdebugdraw-zero-engin)| | |
+|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#add-void)|[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#index-zilch-engine-docume)| | |
+|[ Build](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#build-zilch-engine-docume)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#mesh-zilch-engine-documen)| | |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#clear-void)|[ ShowDebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#showdebugdraw-zilch-engin)| | |
 |[ Draw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#draw-void)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.markdown#quickhull3d-void)| | | |
 

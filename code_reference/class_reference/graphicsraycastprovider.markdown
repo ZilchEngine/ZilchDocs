@@ -3,7 +3,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.markdown#graphicsraycastprovider)|[ MultiSelectGraphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.markdown#multiselectgraphical-zer)|[raycastprovider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raycastprovider.markdown)| |
-| |[ VisibleOnly](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.markdown#visibleonly-zero-engine)| | |
+| |[ VisibleOnly](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.markdown#visibleonly-zilch-engine)| | |
 
 
  #  Properties

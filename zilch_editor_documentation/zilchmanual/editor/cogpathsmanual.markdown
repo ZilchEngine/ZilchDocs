@@ -1,4 +1,4 @@
-CogPaths provide a good way to get a reference to any [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/cogs.markdown) anywhere within a game session. It points directly to the object as identified in the editor (or through a written file path) instead of wasting valuable computation time searching for it in code.  As such, it is usually best to instantiate any CogPath variables before run-time
+CogPaths provide a good way to get a reference to any [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs.markdown) anywhere within a game session. It points directly to the object as identified in the editor (or through a written file path) instead of wasting valuable computation time searching for it in code.  As such, it is usually best to instantiate any CogPath variables before run-time
 
  # The CogPath Property
 
@@ -70,7 +70,7 @@ Once an object has been selected, a number of different options become available
 
  ## Related Materials
  ## Manual
-- [Game Objects (Cogs)](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/cogs/gameobjectsconcept.markdown)
+- [Game Objects (Cogs)](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.markdown)
 
  ## Reference
 - [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.markdown)

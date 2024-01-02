@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Alt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#alt-zero-engine-document)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
-| |[ Ctrl](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#ctrl-zero-engine-documen)| | |
-| |[ Key](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#key-zero-engine-document)| | |
-| |[ Shift](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#shift-zero-engine-docume)| | |
+| |[ Alt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#alt-zilch-engine-document)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
+| |[ Ctrl](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#ctrl-zilch-engine-documen)| | |
+| |[ Key](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#key-zilch-engine-document)| | |
+| |[ Shift](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.markdown#shift-zilch-engine-docume)| | |
 
 
  #  Properties

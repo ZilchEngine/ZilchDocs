@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Play](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#play-void)|[ BufferScanRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#bufferscanrate-zero-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ SetSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#setsound-void)|[ GrainDelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#graindelay-zero-engine-d)| | |
+|[ Play](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#play-void)|[ BufferScanRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#bufferscanrate-zilch-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ SetSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#setsound-void)|[ GrainDelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#graindelay-zilch-engine-d)| | |
 |[ Stop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#stop-void)|[ GrainDelayVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#graindelayvariance-zero)| | |
-| |[ GrainLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainlength-zero-engine)| | |
+| |[ GrainLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainlength-zilch-engine)| | |
 | |[ GrainLengthVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainlengthvariance-zero)| | |
-| |[ GrainPanningValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainpanningvalue-zero-e)| | |
+| |[ GrainPanningValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainpanningvalue-zilch-e)| | |
 | |[ GrainPanningVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainpanningvariance-zer)| | |
-| |[ GrainResampleRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainresamplerate-zero-e)| | |
+| |[ GrainResampleRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainresamplerate-zilch-e)| | |
 | |[ GrainResampleRateVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainresampleratevarianc)| | |
-| |[ GrainVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainvolume-zero-engine)| | |
+| |[ GrainVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainvolume-zilch-engine)| | |
 | |[ GrainVolumeVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#grainvolumevariance-zero)| | |
 | |[ RandomLocationValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#randomlocationvalue-zero)| | |
-| |[ WindowAttack](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#windowattack-zero-engine)| | |
-| |[ WindowRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#windowrelease-zero-engin)| | |
-| |[ WindowType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#windowtype-zero-engine-d)| | |
+| |[ WindowAttack](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#windowattack-zilch-engine)| | |
+| |[ WindowRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#windowrelease-zilch-engin)| | |
+| |[ WindowType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.markdown#windowtype-zilch-engine-d)| | |
 
 
  #  Properties

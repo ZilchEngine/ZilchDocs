@@ -8,23 +8,23 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
-- [Remove ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) the [GravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gravityeffect.markdown) from the LevelSettings object.
-- [Remove ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) the [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown) from the LevelSettings object.
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [Remove ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) the [GravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gravityeffect.markdown) from the LevelSettings object.
+- [Remove ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) the [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.markdown) from the LevelSettings object.
 
  # The Player
  ## Player Archetype
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
  - Rename the new sprite to `Player`
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown) to the Player object
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) [Orientation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown) to the Player object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown) to the Player object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) [Orientation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown) to the Player object
  - Set [Orientation.DefaultOrienationBases](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#defaultorientationbases) to [ForwardZUpY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#orientationbases)
 - Upload the Player object to a new archetype called `Player`
 
  ## Player Movement
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 - Create a NadaScript resource using the Component template template and name it `PlayerMovement`
- - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `PlayerMovement` to the Player object
+ - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `PlayerMovement` to the Player object
 - Upload the Player object to a new archetype called `Player`
 
  ### Properties
@@ -35,28 +35,28 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - Connect to [LogicUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#logicupdate) in the `PlayerMovement` component.
 - In `PlayerMovement` in `OnLogicUpdate`
  - Declare a local `movement` variable
- - Check if the `Forward` and `Backward` input keys defined above are down using [Zilch.Keyboard.KeyIsDown()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do)
- - If the `Forward` is down add [Orientation.WorldForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldforward-zero-engine) to `movement`
- - If the `Backward` is down subtract [Orientation.WorldForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldforward-zero-engine) to `movement`
- - [Normalize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#normalize-zero-engine-do) `movement`
- - Set [RigidBody.Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zero-engine-doc) to `movement * this.Speed`
+ - Check if the `Forward` and `Backward` input keys defined above are down using [Zilch.Keyboard.KeyIsDown()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zilch-engine-do)
+ - If the `Forward` is down add [Orientation.WorldForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldforward-zilch-engine) to `movement`
+ - If the `Backward` is down subtract [Orientation.WorldForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldforward-zilch-engine) to `movement`
+ - [Normalize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#normalize-zilch-engine-do) `movement`
+ - Set [RigidBody.Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zilch-engine-doc) to `movement * this.Speed`
 
  ### Rotating
 - In `PlayerMovement` in `OnLogicUpdate`
  - Declare a local `rotation` variable
-- Check if the `Left` and `Right` input keys defined above are down using [Zilch.Keyboard.KeyIsDown()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do)
- - If the `Left` is down add [Orientation.WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldup-zero-engine-docu) to `rotation`
- - If the `Right` is down subtract [Orientation.WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldup-zero-engine-docu) to `rotation`
-- Declare a local variable `rotationSpeedRadians` and initialize it to `RotationSpeed` converted [to radians](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#toradians-zero-engine-do).
+- Check if the `Left` and `Right` input keys defined above are down using [Zilch.Keyboard.KeyIsDown()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zilch-engine-do)
+ - If the `Left` is down add [Orientation.WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldup-zilch-engine-docu) to `rotation`
+ - If the `Right` is down subtract [Orientation.WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown#worldup-zilch-engine-docu) to `rotation`
+- Declare a local variable `rotationSpeedRadians` and initialize it to `RotationSpeed` converted [to radians](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.markdown#toradians-zilch-engine-do).
 - Use [Transform.RotateWorld()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown#rotateworld-void) to rotate the object by `rotation * rotationSpeedRadians * event.Dt`
 
  ## Player Shooting
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 - Add a NadaScript resource using the Component template template and name it `ObjectSpawner`
- - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `ObjectSpawner` to the Player object
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+ - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `ObjectSpawner` to the Player object
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 - Add a NadaScript resource using the Component template template and name it `CreateOnInput`
- - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `CreateOnInput` to the Player object
+ - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `CreateOnInput` to the Player object
 - Upload the Player object to a new archetype called `Player`
 
  ### Properties
@@ -72,7 +72,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - In the `ObjectSpawner` component
  - Create a new function named `SpawnObject()`
  - In `SpawnObject()`
-  - [Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#createatposition-zero-en) a `ArchetypeToSpawn` object at the [position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown#worldtranslation-zero-en) of the Player object
+  - [Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#createatposition-zilch-en) a `ArchetypeToSpawn` object at the [position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown#worldtranslation-zilch-en) of the Player object
   - If `ObjectSpawner.UseRandomDirection` is true then get a normalized random direction, or if `UseRandomDirection` is false use `Orientation.WorldForward` for the direction of the object's inital velocity.
   - Set the initial velocity of the object.
 
@@ -80,16 +80,16 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - In the `CreateOnInput` component.
  - Connect to [LogicUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#logicupdate)
  - In `OnLogicUpdate`
-  - Check if `SpawnKey` is down using [Zilch.Keyboard.KeyIsDown()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do)
+  - Check if `SpawnKey` is down using [Zilch.Keyboard.KeyIsDown()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zilch-engine-do)
   - If `SpawnKey` is down then call `ObjectSpawner.SpawnObject()`
 
- - Set the [velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zero-engine-doc) of the newly created Projectile object to `this.InitialVelocity * this.Owner.Orientation.WorldForward`
+ - Set the [velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown#velocity-zilch-engine-doc) of the newly created Projectile object to `this.InitialVelocity * this.Owner.Orientation.WorldForward`
 
 
  # The Projectile
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 - Create a NadaScript resource using the Component template template and name it `DestroyOnCollision`
- - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `DestroyOnCollision` to the Projectile object
+ - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `DestroyOnCollision` to the Projectile object
 - Under the `Sprite` component change the `VertexColor`
 - Upload the Projectile object to a new archetype called `Projectile`
 
@@ -110,22 +110,22 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
  - At this point the ship should be able to move, rotate, and shoot.
 
  # Astroids
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
  - Rename the new sprite to `Asteroid`
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown) to the Asteroid object
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown) to the Asteroid object
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `DestroyOnCollision` to the Asteroid object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown) to the Asteroid object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown) to the Asteroid object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `DestroyOnCollision` to the Asteroid object
 - Upload the `Asteroid` archetype
 
  ## Spawning Asteroids
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
  - Rename the new sprite to `AsteroidSpawner`
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) [Orientation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown) to the AsteroidSpawner object
-- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `ObjectSpawner` to the AsteroidSpawner object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) [Orientation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.markdown) to the AsteroidSpawner object
+- [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `ObjectSpawner` to the AsteroidSpawner object
 
  ### CreateOnInterval Component
 - Add a NadaScript resource using the Component template template and name it `CreateOnInterval`
- - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `CreateOnInterval` to the AsteroidSpawner object
+ - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `CreateOnInterval` to the AsteroidSpawner object
 - Move the AsteroidSpawner object outside the viewport so the GameCamera object can not see it
 - Upload the AsteroidSpawner object to a new archetype called `AsteroidSpawner`
 
@@ -149,7 +149,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
  # The ScreenWrap Component
 - Add a NadaScript resource using the Component template template and name it `ScreenWrap`
- - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) `ScreenWrap` to the Asteroid resource and Player resource archetypes
+ - [Add component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) `ScreenWrap` to the Asteroid resource and Player resource archetypes
 
  ## ScreenWrapping
 

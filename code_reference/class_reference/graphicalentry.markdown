@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetGraphicalSortValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalentry.markdown#setgraphicalsortvalue-vo)|[ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalentry.markdown#cog-zero-engine-document)| | |
+|[ SetGraphicalSortValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalentry.markdown#setgraphicalsortvalue-vo)|[ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalentry.markdown#cog-zilch-engine-document)| | |
 
 
  #  Properties

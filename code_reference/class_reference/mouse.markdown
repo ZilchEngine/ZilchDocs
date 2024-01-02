@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsButtonDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#isbuttondown-zero-engine)|[ ClientPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#clientposition-zero-engi)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
-|[ ToggleTrapped](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#toggletrapped-void)|[ Cursor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#cursor-zero-engine-docum)| | |
-| |[ CursorMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#cursormovement-zero-engi)| | |
-| |[ RawMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#rawmovement-zero-engine)| | |
-| |[ Trapped](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#trapped-zero-engine-docu)| | |
+|[ IsButtonDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#isbuttondown-zilch-engine)|[ ClientPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#clientposition-zilch-engi)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+|[ ToggleTrapped](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#toggletrapped-void)|[ Cursor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#cursor-zilch-engine-docum)| | |
+| |[ CursorMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#cursormovement-zilch-engi)| | |
+| |[ RawMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#rawmovement-zilch-engine)| | |
+| |[ Trapped](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#trapped-zilch-engine-docu)| | |
 
 
  #  Properties

@@ -1,8 +1,8 @@
-**ColorGradiant** is a [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown) that allows the user to make a custom color gradient. The gradient may then be sampled from and applied as a color to any object that has a component with a color property.
+**ColorGradiant** is a [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown) that allows the user to make a custom color gradient. The gradient may then be sampled from and applied as a color to any object that has a component with a color property.
 
  # Using ColorGradient
  ## Creating a ColorGradient
-A new ColorGradient may be created through the [Add a Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown) window:
+A new ColorGradient may be created through the [Add a Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown) window:
 
 
 
@@ -101,8 +101,8 @@ In the following demonstration, another, smaller Sprite has been added behind th
 
  # Related Materials
  ## Manual Pages
-- [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown)
+- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  ## Reference Pages
 - [colorgradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.markdown)
 - [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown) 

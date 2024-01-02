@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#color-zero-engine-docume)| | |
-| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#lifetime-zero-engine-doc)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#position-zero-engine-doc)| | |
-| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#rotation-zero-engine-doc)| | |
+| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#color-zilch-engine-docume)| | |
+| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#lifetime-zilch-engine-doc)| | |
+| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#position-zilch-engine-doc)| | |
+| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#rotation-zilch-engine-doc)| | |
 | |[ RotationalVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#rotationalvelocity-zero)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#size-zero-engine-documen)| | |
-| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#time-zero-engine-documen)| | |
-| |[ Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#velocity-zero-engine-doc)| | |
-| |[ WanderAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#wanderangle-zero-engine)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#size-zilch-engine-documen)| | |
+| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#time-zilch-engine-documen)| | |
+| |[ Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#velocity-zilch-engine-doc)| | |
+| |[ WanderAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.markdown#wanderangle-zilch-engine)| | |
 
 
  #  Properties

@@ -83,8 +83,8 @@ The Zilch Engine is a professional grade 3D game engine developed in DigiPen's R
 ![The Lift - DigiPen Institute of Technology](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93447.mp4)
 
 
- ## ZeroHub
-Zerohub is the open source platform/site for Zilch Engine developement and education.
+ ## ZilchHub
+ZilchHub is the open source platform/site for Zilch Engine developement and education.
 
 - Open source platform
  - Tasks
@@ -110,7 +110,7 @@ The tutorial section is the bulk of the content intended for new students. Much 
 
  ### [Beginner II](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/tutorial_sequences.markdown#beginner-ii)
 
- # [Manual](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual.markdown)
+ # [Manual](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual.markdown)
 
  # Projects
 The following are suggested projects to be implemented after completing each set of the #basic_tutorials.
@@ -189,6 +189,6 @@ After completing the #beginner_iv tutorials students should be able to implement
 - [MIT ](https://en.wikipedia.org/wiki/MIT_License )
 
  ## Editor Reference
-[Text Editor Hotkeys](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/texteditor/texteditorhotkeys.markdown) 
+[Text Editor Hotkeys](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorhotkeys.markdown) 
 
  

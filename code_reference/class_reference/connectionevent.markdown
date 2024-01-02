@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Address](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#address-zero-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)|[receiveddataevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/receiveddataevent.markdown)|
-| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#host-zero-engine-documen)| | |
-| |[ Incoming](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#incoming-zero-engine-doc)| | |
-| |[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#index-zero-engine-docume)| | |
-| |[ Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#port-zero-engine-documen)| | |
+| |[ Address](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#address-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)|[receiveddataevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/receiveddataevent.markdown)|
+| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#host-zilch-engine-documen)| | |
+| |[ Incoming](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#incoming-zilch-engine-doc)| | |
+| |[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#index-zilch-engine-docume)| | |
+| |[ Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.markdown#port-zilch-engine-documen)| | |
 
 
  #  Properties

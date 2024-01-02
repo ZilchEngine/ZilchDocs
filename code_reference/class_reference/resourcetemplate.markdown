@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#resourcetemplate-void)|[ Category](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#category-zero-engine-doc)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#resourcetemplate-void)|[ Category](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#category-zilch-engine-doc)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
 | |[ CategorySortWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#categorysortweight-zero)| | |
-| |[ Description](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#description-zero-engine)| | |
-| |[ DisplayName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#displayname-zero-engine)| | |
-| |[ SortWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#sortweight-zero-engine-d)| | |
+| |[ Description](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#description-zilch-engine)| | |
+| |[ DisplayName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#displayname-zilch-engine)| | |
+| |[ SortWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.markdown#sortweight-zilch-engine-d)| | |
 
 
  #  Properties

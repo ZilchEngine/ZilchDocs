@@ -3,7 +3,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materiallist.markdown#add-void)| |[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)| |
-|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materiallist.markdown#all-zero-engine-document)| | | |
+|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materiallist.markdown#all-zilch-engine-document)| | | |
 |[ Remove](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materiallist.markdown#remove-void)| | | |
 
 

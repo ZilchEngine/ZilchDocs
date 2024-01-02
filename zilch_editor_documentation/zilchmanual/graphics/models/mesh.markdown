@@ -1,8 +1,8 @@
-Imported meshes may be used to apply to a [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/models/model_component.markdown) or [SkinnedModel](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/models/model_component.markdown#skinned-model) component as well as to create a [PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown) for that object. This page focuses solely on using a mesh for a Model and SkinnedModel. Clicking on a particular mesh in the Library window will open up the ContentComponents of that mesh in the Properties window:
+Imported meshes may be used to apply to a [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.markdown) or [SkinnedModel](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.markdown#skinned-model) component as well as to create a [PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.markdown) for that object. This page focuses solely on using a mesh for a Model and SkinnedModel. Clicking on a particular mesh in the Library window will open up the ContentComponents of that mesh in the Properties window:
 
  # ContentComponents for a Sample Mesh
 
-The properties in the ContentComponents are the same as those found in the [Group Import Options](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/adding_assets/adding_scene_assets.markdown#group-import-options), along with a few additional properties. One can fix incorrect values set during import as well as add or remove automatic resource generation (e.g. importing textures and animations from the same .fbx that included the base mesh).
+The properties in the ContentComponents are the same as those found in the [Group Import Options](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_scene_assets.markdown#group-import-options), along with a few additional properties. One can fix incorrect values set during import as well as add or remove automatic resource generation (e.g. importing textures and animations from the same .fbx that included the base mesh).
 
 WARNING: All meshes imported from a single .fbx or other scene asset file will have the same values in the properties of the ContentComponents. It is therefore recommended to only import one object per scene asset file.
 
@@ -14,7 +14,7 @@ The MeshBuilder ContentComponent includes those properties specifically related 
 
 The AnimationBuilder ContentComponent defines clips of animation that have been imported. If importing a single animation, the AnimationClip will be automatically generated and there is nothing more to do. If using a workflow where all animations for a certain mesh are included in the same timeline or track in an asset file, different AnimationClips will need to added for each separate animation, defined by their start and end frames. If using such a workflow, the artist should provide the user with the frame specifications for each distinct animation.
 
-Every AnimationClip can be named, have its start and end frames defined, and its looping mode set (`Default`, `Once`, or `Looping`). Once an AnimationClip is added it is treated like an Animation Resource in Zero and can be accessed in NadaScript like any other Animation.
+Every AnimationClip can be named, have its start and end frames defined, and its looping mode set (`Default`, `Once`, or `Looping`). Once an AnimationClip is added it is treated like an Animation Resource in Zilch and can be accessed in NadaScript like any other Animation.
 
  # TextureContent and GeneratedArchetype
 
@@ -25,8 +25,8 @@ These components have no properties and are there only if `ImportTextures` and `
  # Related Materials
 
  ## Manual
-- [model_component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/models/model_component.markdown)
-- [adding_scene_assets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/adding_assets/adding_scene_assets.markdown)
+- [model_component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.markdown)
+- [adding_scene_assets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_scene_assets.markdown)
 
  ## Reference
 - [model](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown)

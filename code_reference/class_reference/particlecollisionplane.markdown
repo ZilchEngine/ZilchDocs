@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#particlecollisionplane-v)|[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#friction-zero-engine-doc)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ PlaneNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#planenormal-zero-engine)| | |
-| |[ PlanePosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#planeposition-zero-engin)| | |
-| |[ PlaneSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#planespace-zero-engine-d)| | |
-| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#restitution-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#particlecollisionplane-v)|[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#friction-zilch-engine-doc)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+| |[ PlaneNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#planenormal-zilch-engine)| | |
+| |[ PlanePosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#planeposition-zilch-engin)| | |
+| |[ PlaneSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#planespace-zilch-engine-d)| | |
+| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionplane.markdown#restitution-zilch-engine)| | |
 
 
  #  Properties

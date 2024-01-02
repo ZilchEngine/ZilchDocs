@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CentralFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.markdown#centralfrequency-zero-en)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ QualityFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.markdown#qualityfactor-zero-engin)| | |
+| |[ CentralFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.markdown#centralfrequency-zilch-en)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ QualityFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.markdown#qualityfactor-zilch-engin)| | |
 
 
  #  Properties

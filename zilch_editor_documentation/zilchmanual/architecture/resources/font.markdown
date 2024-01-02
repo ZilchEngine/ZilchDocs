@@ -1,9 +1,9 @@
-[Fonts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/font.markdown) are used to give a visual flair to any text in a project. They can make text unique, memorable and fit into the visual style of the project all at the same time. Zero can accept either OpenType font (OTF) and TrueType font (TTF).
+[Fonts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/font.markdown) are used to give a visual flair to any text in a project. They can make text unique, memorable and fit into the visual style of the project all at the same time. Zilch can accept either OpenType font (OTF) and TrueType font (TTF).
 
 
 ## Importing New Fonts
 
-New font resources can be added in one of two ways: the file can be either dragged and dropped into the editor window, or the Add command can be used by using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#add).
+New font resources can be added in one of two ways: the file can be either dragged and dropped into the editor window, or the Add command can be used by using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#add).
 
 
 
@@ -15,9 +15,9 @@ This will open a new window where the user may select the font or fonts to impor
 
  # Related Materials
  ## Manual
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritetext.markdown)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
+- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.markdown)
+- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
+- [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
  ## Reference
 - [Font](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/font.markdown) 
  

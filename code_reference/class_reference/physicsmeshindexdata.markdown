@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#all-zero-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#count-zero-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#get-zero-engine-document)| | | |
+|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#count-zilch-engine-docume)| | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#get-zilch-engine-document)| | | |
 |[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.markdown#set-void)| | | |
 
 

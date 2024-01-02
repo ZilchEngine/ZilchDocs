@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#jointgraphedge-void)|[ Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#joint-zero-engine-docume)|BaseJointGraphEdge<[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)>| |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#object-zero-engine-docum)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#otherobject-zero-engine)| | |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#owner-zero-engine-docume)| | |
-| |[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#valid-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#jointgraphedge-void)|[ Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#joint-zilch-engine-docume)|BaseJointGraphEdge<[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)>| |
+| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#object-zilch-engine-docum)| | |
+| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#otherobject-zilch-engine)| | |
+| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#owner-zilch-engine-docume)| | |
+| |[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.markdown#valid-zilch-engine-docume)| | |
 
 
  #  Properties

@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#dispatchevent-void)|[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#gamesession-zero-engine)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)| |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#parent-zero-engine-docum)| | |
-| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#space-zero-engine-docume)| | |
+|[ DispatchEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#dispatchevent-void)|[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#gamesession-zilch-engine)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.markdown)| |
+| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#parent-zilch-engine-docum)| | |
+| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.markdown#space-zilch-engine-docume)| | |
 
 
  #  Properties

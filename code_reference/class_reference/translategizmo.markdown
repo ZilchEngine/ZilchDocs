@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#translategizmo-void)|[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#snapdistance-zero-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ SnapMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#snapmode-zero-engine-doc)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#snapping-zero-engine-doc)| | |
-| |[ UpdateMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#updatemode-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#translategizmo-void)|[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#snapdistance-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ SnapMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#snapmode-zilch-engine-doc)| | |
+| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#snapping-zilch-engine-doc)| | |
+| |[ UpdateMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmo.markdown#updatemode-zilch-engine-d)| | |
 
 
  #  Properties

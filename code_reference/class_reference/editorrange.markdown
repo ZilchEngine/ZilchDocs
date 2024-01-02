@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Increment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorrange.markdown#increment-zero-engine-do)|[editorpropertyextension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorpropertyextension.markdown)|[editorslider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorslider.markdown)|
-| |[ Max](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorrange.markdown#max-zero-engine-document)| | |
-| |[ Min](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorrange.markdown#min-zero-engine-document)| | |
+| |[ Increment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorrange.markdown#increment-zilch-engine-do)|[editorpropertyextension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorpropertyextension.markdown)|[editorslider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorslider.markdown)|
+| |[ Max](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorrange.markdown#max-zilch-engine-document)| | |
+| |[ Min](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorrange.markdown#min-zilch-engine-document)| | |
 
 
  #  Properties

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#debugline-void)|[ BoxHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#boxheads-zero-engine-doc)| | |
-| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#color-zero-engine-docume)| | |
-| |[ DualHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#dualheads-zero-engine-do)| | |
-| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#end-zero-engine-document)| | |
-| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#filled-zero-engine-docum)| | |
-| |[ HeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#headsize-zero-engine-doc)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#ontop-zero-engine-docume)| | |
-| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#start-zero-engine-docume)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#viewaligned-zero-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#viewscaled-zero-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#viewscaleoffset-zero-eng)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#debugline-void)|[ BoxHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#boxheads-zilch-engine-doc)| | |
+| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#color-zilch-engine-docume)| | |
+| |[ DualHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#dualheads-zilch-engine-do)| | |
+| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#end-zilch-engine-document)| | |
+| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#filled-zilch-engine-docum)| | |
+| |[ HeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#headsize-zilch-engine-doc)| | |
+| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#ontop-zilch-engine-docume)| | |
+| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#start-zilch-engine-docume)| | |
+| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.markdown#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

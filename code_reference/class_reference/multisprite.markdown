@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#all-zero-engine-document)|[ AnimationActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#animationactive-zero-eng)|[basesprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#clear-void)|[ AnimationSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#animationspeed-zero-engi)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#get-zero-engine-document)| | | |
+|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#all-zilch-engine-document)|[ AnimationActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#animationactive-zilch-eng)|[basesprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.markdown)| |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#clear-void)|[ AnimationSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#animationspeed-zilch-engi)| | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#get-zilch-engine-document)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#multisprite-void)| | | |
 |[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown#set-void)| | | |
 

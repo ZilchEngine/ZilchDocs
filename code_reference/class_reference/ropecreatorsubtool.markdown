@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NumberOfLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ropecreatorsubtool.markdown#numberoflinks-zero-engin)|[springsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springsubtool.markdown)| |
+| |[ NumberOfLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ropecreatorsubtool.markdown#numberoflinks-zilch-engin)|[springsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springsubtool.markdown)| |
 
 
  #  Properties

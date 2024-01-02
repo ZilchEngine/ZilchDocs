@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmoupdateevent.markdown#gizmorotation-zero-engin)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
+| |[ GizmoRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmoupdateevent.markdown#gizmorotation-zilch-engin)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
 | |[ GizmoWorldRotationAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmoupdateevent.markdown#gizmoworldrotationaxis-z)| | |
 
 

@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#direction-zero-engine-do)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)|[forceeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/forceeffect.markdown)|
+| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#direction-zilch-engine-do)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)|[forceeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/forceeffect.markdown)|
 | |[ LocalSpaceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#localspacedirection-zero)| |[gravityeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gravityeffect.markdown)|
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#strength-zero-engine-doc)| | |
-| |[ WorldDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#worlddirection-zero-engi)| | |
+| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#strength-zilch-engine-doc)| | |
+| |[ WorldDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.markdown#worlddirection-zilch-engi)| | |
 
 
  #  Properties

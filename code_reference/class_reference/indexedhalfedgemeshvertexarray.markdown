@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.markdown#get-zero-engine-document)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.markdown#all-zero-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
-| |[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.markdown#count-zero-engine-docume)| | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.markdown#get-zilch-engine-document)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.markdown#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+| |[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.markdown#count-zilch-engine-docume)| | |
 
 
  #  Properties

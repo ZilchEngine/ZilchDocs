@@ -5,16 +5,16 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#texteditorconfig-void)|[ AutoCompleteOnEnter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#autocompleteonenter-zero)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ CodeFolding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#codefolding-zero-engine)| | |
-| |[ ColorScheme](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#colorscheme-zero-engine)| | |
+| |[ CodeFolding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#codefolding-zilch-engine)| | |
+| |[ ColorScheme](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#colorscheme-zilch-engine)| | |
 | |[ ConfidentAutoCompleteOnSymbols](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#confidentautocompleteons)| | |
-| |[ FontSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#fontsize-zero-engine-doc)| | |
+| |[ FontSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#fontsize-zilch-engine-doc)| | |
 | |[ HighlightPartialTextMatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#highlightpartialtextmatc)| | |
 | |[ KeywordAndTypeCompletion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#keywordandtypecompletion)| | |
-| |[ LineNumbers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#linenumbers-zero-engine)| | |
+| |[ LineNumbers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#linenumbers-zilch-engine)| | |
 | |[ LocalWordCompletion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#localwordcompletion-zero)| | |
-| |[ ShowWhiteSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#showwhitespace-zero-engi)| | |
-| |[ TabWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#tabwidth-zero-engine-doc)| | |
+| |[ ShowWhiteSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#showwhitespace-zilch-engi)| | |
+| |[ TabWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#tabwidth-zilch-engine-doc)| | |
 | |[ TextMatchHighlighting](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.markdown#textmatchhighlighting-ze)| | |
 
 

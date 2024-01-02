@@ -8,7 +8,7 @@ WindEffect expects to be applied as a [Region](https://github.com/ZilchEngine/Zi
 ---
  #  Related Materials
  ##  Manual
-- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions.markdown)
+- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.markdown)
 
  ##  Reference
 - [WindEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown)

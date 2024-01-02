@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#interpolatepitch-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#pitch-zero-engine-docume)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#interpolatesemitones-voi)|[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#semitones-zero-engine-do)| | |
+|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#interpolatepitch-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#pitch-zilch-engine-docume)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#interpolatesemitones-voi)|[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown#semitones-zilch-engine-do)| | |
 
 
  #  Properties

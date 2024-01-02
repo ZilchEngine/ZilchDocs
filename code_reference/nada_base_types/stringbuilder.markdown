@@ -4,7 +4,7 @@
 |---|---|---|---|
 |[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.markdown#clear-void)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.markdown#stringbuilder-void)| | | |
-|[ ToString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.markdown#tostring-zero-engine-doc)| | | |
+|[ ToString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.markdown#tostring-zilch-engine-doc)| | | |
 |[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.markdown#write-void)| | | |
 |[ WriteLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.markdown#writeline-void)| | | |
 

@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#meshparticleemitter-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#mesh-zero-engine-documen)|[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.markdown)| |
-| |[ MeshEmitMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#meshemitmode-zero-engine)| | |
-| |[ NormalExtrude](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#normalextrude-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#meshparticleemitter-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#mesh-zilch-engine-documen)|[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.markdown)| |
+| |[ MeshEmitMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#meshemitmode-zilch-engine)| | |
+| |[ NormalExtrude](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.markdown#normalextrude-zilch-engin)| | |
 
 
  #  Properties

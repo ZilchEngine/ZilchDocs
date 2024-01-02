@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenteditoroptions.markdown#contenteditoroptions-voi)|[ ShowInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenteditoroptions.markdown#showineditor-zero-engine)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenteditoroptions.markdown#contenteditoroptions-voi)|[ ShowInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenteditoroptions.markdown#showineditor-zilch-engine)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
 
 
  #  Properties

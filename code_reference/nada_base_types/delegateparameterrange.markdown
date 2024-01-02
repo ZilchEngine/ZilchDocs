@@ -4,8 +4,8 @@
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.markdown#delegateparameterrange-v)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#all-delegate() | All]]| | |
 |[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.markdown#movenext-void)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#current-delegate() | Current]]| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.markdown#isnotempty-zero-engine-d)| | |
+| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

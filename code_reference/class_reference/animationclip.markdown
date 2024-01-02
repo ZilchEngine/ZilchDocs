@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AnimationIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#animationindex-zero-engi)|Object| |
-| |[ EndFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#endframe-zero-engine-doc)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#name-zero-engine-documen)| | |
-| |[ StartFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#startframe-zero-engine-d)| | |
+| |[ AnimationIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#animationindex-zilch-engi)|Object| |
+| |[ EndFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#endframe-zilch-engine-doc)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#name-zilch-engine-documen)| | |
+| |[ StartFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclip.markdown#startframe-zilch-engine-d)| | |
 
 
  #  Properties

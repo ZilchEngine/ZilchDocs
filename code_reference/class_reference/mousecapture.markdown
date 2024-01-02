@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Capture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.markdown#capture-zero-engine-docu)|[ IsCaptured](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.markdown#iscaptured-zero-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Capture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.markdown#capture-zilch-engine-docu)|[ IsCaptured](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.markdown#iscaptured-zilch-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.markdown#mousecapture-void)| | | |
 |[ ReleaseCapture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.markdown#releasecapture-void)| | | |
 

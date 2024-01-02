@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Cancel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#cancel-zero-engine-docum)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
+| |[ Cancel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#cancel-zilch-engine-docum)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
 | |[ ContentDisposition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#contentdisposition-zero)| | |
-| |[ CurrentSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#currentspeed-zero-engine)| | |
-| |[ FilePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#filepath-zero-engine-doc)| | |
-| |[ Id](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#id-zero-engine-documenta)| | |
-| |[ IsComplete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#iscomplete-zero-engine-d)| | |
-| |[ IsInProgress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#isinprogress-zero-engine)| | |
-| |[ MimeType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#mimetype-zero-engine-doc)| | |
-| |[ OriginalUrl](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#originalurl-zero-engine)| | |
-| |[ ReceivedBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#receivedbytes-zero-engin)| | |
-| |[ SuggestedFileName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#suggestedfilename-zero-e)| | |
-| |[ TotalBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#totalbytes-zero-engine-d)| | |
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#url-zero-engine-document)| | |
+| |[ CurrentSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#currentspeed-zilch-engine)| | |
+| |[ FilePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#filepath-zilch-engine-doc)| | |
+| |[ Id](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#id-zilch-engine-documenta)| | |
+| |[ IsComplete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#iscomplete-zilch-engine-d)| | |
+| |[ IsInProgress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#isinprogress-zilch-engine)| | |
+| |[ MimeType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#mimetype-zilch-engine-doc)| | |
+| |[ OriginalUrl](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#originalurl-zilch-engine)| | |
+| |[ ReceivedBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#receivedbytes-zilch-engin)| | |
+| |[ SuggestedFileName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#suggestedfilename-zilch-e)| | |
+| |[ TotalBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#totalbytes-zilch-engine-d)| | |
+| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown#url-zilch-engine-document)| | |
 
 
  #  Properties

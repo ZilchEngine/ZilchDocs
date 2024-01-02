@@ -5,14 +5,14 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#splineparticleanimator-v)|[ AutoCalculateLifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#autocalculatelifetime-ze)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ Helix](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helix-zero-engine-docume)| | |
-| |[ HelixOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helixoffset-zero-engine)| | |
-| |[ HelixRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helixradius-zero-engine)| | |
-| |[ HelixWaveLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helixwavelength-zero-eng)| | |
-| |[ Mode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#mode-zero-engine-documen)| | |
-| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#speed-zero-engine-docume)| | |
+| |[ Helix](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helix-zilch-engine-docume)| | |
+| |[ HelixOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helixoffset-zilch-engine)| | |
+| |[ HelixRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helixradius-zilch-engine)| | |
+| |[ HelixWaveLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#helixwavelength-zilch-eng)| | |
+| |[ Mode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#mode-zilch-engine-documen)| | |
+| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#speed-zilch-engine-docume)| | |
 | |[ SpringDampingRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#springdampingratio-zero)| | |
-| |[ SpringFrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#springfrequencyhz-zero-e)| | |
+| |[ SpringFrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.markdown#springfrequencyhz-zilch-e)| | |
 
 
  #  Properties

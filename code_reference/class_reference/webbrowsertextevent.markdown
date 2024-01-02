@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsertextevent.markdown#text-zero-engine-documen)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
+| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsertextevent.markdown#text-zilch-engine-documen)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown)| |
 
 
  #  Properties

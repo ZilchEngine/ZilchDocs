@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#runtimeclone-zero-engine)|[ CompositionLabel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#compositionlabel-zero-en)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-| |[ ReferencedByList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#referencedbylist-zero-en)| | |
-| |[ RenderGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#rendergroups-zero-engine)| | |
+|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#runtimeclone-zilch-engine)|[ CompositionLabel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#compositionlabel-zilch-en)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+| |[ ReferencedByList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#referencedbylist-zilch-en)| | |
+| |[ RenderGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.markdown#rendergroups-zilch-engine)| | |
 
 
  #  Properties

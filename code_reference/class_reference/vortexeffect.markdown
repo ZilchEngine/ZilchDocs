@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#vortexeffect-void)|[ EndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#endcondition-zero-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
-| |[ InterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#interpolationtype-zero-e)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#vortexeffect-void)|[ EndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#endcondition-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
+| |[ InterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#interpolationtype-zilch-e)| | |
 | |[ InwardStrengthAtMaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#inwardstrengthatmaxdista)| | |
 | |[ InwardStrengthAtMinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#inwardstrengthatmindista)| | |
-| |[ LocalAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#localaxis-zero-engine-do)| | |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#maxdistance-zero-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#mindistance-zero-engine)| | |
+| |[ LocalAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#localaxis-zilch-engine-do)| | |
+| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#maxdistance-zilch-engine)| | |
+| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#mindistance-zilch-engine)| | |
 | |[ TwistStrengthAtMaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#twiststrengthatmaxdistan)| | |
 | |[ TwistStrengthAtMinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#twiststrengthatmindistan)| | |
-| |[ VortexAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#vortexaxis-zero-engine-d)| | |
-| |[ WorldVortexAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#worldvortexaxis-zero-eng)| | |
+| |[ VortexAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#vortexaxis-zilch-engine-d)| | |
+| |[ WorldVortexAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.markdown#worldvortexaxis-zilch-eng)| | |
 
 
  #  Properties

@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#clone-zero-engine-docume)|[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#name-zero-engine-documen)| | |
+|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#clone-zilch-engine-docume)|[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#name-zilch-engine-documen)| | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#resourcetableentry-void)|[ Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#resource-resource)| | |
-| |[ ResourceType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#resourcetype-zero-engine)| | |
-| |[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#value-zero-engine-docume)| | |
-| |[ Weight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#weight-zero-engine-docum)| | |
+| |[ ResourceType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#resourcetype-zilch-engine)| | |
+| |[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#value-zilch-engine-docume)| | |
+| |[ Weight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.markdown#weight-zilch-engine-docum)| | |
 
 
  #  Properties

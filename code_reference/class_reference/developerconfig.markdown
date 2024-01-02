@@ -7,7 +7,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.markdown#developerconfig-void)|[ CanModifyReadOnlyResources](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.markdown#canmodifyreadonlyresourc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ DoubleEscapeQuit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.markdown#doubleescapequit-zero-en)| | |
+| |[ DoubleEscapeQuit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.markdown#doubleescapequit-zilch-en)| | |
 | |[ ProxyObjectsInPreviews](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.markdown#proxyobjectsinpreviews-z)| | |
 
 

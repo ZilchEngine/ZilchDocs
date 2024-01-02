@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#iencoding-void)|[ Ascii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#ascii-zero-engine-docume)| |[asciiencoding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/asciiencoding.markdown)|
-|[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#read-zero-engine-documen)|[ Utf8](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#utf8-zero-engine-documen)| |[utf8encoding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/utf8encoding.markdown)|
-|[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#write-zero-engine-docume)| | | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#iencoding-void)|[ Ascii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#ascii-zilch-engine-docume)| |[asciiencoding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/asciiencoding.markdown)|
+|[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#read-zilch-engine-documen)|[ Utf8](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#utf8-zilch-engine-documen)| |[utf8encoding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/utf8encoding.markdown)|
+|[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/iencoding.markdown#write-zilch-engine-docume)| | | |
 
 
  #  Properties

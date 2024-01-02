@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#objecttranslatetool-void)|[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#snapdistance-zero-engine)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown)| |
-| |[ SnapMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#snapmode-zero-engine-doc)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#snapping-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#objecttranslatetool-void)|[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#snapdistance-zilch-engine)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown)| |
+| |[ SnapMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#snapmode-zilch-engine-doc)| | |
+| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

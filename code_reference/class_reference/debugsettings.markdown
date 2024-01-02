@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsettings.markdown#debugsettings-void)|[ MaxDebugObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsettings.markdown#maxdebugobjects-zero-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsettings.markdown#debugsettings-void)|[ MaxDebugObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsettings.markdown#maxdebugobjects-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 
 
  #  Properties

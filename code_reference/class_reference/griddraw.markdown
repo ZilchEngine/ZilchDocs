@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#griddraw-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#griddraw-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 | |[ AlwaysDrawInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#alwaysdrawineditor-zero)| | |
-| |[ Axis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#axis-zero-engine-documen)| | |
-| |[ CellSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#cellsize-zero-engine-doc)| | |
-| |[ DrawAxisOrigins](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#drawaxisorigins-zero-eng)| | |
-| |[ DrawInGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#drawingame-zero-engine-d)| | |
+| |[ Axis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#axis-zilch-engine-documen)| | |
+| |[ CellSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#cellsize-zilch-engine-doc)| | |
+| |[ DrawAxisOrigins](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#drawaxisorigins-zilch-eng)| | |
+| |[ DrawInGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#drawingame-zilch-engine-d)| | |
 | |[ FollowEditorCamera](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#followeditorcamera-zero)| | |
-| |[ GridColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#gridcolor-zero-engine-do)| | |
-| |[ GridHighlight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#gridhighlight-zero-engin)| | |
-| |[ HalfCellOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#halfcelloffset-zero-engi)| | |
-| |[ HighlightInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#highlightinterval-zero-e)| | |
-| |[ Lines](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#lines-zero-engine-docume)| | |
+| |[ GridColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#gridcolor-zilch-engine-do)| | |
+| |[ GridHighlight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#gridhighlight-zilch-engin)| | |
+| |[ HalfCellOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#halfcelloffset-zilch-engi)| | |
+| |[ HighlightInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#highlightinterval-zilch-e)| | |
+| |[ Lines](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.markdown#lines-zilch-engine-docume)| | |
 
 
  #  Properties

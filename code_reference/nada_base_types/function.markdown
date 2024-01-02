@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown#createdelegate-zero-engi)|[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown#type-zero-engine-documen)|[member](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown)| |
-|[ Invoke](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown#invoke-zero-engine-docum)| | | |
+|[ CreateDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown#createdelegate-zilch-engi)|[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown#type-zilch-engine-documen)|[member](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown)| |
+|[ Invoke](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.markdown#invoke-zilch-engine-docum)| | | |
 
 
  #  Properties

@@ -1,4 +1,4 @@
-3D assets, such as models, model animations, and images to be used on a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/materials/materials_overview.markdown), are added as [Resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown) in the form of [meshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown), [animations](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.markdown), and [textures](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown). The preferred file format for 3D assets is `.fbx` for models and animations (though Zero does accept a number of other formats such as`.obj`, `.3ds`, `.blend`, etc...) and `.png` for textures. See [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown) for how to import data files into Zilch.
+3D assets, such as models, model animations, and images to be used on a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.markdown), are added as [Resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown) in the form of [meshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown), [animations](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.markdown), and [textures](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.markdown). The preferred file format for 3D assets is `.fbx` for models and animations (though Zilch does accept a number of other formats such as`.obj`, `.3ds`, `.blend`, etc...) and `.png` for textures. See [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown) for how to import data files into Zilch.
 
  # Models and Model Animations
 
@@ -23,13 +23,13 @@ On an object shaded with uniform colors, smoothing the normals will have the eff
 
  ### InvertUvYaxis
 
-This boolean property should be set to `true` if the mesh being imported was authored and exported in a program where the default export options do not match Zero's convention. When imported, the y-coordinate for each vertex will be inverted. Zero's uv coordinate convention is for (0,0) to be at top-left and (1,1) at bottom right. Note this will only change the mesh being imported, not any textures that being imported along with it.
+This boolean property should be set to `true` if the mesh being imported was authored and exported in a program where the default export options do not match Zilch's convention. When imported, the y-coordinate for each vertex will be inverted. Zilch's uv coordinate convention is for (0,0) to be at top-left and (1,1) at bottom right. Note this will only change the mesh being imported, not any textures that being imported along with it.
 
-Asset creation programs may export with a different convention where (0,0) is at bottom-left, causing the y-axis (or v-axis) to be inverted if imported to Zilch. If this happens, any Material applied to the object created from textures made for this mesh will not appear as expected. If working with an artist on a project, it is best to have them set the export options to match Zero's convention. If using outsourced or pre-made art assets, however, one may need to invert the uv y-axis when importing scene assets.
+Asset creation programs may export with a different convention where (0,0) is at bottom-left, causing the y-axis (or v-axis) to be inverted if imported to Zilch. If this happens, any Material applied to the object created from textures made for this mesh will not appear as expected. If working with an artist on a project, it is best to have them set the export options to match Zilch's convention. If using outsourced or pre-made art assets, however, one may need to invert the uv y-axis when importing scene assets.
 
  ### GenerateTangentSpace
 
-This boolean property is set to `true` by default and should remain that way unless an artist has specifically authored the tangent space in a specific way that is different from Zero's conventions. In Zero, the vertex tangent will always be in the increasing x (or u) direction, while the bi-tangent will always be in the increasing y (or v) direction.
+This boolean property is set to `true` by default and should remain that way unless an artist has specifically authored the tangent space in a specific way that is different from Zilch's conventions. In Zilch, the vertex tangent will always be in the increasing x (or u) direction, while the bi-tangent will always be in the increasing y (or v) direction.
 
  ### FlipWindingOrder
 
@@ -90,11 +90,11 @@ TextureBuilder, on the other hand, is comprised of a number of modifiable proper
 
  ### Interpretation
 
-[Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturetype) sets whether a texture should be interpreted as a `Texture2D` or as a `TextureCube`. `TextureCube` is the [TextureType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturetype) that should be chosen when the image should be used as a skybox in the [renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/renderer.markdown). For any possible use, `Texture2D` should be chosen.
+[Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturetype) sets whether a texture should be interpreted as a `Texture2D` or as a `TextureCube`. `TextureCube` is the [TextureType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturetype) that should be chosen when the image should be used as a skybox in the [renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer.markdown). For any possible use, `Texture2D` should be chosen.
 
  ### Compression
 
-[Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturecompression) sets the lossy, hardware-supported format to convert the texture to, if any. For a more detailed explanation, see [compression.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/adding_assets/adding_3d_assets/compression.markdown).
+[Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#texturecompression) sets the lossy, hardware-supported format to convert the texture to, if any. For a more detailed explanation, see [compression.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_3d_assets/compression.markdown).
 
  ### Addressing
 
@@ -127,7 +127,7 @@ GammaCorrection checkBox, when set to `true`, will correct the values of each in
  # Related Material
  ## Manual
 
-- [Models and Skinned Models](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/models/model_component.markdown)
+- [Models and Skinned Models](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.markdown)
 
  ## Code Reference
 

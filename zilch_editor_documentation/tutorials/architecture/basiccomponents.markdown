@@ -1,4 +1,4 @@
-This lesson covers the basics of [ Components ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components/components.markdown) and demonstrates basic usage of the [ Collider ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown), [ RigidBody ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/rigidbody.markdown), [ Sprite ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/sprite.markdown), and [ SpriteText ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritetext.markdown) components.
+This lesson covers the basics of [ Components ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components/components.markdown) and demonstrates basic usage of the [ Collider ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown), [ RigidBody ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/rigidbody.markdown), [ Sprite ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/sprite.markdown), and [ SpriteText ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.markdown) components.
 
 
  #  Learning Objectives
@@ -17,14 +17,14 @@ Each component will typically have its own set of properties that can be modifie
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 
 
  ##  Create a Transform Object
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
 
 
 
@@ -65,7 +65,7 @@ This provides a very basic object that has a defined position, scale and rotatio
 You can also add components to a selected object by using the hotkey `Ctrl + M`.
 
 NOTE:
-  Some components may require another component to be present on an object before they can be added: this is called a **dependency**. Many of the components in Zero (Including Sprite, for example) depend on the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown) component. If one or more dependencies aren't satisfied, Zero will notify you when you attempt to add that component.
+  Some components may require another component to be present on an object before they can be added: this is called a **dependency**. Many of the components in Zilch (Including Sprite, for example) depend on the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown) component. If one or more dependencies aren't satisfied, Zilch will notify you when you attempt to add that component.
   ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46145.png)
 
 
@@ -92,7 +92,7 @@ The [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference
  #  Making a Copy of an Object
 
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Transform object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Transform object
  - Press key `Ctrl + C` to copy it 
  - Press key `Ctrl + V` to paste a new copy
 
@@ -132,7 +132,7 @@ NOTE:
 | White   | `[R:255, G:255, B:255, A:1.00]` | ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46260.png) |
 | Black   | `[R:0  , G:0  , B:0  , A:1.00]` | ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46261.png) |
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : the other Transform object object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : the other Transform object object
 - Rename it to `Ground`
 - In the `Properties Window`
  - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown)
@@ -166,11 +166,11 @@ The [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_refere
 | AngularVelocity  | Angular velocity is an object's current spin. Changing this property in the editor sets the object's initial spin (only around the Z axis for 2D objects) |
 | RotationLocked checkBox | Prevents the physics system from rotating the object. (The object can still be rotated by modifying its Transform's Rotation  property.) Commonly used for player characters |
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : RedBall object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : RedBall object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Save Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#saveproject)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Save Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#saveproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 The RedBall object  is now affected by gravity.
 
@@ -182,9 +182,9 @@ The RedBall object  is now affected by gravity.
 *The RedBall object object falling due to gravity*
 
 
-Notice that it didn't collide with the Ground object object, though. To have the RedBall object  hit the ground, we'll need to add [ colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown) to our objects.
+Notice that it didn't collide with the Ground object object, though. To have the RedBall object  hit the ground, we'll need to add [ colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown) to our objects.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  #  Collider Components
@@ -207,18 +207,18 @@ Colliders are used to detect when two objects occupy the same physical space, an
 | Size  | How big the collider should be, relative to the object's scale (only available on BoxCollider) |
 | Radius  | How big the radius of the collider should be, relative to the object's scale (only available on SphereCollider) |
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : RedBall object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : RedBall object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown)
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown)
 
 Let's also add a collider to our Ground object object.
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Ground object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Ground object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Save Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#saveproject)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Save Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#saveproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -230,7 +230,7 @@ Let's also add a collider to our Ground object object.
 
 Now our RedBall object is colliding with the Ground object as intended.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  #  SpriteText Component
@@ -256,19 +256,19 @@ Similar to [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_re
 
 To finish up, the project let's add a Title object.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspritetext)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspritetext)
 - Rename SpriteText object to `Title`
 - In the `Properties Window`
  - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown)
   - Set Translation  to `[0, 7, 0]`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown)
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown)
  - Under [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.markdown)
   - Set FontSize  to `100`
   - Set Text  to `Hello World!`, or your preferred title
 
 Let's take a look at our final result:
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -278,19 +278,19 @@ Let's take a look at our final result:
 *The RedBall object falls and lands on the Ground object while the Title object says hello*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  #  Related Materials
  ##  Manual
-- [components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components/components.markdown)
-- [colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown)
-- [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/rigidbody.markdown)
-- [sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites.markdown)
-- [spritetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritetext.markdown)
-- [editorcommands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands.markdown)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown)
-- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
-- [gameobjectsconcept](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/cogs/gameobjectsconcept.markdown)
+- [components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components/components.markdown)
+- [colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown)
+- [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/rigidbody.markdown)
+- [sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites.markdown)
+- [spritetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.markdown)
+- [editorcommands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands.markdown)
+- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown)
+- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown)
+- [gameobjectsconcept](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.markdown)
 
  ##  Code Reference
  ###  Commands

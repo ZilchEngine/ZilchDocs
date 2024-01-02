@@ -38,7 +38,7 @@ Console.WriteLine(a);
 
  #  Array Access
 
-Array elements can be accessed for reading or writing using the **indexing operator**, `[]`. Array indexing in Nada is **zero-based** (the very first element in an array has an index of 0):
+Array elements can be accessed for reading or writing using the **indexing operator**, `[]`. Array indexing in Nada is **zilch-based** (the very first element in an array has an index of 0):
 
 ```lang=csharp, name=Access Example
 var words = Array[String]()
@@ -60,7 +60,7 @@ quick
 {the, quick, polka-dotted, fox}
 ```
 
-Attempting to access a negative index or an index that is greater than or equal to the array's [Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/arrays/.markdown#array-size) will throw a Nada exception.
+Attempting to access a negative index or an index that is greater than or equal to the array's [Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays/.markdown#array-size) will throw a Nada exception.
 
  #  Adding to and Removing from Arrays
 
@@ -107,7 +107,7 @@ NOTE: Insert is less efficient than Add because it requires all the elements fol
 
  ##  Removing
 
-The most basic way to remove an element from an array is with the [ Pop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#pop-zero-engine-document) method, which shrinks the array by one from the end:
+The most basic way to remove an element from an array is with the [ Pop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#pop-zilch-engine-document) method, which shrinks the array by one from the end:
 
 ```lang=csharp, name=Pop Example
 var taskList = Array[String]()
@@ -177,7 +177,7 @@ Console.WriteLine(animals);
 
 Though RemoveSwap does not preserve element order, it is essentially just as efficient as Pop.
 
-It is also possible to remove a known element with an unknown index. [ RemoveFirst](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removefirst-zero-engine) finds an array's first element that matches the given value and then removes it, preserving the order of the remaining elements:
+It is also possible to remove a known element with an unknown index. [ RemoveFirst](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removefirst-zilch-engine) finds an array's first element that matches the given value and then removes it, preserving the order of the remaining elements:
 
 ```lang=csharp, name=RemoveFirst Example
 var data = Array[Integer]()
@@ -198,7 +198,7 @@ Console.WriteLine(data);
 {0, 4, 1, 2}
 ```
 
-To find and remove *all* elements that match a given value, use the [ RemoveAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeall-zero-engine-do) method:
+To find and remove *all* elements that match a given value, use the [ RemoveAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeall-zilch-engine-do) method:
 
 ```lang=csharp, name=RemoveAll Example
 var waterfowl = Array[String]()
@@ -301,11 +301,11 @@ secondExample, after copy and clear:  {7, 6, 5, 4, 3, 2, 1, 0}
 
  #  Looping Over Arrays
 
-As arrays are ordered sequences of objects, they lend themselves naturally to use in [ loops](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/looping.markdown): in each loop iteration, the next element of the array can be accessed, modified, copied, etc.
+As arrays are ordered sequences of objects, they lend themselves naturally to use in [ loops](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/looping.markdown): in each loop iteration, the next element of the array can be accessed, modified, copied, etc.
 
  ##  For Loops
 
-The most basic way to loop over an array is by using a [ for loop](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/looping.markdown#for-loop). This takes advantage of the fact that an array contains its [ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zero-engine-docume), or number of elements, as a property:
+The most basic way to loop over an array is by using a [ for loop](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/looping.markdown#for-loop). This takes advantage of the fact that an array contains its [ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zilch-engine-docume), or number of elements, as a property:
 
 ```lang=csharp, name=For Loop Example
 var numbers = Array[Integer]() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, };
@@ -335,7 +335,7 @@ Squares:
 
  ##  For Each Loops
 
-Another way to iterate through an array is to use a [ foreach loop](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/looping.markdown#for-each-loop):
+Another way to iterate through an array is to use a [ foreach loop](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/looping.markdown#for-each-loop):
 
 ```lang=csharp, name=For Each Loop Example
 var numbers = Array[Integer]() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, };
@@ -363,7 +363,7 @@ Cubes:
 
  #  Array Size
 
-A Nada array keeps track of two different size-related properties: [ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zero-engine-docume) and [ Capacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#capacity-zero-engine-doc). When an array is initialized, it is allotted just enough memory to store the given number of elements. If an element is added when it doesn't have enough allocated space for another one, the array is automatically expanded so that it can fit more elements. An array's **Count** is the number of elements that have been added to it (or were placed there on initialization); its **Capacity** is the number of elements that could possibly fit in it before it needs to grow again:
+A Nada array keeps track of two different size-related properties: [ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zilch-engine-docume) and [ Capacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#capacity-zilch-engine-doc). When an array is initialized, it is allotted just enough memory to store the given number of elements. If an element is added when it doesn't have enough allocated space for another one, the array is automatically expanded so that it can fit more elements. An array's **Count** is the number of elements that have been added to it (or were placed there on initialization); its **Capacity** is the number of elements that could possibly fit in it before it needs to grow again:
 
 ```lang=csharp, name=Count and Capacity Example
 var array = Array[Integer]();
@@ -527,11 +527,11 @@ Note that the `CompareNameLengthsThenAlpha` function sorts Adventurers in ascend
 
  ##  Count and Capacity
 
-[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zero-engine-docume) and [ Capacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#capacity-zero-engine-doc) get the number of elements in the array, and its potential capacity to hold elements, respectively. They are discussed in detail [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/arrays/.markdown#array-size).
+[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#count-zilch-engine-docume) and [ Capacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#capacity-zilch-engine-doc) get the number of elements in the array, and its potential capacity to hold elements, respectively. They are discussed in detail [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays/.markdown#array-size).
 
  ##  LastIndex
 
-[ LastIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#lastindex-zero-engine-do) gets the index of the last element in the array. It is always one less than Count (even when Count is 0).
+[ LastIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#lastindex-zilch-engine-do) gets the index of the last element in the array. It is always one less than Count (even when Count is 0).
 
  #  Array Methods
 
@@ -539,21 +539,21 @@ Note that the `CompareNameLengthsThenAlpha` function sorts Adventurers in ascend
 
 The [ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#add-void) method expands an array so that the given element is the last item in it. The [ Push](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#push-void) method is identical to Add, and exists only for legacy purposes. The [ Insert](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#insert-void) method expands an array so that the given element is at the given index in it.
 
-All of these methods are discussed in detail [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/arrays/.markdown#adding).
+All of these methods are discussed in detail [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays/.markdown#adding).
 
  ##  Pop, RemoveAt, RemoveSwap, RemoveFirst, RemoveAll, and Clear
 
-The [ Pop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#pop-any) method removes the last item from an array. The [ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeat-void) method removes from an array the element found at the given index. The [ RemoveSwap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeswap-void) method removes from an array the element found at the given index and swaps the last item in the array to that newly-vacated index. The [ RemoveFirst](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removefirst-zero-engine) method removes from an array the first element that matches the given object. The [ RemoveAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeall-zero-engine-do) method removes from an array every element that matches the given object. The [ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#clear-void) method removes all the elements from an array.
+The [ Pop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#pop-any) method removes the last item from an array. The [ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeat-void) method removes from an array the element found at the given index. The [ RemoveSwap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeswap-void) method removes from an array the element found at the given index and swaps the last item in the array to that newly-vacated index. The [ RemoveFirst](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removefirst-zilch-engine) method removes from an array the first element that matches the given object. The [ RemoveAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#removeall-zilch-engine-do) method removes from an array every element that matches the given object. The [ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#clear-void) method removes all the elements from an array.
 
-All of these methods are discussed in detail [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/arrays/.markdown#removing).
+All of these methods are discussed in detail [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays/.markdown#removing).
 
  ##  Copy
 
-The [ Copy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#copy-array-t) method returns a new array that is a copy of the original. This method should be used to create a clone of an array that is to be modified separately without affecting the original. Because **Array** is a reference type, this cannot be done merely with the assignment operator, as shown [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/arrays/.markdown#reference-type).
+The [ Copy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#copy-array-t) method returns a new array that is a copy of the original. This method should be used to create a clone of an array that is to be modified separately without affecting the original. Because **Array** is a reference type, this cannot be done merely with the assignment operator, as shown [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays/.markdown#reference-type).
 
  ##  FindFirstIndex
 
-The [ FindFirstIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#findfirstindex-zero-engi) method returns the index of the first occurrence in an array of a given object. This method compares value types by comparing their data, and it compares reference types by comparing their handles. If the given object is not found, it returns `-1`:
+The [ FindFirstIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#findfirstindex-zilch-engi) method returns the index of the first occurrence in an array of a given object. This method compares value types by comparing their data, and it compares reference types by comparing their handles. If the given object is not found, it returns `-1`:
 
 ```lang=csharp, name=FindFirstIndex Example
 var valueType0 = Integer2(1, 2);
@@ -579,7 +579,7 @@ Console.WriteLine(arrayOfReferenceType.FindFirstIndex(referenceType1));
 
  ##  Get and Set
 
-The [ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#get-zero-engine-document) method returns the array element at the given index. The [ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#set-void) method writes the given object to the given index. These methods are called when the **indexing operator**, `[]`, is used:
+The [ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#get-zilch-engine-document) method returns the array element at the given index. The [ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#set-void) method writes the given object to the given index. These methods are called when the **indexing operator**, `[]`, is used:
 
 ```lang=chsarp, name=Get Example
 var aStates = Array[String]() { "alabama", "nebraska", "arizona", "kansas" };
@@ -660,15 +660,15 @@ As with all cases of changing an array's size, if Resize raises an array's Count
 
  ##  Sort
 
-The [ Sort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#sort-void) method sorts an array using the given comparison function. Typically, this is something the user provides, though some types, such as [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown), provide static functions that can be used with the Sort method. Array sorting is discussed in depth [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/arrays/.markdown#sorting-arrays).
+The [ Sort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.markdown#sort-void) method sorts an array using the given comparison function. Typically, this is something the user provides, though some types, such as [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown), provide static functions that can be used with the Sort method. Array sorting is discussed in depth [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays/.markdown#sorting-arrays).
 
  #  Related Materials
 
  ##  Manual
 
-- [ Strings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/strings.markdown)
-- [ Classes and Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/classes.markdown)
-- [ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/looping.markdown)
+- [ Strings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/strings.markdown)
+- [ Classes and Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/classes.markdown)
+- [ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/looping.markdown)
 
  ##  Code Reference
 

@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ComputeMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#computemotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#active-zero-engine-docum)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
-|[ ComputeSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#computespring-void)|[ Angular0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#angular0-zero-engine-doc)| | |
-|[ DetachFromOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#detachfromowner-void)|[ Angular1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#angular1-zero-engine-doc)| | |
-|[ IsOwned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#isowned-zero-engine-docu)|[ Baumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#baumgarte-zero-engine-do)| | |
-|[ SetErrorAndBias](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#seterrorandbias-void)|[ Bias](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#bias-zero-engine-documen)| | |
-|[ SetJacobian](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#setjacobian-void)|[ EffectiveMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#effectivemass-zero-engin)| | |
-| |[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#error-zero-engine-docume)| | |
-| |[ Gamma](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#gamma-zero-engine-docume)| | |
-| |[ Impulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#impulse-zero-engine-docu)| | |
-| |[ Linear0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#linear0-zero-engine-docu)| | |
-| |[ Linear1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#linear1-zero-engine-docu)| | |
-| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#maximpulse-zero-engine-d)| | |
-| |[ MinImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#minimpulse-zero-engine-d)| | |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#owner-zero-engine-docume)| | |
-| |[ SolvePosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#solveposition-zero-engin)| | |
+|[ ComputeMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#computemotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#active-zilch-engine-docum)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
+|[ ComputeSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#computespring-void)|[ Angular0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#angular0-zilch-engine-doc)| | |
+|[ DetachFromOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#detachfromowner-void)|[ Angular1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#angular1-zilch-engine-doc)| | |
+|[ IsOwned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#isowned-zilch-engine-docu)|[ Baumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#baumgarte-zilch-engine-do)| | |
+|[ SetErrorAndBias](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#seterrorandbias-void)|[ Bias](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#bias-zilch-engine-documen)| | |
+|[ SetJacobian](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#setjacobian-void)|[ EffectiveMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#effectivemass-zilch-engin)| | |
+| |[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#error-zilch-engine-docume)| | |
+| |[ Gamma](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#gamma-zilch-engine-docume)| | |
+| |[ Impulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#impulse-zilch-engine-docu)| | |
+| |[ Linear0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#linear0-zilch-engine-docu)| | |
+| |[ Linear1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#linear1-zilch-engine-docu)| | |
+| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#maximpulse-zilch-engine-d)| | |
+| |[ MinImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#minimpulse-zilch-engine-d)| | |
+| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#owner-zilch-engine-docume)| | |
+| |[ SolvePosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.markdown#solveposition-zilch-engin)| | |
 
 
  #  Properties

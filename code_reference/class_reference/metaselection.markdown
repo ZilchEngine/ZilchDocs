@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#all-zero-engine-document)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#clear-void)|[ Primary](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#primary-zero-engine-docu)| | |
-|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#contains-zero-engine-doc)| | | |
-|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#count-zero-engine-docume)| | | |
-|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#empty-zero-engine-docume)| | | |
+|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#all-zilch-engine-document)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
+|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#clear-void)|[ Primary](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#primary-zilch-engine-docu)| | |
+|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#contains-zilch-engine-doc)| | | |
+|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#count-zilch-engine-docume)| | | |
+|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#empty-zilch-engine-docume)| | | |
 |[ FinalSelectionChanged](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#finalselectionchanged-vo)| | | |
 |[ Remove](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#remove-void)| | | |
 |[ Replace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.markdown#replace-void)| | | |

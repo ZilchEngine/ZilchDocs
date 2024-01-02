@@ -1,6 +1,6 @@
-In Zero, albedo refers to the color of a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/materials.markdown) as defined by the reflected light an object should realistically reflect. In the case of non-metals, or dielectrics, the vast majority reflect almost all light as diffuse. In the case of metals, or conductors, almost all light is reflected, rendering a reflection of its surroundings if the metal is polished or smooth. The rougher the surface is, however, the more blurred the reflection will become. Metals also tint the light they reflect leading to the different colors of metals such as gold, copper, and silver.
+In Zilch, albedo refers to the color of a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials.markdown) as defined by the reflected light an object should realistically reflect. In the case of non-metals, or dielectrics, the vast majority reflect almost all light as diffuse. In the case of metals, or conductors, almost all light is reflected, rendering a reflection of its surroundings if the metal is polished or smooth. The rougher the surface is, however, the more blurred the reflection will become. Metals also tint the light they reflect leading to the different colors of metals such as gold, copper, and silver.
 
-The albedo fragments in Zero handle both of these cases depending on the values of other fragments, such as metallic, roughness, and specular. Other frameworks and engines may refer to this as the base color or diffuse map. When setting this property by map or by value, there are other considerations to take into account when visualizing how the final material will appear.
+The albedo fragments in Zilch handle both of these cases depending on the values of other fragments, such as metallic, roughness, and specular. Other frameworks and engines may refer to this as the base color or diffuse map. When setting this property by map or by value, there are other considerations to take into account when visualizing how the final material will appear.
 
 For a quick example of this difference, compare the following three screenshots. They all have the same albedo value of `R:255 G:226 R:155`, which should appear as gold when seen as a metal. The first image shows a sphere with only the AlbedoValue fragment on it. The second also has a SpecularValue fragment set to `1.0`. The third has a MetallicValue fragment set to `1.0` instead of specular. 
 
@@ -90,7 +90,7 @@ Note that in the previous two examples there were no other fragments on the mate
 
  # AlbedoMap
 
-An albedo map is a texture provided by an artist for use on a [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/models/model_component.markdown). While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives and look completely natural. To apply an AlbedoMap fragment to a material, click on the `Add NadaFragment` button in the Properties window:
+An albedo map is a texture provided by an artist for use on a [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.markdown). While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives and look completely natural. To apply an AlbedoMap fragment to a material, click on the `Add NadaFragment` button in the Properties window:
 
 
 
@@ -135,12 +135,12 @@ Let's take a look at how model-specific textures are applied to unique models.
 
 
 
-![SpaceFighterAlbedo](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/2988.png) *The albedo map that will be applied to the material before being imported into Zero*
+![SpaceFighterAlbedo](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/2988.png) *The albedo map that will be applied to the material before being imported into Zilch*
 
 
 
 
-![SpaceFighterAlbedoGammaCorrected](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/2990.png) *The albedo map after being imported into Zero and gamma corrected*
+![SpaceFighterAlbedoGammaCorrected](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/2990.png) *The albedo map after being imported into Zilch and gamma corrected*
 
 
 
@@ -184,8 +184,8 @@ The difference may be subtle or pronounced depending on the degree of change bet
  ## Reference Pages
 
  ### Manual
-- [model_component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/models/model_component.markdown)
-- [materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/materials.markdown)
+- [model_component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.markdown)
+- [materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials.markdown)
 
  ### Code Reference
 - [model](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown)

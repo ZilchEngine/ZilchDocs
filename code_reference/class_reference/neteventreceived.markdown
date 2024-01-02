@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Destination](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#destination-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ NetEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#netevent-zero-engine-doc)| | |
-| |[ ReturnAllow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#returnallow-zero-engine)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#theirnetpeerid-zero-engi)| | |
+| |[ Destination](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#destination-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ NetEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#netevent-zilch-engine-doc)| | |
+| |[ ReturnAllow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#returnallow-zilch-engine)| | |
+| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.markdown#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

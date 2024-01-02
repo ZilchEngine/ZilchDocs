@@ -6,15 +6,15 @@ This lesson covers how to handle basic keyboard input in Zilch Engine.
 - Checking for keyboard input
 
  # Level Setup
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `CharacterLogic`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Character`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `CharacterLogic`
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `CharacterLogic`
 
  # Keyboard Input
 
@@ -39,7 +39,7 @@ class CharacterLogic : NadaComponent
   }
 }
 ```
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - Press key `Space`
 
 
@@ -47,15 +47,15 @@ class CharacterLogic : NadaComponent
 ![SimpleInput](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89953.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Let's take a closer look inside our if statement:
 
 | Zilch.Keyboard.KeyIsPressed(Keys.Space); |
 |-----------------------------------------------|
-| [Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown) | Accessing the Zero engine class |
+| [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown) | Accessing the Zilch engine class |
 | [Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown) | Accessing Keyboard class |
-| [KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyispressed-zero-engine)(...); | Function that determines whether a given key has been pressed this frame |
+| [KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyispressed-zilch-engine)(...); | Function that determines whether a given key has been pressed this frame |
 | [Keys](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#keys) | Enumeration containing all keyboard keys |
 | .Space |  The enumeration index corresponding to the `Space` key |
 
@@ -63,13 +63,13 @@ Here are all Keyboard functions:
 
 | Keyboard Functions |
 |-----------------------|
-| [KeyIsDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do) | Checks whether a given key is currently down this frame |
-| [KeyIsUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisup-zero-engine-docu) | Checks whether a given key is currently down this frame|
-| [KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyispressed-zero-engine) | Checks whether a given key was pressed this frame |
-| [KeyIsReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisreleased-zero-engin) | Checks whether a given key was released this frame |
+| [KeyIsDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zilch-engine-do) | Checks whether a given key is currently down this frame |
+| [KeyIsUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisup-zilch-engine-docu) | Checks whether a given key is currently down this frame|
+| [KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyispressed-zilch-engine) | Checks whether a given key was pressed this frame |
+| [KeyIsReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisreleased-zilch-engin) | Checks whether a given key was released this frame |
 
 (NOTE) **Enumerations** - 
-An enumeration (or enum) is a data type that groups items assigning each a unique name under the enumerated list. Items can be referenced by accessing the type followed by a `.` and the name of the desired item (i.e. [Keys.Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#keys) or Colors.Red). You can read more on enumerations [ here ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/enums.markdown).
+An enumeration (or enum) is a data type that groups items assigning each a unique name under the enumerated list. Items can be referenced by accessing the type followed by a `.` and the name of the desired item (i.e. [Keys.Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#keys) or Colors.Red). You can read more on enumerations [ here ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/enums.markdown).
 
  # Dynamic Character Controller
 
@@ -77,20 +77,20 @@ Let's use what we just learned to create a character controller for a simple pla
 
  ## Character Setup
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Character object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Character object
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
  - Under [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
   - Set RotationLocked checkBox to `true`
 
  ## Ground Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Sprite object
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Ground`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
  - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.markdown)
   - Set Translation  to `0.0, -3.0, 0.0`
   - Set Scale  to `8.0, 0.0, 0.0`
@@ -123,7 +123,7 @@ function OnLogicUpdate(event : UpdateEvent)
 }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - Press key `Left` and `Right`
 
 
@@ -131,19 +131,19 @@ function OnLogicUpdate(event : UpdateEvent)
 ![CharacterMovement](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89976.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
  # Related Materials
 
  ## Manual
-- [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites.markdown)
-- [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/rigidbody.markdown)
-- [Colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown)
-- [KeyboardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/keyboardinput.markdown)
-- [ Enumerations ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/enums.markdown)
-- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/createobject.markdown)
-- [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites.markdown)
+- [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/rigidbody.markdown)
+- [Colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown)
+- [KeyboardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/keyboardinput.markdown)
+- [ Enumerations ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/enums.markdown)
+- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.markdown)
+- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.markdown)
+- [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 
  ## Reference
  ### Classes
@@ -153,7 +153,7 @@ function OnLogicUpdate(event : UpdateEvent)
 - [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)
 - [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.markdown)
 - [keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown)
-- [Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown)
+- [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.markdown)
 
  ### Enums
 - [Keys](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#keys)

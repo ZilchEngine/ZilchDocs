@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#meshcollider-void)|[ DrawEdges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#drawedges-zero-engine-do)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
-| |[ DrawFaceNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#drawfacenormals-zero-eng)| | |
-| |[ DrawFaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#drawfaces-zero-engine-do)| | |
-| |[ PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#physicsmesh-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#meshcollider-void)|[ DrawEdges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#drawedges-zilch-engine-do)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
+| |[ DrawFaceNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#drawfacenormals-zilch-eng)| | |
+| |[ DrawFaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#drawfaces-zilch-engine-do)| | |
+| |[ PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.markdown#physicsmesh-zilch-engine)| | |
 
 
  #  Properties

@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddAttribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#addattribute-void)|[ VertexCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#vertexcount-zero-engine)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
+|[ AddAttribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#addattribute-void)|[ VertexCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#vertexcount-zilch-engine)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
 |[ AddByte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#addbyte-void)| | | |
 |[ AddReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#addreal-void)| | | |
 |[ AddShort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#addshort-void)| | | |
 |[ ClearAttributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#clearattributes-void)| | | |
 |[ ClearData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#cleardata-void)| | | |
-|[ GetAttributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getattributes-zero-engin)| | | |
-|[ GetElementCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getelementcount-zero-eng)| | | |
-|[ GetElementType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getelementtype-zero-engi)| | | |
-|[ GetVertexData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getvertexdata-zero-engin)| | | |
-|[ IsValidVertexData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#isvalidvertexdata-zero-e)| | | |
+|[ GetAttributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getattributes-zilch-engin)| | | |
+|[ GetElementCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getelementcount-zilch-eng)| | | |
+|[ GetElementType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getelementtype-zilch-engi)| | | |
+|[ GetVertexData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#getvertexdata-zilch-engin)| | | |
+|[ IsValidVertexData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.markdown#isvalidvertexdata-zilch-e)| | | |
 
 
  #  Properties

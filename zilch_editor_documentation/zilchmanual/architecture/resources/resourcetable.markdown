@@ -5,7 +5,7 @@
 
 ![ResourceTable1](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47118.PNG)
 
-ResourceTables store a homogeneous collection of entries. Pictured above is a table of [ Archetypes ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/archetypes.markdown). This can be switched to any other resource type or to strings.
+ResourceTables store a homogeneous collection of entries. Pictured above is a table of [ Archetypes ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes.markdown). This can be switched to any other resource type or to strings.
 
 ResourceTable entries are composed of three items:
  - **Name**: A name used for hashmap queries. This is sometimes used as a display name for the entry. Note: This name does not have to Value. 

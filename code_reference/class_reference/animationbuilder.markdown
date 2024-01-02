@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationbuilder.markdown#animationbuilder-void)|[ Clips](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationbuilder.markdown#clips-zero-engine-docume)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationbuilder.markdown#animationbuilder-void)|[ Clips](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationbuilder.markdown#clips-zilch-engine-docume)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
 
 
  #  Properties

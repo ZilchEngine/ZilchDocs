@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#gearjoint-void)|[ Constant](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#constant-zero-engine-doc)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-| |[ JointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointa-zero-engine-docum)| | |
-| |[ JointAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointapath-zero-engine-d)| | |
-| |[ JointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointb-zero-engine-docum)| | |
-| |[ JointBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointbpath-zero-engine-d)| | |
-| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#ratio-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#gearjoint-void)|[ Constant](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#constant-zilch-engine-doc)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+| |[ JointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointa-zilch-engine-docum)| | |
+| |[ JointAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointapath-zilch-engine-d)| | |
+| |[ JointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointb-zilch-engine-docum)| | |
+| |[ JointBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#jointbpath-zilch-engine-d)| | |
+| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.markdown#ratio-zilch-engine-docume)| | |
 
 
  #  Properties

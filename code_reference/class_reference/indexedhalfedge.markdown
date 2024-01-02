@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#indexedhalfedge-void)|[ FaceIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#faceindex-zero-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
-| |[ TwinIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#twinindex-zero-engine-do)| | |
-| |[ VertexIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#vertexindex-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#indexedhalfedge-void)|[ FaceIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#faceindex-zilch-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+| |[ TwinIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#twinindex-zilch-engine-do)| | |
+| |[ VertexIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.markdown#vertexindex-zilch-engine)| | |
 
 
  #  Properties

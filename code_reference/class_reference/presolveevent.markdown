@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.markdown#friction-zero-engine-doc)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.markdown)| |
-| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.markdown#restitution-zero-engine)| | |
+| |[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.markdown#friction-zilch-engine-doc)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.markdown)| |
+| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.markdown#restitution-zilch-engine)| | |
 
 
  #  Properties

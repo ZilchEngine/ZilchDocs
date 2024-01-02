@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FilterState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilterevent.markdown#filterstate-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilterevent.markdown#object-zero-engine-docum)| | |
+| |[ FilterState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilterevent.markdown#filterstate-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilterevent.markdown#object-zilch-engine-docum)| | |
 
 
  #  Properties

@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#massoverride-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#massoverride-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 |[ RecomputeMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#recomputemass-void)|[ AutoComputeCenterOfMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#autocomputecenterofmass)| | |
 | |[ AutoComputeInertia](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#autocomputeinertia-zero)| | |
-| |[ InverseMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#inversemass-zero-engine)| | |
-| |[ LocalCenterOfMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#localcenterofmass-zero-e)| | |
+| |[ InverseMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#inversemass-zilch-engine)| | |
+| |[ LocalCenterOfMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#localcenterofmass-zilch-e)| | |
 | |[ LocalInverseInertiaTensor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#localinverseinertiatenso)| | |
-| |[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#mass-zero-engine-documen)| | |
+| |[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown#mass-zilch-engine-documen)| | |
 
 
  #  Properties

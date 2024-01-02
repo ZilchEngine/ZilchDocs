@@ -48,7 +48,7 @@ Events are dispatched per object. The objects that events can be dispatched on c
  # Creating and Using Custom Script Events
 
 
-The creation and usage of custom events in Zero is a multi-step process that follows a simple mechanism that relies upon correctly matching up event dispatches with event connections. The following sections will detail the way in which to correctly create, attach data to, dispatch, and connect to custom events.
+The creation and usage of custom events in Zilch is a multi-step process that follows a simple mechanism that relies upon correctly matching up event dispatches with event connections. The following sections will detail the way in which to correctly create, attach data to, dispatch, and connect to custom events.
 
 WARNING: Occasionally, you will need to store information received in an event for later use. You may be tempted to store a reference to the event object itself. **This is a bad practice and should never be done.** You should instead copy the information within the received event object by value into variables of their corresponding types. 
 

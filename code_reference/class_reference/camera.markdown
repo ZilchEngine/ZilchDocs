@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#camera-void)|[ CameraViewportCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#cameraviewportcog-zero-e)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ GetFrustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#getfrustum-zero-engine-d)|[ FarPlane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#farplane-zero-engine-doc)| | |
-| |[ FieldOfView](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#fieldofview-zero-engine)| | |
-| |[ NearPlane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#nearplane-zero-engine-do)| | |
-| |[ PerspectiveMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#perspectivemode-zero-eng)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#size-zero-engine-documen)| | |
-| |[ WorldDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#worlddirection-zero-engi)| | |
-| |[ WorldTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#worldtranslation-zero-en)| | |
-| |[ WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#worldup-zero-engine-docu)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#camera-void)|[ CameraViewportCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#cameraviewportcog-zilch-e)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ GetFrustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#getfrustum-zilch-engine-d)|[ FarPlane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#farplane-zilch-engine-doc)| | |
+| |[ FieldOfView](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#fieldofview-zilch-engine)| | |
+| |[ NearPlane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#nearplane-zilch-engine-do)| | |
+| |[ PerspectiveMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#perspectivemode-zilch-eng)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#size-zilch-engine-documen)| | |
+| |[ WorldDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#worlddirection-zilch-engi)| | |
+| |[ WorldTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#worldtranslation-zilch-en)| | |
+| |[ WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.markdown#worldup-zilch-engine-docu)| | |
 
 
  #  Properties

@@ -20,7 +20,7 @@ When an object is moving fast, the fact that its motion is an illusion becomes m
 
  # Related Material
  ## Manual
-- [Color Gradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources/colorgradient.markdown)
+- [Color Gradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/colorgradient.markdown)
 
  ## Code Reference
 - [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/spriteparticlesystem.markdown)

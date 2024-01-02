@@ -5,8 +5,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.markdown#editorsettings-void)|[ AutoUpdateContentChanges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.markdown#autoupdatecontentchanges)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ ViewCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.markdown#viewcube-zero-engine-doc)| | |
-| |[ ViewCubeSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.markdown#viewcubesize-zero-engine)| | |
+| |[ ViewCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.markdown#viewcube-zilch-engine-doc)| | |
+| |[ ViewCubeSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.markdown#viewcubesize-zilch-engine)| | |
 
 
  #  Properties

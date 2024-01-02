@@ -4,7 +4,7 @@ Ways to close out of the `Game Window` include:
 
 1. Press `Esc`
 
-2. [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+2. [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 3. Click `x` on the `name=Game Window, icon=window-restore` tab
    ![CloseGame](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47439.png)

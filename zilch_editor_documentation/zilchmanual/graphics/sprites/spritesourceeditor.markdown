@@ -1,6 +1,6 @@
-(NOTE)**Recommended Reading** This page includes topics one might not have addressed yet. To learn about or review these topics, the following list provides the links to their respective Manual or Tutorial pages: [Adding Textures and Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/adding_assets/adding_textures_and_sprites.markdown)
+(NOTE)**Recommended Reading** This page includes topics one might not have addressed yet. To learn about or review these topics, the following list provides the links to their respective Manual or Tutorial pages: [Adding Textures and Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_textures_and_sprites.markdown)
 
-Frequently, when a [SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown) has been imported into Zero, it still needs some minor modifications; this is where the Sprite Source Editor comes into play. This can be used not only to make changes to the SpriteSource, but also to cut a SpriteSource into multiple [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown) or animate a Multi-Frame Sprite.
+Frequently, when a [SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown) has been imported into Zilch, it still needs some minor modifications; this is where the Sprite Source Editor comes into play. This can be used not only to make changes to the SpriteSource, but also to cut a SpriteSource into multiple [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown) or animate a Multi-Frame Sprite.
 
  # Using the Sprite Source Editor
 Once the SpriteSource has been imported, the Sprite Source Editor can be opened by going into the Library tab and double clicking on the SpriteSource that needs to be edited. It can also be opened by clicking on the small grey arrow next to the `name=SpriteSource, icon=picture-o` Property, as seen below on the Sprite Component.
@@ -31,7 +31,7 @@ Looping checkBox: Toggle whether the sprite animation should loop (if it is an a
 * **Linear**: pixels are blurred together
 FrameRate : Number of frames to display in one second.
 PixelsPerUnit : Number of pixels in the texture that will fit in one unit length in the GameSession's world space.
-- [SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#spritefill): The method of filling the sprite into a given [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/area.markdown)
+- [SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.markdown#spritefill): The method of filling the sprite into a given [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/area.markdown)
 * **Stretch**: The sprites texture is stretched to fit the area component of a cog.
 * **NineSlice**: The sprite texture is stretched, but only within the nine-sliced middle region.
 * **Tiled**: The sprite texture is tiled evenly across the area component of a cog.
@@ -67,11 +67,11 @@ The Origin drop-down menu property will place whichever point on the Sprite that
 
  # Related Materials
  ## Manual
-- [Adding Textures and Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/adding_assets/adding_textures_and_sprites.markdown)
-- [Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spriteimporter.markdown)
-- [BaseSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/basesprite.markdown)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites.markdown)
-- [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/area.markdown)
+- [Adding Textures and Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_textures_and_sprites.markdown)
+- [Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spriteimporter.markdown)
+- [BaseSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/basesprite.markdown)
+- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites.markdown)
+- [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/area.markdown)
 
  ## Reference
 - [SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.markdown)

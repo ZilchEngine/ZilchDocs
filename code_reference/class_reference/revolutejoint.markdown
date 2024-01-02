@@ -2,18 +2,18 @@
 
 
 
-(NOTE) A revolute joint is used to create a wheel or a hinge. A revolute joint bring the two locally defined axes together and allows free rotation only on that axis. This axis is also where the motor is applied. The two axes that are orthogonal to the motor axis have their rotation locked (objects rotate together unless on the motor axis). Add on definitions: Limit: A limit will provide a min/max angle on the motor axis. Zero is defined by the location of the primary axis on the FrameOfreference object. Motor: A motor will drive the objects about the motor axis. Spring: A spring will make the motor axis springy at the limits.
+(NOTE) A revolute joint is used to create a wheel or a hinge. A revolute joint bring the two locally defined axes together and allows free rotation only on that axis. This axis is also where the motor is applied. The two axes that are orthogonal to the motor axis have their rotation locked (objects rotate together unless on the motor axis). Add on definitions: Limit: A limit will provide a min/max angle on the motor axis. Zilch is defined by the location of the primary axis on the FrameOfreference object. Motor: A motor will drive the objects about the motor axis. Spring: A spring will make the motor axis springy at the limits.
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#revolutejoint-void)|[ FrameOfReference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#frameofreference-zero-en)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-|[ SetWorldFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#setworldframe-void)|[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localbasisa-zero-engine)| | |
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#setworldpoints-void)|[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localbasisb-zero-engine)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localpointa-zero-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localpointb-zero-engine)| | |
-| |[ WorldBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#worldbasis-zero-engine-d)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#worldpointa-zero-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#worldpointb-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#revolutejoint-void)|[ FrameOfReference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#frameofreference-zilch-en)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ SetWorldFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#setworldframe-void)|[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localbasisa-zilch-engine)| | |
+|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#setworldpoints-void)|[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localbasisb-zilch-engine)| | |
+| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localpointa-zilch-engine)| | |
+| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#localpointb-zilch-engine)| | |
+| |[ WorldBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#worldbasis-zilch-engine-d)| | |
+| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.markdown#worldpointb-zilch-engine)| | |
 
 
  #  Properties

@@ -1,4 +1,4 @@
-The particle animator uses [ColorGradients](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources/colorgradient.markdown) to color each particle uniquely based on its current state.  The final color of any given particle is calculated from an element-wise multiplication of three color vectors:
+The particle animator uses [ColorGradients](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/colorgradient.markdown) to color each particle uniquely based on its current state.  The final color of any given particle is calculated from an element-wise multiplication of three color vectors:
 ```Color = VertexColor * TimeGradientColor * VelocityGradientColor```
 where `VertexColor` comes from VectexColor  on the [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/spriteparticlesystem.markdown) component.  `TimeGradientColor` is then found from sampling the TimeGradient resource, while `VelocityGradientColor` is found from sampling the VelocityGradient resource.
 
@@ -14,7 +14,7 @@ When sampling from VelocityGradient resource, the magnitude of the velocity is u
 
  # Related Material
  ## Manual
-- [Color Gradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources/colorgradient.markdown)
+- [Color Gradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/colorgradient.markdown)
 - [Sprite Particle System](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/graphics/particles/sprite_particle_system.markdown)
 
  ## Code Reference

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotategizmo.markdown#objectrotategizmo-void)|[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotategizmo.markdown#affecttranslation-zero-e)|[objecttransformgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmo.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotategizmo.markdown#objectrotategizmo-void)|[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotategizmo.markdown#affecttranslation-zilch-e)|[objecttransformgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmo.markdown)| |
 
 
  #  Properties

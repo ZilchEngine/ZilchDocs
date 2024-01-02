@@ -4,26 +4,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ BellCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#bellcurve-zero-engine-do)|[ MaxInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#maxinteger-zero-engine-d)| | |
-|[ Boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#boolean-zero-engine-docu)|[ Seed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#seed-zero-engine-documen)| | |
-|[ CoinFlip](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#coinflip-zero-engine-doc)| | | |
-|[ DieRoll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#dieroll-zero-engine-docu)| | | |
-|[ DoubleRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#doublerange-zero-engine)| | | |
-|[ DoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#doublereal-zero-engine-d)| | | |
-|[ Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#integer-zero-engine-docu)| | | |
-|[ Probability](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#probability-zero-engine)| | | |
-|[ Quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#quaternion-zero-engine-d)| | | |
+|[ BellCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#bellcurve-zilch-engine-do)|[ MaxInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#maxinteger-zilch-engine-d)| | |
+|[ Boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#boolean-zilch-engine-docu)|[ Seed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#seed-zilch-engine-documen)| | |
+|[ CoinFlip](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#coinflip-zilch-engine-doc)| | | |
+|[ DieRoll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#dieroll-zilch-engine-docu)| | | |
+|[ DoubleRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#doublerange-zilch-engine)| | | |
+|[ DoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#doublereal-zilch-engine-d)| | | |
+|[ Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#integer-zilch-engine-docu)| | | |
+|[ Probability](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#probability-zilch-engine)| | | |
+|[ Quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#quaternion-zilch-engine-d)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#random-void)| | | |
-|[ Range](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#range-zero-engine-docume)| | | |
-|[ RangeExclusiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#rangeexclusivemax-zero-e)| | | |
-|[ RangeInclusiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#rangeinclusivemax-zero-e)| | | |
-|[ Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#real-zero-engine-documen)| | | |
-|[ Real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#real2-zero-engine-docume)| | | |
-|[ Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#real3-zero-engine-docume)| | | |
-|[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#rotation-zero-engine-doc)| | | |
-|[ UnitReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#unitreal2-zero-engine-do)| | | |
-|[ UnitReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#unitreal3-zero-engine-do)| | | |
-|[ Variance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#variance-zero-engine-doc)| | | |
+|[ Range](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#range-zilch-engine-docume)| | | |
+|[ RangeExclusiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#rangeexclusivemax-zilch-e)| | | |
+|[ RangeInclusiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#rangeinclusivemax-zilch-e)| | | |
+|[ Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#real-zilch-engine-documen)| | | |
+|[ Real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#real2-zilch-engine-docume)| | | |
+|[ Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#real3-zilch-engine-docume)| | | |
+|[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#rotation-zilch-engine-doc)| | | |
+|[ UnitReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#unitreal2-zilch-engine-do)| | | |
+|[ UnitReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#unitreal3-zilch-engine-do)| | | |
+|[ Variance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.markdown#variance-zilch-engine-doc)| | | |
 
 
  #  Properties

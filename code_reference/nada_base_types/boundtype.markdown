@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetConstructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getconstructor-zero-engi)|[ BaseType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#basetype-zero-engine-doc)|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.markdown)| |
-|[ GetField](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getfield-zero-engine-doc)|[ DefaultConstructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#defaultconstructor-zero)| | |
-|[ GetFunction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getfunction-zero-engine)|[ Destructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#destructor-zero-engine-d)| | |
-|[ GetGetterSetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getgettersetter-zero-eng)|[ Fields](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#fields-zero-engine-docum)| | |
-|[ GetMember](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getmember-zero-engine-do)|[ Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#functions-zero-engine-do)| | |
-|[ GetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getproperty-zero-engine)|[ GetterSetters](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#gettersetters-zero-engin)| | |
-|[ InstantiatePreConstructedObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#instantiatepreconstructe)|[ IsNative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#isnative-zero-engine-doc)| | |
+|[ GetConstructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getconstructor-zilch-engi)|[ BaseType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#basetype-zilch-engine-doc)|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.markdown)| |
+|[ GetField](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getfield-zilch-engine-doc)|[ DefaultConstructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#defaultconstructor-zero)| | |
+|[ GetFunction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getfunction-zilch-engine)|[ Destructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#destructor-zilch-engine-d)| | |
+|[ GetGetterSetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getgettersetter-zilch-eng)|[ Fields](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#fields-zilch-engine-docum)| | |
+|[ GetMember](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getmember-zilch-engine-do)|[ Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#functions-zilch-engine-do)| | |
+|[ GetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#getproperty-zilch-engine)|[ GetterSetters](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#gettersetters-zilch-engin)| | |
+|[ InstantiatePreConstructedObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#instantiatepreconstructe)|[ IsNative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#isnative-zilch-engine-doc)| | |
 | |[ IsTypeOrBaseNative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#istypeorbasenative-zero)| | |
-| |[ Members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#members-zero-engine-docu)| | |
-| |[ PreConstructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#preconstructor-zero-engi)| | |
-| |[ Properties](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#properties-zero-engine-d)| | |
-| |[ TemplateBaseName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#templatebasename-zero-en)| | |
+| |[ Members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#members-zilch-engine-docu)| | |
+| |[ PreConstructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#preconstructor-zilch-engi)| | |
+| |[ Properties](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#properties-zilch-engine-d)| | |
+| |[ TemplateBaseName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.markdown#templatebasename-zilch-en)| | |
 
 
  #  Properties

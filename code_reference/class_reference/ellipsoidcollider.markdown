@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.markdown#ellipsoidcollider-void)|[ Radii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.markdown#radii-zero-engine-docume)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
-| |[ WorldRadii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.markdown#worldradii-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.markdown#ellipsoidcollider-void)|[ Radii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.markdown#radii-zilch-engine-docume)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
+| |[ WorldRadii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.markdown#worldradii-zilch-engine-d)| | |
 
 
  #  Properties

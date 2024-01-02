@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddedByPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#addedbypeer-zero-engine)|[ AddedByMyPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#addedbymypeer-zero-engin)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.markdown)| |
-|[ FindOwnedNetObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#findownednetobjectbyname)|[ NetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#netpeerid-zero-engine-do)| | |
-|[ FindOwnedNetObjectByNameInSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#findownednetobjectbyname)|[ NetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#netuserid-zero-engine-do)| | |
+|[ AddedByPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#addedbypeer-zilch-engine)|[ AddedByMyPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#addedbymypeer-zilch-engin)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.markdown)| |
+|[ FindOwnedNetObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#findownednetobjectbyname)|[ NetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#netpeerid-zilch-engine-do)| | |
+|[ FindOwnedNetObjectByNameInSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#findownednetobjectbyname)|[ NetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#netuserid-zilch-engine-do)| | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#netuser-void)|[ OwnedNetObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#ownednetobjectcount-zero)| | |
-|[ ReleaseOwnedNetObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#releaseownednetobjects-v)|[ OwnedNetObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#ownednetobjects-zero-eng)| | |
+|[ ReleaseOwnedNetObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#releaseownednetobjects-v)|[ OwnedNetObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.markdown#ownednetobjects-zilch-eng)| | |
 
 
  #  Properties

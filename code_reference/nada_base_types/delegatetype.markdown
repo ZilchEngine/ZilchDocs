@@ -3,8 +3,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[[zilch_engine_documentation/code_reference/nada_base_types/delegatetype/#parameters-delegate() | Parameters]]|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.markdown)| |
-| |[ Return](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.markdown#return-zero-engine-docum)| | |
-| |[ Signature](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.markdown#signature-zero-engine-do)| | |
+| |[ Return](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.markdown#return-zilch-engine-docum)| | |
+| |[ Signature](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.markdown#signature-zilch-engine-do)| | |
 
 
  #  Properties

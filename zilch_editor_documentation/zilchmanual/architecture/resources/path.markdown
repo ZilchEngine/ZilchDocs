@@ -1,4 +1,4 @@
-The [Path](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/path.markdown) resource is used as a base for the [LevelPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/levelpath.markdown) component. 
+The [Path](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/path.markdown) resource is used as a base for the [LevelPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/levelpath.markdown) component. 
 
 
 ## Using a Path

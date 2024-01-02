@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetIgnoreState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#getignorestate-zero-engi)|[ IgnoreBuoyancy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorebuoyancy-zero-engi)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorespaceeffects-void)|[ IgnoreCustom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorecustom-zero-engine)| | |
-|[ SetIgnoreState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#setignorestate-void)|[ IgnoreDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoredrag-zero-engine-d)| | |
-| |[ IgnoreFlow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoreflow-zero-engine-d)| | |
-| |[ IgnoreForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoreforce-zero-engine)| | |
-| |[ IgnoreGravity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoregravity-zero-engin)| | |
-| |[ IgnorePointForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorepointforce-zero-en)| | |
+|[ GetIgnoreState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#getignorestate-zilch-engi)|[ IgnoreBuoyancy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorebuoyancy-zilch-engi)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorespaceeffects-void)|[ IgnoreCustom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorecustom-zilch-engine)| | |
+|[ SetIgnoreState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#setignorestate-void)|[ IgnoreDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoredrag-zilch-engine-d)| | |
+| |[ IgnoreFlow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoreflow-zilch-engine-d)| | |
+| |[ IgnoreForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoreforce-zilch-engine)| | |
+| |[ IgnoreGravity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoregravity-zilch-engin)| | |
+| |[ IgnorePointForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorepointforce-zilch-en)| | |
 | |[ IgnorePointGravity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorepointgravity-zero)| | |
-| |[ IgnoreThrust](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorethrust-zero-engine)| | |
-| |[ IgnoreTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoretorque-zero-engine)| | |
-| |[ IgnoreVortex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorevortex-zero-engine)| | |
-| |[ IgnoreWind](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorewind-zero-engine-d)| | |
+| |[ IgnoreThrust](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorethrust-zilch-engine)| | |
+| |[ IgnoreTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignoretorque-zilch-engine)| | |
+| |[ IgnoreVortex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorevortex-zilch-engine)| | |
+| |[ IgnoreWind](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ignorespaceeffects.markdown#ignorewind-zilch-engine-d)| | |
 
 
  #  Properties

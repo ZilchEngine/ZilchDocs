@@ -15,9 +15,9 @@ The physics system has a few basic rules to determine which of these collision s
 There are more complicated rule sets that go into fully determining if objects should detect and resolve collision. The simplest examples are the Ghost checkBox and CollisionGroup resource properties on Collider.
 
  #  Collision Response Factors
-There's a few ways to alter how collisions are resolved. The primary way is through a Collider's [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicsmaterial.markdown) property which defines density, friction, and restitution.
+There's a few ways to alter how collisions are resolved. The primary way is through a Collider's [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsmaterial.markdown) property which defines density, friction, and restitution.
 
-RigidBody also contains properties that affect collision resolution. A RigidBody's mass is auto-computed from the relevant Colliders' volume and density. To override this manually see [MassOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/massoverride.markdown). Additionally, various mass properties can be "locked". The {nav icon=list, name=Mode2d} property will restrict the object to simulate 2d movement. Additionally, the RotationLocked checkBox property locks the rotation of a body without changing linear movement restrictions. This is common on objects like a player where rotation would result in undesired game mechanics.
+RigidBody also contains properties that affect collision resolution. A RigidBody's mass is auto-computed from the relevant Colliders' volume and density. To override this manually see [MassOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/massoverride.markdown). Additionally, various mass properties can be "locked". The {nav icon=list, name=Mode2d} property will restrict the object to simulate 2d movement. Additionally, the RotationLocked checkBox property locks the rotation of a body without changing linear movement restrictions. This is common on objects like a player where rotation would result in undesired game mechanics.
 
  #  Resolution: RigidBodyDynamicState
 RigidBody defines the DynamicState enum property that changes how the dynamics, or resolution, for an object is handled. The default state of a RigidBody is dynamic (i.e. the body is free to move and resolve as normal).
@@ -27,32 +27,32 @@ Commonly, a body needs to be locked in space to behave as some fixed world geome
 A RigidBody can also be set to `Kinematic`. Kinematic is an infinite mass object like `Static`; however, it also gives the physics system extra information about how to resolve collisions. A static object is never expected to move, so if it is teleported by the user into contact with other objects, then the physics system doesn't know how to properly resolve the collision as no velocity was involved. A kinematic object tells the physics system to approximate the velocity in the collision based upon the last and current position of the object. This is typically used for moving platforms or other moving, infinite mass objects.
 
  #  Collision Information
-Information about collisions can be found in two ways. The most common is to listen for [CollisionEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/collisionoverview/collisionevents.markdown). Additionally, Collider exposes the Contacts property range.
+Information about collisions can be found in two ways. The most common is to listen for [CollisionEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisionevents.markdown). Additionally, Collider exposes the Contacts property range.
 
  #  Collision Groups
-Advanced control of collision filtering and events can be configured through the use of [CollisionTables and CollisionGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/collisionoverview/collisiongroupsandtables.markdown).
+Advanced control of collision filtering and events can be configured through the use of [CollisionTables and CollisionGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisiongroupsandtables.markdown).
 
  #  Advanced
 There are several advanced topics that can affect how physics deals with collision.
- - [Hierarchies](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/hierarchies.markdown) can be used to make complicated physical objects from simple pieces.
- - [Joints](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/joints.markdown) allow additional constraints on how an object is allowed to move.
+ - [Hierarchies](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/hierarchies.markdown) can be used to make complicated physical objects from simple pieces.
+ - [Joints](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/joints.markdown) allow additional constraints on how an object is allowed to move.
 
  #  Troubleshooting Collisions
 Sometimes collisions don't happen or behave differently than a user would expect.
-  - [WhyAreTheyNotColliding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicstroubleshooting/whyaretheynotcolliding.markdown) is a helper function to figure out why a collision didn't happen.
-  - [Edge Catching](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicstroubleshooting/edgecatching.markdown) is a common issue when trying to make a player that can cause jarring movement.
+  - [WhyAreTheyNotColliding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicstroubleshooting/whyaretheynotcolliding.markdown) is a helper function to figure out why a collision didn't happen.
+  - [Edge Catching](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicstroubleshooting/edgecatching.markdown) is a common issue when trying to make a player that can cause jarring movement.
 
 ---
 
  #  Related Materials
  ##  Manual
-- [rigidbody.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/rigidbody.markdown)
-- [colliders.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown)
-- [physicsmaterial.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicsmaterial.markdown)
-- [massoverride.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/massoverride.markdown)
-- [collisionevents.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/collisionoverview/collisionevents.markdown)
-- [collisiongroupsandtables.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/collisionoverview/collisiongroupsandtables.markdown)
-- [joints.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/joints.markdown)
+- [rigidbody.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/rigidbody.markdown)
+- [colliders.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown)
+- [physicsmaterial.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsmaterial.markdown)
+- [massoverride.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/massoverride.markdown)
+- [collisionevents.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisionevents.markdown)
+- [collisiongroupsandtables.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisiongroupsandtables.markdown)
+- [joints.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/joints.markdown)
 
  ##  Reference
 - [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)

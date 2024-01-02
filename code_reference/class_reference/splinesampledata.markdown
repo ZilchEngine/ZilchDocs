@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#splinesampledata-void)|[ Point](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#point-zero-engine-docume)| | |
-| |[ Tangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#tangent-zero-engine-docu)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldpoint-zero-engine-d)| | |
-| |[ WorldTangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldtangent-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#splinesampledata-void)|[ Point](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#point-zilch-engine-docume)| | |
+| |[ Tangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#tangent-zilch-engine-docu)| | |
+| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldpoint-zilch-engine-d)| | |
+| |[ WorldTangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.markdown#worldtangent-zilch-engine)| | |
 
 
  #  Properties

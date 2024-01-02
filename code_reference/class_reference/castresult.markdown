@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#castresult-void)|[ Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#collider-zero-engine-doc)| | |
-|[ GetLocalPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#getlocalposition-zero-en)|[ Distance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#distance-zero-engine-doc)| | |
-| |[ Normal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#normal-zero-engine-docum)| | |
-| |[ ObjectHit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#objecthit-zero-engine-do)| | |
-| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#worldposition-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#castresult-void)|[ Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#collider-zilch-engine-doc)| | |
+|[ GetLocalPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#getlocalposition-zilch-en)|[ Distance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#distance-zilch-engine-doc)| | |
+| |[ Normal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#normal-zilch-engine-docum)| | |
+| |[ ObjectHit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#objecthit-zilch-engine-do)| | |
+| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.markdown#worldposition-zilch-engin)| | |
 
 
  #  Properties

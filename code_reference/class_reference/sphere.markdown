@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Expand](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#expand-void)|[ Center](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#center-zero-engine-docum)| | |
-|[ Overlap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#overlap-zero-engine-docu)|[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#radius-zero-engine-docum)| | |
-|[ Overlaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#overlaps-zero-engine-doc)|[ SurfaceArea](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#surfacearea-zero-engine)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#sphere-void)|[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#volume-zero-engine-docum)| | |
+|[ Expand](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#expand-void)|[ Center](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#center-zilch-engine-docum)| | |
+|[ Overlap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#overlap-zilch-engine-docu)|[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#radius-zilch-engine-docum)| | |
+|[ Overlaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#overlaps-zilch-engine-doc)|[ SurfaceArea](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#surfacearea-zilch-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#sphere-void)|[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.markdown#volume-zilch-engine-docum)| | |
 
 
  #  Properties

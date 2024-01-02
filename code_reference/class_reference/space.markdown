@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddObjectsFromLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#addobjectsfromlevel-zero)|[ AllObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#allobjects-zero-engine-d)|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.markdown)| |
-|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#create-zero-engine-docum)|[ AllRootObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#allrootobjects-zero-engi)| | |
-|[ CreateAtPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#createatposition-zero-en)|[ CurrentLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#currentlevel-zero-engine)| | |
-|[ CreateLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#createlink-zero-engine-d)|[ IsEditorMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#iseditormode-zero-engine)| | |
-|[ DestroyAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#destroyall-void)|[ ObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#objectcount-zero-engine)| | |
+|[ AddObjectsFromLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#addobjectsfromlevel-zero)|[ AllObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#allobjects-zilch-engine-d)|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.markdown)| |
+|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#create-zilch-engine-docum)|[ AllRootObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#allrootobjects-zilch-engi)| | |
+|[ CreateAtPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#createatposition-zilch-en)|[ CurrentLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#currentlevel-zilch-engine)| | |
+|[ CreateLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#createlink-zilch-engine-d)|[ IsEditorMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#iseditormode-zilch-engine)| | |
+|[ DestroyAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#destroyall-void)|[ ObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#objectcount-zilch-engine)| | |
 |[ DestroyAllFromLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#destroyallfromlevel-void)| | | |
 |[ FindAllObjectsByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findallobjectsbyname-zer)| | | |
 |[ FindFirstObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findfirstobjectbyname-ze)| | | |
 |[ FindFirstRootObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findfirstrootobjectbynam)| | | |
 |[ FindLastObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findlastobjectbyname-zer)| | | |
 |[ FindLastRootObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findlastrootobjectbyname)| | | |
-|[ FindObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findobjectbyname-zero-en)| | | |
-|[ GetModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#getmodified-zero-engine)| | | |
+|[ FindObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#findobjectbyname-zilch-en)| | | |
+|[ GetModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#getmodified-zilch-engine)| | | |
 |[ LoadLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#loadlevel-void)| | | |
 |[ MarkModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#markmodified-void)| | | |
 |[ MarkNotModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.markdown#marknotmodified-void)| | | |

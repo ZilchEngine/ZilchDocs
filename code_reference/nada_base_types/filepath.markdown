@@ -3,18 +3,18 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ AddTrailingDirectorySeparator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#addtrailingdirectorysepa)|[ DirectorySeparator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#directoryseparator-zero)| | |
-|[ ChangeExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#changeextension-zero-eng)|[ ExecutableDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#executabledirectory-zero)| | |
-|[ CombineDirectories](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#combinedirectories-zero)|[ ExecutableFile](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#executablefile-zero-engi)| | |
+|[ ChangeExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#changeextension-zilch-eng)|[ ExecutableDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#executabledirectory-zero)| | |
+|[ CombineDirectories](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#combinedirectories-zero)|[ ExecutableFile](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#executablefile-zilch-engi)| | |
 |[ CombineDirectoriesAndFile](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#combinedirectoriesandfil)|[ TemporaryDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#temporarydirectory-zero)| | |
 |[ GetCanonicalizedPathFromAbsolutePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getcanonicalizedpathfrom)|[ UserDocumentsDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#userdocumentsdirectory-z)| | |
 |[ GetComparablePathFromAbsolutePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getcomparablepathfromabs)|[ UserLocalDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#userlocaldirectory-zero)| | |
-|[ GetDirectoryName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getdirectoryname-zero-en)|[ WorkingDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#workingdirectory-zero-en)| | |
-|[ GetDirectoryPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getdirectorypath-zero-en)| | | |
+|[ GetDirectoryName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getdirectoryname-zilch-en)|[ WorkingDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#workingdirectory-zilch-en)| | |
+|[ GetDirectoryPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getdirectorypath-zilch-en)| | | |
 |[ GetExtensionWithDot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getextensionwithdot-zero)| | | |
 |[ GetExtensionWithoutDot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getextensionwithoutdot-z)| | | |
 |[ GetFileNameWithExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getfilenamewithextension)| | | |
 |[ GetFileNameWithoutExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#getfilenamewithoutextens)| | | |
-|[ IsRelative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#isrelative-zero-engine-d)| | | |
+|[ IsRelative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#isrelative-zilch-engine-d)| | | |
 |[ RemoveTrailingDirectorySeparator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.markdown#removetrailingdirectorys)| | | |
 
 

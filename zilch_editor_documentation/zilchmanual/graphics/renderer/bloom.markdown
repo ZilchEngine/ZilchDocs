@@ -50,6 +50,6 @@ The ability to control the effect of bloom on a color is only the first step in 
 
  # Related Material
  ## Manual
-- [Deferred and Forward Renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/renderer/deferred_renderer.markdown) 
+- [Deferred and Forward Renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.markdown) 
 
  

@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#objectrotatetool-void)|[ AffectRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#affectrotation-zero-engi)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown)| |
-| |[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#affecttranslation-zero-e)| | |
-| |[ SnapAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#snapangle-zero-engine-do)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#snapping-zero-engine-doc)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#objectrotatetool-void)|[ AffectRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#affectrotation-zilch-engi)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown)| |
+| |[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#affecttranslation-zilch-e)| | |
+| |[ SnapAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#snapangle-zilch-engine-do)| | |
+| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

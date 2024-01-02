@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ HostRecord](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecordevent.markdown#hostrecord-zero-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ HostRecord](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecordevent.markdown#hostrecord-zilch-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

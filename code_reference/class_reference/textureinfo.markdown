@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#textureinfo-void)|[ Dimensions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#dimensions-zero-engine-d)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
-| |[ FileType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#filetype-zero-engine-doc)| | |
-| |[ LoadFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#loadformat-zero-engine-d)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#size-zero-engine-documen)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#textureinfo-void)|[ Dimensions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#dimensions-zilch-engine-d)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.markdown)| |
+| |[ FileType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#filetype-zilch-engine-doc)| | |
+| |[ LoadFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#loadformat-zilch-engine-d)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.markdown#size-zilch-engine-documen)| | |
 
 
  #  Properties

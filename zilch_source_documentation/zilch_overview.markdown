@@ -12,7 +12,7 @@
 - A component can be data, behavior, and/or a link to a system.
 - When the game object composition is destroyed, it destroys all of its components.
 
-.. image:: Zero/ComponentBasedEngine.png
+.. image:: Zilch/ComponentBasedEngine.png
 
 
 ## Dynamic Composition

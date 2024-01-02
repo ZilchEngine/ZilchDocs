@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Flush](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#flush-void)|[ Capabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#capabilities-zero-engine)| |[filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.markdown)|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#istream-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#count-zero-engine-docume)| | |
-|[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#read-zero-engine-documen)|[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#position-zero-engine-doc)| | |
-|[ ReadAllText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#readalltext-zero-engine)| | | |
-|[ ReadByte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#readbyte-zero-engine-doc)| | | |
-|[ ReadLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#readline-zero-engine-doc)| | | |
-|[ Seek](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#seek-zero-engine-documen)| | | |
-|[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#write-zero-engine-docume)| | | |
-|[ WriteByte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#writebyte-zero-engine-do)| | | |
-|[ WriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#writetext-zero-engine-do)| | | |
+|[ Flush](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#flush-void)|[ Capabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#capabilities-zilch-engine)| |[filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.markdown)|
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#istream-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#count-zilch-engine-docume)| | |
+|[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#read-zilch-engine-documen)|[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#position-zilch-engine-doc)| | |
+|[ ReadAllText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#readalltext-zilch-engine)| | | |
+|[ ReadByte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#readbyte-zilch-engine-doc)| | | |
+|[ ReadLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#readline-zilch-engine-doc)| | | |
+|[ Seek](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#seek-zilch-engine-documen)| | | |
+|[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#write-zilch-engine-docume)| | | |
+|[ WriteByte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#writebyte-zilch-engine-do)| | | |
+|[ WriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.markdown#writetext-zilch-engine-do)| | | |
 
 
  #  Properties

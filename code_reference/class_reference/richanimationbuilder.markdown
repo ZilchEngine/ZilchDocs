@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/richanimationbuilder.markdown#richanimationbuilder-voi)|[ PreviewArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/richanimationbuilder.markdown#previewarchetype-zero-en)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/richanimationbuilder.markdown#richanimationbuilder-voi)|[ PreviewArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/richanimationbuilder.markdown#previewarchetype-zilch-en)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
 
 
  #  Properties

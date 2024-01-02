@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DumpMemoryDebuggerStats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#dumpmemorydebuggerstats)|[ ClipboardText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#clipboardtext-zero-engin)|[system](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/system.markdown)| |
-|[ GetWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#getwindow-zero-engine-do)|[ WindowCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#windowcount-zero-engine)| | |
-|[ IsClipboardText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#isclipboardtext-zero-eng)| | | |
+|[ DumpMemoryDebuggerStats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#dumpmemorydebuggerstats)|[ ClipboardText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#clipboardtext-zilch-engin)|[system](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/system.markdown)| |
+|[ GetWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#getwindow-zilch-engine-do)|[ WindowCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#windowcount-zilch-engine)| | |
+|[ IsClipboardText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.markdown#isclipboardtext-zilch-eng)| | | |
 
 
  #  Properties

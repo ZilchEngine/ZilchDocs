@@ -19,14 +19,14 @@ Physically-based rendering (PBR) is a relatively recent rendering technique and 
  - [Physics and Math of Shading](http://blog.selfshadow.com/publications/s2013-shading-course/hoffman/s2013_pbs_physics_math_notes.pdf/) by Naty Hoffman
  - [Physically Based Shading at Disney](http://blog.selfshadow.com/publications/s2012-shading-course/burley/s2012_pbs_disney_brdf_notes_v3.pdf/) by Brent Burley
 
- # Implementation in Zero
+ # Implementation in Zilch
 
-The [DeferredRenderer and ForwardRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/renderer/deferred_renderer.markdown) follow a metallic-roughness workflow (as opposed to metallic-glossiness) and expects inputs for albedo (referred to as "base color" in other workflows), metallic, roughness, and specular in the form of texture maps or uniform values. These maps or values are set via NadaFragments and applied to a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/materials/materials_overview.markdown). 
+The [DeferredRenderer and ForwardRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.markdown) follow a metallic-roughness workflow (as opposed to metallic-glossiness) and expects inputs for albedo (referred to as "base color" in other workflows), metallic, roughness, and specular in the form of texture maps or uniform values. These maps or values are set via NadaFragments and applied to a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.markdown). 
 
  # Related Materials
  ## Manual
 
-- [DeferredRenderer and ForwardRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/renderer/deferred_renderer.markdown)
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/materials/materials_overview.markdown) 
+- [DeferredRenderer and ForwardRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.markdown)
+- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.markdown) 
 
  

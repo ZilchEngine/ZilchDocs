@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AutoRegister](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorscriptobject.markdown#autoregister-zero-engine)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
+| |[ AutoRegister](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorscriptobject.markdown#autoregister-zilch-engine)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
 
 
  #  Properties

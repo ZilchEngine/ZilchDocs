@@ -1,4 +1,4 @@
-# Zero Launcher & Editor
+# Zilch Launcher & Editor
 - **Operating System**: Windows 7 64-bit or later 
 - **Processor**: Quad-core 2.5 GHz or faster 
 - **Graphics Card**: NVIDIA GeForce 470 GTX or better 

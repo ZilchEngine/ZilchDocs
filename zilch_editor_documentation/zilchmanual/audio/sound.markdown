@@ -1,4 +1,4 @@
-A [ Sound ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown) resource is created for every imported audio file. Sounds can be attached to any number of [SoundCues](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundcue.markdown), allowing the user to play the same sound multiple ways while only storing the file once.
+A [ Sound ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown) resource is created for every imported audio file. Sounds can be attached to any number of [SoundCues](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundcue.markdown), allowing the user to play the same sound multiple ways while only storing the file once.
 
  # Using Sounds
 
@@ -25,7 +25,7 @@ When the Streamed checkBox property is un-checked the entire audio file is loade
 
 In general the only audio that should be streamed are long files, such as background music, and only when worried about memory usage.
 
-NOTE: Streaming files can't be played multiple times simultaneously, can't have their playback position set directly, and can't use the LoopTailLength  property on [SoundEntries](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundcue.markdown#soundentries).
+NOTE: Streaming files can't be played multiple times simultaneously, can't have their playback position set directly, and can't use the LoopTailLength  property on [SoundEntries](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundcue.markdown#soundentries).
 
  ##  Normalizing
  ![SoundBuilder2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/85543.png)
@@ -37,8 +37,8 @@ If the Normalize checkBox property is checked the MaxVolume  property will be sh
 
  ## Manual
 
-- [SoundCue ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundcue.markdown)
-- [SoundEntry ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundcue.markdown#soundentries)
+- [SoundCue ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundcue.markdown)
+- [SoundEntry ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundcue.markdown#soundentries)
 
  ## Reference
 - [ Sound ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.markdown)

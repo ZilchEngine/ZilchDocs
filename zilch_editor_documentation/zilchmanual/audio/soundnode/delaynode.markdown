@@ -14,7 +14,7 @@ The `WetPercent` property controls the loudness of the delayed echo. At `100` th
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
 
  ## Code Reference
 - [ DelayNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.markdown) 

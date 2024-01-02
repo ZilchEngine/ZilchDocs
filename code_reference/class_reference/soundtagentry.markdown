@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ SoundTag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtagentry.markdown#soundtag-zero-engine-doc)|Object| |
+| |[ SoundTag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtagentry.markdown#soundtag-zilch-engine-doc)|Object| |
 
 
  #  Properties

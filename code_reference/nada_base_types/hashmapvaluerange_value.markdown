@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#hashmapvaluerange-value)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#all-zero-engine-document)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#hashmapvaluerange-value)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#all-zilch-engine-document)| | |
 |[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#current-key)| | |
-|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#reset-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#isempty-zero-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#isnotempty-zero-engine-d)| | |
+|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#reset-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .markdown#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

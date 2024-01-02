@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddSoundEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#addsoundentry-void)|[ Attenuator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#attenuator-zero-engine-d)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
-|[ AddSoundTagEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#addsoundtagentry-void)|[ BeatsPerMinute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#beatsperminute-zero-engi)| | |
-|[ PlayCueOnNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#playcueonnode-zero-engin)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#decibels-zero-engine-doc)| | |
-|[ Preview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#preview-void)|[ DecibelVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#decibelvariation-zero-en)| | |
-|[ StopPreview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#stoppreview-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#pitch-zero-engine-docume)| | |
-| |[ PitchVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#pitchvariation-zero-engi)| | |
-| |[ PlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#playmode-zero-engine-doc)| | |
-| |[ SelectMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#selectmode-zero-engine-d)| | |
-| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#semitones-zero-engine-do)| | |
-| |[ SemitoneVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#semitonevariation-zero-e)| | |
-| |[ ShowMusicOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#showmusicoptions-zero-en)| | |
-| |[ Sounds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#sounds-zero-engine-docum)| | |
-| |[ SoundTags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#soundtags-zero-engine-do)| | |
-| |[ TimeSigBeats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#timesigbeats-zero-engine)| | |
-| |[ TimeSigValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#timesigvalue-zero-engine)| | |
+|[ AddSoundEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#addsoundentry-void)|[ Attenuator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#attenuator-zilch-engine-d)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ AddSoundTagEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#addsoundtagentry-void)|[ BeatsPerMinute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#beatsperminute-zilch-engi)| | |
+|[ PlayCueOnNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#playcueonnode-zilch-engin)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#decibels-zilch-engine-doc)| | |
+|[ Preview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#preview-void)|[ DecibelVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#decibelvariation-zilch-en)| | |
+|[ StopPreview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#stoppreview-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#pitch-zilch-engine-docume)| | |
+| |[ PitchVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#pitchvariation-zilch-engi)| | |
+| |[ PlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#playmode-zilch-engine-doc)| | |
+| |[ SelectMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#selectmode-zilch-engine-d)| | |
+| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#semitones-zilch-engine-do)| | |
+| |[ SemitoneVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#semitonevariation-zilch-e)| | |
+| |[ ShowMusicOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#showmusicoptions-zilch-en)| | |
+| |[ Sounds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#sounds-zilch-engine-docum)| | |
+| |[ SoundTags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#soundtags-zilch-engine-do)| | |
+| |[ TimeSigBeats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#timesigbeats-zilch-engine)| | |
+| |[ TimeSigValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#timesigvalue-zilch-engine)| | |
 | |[ UseDecibelVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#usedecibelvariation-zero)| | |
 | |[ UseSemitoneVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#usesemitonevariation-zer)| | |
-| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#volume-zero-engine-docum)| | |
-| |[ VolumeVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#volumevariation-zero-eng)| | |
+| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#volume-zilch-engine-docum)| | |
+| |[ VolumeVariation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.markdown#volumevariation-zilch-eng)| | |
 
 
  #  Properties

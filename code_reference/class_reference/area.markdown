@@ -4,45 +4,45 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#area-void)|[ BottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#bottomcenter-zero-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ GetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#getlocallocation-zero-en)|[ BottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#bottomleft-zero-engine-d)| | |
-|[ GetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#getworldlocation-zero-en)|[ BottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#bottomright-zero-engine)| | |
-|[ LocalOffsetOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localoffsetof-zero-engin)|[ Center](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#center-zero-engine-docum)| | |
-|[ SetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#setlocallocation-void)|[ CenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#centerleft-zero-engine-d)| | |
-|[ SetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#setworldlocation-void)|[ CenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#centerright-zero-engine)| | |
-| |[ LocalBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottom-zero-engine)| | |
-| |[ LocalBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottomcenter-zero-e)| | |
-| |[ LocalBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottomleft-zero-eng)| | |
-| |[ LocalBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottomright-zero-en)| | |
-| |[ LocalCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localcenter-zero-engine)| | |
-| |[ LocalCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localcenterleft-zero-eng)| | |
-| |[ LocalCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localcenterright-zero-en)| | |
-| |[ LocalLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localleft-zero-engine-do)| | |
-| |[ LocalRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localrectangle-zero-engi)| | |
-| |[ LocalRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localright-zero-engine-d)| | |
-| |[ LocalTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtop-zero-engine-doc)| | |
-| |[ LocalTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtopcenter-zero-engi)| | |
-| |[ LocalTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtopleft-zero-engine)| | |
-| |[ LocalTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtopright-zero-engin)| | |
-| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#origin-zero-engine-docum)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#size-zero-engine-documen)| | |
-| |[ TopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#topcenter-zero-engine-do)| | |
-| |[ TopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#topleft-zero-engine-docu)| | |
-| |[ TopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#topright-zero-engine-doc)| | |
-| |[ WorldBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottom-zero-engine)| | |
-| |[ WorldBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottomcenter-zero-e)| | |
-| |[ WorldBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottomleft-zero-eng)| | |
-| |[ WorldBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottomright-zero-en)| | |
-| |[ WorldCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldcenter-zero-engine)| | |
-| |[ WorldCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldcenterleft-zero-eng)| | |
-| |[ WorldCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldcenterright-zero-en)| | |
-| |[ WorldLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldleft-zero-engine-do)| | |
-| |[ WorldRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldrectangle-zero-engi)| | |
-| |[ WorldRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldright-zero-engine-d)| | |
-| |[ WorldTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtop-zero-engine-doc)| | |
-| |[ WorldTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtopcenter-zero-engi)| | |
-| |[ WorldTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtopleft-zero-engine)| | |
-| |[ WorldTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtopright-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#area-void)|[ BottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#bottomcenter-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ GetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#getlocallocation-zilch-en)|[ BottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#bottomleft-zilch-engine-d)| | |
+|[ GetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#getworldlocation-zilch-en)|[ BottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#bottomright-zilch-engine)| | |
+|[ LocalOffsetOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localoffsetof-zilch-engin)|[ Center](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#center-zilch-engine-docum)| | |
+|[ SetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#setlocallocation-void)|[ CenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#centerleft-zilch-engine-d)| | |
+|[ SetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#setworldlocation-void)|[ CenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#centerright-zilch-engine)| | |
+| |[ LocalBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottom-zilch-engine)| | |
+| |[ LocalBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottomcenter-zilch-e)| | |
+| |[ LocalBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottomleft-zilch-eng)| | |
+| |[ LocalBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localbottomright-zilch-en)| | |
+| |[ LocalCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localcenter-zilch-engine)| | |
+| |[ LocalCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localcenterleft-zilch-eng)| | |
+| |[ LocalCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localcenterright-zilch-en)| | |
+| |[ LocalLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localleft-zilch-engine-do)| | |
+| |[ LocalRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localrectangle-zilch-engi)| | |
+| |[ LocalRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localright-zilch-engine-d)| | |
+| |[ LocalTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtop-zilch-engine-doc)| | |
+| |[ LocalTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtopcenter-zilch-engi)| | |
+| |[ LocalTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtopleft-zilch-engine)| | |
+| |[ LocalTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#localtopright-zilch-engin)| | |
+| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#origin-zilch-engine-docum)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#size-zilch-engine-documen)| | |
+| |[ TopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#topcenter-zilch-engine-do)| | |
+| |[ TopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#topleft-zilch-engine-docu)| | |
+| |[ TopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#topright-zilch-engine-doc)| | |
+| |[ WorldBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottom-zilch-engine)| | |
+| |[ WorldBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottomcenter-zilch-e)| | |
+| |[ WorldBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottomleft-zilch-eng)| | |
+| |[ WorldBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldbottomright-zilch-en)| | |
+| |[ WorldCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldcenter-zilch-engine)| | |
+| |[ WorldCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldcenterleft-zilch-eng)| | |
+| |[ WorldCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldcenterright-zilch-en)| | |
+| |[ WorldLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldleft-zilch-engine-do)| | |
+| |[ WorldRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldrectangle-zilch-engi)| | |
+| |[ WorldRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldright-zilch-engine-d)| | |
+| |[ WorldTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtop-zilch-engine-doc)| | |
+| |[ WorldTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtopcenter-zilch-engi)| | |
+| |[ WorldTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtopleft-zilch-engine)| | |
+| |[ WorldTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.markdown#worldtopright-zilch-engin)| | |
 
 
  #  Properties

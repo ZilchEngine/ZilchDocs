@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#gizmo-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ EditingObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#editingobject-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#gizmo-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ EditingObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#editingobject-zilch-engin)| | |
 | |[ ForwardEventsToChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#forwardeventstochildren)| | |
-| |[ MouseOver](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#mouseover-zero-engine-do)| | |
+| |[ MouseOver](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.markdown#mouseover-zilch-engine-do)| | |
 
 
  #  Properties

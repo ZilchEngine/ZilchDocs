@@ -11,7 +11,7 @@ If you need some overall direction on which tutorials to start with check out ou
 Check out the tutorials below to find out what topics they cover and how each one can help you.
 
  ##  [ Editor ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/editor.markdown)
-How to use the tabs, windows, and commands of the Zero Editor.
+How to use the tabs, windows, and commands of the Zilch Editor.
 
  ##  [Scripting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting.markdown)
 Scripting using Nada in the Zilch Engine.
@@ -35,6 +35,6 @@ Placing sound emitters, microphones, and importing sound assets.
 Creating GUIs, such as menus and HUDs
 
  ##  [external_zilch_engine_tools.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools.markdown)
-Zero Launcher, Zero Market 
+Zilch Launcher, Zilch Market 
 
  

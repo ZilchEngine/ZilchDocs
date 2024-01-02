@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#endcondition-zero-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)|[pointforceeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointforceeffect.markdown)|
-| |[ InterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#interpolationtype-zero-e)| |[pointgravityeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.markdown)|
+| |[ EndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#endcondition-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)|[pointforceeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointforceeffect.markdown)|
+| |[ InterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#interpolationtype-zilch-e)| |[pointgravityeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.markdown)|
 | |[ LocalPositionOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#localpositionoffset-zero)| | |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#maxdistance-zero-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#mindistance-zero-engine)| | |
-| |[ StrengthAtMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#strengthatmax-zero-engin)| | |
-| |[ StrengthAtMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#strengthatmin-zero-engin)| | |
+| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#maxdistance-zilch-engine)| | |
+| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#mindistance-zilch-engine)| | |
+| |[ StrengthAtMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#strengthatmax-zilch-engin)| | |
+| |[ StrengthAtMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.markdown#strengthatmin-zilch-engin)| | |
 
 
  #  Properties

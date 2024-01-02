@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicanimation.markdown#animation-zero-engine-do)|[animationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationnode.markdown)| |
-| |[ PlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicanimation.markdown#playmode-zero-engine-doc)| | |
+| |[ Animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicanimation.markdown#animation-zilch-engine-do)|[animationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationnode.markdown)| |
+| |[ PlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicanimation.markdown#playmode-zilch-engine-doc)| | |
 
 
  #  Properties

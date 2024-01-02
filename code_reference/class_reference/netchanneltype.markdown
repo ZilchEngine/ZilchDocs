@@ -8,23 +8,23 @@
 |---|---|---|---|
 |[ ResetConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#resetconfig-void)|[ AcceptIncomingChanges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#acceptincomingchanges-ze)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
 |[ SetConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#setconfig-void)|[ AccurateTimestampOnChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#accuratetimestamponchang)| | |
-| |[ AllowNapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#allownapping-zero-engine)| | |
-| |[ AllowRelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#allowrelay-zero-engine-d)| | |
-| |[ AuthorityDefault](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#authoritydefault-zero-en)| | |
-| |[ AuthorityMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#authoritymode-zero-engin)| | |
+| |[ AllowNapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#allownapping-zilch-engine)| | |
+| |[ AllowRelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#allowrelay-zilch-engine-d)| | |
+| |[ AuthorityDefault](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#authoritydefault-zilch-en)| | |
+| |[ AuthorityMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#authoritymode-zilch-engin)| | |
 | |[ AwakeDetectionInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#awakedetectioninterval-z)| | |
-| |[ AwakeDuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#awakeduration-zero-engin)| | |
-| |[ DetectionMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#detectionmode-zero-engin)| | |
+| |[ AwakeDuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#awakeduration-zilch-engin)| | |
+| |[ DetectionMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#detectionmode-zilch-engin)| | |
 | |[ DetectOutgoingChanges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#detectoutgoingchanges-ze)| | |
 | |[ EventOnIncomingPropertyChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#eventonincomingpropertyc)| | |
 | |[ EventOnOutgoingPropertyChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#eventonoutgoingpropertyc)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#name-zero-engine-documen)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#name-zilch-engine-documen)| | |
 | |[ NapDetectionInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#napdetectioninterval-zer)| | |
-| |[ ReliabilityMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#reliabilitymode-zero-eng)| | |
+| |[ ReliabilityMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#reliabilitymode-zilch-eng)| | |
 | |[ ReplicateOnOffline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#replicateonoffline-zero)| | |
-| |[ ReplicateOnOnline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#replicateononline-zero-e)| | |
-| |[ SerializationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#serializationmode-zero-e)| | |
-| |[ TransferMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#transfermode-zero-engine)| | |
+| |[ ReplicateOnOnline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#replicateononline-zilch-e)| | |
+| |[ SerializationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#serializationmode-zilch-e)| | |
+| |[ TransferMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.markdown#transfermode-zilch-engine)| | |
 
 
  #  Properties

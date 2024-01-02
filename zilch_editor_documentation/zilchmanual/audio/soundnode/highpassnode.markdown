@@ -12,9 +12,9 @@ High pass filters leave high frequencies untouched while silencing low frequenci
 ___
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
-- [bandpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/bandpassnode.markdown)
-- [lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/lowpassnode.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
+- [bandpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/bandpassnode.markdown)
+- [lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/lowpassnode.markdown)
 
  ## Code Reference
 - [ HighPassNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/highpassnode.markdown) 

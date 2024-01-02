@@ -4,7 +4,7 @@ A directional light is a light that, as its name suggests, emits light from a sp
 
 NOTE: As of now, DirectionalLight is the only type of light that can cast shadows. In the near future, PointLight and the soon-to-be-implemented SpotLight will also have the ability to cast shadows similarly to the way DirectionalLight does.
 
-Directional lights may be created either with or without the ability to cast shadows using either the `CreateDirectionalLightShadows` or `CreateDirectionalLight` commands, respectively.  When created with the ability to cast shadows, the DirectionalLight object will have [Camera](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/camerasviewportsrenderers.markdown#camera), [CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/camerasviewportsrenderers.markdown#cameraviewport), and ShadowRenderer components on it. Changing the translation or rotation of the DirectionalLight object will cause the shadows of objects in the scene to change:
+Directional lights may be created either with or without the ability to cast shadows using either the `CreateDirectionalLightShadows` or `CreateDirectionalLight` commands, respectively.  When created with the ability to cast shadows, the DirectionalLight object will have [Camera](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/camerasviewportsrenderers.markdown#camera), [CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/camerasviewportsrenderers.markdown#cameraviewport), and ShadowRenderer components on it. Changing the translation or rotation of the DirectionalLight object will cause the shadows of objects in the scene to change:
 
 
 
@@ -50,7 +50,7 @@ If one or two directional lights are being used to represent the sun and/or moon
  # Related Materials
  ## Manual
 
-- [ Camera and CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/camerasviewportsrenderers.markdown)
+- [ Camera and CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/camerasviewportsrenderers.markdown)
 
  ## Code Reference
 

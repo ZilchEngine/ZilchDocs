@@ -1,4 +1,4 @@
-How to use the tabs, windows, and commands of the Zero Editor.
+How to use the tabs, windows, and commands of the Zilch Editor.
 
  ## [Editor UI](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/editor/editorui.markdown) #Basic_Tutorials
 Windows Overview, Menu Bar, Commands, Save Project

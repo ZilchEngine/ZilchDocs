@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#webbrowsersetup-void)|[ BackgroundColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#backgroundcolor-zero-eng)|Object| |
-| |[ ScrollSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#scrollspeed-zero-engine)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#size-zero-engine-documen)| | |
-| |[ Transparent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#transparent-zero-engine)| | |
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#url-zero-engine-document)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#webbrowsersetup-void)|[ BackgroundColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#backgroundcolor-zilch-eng)|Object| |
+| |[ ScrollSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#scrollspeed-zilch-engine)| | |
+| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#size-zilch-engine-documen)| | |
+| |[ Transparent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#transparent-zilch-engine)| | |
+| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.markdown#url-zilch-engine-document)| | |
 
 
  #  Properties

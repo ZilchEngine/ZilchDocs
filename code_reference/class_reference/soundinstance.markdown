@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatedecibels-void)|[ CustomEventTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#customeventtime-zero-eng)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
-|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatepitch-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#decibels-zero-engine-doc)| | |
-|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatesemitones-voi)|[ EndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#endtime-zero-engine-docu)| | |
-|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatevolume-void)|[ FileLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#filelength-zero-engine-d)| | |
-|[ Stop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#stop-void)|[ IsPlaying](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#isplaying-zero-engine-do)| | |
-| |[ LoopEndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#loopendtime-zero-engine)| | |
-| |[ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#looping-zero-engine-docu)| | |
-| |[ LoopStartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#loopstarttime-zero-engin)| | |
-| |[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#paused-zero-engine-docum)| | |
-| |[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#pitch-zero-engine-docume)| | |
-| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#semitones-zero-engine-do)| | |
-| |[ SoundName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#soundname-zero-engine-do)| | |
-| |[ SoundNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#soundnode-zero-engine-do)| | |
-| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#time-zero-engine-documen)| | |
-| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#volume-zero-engine-docum)| | |
+|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatedecibels-void)|[ CustomEventTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#customeventtime-zilch-eng)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.markdown)| |
+|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatepitch-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#decibels-zilch-engine-doc)| | |
+|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatesemitones-voi)|[ EndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#endtime-zilch-engine-docu)| | |
+|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#interpolatevolume-void)|[ FileLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#filelength-zilch-engine-d)| | |
+|[ Stop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#stop-void)|[ IsPlaying](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#isplaying-zilch-engine-do)| | |
+| |[ LoopEndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#loopendtime-zilch-engine)| | |
+| |[ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#looping-zilch-engine-docu)| | |
+| |[ LoopStartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#loopstarttime-zilch-engin)| | |
+| |[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#paused-zilch-engine-docum)| | |
+| |[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#pitch-zilch-engine-docume)| | |
+| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#semitones-zilch-engine-do)| | |
+| |[ SoundName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#soundname-zilch-engine-do)| | |
+| |[ SoundNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#soundnode-zilch-engine-do)| | |
+| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#time-zilch-engine-documen)| | |
+| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.markdown#volume-zilch-engine-docum)| | |
 
 
  #  Properties

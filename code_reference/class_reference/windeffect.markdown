@@ -7,8 +7,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#windeffect-void)|[ LocalSpaceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#localspacedirection-zero)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
-| |[ WindDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#winddirection-zero-engin)| | |
-| |[ WindSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#windspeed-zero-engine-do)| | |
+| |[ WindDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#winddirection-zilch-engin)| | |
+| |[ WindSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#windspeed-zilch-engine-do)| | |
 | |[ WorldWindDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.markdown#worldwinddirection-zero)| | |
 
 

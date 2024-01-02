@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#close-void)|[ ConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#connectioncount-zero-eng)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#close-void)|[ ConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#connectioncount-zilch-eng)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
 |[ CloseConnection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#closeconnection-void)|[ IncomingConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#incomingconnectioncount)| | |
 |[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#connect-void)|[ OutgoingConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#outgoingconnectioncount)| | |
-|[ IsConnected](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#isconnected-zero-engine)| | | |
-|[ Listen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#listen-zero-engine-docum)| | | |
+|[ IsConnected](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#isconnected-zilch-engine)| | | |
+|[ Listen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#listen-zilch-engine-docum)| | | |
 |[ SendTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#sendto-void)| | | |
 |[ SendToAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#sendtoall-void)| | | |
 |[ SendToAllAndSelf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.markdown#sendtoallandself-void)| | | |

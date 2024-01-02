@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.markdown#convexmeshcollider-void)|[ ConvexMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.markdown#convexmesh-zero-engine-d)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.markdown#convexmeshcollider-void)|[ ConvexMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.markdown#convexmesh-zilch-engine-d)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.markdown)| |
 
 
  #  Properties

@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.markdown#firstpoint-zero-engine-d)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.markdown)| |
+| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.markdown#firstpoint-zilch-engine-d)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.markdown)| |
 
 
  #  Properties

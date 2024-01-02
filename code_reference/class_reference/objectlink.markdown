@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectlink-void)|[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#localpointa-zero-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#localpointb-zero-engine)| | |
-| |[ ObjectA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objecta-zero-engine-docu)| | |
-| |[ ObjectAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectapath-zero-engine)| | |
-| |[ ObjectB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectb-zero-engine-docu)| | |
-| |[ ObjectBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectbpath-zero-engine)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#worldpointa-zero-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#worldpointb-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectlink-void)|[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#localpointa-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#localpointb-zilch-engine)| | |
+| |[ ObjectA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objecta-zilch-engine-docu)| | |
+| |[ ObjectAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectapath-zilch-engine)| | |
+| |[ ObjectB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectb-zilch-engine-docu)| | |
+| |[ ObjectBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#objectbpath-zilch-engine)| | |
+| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown#worldpointb-zilch-engine)| | |
 
 
  #  Properties

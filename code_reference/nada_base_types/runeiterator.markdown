@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Decrement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#decrement-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#all-zero-engine-document)| | |
-|[ Equals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#equals-zero-engine-docum)|[ ByteIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#byteindex-zero-engine-do)| | |
-|[ Increment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#increment-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#current-zero-engine-docu)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#movenext-void)|[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#isnotempty-zero-engine-d)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#runeiterator-void)|[ OriginalString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#originalstring-zero-engi)| | |
+|[ Decrement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#decrement-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#all-zilch-engine-document)| | |
+|[ Equals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#equals-zilch-engine-docum)|[ ByteIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#byteindex-zilch-engine-do)| | |
+|[ Increment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#increment-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#current-zilch-engine-docu)| | |
+|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#movenext-void)|[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#isnotempty-zilch-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#runeiterator-void)|[ OriginalString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.markdown#originalstring-zilch-engi)| | |
 
 
  #  Properties

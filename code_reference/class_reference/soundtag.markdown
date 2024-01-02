@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ EQSetAllBands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqsetallbands-void)|[ CompressorAttack](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorattack-zero-en)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
+|[ EQSetAllBands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqsetallbands-void)|[ CompressorAttack](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorattack-zilch-en)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.markdown)| |
 |[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#interpolatedecibels-void)|[ CompressorKneeWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorkneewidth-zero)| | |
-|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#interpolatevolume-void)|[ CompressorRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorratio-zero-eng)| | |
-|[ StopSounds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#stopsounds-void)|[ CompressorRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorrelease-zero-e)| | |
+|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#interpolatevolume-void)|[ CompressorRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorratio-zilch-eng)| | |
+|[ StopSounds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#stopsounds-void)|[ CompressorRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorrelease-zilch-e)| | |
 |[ TagSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#tagsound-void)|[ CompressorThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#compressorthreshold-zero)| | |
-|[ UnTagSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#untagsound-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#decibels-zero-engine-doc)| | |
-| |[ EQBand1Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqband1gain-zero-engine)| | |
-| |[ EQBand2Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqband2gain-zero-engine)| | |
-| |[ EQBand3Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqband3gain-zero-engine)| | |
-| |[ EQHighPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqhighpassgain-zero-engi)| | |
-| |[ EQLowPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqlowpassgain-zero-engin)| | |
-| |[ InstanceCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#instancecount-zero-engin)| | |
-| |[ InstanceLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#instancelimit-zero-engin)| | |
-| |[ Instances](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#instances-zero-engine-do)| | |
-| |[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#paused-zero-engine-docum)| | |
-| |[ TagForDucking](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#tagforducking-zero-engin)| | |
-| |[ UseCompressor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#usecompressor-zero-engin)| | |
-| |[ UseEqualizer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#useequalizer-zero-engine)| | |
-| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#volume-zero-engine-docum)| | |
+|[ UnTagSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#untagsound-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#decibels-zilch-engine-doc)| | |
+| |[ EQBand1Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqband1gain-zilch-engine)| | |
+| |[ EQBand2Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqband2gain-zilch-engine)| | |
+| |[ EQBand3Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqband3gain-zilch-engine)| | |
+| |[ EQHighPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqhighpassgain-zilch-engi)| | |
+| |[ EQLowPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#eqlowpassgain-zilch-engin)| | |
+| |[ InstanceCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#instancecount-zilch-engin)| | |
+| |[ InstanceLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#instancelimit-zilch-engin)| | |
+| |[ Instances](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#instances-zilch-engine-do)| | |
+| |[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#paused-zilch-engine-docum)| | |
+| |[ TagForDucking](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#tagforducking-zilch-engin)| | |
+| |[ UseCompressor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#usecompressor-zilch-engin)| | |
+| |[ UseEqualizer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#useequalizer-zilch-engine)| | |
+| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.markdown#volume-zilch-engine-docum)| | |
 
 
  #  Properties

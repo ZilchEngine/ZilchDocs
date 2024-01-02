@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettingsmrt.markdown#get-zero-engine-document)| |[threadsafereferencecounted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafereferencecounted.markdown)| |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettingsmrt.markdown#get-zilch-engine-document)| |[threadsafereferencecounted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafereferencecounted.markdown)| |
 |[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettingsmrt.markdown#set-void)| | | |
 
 

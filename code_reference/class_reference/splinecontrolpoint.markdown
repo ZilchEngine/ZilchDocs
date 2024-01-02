@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown#splinecontrolpoint-void)|[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown#position-zero-engine-doc)| | |
-| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown#worldposition-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown#splinecontrolpoint-void)|[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown#position-zilch-engine-doc)| | |
+| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.markdown#worldposition-zilch-engin)| | |
 
 
  #  Properties

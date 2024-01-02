@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateTileMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#createtilemap-void)|[ ShowArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showarchetype-zero-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#tileeditor2d-void)|[ ShowCollision](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showcollision-zero-engin)| | |
-| |[ ShowCoordinates](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showcoordinates-zero-eng)| | |
-| |[ ShowGrid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showgrid-zero-engine-doc)| | |
-| |[ ShowInvalid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showinvalid-zero-engine)| | |
-| |[ TiledDrawing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#tileddrawing-zero-engine)| | |
-| |[ ToolType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#tooltype-zero-engine-doc)| | |
+|[ CreateTileMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#createtilemap-void)|[ ShowArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showarchetype-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#tileeditor2d-void)|[ ShowCollision](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showcollision-zilch-engin)| | |
+| |[ ShowCoordinates](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showcoordinates-zilch-eng)| | |
+| |[ ShowGrid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showgrid-zilch-engine-doc)| | |
+| |[ ShowInvalid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#showinvalid-zilch-engine)| | |
+| |[ TiledDrawing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#tileddrawing-zilch-engine)| | |
+| |[ ToolType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.markdown#tooltype-zilch-engine-doc)| | |
 
 
  #  Properties

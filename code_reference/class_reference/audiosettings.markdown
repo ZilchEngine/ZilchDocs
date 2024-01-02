@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#audiosettings-void)|[ LatencySetting](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#latencysetting-zero-engi)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#audiosettings-void)|[ LatencySetting](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#latencysetting-zilch-engi)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 | |[ MinVolumeThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#minvolumethreshold-zero)| | |
-| |[ MixType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#mixtype-zero-engine-docu)| | |
-| |[ MuteAllAudio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#muteallaudio-zero-engine)| | |
-| |[ SystemVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#systemvolume-zero-engine)| | |
+| |[ MixType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#mixtype-zilch-engine-docu)| | |
+| |[ MuteAllAudio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#muteallaudio-zilch-engine)| | |
+| |[ SystemVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiosettings.markdown#systemvolume-zilch-engine)| | |
 
 
  #  Properties

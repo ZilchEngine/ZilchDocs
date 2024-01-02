@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#connections-zero-engine)| | |
-| |[ HasOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#hasoutput-zero-engine-do)| | |
-| |[ ID](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#id-zero-engine-documenta)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#name-zero-engine-documen)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#position-zero-engine-doc)| | |
+| |[ Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#connections-zilch-engine)| | |
+| |[ HasOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#hasoutput-zilch-engine-do)| | |
+| |[ ID](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#id-zilch-engine-documenta)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#name-zilch-engine-documen)| | |
+| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.markdown#position-zilch-engine-doc)| | |
 
 
  #  Properties

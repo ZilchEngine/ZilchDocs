@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#editorcameracontroller-v)|[ ControlMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#controlmode-zero-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#reset-void)|[ HorizontalAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#horizontalangle-zero-eng)| | |
-| |[ LookDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#lookdistance-zero-engine)| | |
-| |[ LookTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#looktarget-zero-engine-d)| | |
-| |[ MoveSensitivity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#movesensitivity-zero-eng)| | |
-| |[ VerticalAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#verticalangle-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#editorcameracontroller-v)|[ ControlMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#controlmode-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#reset-void)|[ HorizontalAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#horizontalangle-zilch-eng)| | |
+| |[ LookDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#lookdistance-zilch-engine)| | |
+| |[ LookTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#looktarget-zilch-engine-d)| | |
+| |[ MoveSensitivity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#movesensitivity-zilch-eng)| | |
+| |[ VerticalAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorcameracontroller.markdown#verticalangle-zilch-engin)| | |
 
 
  #  Properties

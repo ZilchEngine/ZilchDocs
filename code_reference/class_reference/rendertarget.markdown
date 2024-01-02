@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Release](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.markdown#release-void)|[ Texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.markdown#texture-zero-engine-docu)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
+|[ Release](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.markdown#release-void)|[ Texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.markdown#texture-zilch-engine-docu)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
 
 
  #  Properties

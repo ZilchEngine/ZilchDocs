@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#addtext-void)|[ BackgroundColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#backgroundcolor-zero-eng)| | |
-|[ ClearText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#cleartext-void)|[ BorderColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#bordercolor-zero-engine)| | |
-|[ SetColorScheme](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#setcolorscheme-void)|[ Padding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#padding-zero-engine-docu)| | |
+|[ AddText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#addtext-void)|[ BackgroundColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#backgroundcolor-zilch-eng)| | |
+|[ ClearText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#cleartext-void)|[ BorderColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#bordercolor-zilch-engine)| | |
+|[ SetColorScheme](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#setcolorscheme-void)|[ Padding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#padding-zilch-engine-docu)| | |
 |[ SetPlacement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#setplacement-void)| | | |
 |[ SetPriority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#setpriority-void)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilegacytooltip.markdown#uilegacytooltip-void)| | | |

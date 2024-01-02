@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ MultiTargetBlend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.markdown#multitargetblend-zero-en)| | |
-| |[ SamplerObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.markdown#samplerobjects-zero-engi)| | |
+| |[ MultiTargetBlend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.markdown#multitargetblend-zilch-en)| | |
+| |[ SamplerObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.markdown#samplerobjects-zilch-engi)| | |
 | |[ TextureCompression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.markdown#texturecompression-zero)| | |
 
 

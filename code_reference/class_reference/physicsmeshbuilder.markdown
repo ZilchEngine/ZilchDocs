@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshbuilder.markdown#physicsmeshbuilder-void)|[ MeshBuilt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshbuilder.markdown#meshbuilt-zero-engine-do)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshbuilder.markdown#physicsmeshbuilder-void)|[ MeshBuilt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshbuilder.markdown#meshbuilt-zilch-engine-do)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
 
 
  #  Properties

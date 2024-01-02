@@ -1,7 +1,7 @@
 
- # [Zero Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/launcher.markdown) #Basic_Tutorials
+ # [Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/launcher.markdown) #Basic_Tutorials
 Downloading the Engine, Launcher Interface, Builds, Creating New Project
 
- # [Zero Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.markdown) 
+ # [Zilch Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.markdown) 
 
  

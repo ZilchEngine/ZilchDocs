@@ -8,7 +8,7 @@ It is up to a user to define what application modes the CustomPhysicsEffect work
 ---
  #  Related Materials
  ##  Manual
-- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions.markdown)
+- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.markdown)
 
  ##  Reference
 - [CustomPhysicsEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffect.markdown)

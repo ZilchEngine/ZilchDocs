@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#thrusteffect-void)|[ ForceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#forcedirection-zero-engi)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
-| |[ ForceStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#forcestrength-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#thrusteffect-void)|[ ForceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#forcedirection-zilch-engi)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.markdown)| |
+| |[ ForceStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#forcestrength-zilch-engin)| | |
 | |[ LocalSpaceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#localspacedirection-zero)| | |
 | |[ WorldForceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.markdown#worldforcedirection-zero)| | |
 

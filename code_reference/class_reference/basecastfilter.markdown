@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ IgnoreChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignorechildren-zero-engi)| |[castfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown)|
-| |[ IgnoreDynamic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignoredynamic-zero-engin)| | |
-| |[ IgnoreGhost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignoreghost-zero-engine)| | |
-| |[ IgnoreKinematic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignorekinematic-zero-eng)| | |
-| |[ IgnoreStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignorestatic-zero-engine)| | |
+| |[ IgnoreChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignorechildren-zilch-engi)| |[castfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.markdown)|
+| |[ IgnoreDynamic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignoredynamic-zilch-engin)| | |
+| |[ IgnoreGhost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignoreghost-zilch-engine)| | |
+| |[ IgnoreKinematic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignorekinematic-zilch-eng)| | |
+| |[ IgnoreStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.markdown#ignorestatic-zilch-engine)| | |
 
 
  #  Properties

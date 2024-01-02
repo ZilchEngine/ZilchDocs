@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown#model-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown#mesh-zero-engine-documen)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown#model-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.markdown#mesh-zilch-engine-documen)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown)| |
 
 
  #  Properties

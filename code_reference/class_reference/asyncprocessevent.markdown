@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocessevent.markdown#asyncprocessevent-void)|[ Bytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocessevent.markdown#bytes-zero-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ StreamType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocessevent.markdown#streamtype-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocessevent.markdown#asyncprocessevent-void)|[ Bytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocessevent.markdown#bytes-zilch-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ StreamType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocessevent.markdown#streamtype-zilch-engine-d)| | |
 
 
  #  Properties

@@ -11,9 +11,9 @@ For example:
 
 
 > - In the `Object Window`
->  - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) the Player object object
+>  - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) the Player object object
 > - In the `Properties Window`
->  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown):
+>  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown):
 >  [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
 >  - Under [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
 >   - Set AllowSleep button to `false`
@@ -33,7 +33,7 @@ Each level of indentation represents a subsection of the window you are already 
 
 
 will be shortened to:
-    - [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown): [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
+    - [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown): [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 
 This significantly reduces the amount of reading, and while still providing a reference to the full process should you need a refresher.
 
@@ -46,17 +46,17 @@ It is recommended that you create a new project. If this is the first time you h
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106519.png)
 
 
-- Open the Zero Launcher
+- Open the Zilch Launcher
 - In the `Project Window`
  - Select `EMPTY 2D Project` template
  - Enter a name for the project in the Name field
  - Enter a Project Folder directory (if the default is not sufficient) by either typing or left clicking the browse button on the right of the field.
  - Left Click the `Create Project` button
 
-Alternatively, you can create a new project from within the editor by using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+Alternatively, you can create a new project from within the editor by using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
 
 NOTE:   
- [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) represent all actions you can perform as a user in the Zero Editor. Page numbers are listed throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zero by going to the page number provided in the tutorial!
+ [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) represent all actions you can perform as a user in the Zilch Editor. Page numbers are listed throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zilch by going to the page number provided in the tutorial!
 
  # Windows Overview
 
@@ -132,11 +132,11 @@ NOTE: **Component** is a chunk of functionality or small bucket of data. An obje
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47221.png)
 
 
-Anything you add to the game using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown) or through drag-and-drop importing is stored as a resource. All resources added to your project can be found in the `Library Window`. You'll learn more details about resources in future lessons.
+Anything you add to the game using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown) or through drag-and-drop importing is stored as a resource. All resources added to your project can be found in the `Library Window`. You'll learn more details about resources in future lessons.
 
  # Search Window
 
-This powerful tool allows you to search nearly anything within the editor. Perhaps its most important use is executing [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown).
+This powerful tool allows you to search nearly anything within the editor. Perhaps its most important use is executing [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown).
 
 
 
@@ -147,13 +147,13 @@ This powerful tool allows you to search nearly anything within the editor. Perha
     The `+` symbol can be read as "and" when used to describe button combinations. It means you should do all the actions "added" together simultaneously. 
    Press `Ctrl + C` to copy, would mean hold down `Ctrl` on your keyboard then press `C` to perform the copy action.
 
-There are three ways to bring up the Zero `Search Window`:
+There are three ways to bring up the Zilch `Search Window`:
 
 #  Click anywhere in the `Level Window` and press `Space`
 
 # From **any** window press `Ctrl + Shift + Space`
 
-#  Click the Zero Search Button in the upper left-hand corner
+#  Click the Zilch Search Button in the upper left-hand corner
 
 
 
@@ -192,7 +192,7 @@ NOTE: To be "in" a window requires that the window has "focus". To gain focus yo
   - Press `Ctrl + Delete` to clear the console
 - In the `Level Window`
   - Press `Space`
- - Type the [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [SaveProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#saveproject)
+ - Type the [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [SaveProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#saveproject)
  - Press `Enter`
 A message telling you the project was saved is displayed in the `Console Window`.
 When console output is referenced in future lessons it will be shown like this:
@@ -206,12 +206,12 @@ Saved : Project and all scripts saved.
  # Game Window
 
 The `Game Window` is where your game actually runs inside the Zilch Engine editor. You can test or play your game (or specific levels) here without having to create an executable. 
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown): [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown): [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 There are multiple ways to run the game in the editor.
  - Press key `F5` on the keyboard 
  - Press the Play button button in the `Tool Bar`
- - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+ - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - `Project Menu  > Play Game`
 
 The `Game Window` tab should appear in a tab next to the Level Window tab:
@@ -227,13 +227,13 @@ The `Game Window` should not show anything but a blank screen right now because 
 
 
 -  Close the `Game Window` by pressing the `X` button on the Game tab
-- You can also press `Esc` or use [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown): [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- You can also press `Esc` or use [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown): [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
   It is a good practice to close your game window promptly. Editing levels while the `Game Window` is open can cause erratic behavior, undefined behavior, or errors. 
 - Click on the Level tab to return to the `Level Window`
 
  # Tools Window
 
-This window contains several useful tools for using the Zero Editor. These tools are for managing various objects within the level. Settings for the current tool being used are also available here. You can switch tools from the drop-down selection or by using hotkeys.
+This window contains several useful tools for using the Zilch Editor. These tools are for managing various objects within the level. Settings for the current tool being used are also available here. You can switch tools from the drop-down selection or by using hotkeys.
 -   Click anywhere in the `Level Window` then press `1` on your keyboard. This is a hotkey for switching to the SelectTool.
 
 
@@ -280,13 +280,13 @@ You may have noticed that you can play, pause, step through, and stop your game 
 ![menubar](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/1436.png)
 
 The menu bar includes commands for project manipulation and exporting your game under `File`, quick create options for getting things on the screen fast under `Create`, and the ability to reopen closed windows via `Windows`.
-See [Executing Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) for information.
+See [Executing Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) for information.
 
  # Related Materials
 
  ## Manual
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components.markdown)
-- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero.markdown)
+- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.markdown)
+- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.markdown)
 
  ##  Tutorials
 - [BasicComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/architecture/basiccomponents.markdown)

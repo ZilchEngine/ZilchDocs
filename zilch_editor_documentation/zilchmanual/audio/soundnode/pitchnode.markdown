@@ -23,7 +23,7 @@ The `AudioInterpolationDone` event will be sent when a pitch interpolation has f
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
 
  ## Code Reference
 - [ PitchNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.markdown) 

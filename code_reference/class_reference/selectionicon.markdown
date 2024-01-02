@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#selectionicon-void)|[ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#material-zero-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#selectionicon-void)|[ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#material-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 | |[ OverrideSelections](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#overrideselections-zero)| | |
-| |[ ShaderInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#shaderinputs-zero-engine)| | |
-| |[ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#spritesource-zero-engine)| | |
-| |[ ViewScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#viewscale-zero-engine-do)| | |
-| |[ VisibilityEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#visibilityevents-zero-en)| | |
-| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#visible-zero-engine-docu)| | |
+| |[ ShaderInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#shaderinputs-zilch-engine)| | |
+| |[ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#spritesource-zilch-engine)| | |
+| |[ ViewScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#viewscale-zilch-engine-do)| | |
+| |[ VisibilityEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#visibilityevents-zilch-en)| | |
+| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectionicon.markdown#visible-zilch-engine-docu)| | |
 
 
  #  Properties

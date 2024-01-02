@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ DriverSupport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphics.markdown#driversupport-zero-engin)| | |
+| |[ DriverSupport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphics.markdown#driversupport-zilch-engin)| | |
 
 
  #  Properties

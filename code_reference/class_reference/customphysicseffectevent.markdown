@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#customphysicseffectevent)|[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#dt-zero-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Effect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#effect-zero-engine-docum)| | |
-| |[ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#rigidbody-zero-engine-do)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#customphysicseffectevent)|[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#dt-zilch-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Effect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#effect-zilch-engine-docum)| | |
+| |[ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffectevent.markdown#rigidbody-zilch-engine-do)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ImportImages](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/imageoptions.markdown#importimages-zero-engine)|Object| |
+| |[ ImportImages](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/imageoptions.markdown#importimages-zilch-engine)|Object| |
 
 
  #  Properties

@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Child](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyevent.markdown#child-zero-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyevent.markdown#parent-zero-engine-docum)| | |
+| |[ Child](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyevent.markdown#child-zilch-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchyevent.markdown#parent-zilch-engine-docum)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OsWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rootwidget.markdown#oswindow-zero-engine-doc)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)|[mainwindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindow.markdown)|
+| |[ OsWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rootwidget.markdown#oswindow-zilch-engine-doc)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)|[mainwindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindow.markdown)|
 
 
  #  Properties

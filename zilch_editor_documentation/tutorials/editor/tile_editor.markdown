@@ -11,7 +11,7 @@ This lesson covers the basics of Zilch Engine's Tile Editor tool. The [ next les
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 
 The Tile Editor tool allows a designer to quickly make a 2D level by painting a tilemap with tiles that consist of graphics, colliders, custom logic, and more.
@@ -20,7 +20,7 @@ The Tile Editor tool allows a designer to quickly make a 2D level by painting a 
  #  Importing Tile Sprites
 
 
-The Tile Editor tool is typically (though not exclusively) used with sprites prepared with the [ Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spriteimporter.markdown).
+The Tile Editor tool is typically (though not exclusively) used with sprites prepared with the [ Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spriteimporter.markdown).
 
 - Download the following tile sheet:
   ![PlatformerTiles](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107599.png)
@@ -175,7 +175,7 @@ After committing a selection with the Selection sub-tool, the Draw sub-tool is a
  ##  A Quick Test Run
 
 
-Let's use what we've covered so far to throw together a very basic level (but really not much more than a couple of platforms) that we can play in using the swept character archetype that can be downloaded from the Zero Market, as covered in [ tutorial on the Zero Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.markdown).
+Let's use what we've covered so far to throw together a very basic level (but really not much more than a couple of platforms) that we can play in using the swept character archetype that can be downloaded from the Zilch Market, as covered in [ tutorial on the Zilch Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.markdown).
 
 - Use the TileEditor2D tool to create a set of simple platforms:
   ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/108816.png)
@@ -189,7 +189,7 @@ Let's use what we've covered so far to throw together a very basic level (but re
  - Under Archetype 
   - `Left-click and drag` `SweptPlayer2D` into the `Level Window`
     ![Adding a Swept Character](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/108718.gif)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -199,7 +199,7 @@ Let's use what we've covered so far to throw together a very basic level (but re
 *By default, the tiles placed with the TileEditor2D tool have collision*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 (NOTE) **Can't Jump High Enough?** Depending on how you constructed your level, you may want to adjust your player character's properties, such as the `SweptController`'s Gravity  and JumpSpeed .
 
@@ -221,9 +221,9 @@ The test run was a success: the swept character collides with the tiles as expec
  ##  Manual
 
 
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [spriteimporter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spriteimporter.markdown)
-- [spritesourceeditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown)
+- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [spriteimporter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spriteimporter.markdown)
+- [spritesourceeditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown)
 
 
  ##  Reference

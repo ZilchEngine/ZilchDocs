@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChannelName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#channelname-zero-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ ComponentName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#componentname-zero-engin)| | |
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#direction-zero-engine-do)| | |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#object-zero-engine-docum)| | |
-| |[ PropertyName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#propertyname-zero-engine)| | |
-| |[ ReplicationPhase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#replicationphase-zero-en)| | |
-| |[ Timestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#timestamp-zero-engine-do)| | |
+| |[ ChannelName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#channelname-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ ComponentName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#componentname-zilch-engin)| | |
+| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#direction-zilch-engine-do)| | |
+| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#object-zilch-engine-docum)| | |
+| |[ PropertyName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#propertyname-zilch-engine)| | |
+| |[ ReplicationPhase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#replicationphase-zilch-en)| | |
+| |[ Timestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.markdown#timestamp-zilch-engine-do)| | |
 
 
  #  Properties

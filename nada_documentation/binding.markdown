@@ -146,7 +146,7 @@ int main()
   ErrorIf(sayHelloFunction == nullptr, "Failed to find function 'SayHello' on Nada type 'Player'");
 
   // Find the instance 'TakeDamage' function on the Player which accepts a Real and returns nothing (Void)
-  Function* takeDamageFunction = playerType->FindFunction("TakeDamage", Array<Type*>(ZeroInit, NadaTypeId(Real)), NadaTypeId(void), FindMemberOptions::None);
+  Function* takeDamageFunction = playerType->FindFunction("TakeDamage", Array<Type*>(ZilchInit, NadaTypeId(Real)), NadaTypeId(void), FindMemberOptions::None);
   ErrorIf(takeDamageFunction == nullptr, "Failed to find function 'TakeDamage' on Nada type 'Player'");
 
   // Find the instance data member 'Health' on the Player (a data member is called a Field in Nada)

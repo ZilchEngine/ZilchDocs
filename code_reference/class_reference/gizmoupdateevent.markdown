@@ -6,8 +6,8 @@
 |---|---|---|---|
 | |[ ConstrainedWorldDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#constrainedworlddelta-ze)|[gizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.markdown)|[ringgizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.markdown)|
 | |[ ConstrainedWorldMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#constrainedworldmovement)| |[rotategizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmoupdateevent.markdown)|
-| |[ InitialGrabPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#initialgrabpoint-zero-en)| |[scalegizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.markdown)|
-| |[ MouseWorldDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#mouseworlddelta-zero-eng)| |[translategizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmoupdateevent.markdown)|
+| |[ InitialGrabPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#initialgrabpoint-zilch-en)| |[scalegizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.markdown)|
+| |[ MouseWorldDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#mouseworlddelta-zilch-eng)| |[translategizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmoupdateevent.markdown)|
 | |[ MouseWorldMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown#mouseworldmovement-zero)| | |
 
 

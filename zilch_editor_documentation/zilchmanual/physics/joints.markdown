@@ -1,4 +1,4 @@
-[ Joints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown) are a representation of a physics concept known as [constraints](https://en.wikipedia.org/wiki/Constraint_(mathematics) ). A constraint is a mathematical rule that defines (or constrains) how objects are allowed to move. A Joint is a collection of one or more constraints that define a more common interaction. In Zero, a Joint is typically an independent object that connects two [ObjectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown).
+[ Joints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown) are a representation of a physics concept known as [constraints](https://en.wikipedia.org/wiki/Constraint_(mathematics) ). A constraint is a mathematical rule that defines (or constrains) how objects are allowed to move. A Joint is a collection of one or more constraints that define a more common interaction. In Zilch, a Joint is typically an independent object that connects two [ObjectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.markdown).
 
  #  Shared Properties
 Before looking at individual joints, there's a few useful shared properties:
@@ -39,7 +39,7 @@ A stick joint, or distance joint, defines that two points on the objects should 
 A position joint locks two points on the objects to be at the same position. This is common for a ball-and-socket like joint.
 
  ###  WeldJoint
-A weld joint locks the the relative position and rotation of two objects together. For a rigid connection, [hierarchies](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/hierarchies.markdown) should be used instead as joints are not completely stiff. If run-time behaviors, such as auto-snapping with a max impulse, are desired then using a weld is easier than hierarchies.
+A weld joint locks the the relative position and rotation of two objects together. For a rigid connection, [hierarchies](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/hierarchies.markdown) should be used instead as joints are not completely stiff. If run-time behaviors, such as auto-snapping with a max impulse, are desired then using a weld is easier than hierarchies.
 
  ###  PrismaticJoint
 A prismatic joint (or slider) locks the rotation of two objects together and two of the linear axes. This allows relative translation of the objects along one axis. This is often used to create pistons or sliders.
@@ -71,7 +71,7 @@ A few joints have 2D versions that should be used when making a 2D game instead 
 ---
  ##  Related Materials
  ###  Manual
-- [colliders.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown)
+- [colliders.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown)
 
  ###  Reference
  - [Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)

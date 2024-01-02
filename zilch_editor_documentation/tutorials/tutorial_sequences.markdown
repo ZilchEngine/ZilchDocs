@@ -8,7 +8,7 @@ So, without further ado, let's get started!
  # Basics
 *Every information a user needs to know before starting any tutorial. This section covers how to get a project started, basic UI overview and vocabulary*
 
- ##  [Zero Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/launcher.markdown)
+ ##  [Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/launcher.markdown)
 Downloading the Engine, Launcher Interface, Builds, Creating New Project
 
  ##  [Editor UI](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/editor/editorui.markdown) 
@@ -78,7 +78,7 @@ Spawning Archetypes, Accessing new object properties
 -----
 
  # Beginner III
-*Tutorials in this section are aimed at users with limited scripting experience and focus on covering on how to build simple 2D games in Zero*
+*Tutorials in this section are aimed at users with limited scripting experience and focus on covering on how to build simple 2D games in Zilch*
 
  ## [Events I](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.markdown)
 LogicUpdate, CollisionEvents, Destruction Events
@@ -113,9 +113,9 @@ Particle Emitter, Particle Animator, Particle Color Animator, Particle Attractor
 -----
 
  # Beginner IV
-*Tutorials in this section are aimed at users with some scripting experience and focus on covering remaining core topics for building a 2D game in Zero*
+*Tutorials in this section are aimed at users with some scripting experience and focus on covering remaining core topics for building a 2D game in Zilch*
 
- ## [Zero Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.markdown)
+ ## [Zilch Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.markdown)
 Store Interface, Download Packages, Importing Into Project
 
  ## [ Swept Character ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/gameplay/swept_character.markdown)
@@ -145,7 +145,7 @@ Creating a custom cursor for your game
 DebugLine, DebugCircle
 
  ## [ Menus](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/ui/menus.markdown)
-Zero's UI system, Title Screen, Main Menu, Credits, Quit handling
+Zilch's UI system, Title Screen, Main Menu, Credits, Quit handling
 
  ## [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/arrays.markdown)
 Arrays, Array Methods, Element Iteration

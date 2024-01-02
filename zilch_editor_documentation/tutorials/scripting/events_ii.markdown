@@ -5,7 +5,7 @@ This tutorial covers custom events in Zilch Engine.
 
 
 - Custom events
-- The [sends](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/keywords.markdown) keyword
+- The [sends](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/keywords.markdown) keyword
 - Event dispatching
 - Custom event data
 
@@ -28,7 +28,7 @@ Just as instances of the class [CollisionEvent](https://github.com/ZilchEngine/Z
  ##  The `sends` Keyword
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `CreateObjectOnInput`
 - Update the `CreateObjectOnInput` script to the following:
 
@@ -67,9 +67,9 @@ class CreateObjectOnInput : NadaComponent
 }
 ```
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Player object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Player object
 - In the `Properties Window`
-  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `CreateObjectOnInput`
+  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `CreateObjectOnInput`
 
 The first part of this script that should be new is the line with the `sends` keyword. If you recall from the previous [events](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.markdown) tutorial, the second parameter in the [ Zilch.Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.markdown#connect-void) function is a [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown) ID that identifies the event. The `sends` keyword defines this ID, and also declares the event type the custom event will use:
 
@@ -105,7 +105,7 @@ This function dispatches an event to `this.Owner`. Dispatching events to `this.O
 
 Before creating the component that will connect to this event, we need to create a projectile archetype that can be spawned as long as the key to create an object is down.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Projectile`
  - Set Archetype  to `Projectile`
@@ -114,14 +114,14 @@ Before creating the component that will connect to this event, we need to create
  - Under [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.markdown)
   - Set VertexColor  to `[R:0, G:255, B:0, A:1.00]`
   - Set SpriteSource enum to `Circle`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown)
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
-- [Upload to Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/archetypes/archetype_basics.markdown#upload-to-archetype)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)
+- [Upload to Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes/archetype_basics.markdown#upload-to-archetype)
   ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106942.png)
 
 *The completed Projectile object*
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Delete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#delete)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Delete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#delete)
 
 Now we can create the component that will spawn and set the velocity of the object from the player when it "hears" the SpawnObject event.
 
@@ -129,7 +129,7 @@ Now we can create the component that will spawn and set the velocity of the obje
  #  Responding to Custom Events
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `SpawnObjectWithVelocity`
 - Update the `SpawnObjectWithVelocity` script to the following:
 ```lang=csharp, name=SpawnObjectWithVelocity
@@ -158,18 +158,18 @@ class SpawnObjectWithVelocity : NadaComponent
   }
 }
 ```
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Player object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Player object
 - In the `Properties Window`
-  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `SpawnObjectWithVelocity`
+  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `SpawnObjectWithVelocity`
 
 In the Initialize function, we connect to the `CreateObject` event just like any of the built-in events we've connected to previously.
 
 We also need to add our `DestroyOnCollide` component to the enemy so that the projectiles will destroy it.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Enemy object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Enemy object
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `DestroyOnCollide`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `DestroyOnCollide`
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - Hold key the `Space` bar to fire
 
 
@@ -177,7 +177,7 @@ We also need to add our `DestroyOnCollide` component to the enemy so that the pr
 ![Projectile Destroying Player and Foe](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107041.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Well, that didn't behave how we wanted it to. Here's what happened: first, the projectile was spawned at the player's position. Then, since both player and projectile have colliders, they collided. In response to the [CollisionStarted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#collisionstarted) event, the player's `DestroyOnCollide` component caused the player to destroy itself. To fix this, we can make a simple change to our DestroyOnCollide component that will make use of Archetype checking within the OnCollisionStarted callback function. (We'll also make it so that the projectile is destroyed in the process.)
 
@@ -207,15 +207,15 @@ class DestroyOnCollide : NadaComponent
 
 Now we can check to see what we're colliding with, and whether it's the correct object. If it is, we destroy not only the object with this component, but also the one it collided with.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Enemy object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Enemy object
 - In the `Properties Window`
  - Set Archetype  to `Enemy`
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : Player object
+- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : Player object
 - In the `Properties Window`
  - Under `DestroyOnCollide`
   - Set CollisionArchetype enum to `Enemy`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - Hold key the `Space` bar to fire
 
 
@@ -223,7 +223,7 @@ Now we can check to see what we're colliding with, and whether it's the correct 
 ![Projectile Destroying Only Foe](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107050.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Now we can move on to defining your own custom event class, which will allow you to specify and set the data to be sent with the event.
 
@@ -329,7 +329,7 @@ class SpawnObjectWithVelocity : NadaComponent
 
 Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEvent` instead of `NadaEvent`. The parameter for an event callback function must always match the type of event it is responding to. The `event` argument is then used to access the [ Boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.markdown) data member, which determines the speed of the object that is spawned.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
  - Hold key the `Space` bar to fire
 
 
@@ -337,7 +337,7 @@ Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEve
 ![Destroying Foe with Slow and Fast Projectiles](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107064.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  #  Related Materials
@@ -347,13 +347,13 @@ Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEve
 - [events](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.markdown)
 
  ##  Manual
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [launchernewproject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown)
-- [keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/keywords.markdown)
-- [ Upload to Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/archetypes/archetype_basics.markdown#upload-to-archetype)
-- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
+- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [launchernewproject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.markdown)
+- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
+- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown)
+- [keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/keywords.markdown)
+- [ Upload to Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes/archetype_basics.markdown#upload-to-archetype)
+- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown)
 
  ##  Reference
  ###  Classes

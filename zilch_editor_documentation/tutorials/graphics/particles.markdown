@@ -11,9 +11,9 @@ Particles are a great way to polish your game and are used for a variety of effe
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspriteparticles)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspriteparticles)
 
 
 
@@ -90,7 +90,7 @@ The [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/cod
 Campfires generally have a wider base and have flames get higher the closer to the middle of the fire. Let's use the [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown) to make this more of a pyramid than a fan.
 
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown)
  - Under [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.markdown)
    - Set AttractPosition  to `[0, 6, 0]`
    - Set MinDistance  to `0.5`
@@ -130,7 +130,7 @@ Adding the X-axis random force simulates air blowing our fire around a little bi
  # Particle Color Animator
 The last thing we need in this particle system is to change the color throughout each particle's lifetime. The [ParticleColorAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.markdown) allows you to choose a gradient which will change the color of the particles throughout their lifetime.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 - Create a Gradient resource using the Default template template and name it `Fire`
 - In the `Gradient Editor`
  - `Double-Left-Click` to create a new *point* in the middle of the gradient
@@ -164,7 +164,7 @@ While the particle system looks much more like fire than what we started with, i
 
 The most common technique to conquer this issue is to create multiple particle systems that overlap. In this way, we can create distinct particle effects that layer on top of each other to create a single, complex system.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown) : SpriteParticle object
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown) : SpriteParticle object
  - In the `Properties Window`
   - Set Name  to `Fire`
   - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.markdown)
@@ -172,7 +172,7 @@ The most common technique to conquer this issue is to create multiple particle s
 
 By setting this to true, the particle system will always run and render in-editor without the game playing. So far in this lesson, the campfire particle system has always been selected so it has always been running. Now that we are creating a second system that we want to run and preview at the same time, we need to use PreviewInEditor checkBox.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspriteparticles)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspriteparticles)
 - In the `Properties Window`
  - Rename the SpriteParticles object to `Sparks`
  - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.markdown)
@@ -201,7 +201,7 @@ By setting this to true, the particle system will always run and render in-edito
 We have the particles layers, but sparks tend to be affected more by wind than flames are. Sparks also tend to leave small light trails behind.  So, let's make both of things happen.
 
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ParticleWander](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown)
+ - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ParticleWander](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown)
  - Under [ParticleWander](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.markdown)
   - Set WanderStrength  to `0.5`
  - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.markdown)
@@ -218,11 +218,11 @@ By changing the geometry mode to beam we scale the sparks based on their individ
 
  # Related Materials
  ## Manual
-- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/launchernewproject.markdown)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/selectobject.markdown)
+- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown)
+- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
+- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.markdown)
 
  ## Reference
  ### Classes

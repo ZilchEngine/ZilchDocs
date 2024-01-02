@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#boolean4x2-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#count-zero-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#get-zero-engine-document)|[ CountX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#countx-zero-engine-docum)| | |
-|[ GetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#getbyindex-zero-engine-d)|[ CountY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#county-zero-engine-docum)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#set-void)|[ M00](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m00-zero-engine-document)| | |
-|[ SetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#setbyindex-void)|[ M01](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m01-zero-engine-document)| | |
-| |[ M10](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m10-zero-engine-document)| | |
-| |[ M11](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m11-zero-engine-document)| | |
-| |[ M20](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m20-zero-engine-document)| | |
-| |[ M21](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m21-zero-engine-document)| | |
-| |[ M30](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m30-zero-engine-document)| | |
-| |[ M31](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m31-zero-engine-document)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#boolean4x2-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#count-zilch-engine-docume)| | |
+|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#get-zilch-engine-document)|[ CountX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#countx-zilch-engine-docum)| | |
+|[ GetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#getbyindex-zilch-engine-d)|[ CountY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#county-zilch-engine-docum)| | |
+|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#set-void)|[ M00](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m00-zilch-engine-document)| | |
+|[ SetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#setbyindex-void)|[ M01](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m01-zilch-engine-document)| | |
+| |[ M10](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m10-zilch-engine-document)| | |
+| |[ M11](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m11-zilch-engine-document)| | |
+| |[ M20](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m20-zilch-engine-document)| | |
+| |[ M21](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m21-zilch-engine-document)| | |
+| |[ M30](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m30-zilch-engine-document)| | |
+| |[ M31](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x2.markdown#m31-zilch-engine-document)| | |
 
 
  #  Properties

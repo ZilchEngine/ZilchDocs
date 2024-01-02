@@ -54,7 +54,7 @@ Point effects are only expected to be used as Region effects. Other application 
 ---
  #  Related Materials
  ###  Manual
-- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicseffectsandregions.markdown)
+- [physicseffectsandregions.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.markdown)
  ##  Reference
 - [PointForceEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointforceeffect.markdown)
 - [PointGravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.markdown)

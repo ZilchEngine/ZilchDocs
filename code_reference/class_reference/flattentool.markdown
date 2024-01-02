@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#height-zero-engine-docum)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown)| |
-| |[ SampleNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#samplenormal-zero-engine)| | |
-| |[ SampleOnMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#sampleonmousedown-zero-e)| | |
-| |[ SlopeNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#slopenormal-zero-engine)| | |
+| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#height-zilch-engine-docum)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.markdown)| |
+| |[ SampleNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#samplenormal-zilch-engine)| | |
+| |[ SampleOnMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#sampleonmousedown-zilch-e)| | |
+| |[ SlopeNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.markdown#slopenormal-zilch-engine)| | |
 
 
  #  Properties

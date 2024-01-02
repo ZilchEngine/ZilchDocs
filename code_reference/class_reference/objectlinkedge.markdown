@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#objectlinkedge-void)|[ ObjectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#objectlink-zero-engine-d)| | |
-| |[ OtherCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#othercog-zero-engine-doc)| | |
-| |[ SelfCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#selfcog-zero-engine-docu)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#objectlinkedge-void)|[ ObjectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#objectlink-zilch-engine-d)| | |
+| |[ OtherCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#othercog-zilch-engine-doc)| | |
+| |[ SelfCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.markdown#selfcog-zilch-engine-docu)| | |
 
 
  #  Properties

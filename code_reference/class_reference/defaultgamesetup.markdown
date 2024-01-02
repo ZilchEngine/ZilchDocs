@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#defaultgamesetup-void)|[ LoadEditingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#loadeditinglevel-zero-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ StartingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startinglevel-zero-engin)| | |
-| |[ StartingSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startingspace-zero-engin)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#defaultgamesetup-void)|[ LoadEditingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#loadeditinglevel-zilch-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ StartingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startinglevel-zilch-engin)| | |
+| |[ StartingSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.markdown#startingspace-zilch-engin)| | |
 
 
  #  Properties

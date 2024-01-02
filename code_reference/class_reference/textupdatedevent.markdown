@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChangeAccepted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textupdatedevent.markdown#changeaccepted-zero-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ ChangeAccepted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textupdatedevent.markdown#changeaccepted-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

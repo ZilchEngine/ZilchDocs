@@ -2,7 +2,7 @@ Custom Event Names
 ------------------
 We start by making a externed string in our header file:
 ```
-namespace Zero
+namespace Zilch
 {
   namespace Events
   {
@@ -13,7 +13,7 @@ namespace Zero
 And within the cpp file we must define the string:
 
 ```
-namespace Zero
+namespace Zilch
 {
   namespace Events
   {
@@ -32,15 +32,15 @@ To create an event type that we can send (*this is not required*) we can make a 
 class FlagEvent : public Event
 {
 public:
-  ZeroDeclareType(FlagEvent);
+  ZilchDeclareType(FlagEvent);
   static void InitializeMeta(MetaType* meta);
   // Any data you wish to put here
 };
 ```
-Notice that this class uses the `ZeroDeclareType` macro. This means that it is important that we use the counterpart `ZeroDefineType` within the cpp, and that we must absolutely be sure to call `BindBase` on Event as well as `InitializeMetaOfType(FlagEvent)` elsewhere in the initialization portion of our code. See [meta_binding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_source_documentation/meta_binding.markdown) for more details.
+Notice that this class uses the `ZilchDeclareType` macro. This means that it is important that we use the counterpart `ZilchDefineType` within the cpp, and that we must absolutely be sure to call `BindBase` on Event as well as `InitializeMetaOfType(FlagEvent)` elsewhere in the initialization portion of our code. See [meta_binding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_source_documentation/meta_binding.markdown) for more details.
 
 ```
-ZeroDefineType(FlagEvent);
+ZilchDefineType(FlagEvent);
 
 void FlagEvent::InitializeMeta(MetaType* meta)
 {
@@ -69,12 +69,12 @@ DispatchEvent(Events::FlagCaptured, &toSend);
 When making an event *connection* so we can receive an event you may use:
 
 ```
-Zero::Connect(target, Events::FlagCaptured, this, &self_type::OnFlagCaptured);
+Zilch::Connect(target, Events::FlagCaptured, this, &self_type::OnFlagCaptured);
 ```
 
-The `target` in this case is an object that is going to have that event sent to it. We pass in `this` because we want to listen for the event. The type `self_type` is automatically declared on our class by `ZeroDeclareType`. The `&self_type::OnFlagCaptured` is C++ syntax for getting a member function pointer.
+The `target` in this case is an object that is going to have that event sent to it. We pass in `this` because we want to listen for the event. The type `self_type` is automatically declared on our class by `ZilchDeclareType`. The `&self_type::OnFlagCaptured` is C++ syntax for getting a member function pointer.
 
-Technically `Zero::Connect` can connect any two objects (it doesn't even have to be yourself), however since your own object is most common, we have a macro to simplify this:
+Technically `Zilch::Connect` can connect any two objects (it doesn't even have to be yourself), however since your own object is most common, we have a macro to simplify this:
 
 ```
 ConnectThisTo(target, Events::FlagCaptured, OnFlagCaptured);
@@ -86,7 +86,7 @@ In order to send events we must have an `EventDispatcher`, and in order to recei
 
 WARNING: `Component` is not an `EventObject`, however it redirects its `EventDispatcher` and `EventReceiver` to the owning `Cog`. This means that if you send an event to a particular component it actually just sends to the entire `Cog`. Similarly, if you listen for an event on a component, you are actually listening to the event on the entire `Cog`.
 
-All events in Zero are sent and received by string names. We are able to keep this calls very efficient because we implemented our own `String` class with the following features:
+All events in Zilch are sent and received by string names. We are able to keep this calls very efficient because we implemented our own `String` class with the following features:
 
 - Strings are immutable and cannot be changed after they are created
 - We pre-compute the hash and string length of every string we create

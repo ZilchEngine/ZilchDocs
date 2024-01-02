@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.markdown#rune-void)|[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.markdown#value-zero-engine-docume)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.markdown#rune-void)|[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.markdown#value-zilch-engine-docume)| | |
 
 
  #  Properties

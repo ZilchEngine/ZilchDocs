@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AdditiveCutoff](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.markdown#additivecutoff-zero-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ AdditiveGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.markdown#additivegain-zero-engine)| | |
+| |[ AdditiveCutoff](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.markdown#additivecutoff-zilch-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ AdditiveGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.markdown#additivegain-zilch-engine)| | |
 | |[ MultiplicativeCutoff](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.markdown#multiplicativecutoff-zer)| | |
 | |[ MultiplicativeGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.markdown#multiplicativegain-zero)| | |
 

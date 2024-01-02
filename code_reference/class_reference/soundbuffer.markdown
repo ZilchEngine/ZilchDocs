@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addmicuncompresseddata-v)|[ SampleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#samplecount-zero-engine)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.markdown)| |
+|[ AddMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addmicuncompresseddata-v)|[ SampleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#samplecount-zilch-engine)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.markdown)| |
 |[ AddSampleToBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#addsampletobuffer-void)| | | |
-|[ GetSampleAtIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#getsampleatindex-zero-en)| | | |
+|[ GetSampleAtIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#getsampleatindex-zilch-en)| | | |
 |[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.markdown#reset-void)| | | |
 
 

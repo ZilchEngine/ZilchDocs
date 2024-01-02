@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#getvalue-zero-engine-doc)|[[zilch_engine_documentation/code_reference/nada_base_types/property_type /#get-delegate () : key | Get]]| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#property-type-void)|[ Getter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#getter-zero-engine-docum)| | |
+|[ GetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#getvalue-zilch-engine-doc)|[[zilch_engine_documentation/code_reference/nada_base_types/property_type /#get-delegate () : key | Get]]| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#property-type-void)|[ Getter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#getter-zilch-engine-docum)| | |
 |[ SetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#setvalue-void)|[ Instance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#instance-t)| | |
-| |[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#property-zero-engine-doc)| | |
+| |[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#property-zilch-engine-doc)| | |
 | |[[zilch_engine_documentation/code_reference/nada_base_types/property_type /#set-delegate (value : ke | Set]]| | |
-| |[ Setter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#setter-zero-engine-docum)| | |
+| |[ Setter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .markdown#setter-zilch-engine-docum)| | |
 
 
  #  Properties

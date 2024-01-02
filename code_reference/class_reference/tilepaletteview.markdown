@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#archetype-zero-engine-do)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
-| |[ Collision](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#collision-zero-engine-do)| | |
-| |[ Mergeable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#mergeable-zero-engine-do)| | |
-| |[ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#sprite-zero-engine-docum)| | |
-| |[ TilePalette](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#tilepalette-zero-engine)| | |
+| |[ Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#archetype-zilch-engine-do)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.markdown)| |
+| |[ Collision](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#collision-zilch-engine-do)| | |
+| |[ Mergeable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#mergeable-zilch-engine-do)| | |
+| |[ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#sprite-zilch-engine-docum)| | |
+| |[ TilePalette](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tilepaletteview.markdown#tilepalette-zilch-engine)| | |
 
 
  #  Properties

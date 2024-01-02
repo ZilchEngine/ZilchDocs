@@ -19,11 +19,11 @@ This lesson covers some of the more advanced features of Zilch Engine's Tile Edi
 
 When you place tiles with the TileEditor2D tool, they are not created as individual game objects. Instead, they are placed into a tilemap, which allows multiple tiles to be merged into a single cog, saving memory and processing time. As a result, tile archetypes are used a bit differently than conventional archetypes.
 
-When the engine creates a merged tilemap object, it is always given a [ MultiSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown) component, so you don't necessarily need to put one on your tile archetype. If you do, though, the resultant merged tilemap will use the settings specified by your archetype's MultiSprite. Similarly, a merged tilemap object optionally has a [ MeshCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders/meshcollider.markdown) component, so you only need to give a tile archetype that component if you want the merged tilemap to use the settings from the MeshCollider for your archetype.
+When the engine creates a merged tilemap object, it is always given a [ MultiSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.markdown) component, so you don't necessarily need to put one on your tile archetype. If you do, though, the resultant merged tilemap will use the settings specified by your archetype's MultiSprite. Similarly, a merged tilemap object optionally has a [ MeshCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/meshcollider.markdown) component, so you only need to give a tile archetype that component if you want the merged tilemap to use the settings from the MeshCollider for your archetype.
 
 Let's create a tile archetype with some custom game logic and add it to our level.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a NadaScript resource using the Component template template and name it `ReloadLevelOnCollisionStarted`
 - Update the `ReloadLevelOnCollisionStarted` script to the following:
 
@@ -44,15 +44,15 @@ class ReloadLevelOnCollisionStarted : NadaComponent
 
 This component will cause the level to be reloaded if the player character (or, really, anything at all) comes in contact with it. We can use it to create "deadly" tiles.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ CreateTransform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createtransform)
 - In the `Properties Window`
  - Rename Transform object to `DeadlyTile`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : [ MeshCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders/meshcollider.markdown)
- - Under [ MeshCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders/meshcollider.markdown)
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : [ MeshCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/meshcollider.markdown)
+ - Under [ MeshCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/meshcollider.markdown)
   - Set Ghost checkBox to `true`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/addremovecomponent.markdown) : `ReloadLevelOnCollisionStarted`
+ - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.markdown) : `ReloadLevelOnCollisionStarted`
  - Set Archetype  to `DeadlyTile`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Delete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#delete) the DeadlyTile object
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Delete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#delete) the DeadlyTile object
 
 This new archetype can now be used with the TileEditor2D tool with any sprite source in the project.
 
@@ -76,7 +76,7 @@ With ShowArchetype checkBox enabled, the editor will show the name of the archet
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/108820.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
@@ -104,7 +104,7 @@ Observe how the colliders on each object use meshes that are dynamically generat
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/108927.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 Let's move on.
 
@@ -237,7 +237,7 @@ Let's use both palettes to create a new level.
 
 (NOTE) **TiledDrawing:** Watch what happens when you `left-click and drag` in the tile palette view to select multiple tiles, and then paint with them. Then, set the TileEditor2D tool's TiledDrawing checkBox property to `true` and then paint again. See the difference? TiledDrawing checkBox is great for preserving a specific configuration of tiles that you have laid out in the palette, but it also works with a brush committed with the Selection sub-tool! ![TiledDrawing Demonstration](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/108992.gif)
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
  - Create a Level resource using the {nav icon=clone, name=2D Level} template and name it `OtherLevel`
 - Select the {nav icon=pencil, name=TileEditor2D} tool
 - In the `Level Window`
@@ -255,14 +255,14 @@ Let's use both palettes to create a new level.
   - `Left-click and drag` `SweptPlayer2D` into the `Level Window`
 - In the `Properties Window`
  - Configure the `SweptController` component's properties as desired
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 
 
 ![Final Tiled Game](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/109010.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 
  #  On Your Own
@@ -312,11 +312,11 @@ Experiment with placing multiple layered tilemaps to help add visual flair to yo
  ##  Manual
 
 
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown)
-- [spriteimporter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spriteimporter.markdown)
-- [spritesourceeditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
-- [archetype_basics](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/archetypes/archetype_basics.markdown)
+- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown)
+- [spriteimporter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spriteimporter.markdown)
+- [spritesourceeditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown)
+- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
+- [archetype_basics](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes/archetype_basics.markdown)
 
 
  ##  Reference

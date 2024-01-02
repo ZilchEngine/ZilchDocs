@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#particlecollisionheightm)|[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#friction-zero-engine-doc)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
-| |[ HeightMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#heightmap-zero-engine-do)| | |
-| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#restitution-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#particlecollisionheightm)|[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#friction-zilch-engine-doc)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.markdown)| |
+| |[ HeightMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#heightmap-zilch-engine-do)| | |
+| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecollisionheightmap.markdown#restitution-zilch-engine)| | |
 
 
  #  Properties

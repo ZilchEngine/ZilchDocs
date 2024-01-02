@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#setworldpoints-void)|[ LocalAxis0OfBodyA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis0ofbodya-zero-e)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#universaljoint-void)|[ LocalAxis0OfBodyB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis0ofbodyb-zero-e)| | |
-| |[ LocalAxis1OfBodyA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis1ofbodya-zero-e)| | |
-| |[ LocalAxis1OfBodyB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis1ofbodyb-zero-e)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localpointa-zero-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localpointb-zero-engine)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#worldpointa-zero-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#worldpointb-zero-engine)| | |
+|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#setworldpoints-void)|[ LocalAxis0OfBodyA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis0ofbodya-zilch-e)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#universaljoint-void)|[ LocalAxis0OfBodyB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis0ofbodyb-zilch-e)| | |
+| |[ LocalAxis1OfBodyA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis1ofbodya-zilch-e)| | |
+| |[ LocalAxis1OfBodyB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localaxis1ofbodyb-zilch-e)| | |
+| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localpointa-zilch-engine)| | |
+| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#localpointb-zilch-engine)| | |
+| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.markdown#worldpointb-zilch-engine)| | |
 
 
  #  Properties

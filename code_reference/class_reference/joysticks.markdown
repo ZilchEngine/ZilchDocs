@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ JoystickCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.markdown#joystickcount-zero-engin)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
-| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.markdown#joysticks-zero-engine-do)| | |
+| |[ JoystickCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.markdown#joystickcount-zilch-engin)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.markdown#joysticks-zilch-engine-do)| | |
 
 
  #  Properties

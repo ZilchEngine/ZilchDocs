@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blockingwebrequest.markdown#url-zero-engine-document)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blockingwebrequest.markdown#url-zilch-engine-document)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
 
 
  #  Properties

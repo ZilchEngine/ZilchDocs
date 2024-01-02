@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#indices-zero-engine-docu)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
-| |[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#mesh-zero-engine-documen)| | |
-| |[ TriangleIndices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#triangleindices-zero-eng)| | |
-| |[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#valid-zero-engine-docume)| | |
+| |[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#indices-zilch-engine-docu)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.markdown)| |
+| |[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#mesh-zilch-engine-documen)| | |
+| |[ TriangleIndices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#triangleindices-zilch-eng)| | |
+| |[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.markdown#valid-zilch-engine-docume)| | |
 
 
  #  Properties

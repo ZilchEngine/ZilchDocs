@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#host-zero-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#network-zero-engine-docu)| | |
-| |[ RefreshResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#refreshresult-zero-engin)| | |
-| |[ ResponseTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#responsetime-zero-engine)| | |
+| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#host-zilch-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#network-zilch-engine-docu)| | |
+| |[ RefreshResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#refreshresult-zilch-engin)| | |
+| |[ ResponseTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.markdown#responsetime-zilch-engine)| | |
 
 
  #  Properties

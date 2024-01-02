@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#getcount-zero-engine-doc)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.markdown)| |
-| |[ None](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#none-zero-engine-documen)| | |
-| |[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#read-zero-engine-documen)| | |
-| |[ Seek](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#seek-zero-engine-documen)| | |
-| |[ SetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#setcount-zero-engine-doc)| | |
-| |[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#write-zero-engine-docume)| | |
+| |[ GetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#getcount-zilch-engine-doc)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.markdown)| |
+| |[ None](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#none-zilch-engine-documen)| | |
+| |[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#read-zilch-engine-documen)| | |
+| |[ Seek](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#seek-zilch-engine-documen)| | |
+| |[ SetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#setcount-zilch-engine-doc)| | |
+| |[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.markdown#write-zilch-engine-docume)| | |
 
 
  #  Properties

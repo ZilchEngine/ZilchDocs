@@ -10,20 +10,20 @@ A [SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_edit
 
 NOTE: **Zilch Engine only allows the importing of .PNG type images.**
 
-It is possible to add SpriteSources of your own as well. By dragging a .png file into the Editor window, Zilch Engine will import the chosen asset. Alternatively, using the [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : `Add` and selecting SpriteSource from the list followed by clicking on `From File`, will open a new window. The user may then select the image or images to import into the engine, keeping the saved Resolution and Size. Once imported, these files can then be assigned to a game object with the Sprite component by clicking on the current SpriteSource and finding the imported image in the drop-down menu that opens.
+It is possible to add SpriteSources of your own as well. By dragging a .png file into the Editor window, Zilch Engine will import the chosen asset. Alternatively, using the [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : `Add` and selecting SpriteSource from the list followed by clicking on `From File`, will open a new window. The user may then select the image or images to import into the engine, keeping the saved Resolution and Size. Once imported, these files can then be assigned to a game object with the Sprite component by clicking on the current SpriteSource and finding the imported image in the drop-down menu that opens.
 
 
 
 ![ChooseSpriteSource](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47420.gif)
 
 
-If changes need to be made, the SpriteSource can be modified in the [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown). 
+If changes need to be made, the SpriteSource can be modified in the [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown). 
 
  # Related Materials
  ## Manual Pages
-- [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/sprite.markdown)
-- [SpriteSource Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/sprites/spritesourceeditor.markdown)
-- [Adding a Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/resourceadding.markdown)
+- [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/sprite.markdown)
+- [SpriteSource Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.markdown)
+- [Adding a Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.markdown)
 
  ## Tutorials
 - [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/graphics/spritesandtext/sprites.markdown)

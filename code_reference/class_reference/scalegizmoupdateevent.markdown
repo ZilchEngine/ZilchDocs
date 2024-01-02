@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoWorldScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.markdown#gizmoworldscale-zero-eng)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
+| |[ GizmoWorldScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.markdown#gizmoworldscale-zilch-eng)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.markdown)| |
 
 
  #  Properties

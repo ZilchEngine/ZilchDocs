@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#jointlimit-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#atomids-zero-engine-docu)| | |
-| |[ LowerLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#lowerlimit-zero-engine-d)| | |
-| |[ UpperLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#upperlimit-zero-engine-d)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#jointlimit-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#atomids-zilch-engine-docu)| | |
+| |[ LowerLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#lowerlimit-zilch-engine-d)| | |
+| |[ UpperLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.markdown#upperlimit-zilch-engine-d)| | |
 
 
  #  Properties

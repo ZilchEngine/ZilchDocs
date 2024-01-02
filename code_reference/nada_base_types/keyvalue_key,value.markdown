@@ -1,7 +1,7 @@
  `Core`|Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key,value /#keyvalue-key,value-void | Constructor]]|[[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key,value /#key-zero-engine-document | Key]]| | |
-| |[[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key,value /#value-zero-engine-docume | Value]]| | |
+|[[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key,value /#keyvalue-key,value-void | Constructor]]|[[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key,value /#key-zilch-engine-document | Key]]| | |
+| |[[zilch_engine_documentation/code_reference/nada_base_types/keyvalue_key,value /#value-zilch-engine-docume | Value]]| | |
 
 
  #  Properties

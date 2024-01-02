@@ -9,9 +9,9 @@
 | |[ ReturnOurAddResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#returnouraddresponse-zer)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 | |[ ReturnOurResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#returnourresponsebundle)| | |
 | |[ ReturnTheirNetUser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#returntheirnetuser-zero)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theiripaddress-zero-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theirnetpeerid-zero-engi)| | |
-| |[ TheirNetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theirnetuserid-zero-engi)| | |
+| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theirnetpeerid-zilch-engi)| | |
+| |[ TheirNetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theirnetuserid-zilch-engi)| | |
 | |[ TheirRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddrequest.markdown#theirrequestbundle-zero)| | |
 
 

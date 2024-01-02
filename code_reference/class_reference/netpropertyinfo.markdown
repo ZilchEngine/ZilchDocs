@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#component-zero-engine-do)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
-| |[ NetChannelConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#netchannelconfig-zero-en)| | |
-| |[ NetPropertyConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#netpropertyconfig-zero-e)| | |
-| |[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#property-zero-engine-doc)| | |
+| |[ Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#component-zilch-engine-do)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.markdown)| |
+| |[ NetChannelConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#netchannelconfig-zilch-en)| | |
+| |[ NetPropertyConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#netpropertyconfig-zilch-e)| | |
+| |[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.markdown#property-zilch-engine-doc)| | |
 
 
  #  Properties

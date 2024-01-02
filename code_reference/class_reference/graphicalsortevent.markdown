@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GraphicalEntries](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalsortevent.markdown#graphicalentries-zero-en)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ RenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalsortevent.markdown#rendergroup-zero-engine)| | |
+| |[ GraphicalEntries](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalsortevent.markdown#graphicalentries-zilch-en)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ RenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalsortevent.markdown#rendergroup-zilch-engine)| | |
 
 
  #  Properties

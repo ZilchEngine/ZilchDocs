@@ -3,7 +3,7 @@ Exporting is the process of converting your project into a single playable execu
 
 ## Setting a Starting Level
 
-By default, Zero will set the auto-generated 'Level' as the starting level but that can be changed by:
+By default, Zilch will set the auto-generated 'Level' as the starting level but that can be changed by:
 
  - Select the Game Session `Shift + G` or `Select > Game`
   - Under the **DefaultGameSetup** component, change StartingLevel enum to the desired one
@@ -39,7 +39,7 @@ When you export your game, your new banner will replace the default one.
 To give your exported game a custom icon:
 
  - Create a .ico image file using a tool or website (we recommend [converticon ](http://converticon.com/))
-  - Place in the same directory as your project file - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [ ShowProjectFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#showprojectfolder)
+  - Place in the same directory as your project file - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [ ShowProjectFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#showprojectfolder)
    - Rename it to: `Icon.ico`
 
 
@@ -57,7 +57,7 @@ Export your game and your new icon will replace the default.
 
 ## Handling Escape Event
 
-By default, Zero will map the Escape key to close the game application instantly. To prevent that, use the following steps:
+By default, Zilch will map the Escape key to close the game application instantly. To prevent that, use the following steps:
 
  - Create a Nada Script called **GameStateManager** and attach it to your Level Settings object
 
@@ -76,7 +76,7 @@ class GameStateManager : NadaComponent
 ```
 
 
-Now, Zero will no longer close the application when Escape is pressed. In Editor you can still use the **StopGame** button `F8` to close the game tab, but on the exported version you'll need to close the application through some other means. (Usually by offering a pause menu with an option to quit the game)
+Now, Zilch will no longer close the application when Escape is pressed. In Editor you can still use the **StopGame** button `F8` to close the game tab, but on the exported version you'll need to close the application through some other means. (Usually by offering a pause menu with an option to quit the game)
 
 
 ## Handling Focus Change Events `Alt + Tab`

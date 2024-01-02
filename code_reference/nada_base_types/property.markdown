@@ -1,7 +1,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#getvalue-zero-engine-doc)|[ Getter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#getter-zero-engine-docum)|[member](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown)|[field](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/field.markdown)|
-|[ SetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#setvalue-void)|[ Setter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#setter-zero-engine-docum)| |[gettersetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetter.markdown)|
+|[ GetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#getvalue-zilch-engine-doc)|[ Getter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#getter-zilch-engine-docum)|[member](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.markdown)|[field](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/field.markdown)|
+|[ SetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#setvalue-void)|[ Setter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.markdown#setter-zilch-engine-docum)| |[gettersetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetter.markdown)|
 
 
  #  Properties

@@ -4,12 +4,12 @@ This page introduces the Zilch Engine editor and user interface. It covers edito
 ## Create a New Project
 
 (NOTE)**COMMANDS:**  
-[Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) represent all actions you can perform as a user in the Zero Editor (such as [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspritetext), [BackupProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#backupproject), and [ExportGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#exportgame)).  Links are used throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zero by following the link provided in the tutorial!
+[Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) represent all actions you can perform as a user in the Zilch Editor (such as [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspritetext), [BackupProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#backupproject), and [ExportGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#exportgame)).  Links are used throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zilch by following the link provided in the tutorial!
 
-It is recommended that you create a new project. If this is the first time you have run the Zilch Engine you will already be in the Projects screen and can simply type in a name for your project.  If you are not on the new Projects screen, you can access it using the Project menu.  See the section [The Zero Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/launcher.markdown)) for more information.
+It is recommended that you create a new project. If this is the first time you have run the Zilch Engine you will already be in the Projects screen and can simply type in a name for your project.  If you are not on the new Projects screen, you can access it using the Project menu.  See the section [The Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.markdown)) for more information.
 
 To create a new project follow these steps:
-* [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) : [NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
+* [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) : [NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#newproject)
 
 
 
@@ -30,7 +30,7 @@ To create a new project follow these steps:
 After creating a new project, the editor should look something like this:
 
 
-![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47640.png) *The first, default view as the Zero Editor is opened*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47640.png) *The first, default view as the Zilch Editor is opened*
 
 
 
@@ -62,7 +62,7 @@ When an object is selected, the properties of that object are accessible from th
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47675.png) *The `Properties Window` showing the Components of the LevelSettings object*
 
 
-The `Properties Window` is the primary means for editing or building objects and their [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components.markdown).
+The `Properties Window` is the primary means for editing or building objects and their [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.markdown).
 
 
 
@@ -97,7 +97,7 @@ This window contains several useful tools for managing various objects within th
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47728.png) *`Library Window`*
 
 
-Anything you add to the game using the [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#add) command or through drag-and-drop importing is stored as a [Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown). All resources added to your project can be found in the `Library Window`.
+Anything you add to the game using the [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#add) command or through drag-and-drop importing is stored as a [Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown). All resources added to your project can be found in the `Library Window`.
 
 
 ### Objects Window
@@ -123,18 +123,18 @@ The objects in the `Objects Window` can be searched for by name using the search
 ## Other Windows and Bars
 
 ###Search Window
-This powerful tool allows you to search for various things within the editor.  It also has several other uses such as selecting objects, opening archetypes, viewing properties, etc., that are accessible from here. For example, if you wanted to quickly access a script file, you can just open the search view and type in the name of the script to find it and begin editing.  Another important use of the `Zero Search Window` is for performing commands. See [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown) for more information.
+This powerful tool allows you to search for various things within the editor.  It also has several other uses such as selecting objects, opening archetypes, viewing properties, etc., that are accessible from here. For example, if you wanted to quickly access a script file, you can just open the search view and type in the name of the script to find it and begin editing.  Another important use of the `Zilch Search Window` is for performing commands. See [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown) for more information.
 
 
 
-![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47726.png) *The `Zero Search Window` for performing commands*
+![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47726.png) *The `Zilch Search Window` for performing commands*
 
 
-There are three ways to pull up the `Zero Search Window`:
+There are three ways to pull up the `Zilch Search Window`:
 
 1. Click anywhere in the `Level Window` and press `Space`
 2. From **any** window press `Ctrl + Shift + Space`
-3. Click the `Zero drop-down` in the upper left-hand corner
+3. Click the `Zilch drop-down` in the upper left-hand corner
 
 
 ### Console Window
@@ -153,7 +153,7 @@ To be "in" a window requires that the window has "focus". To gain focus you need
 ### Game Window
 
 The `Game Window` is where your game actually runs inside the editor. You can test or play your game (or specific levels) here without having to create an executable. 
-* [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown): [PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
+* [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown): [PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#playgame)
 
 The `Game Window` should appear with its tab next to the `Level Window` tab:
 
@@ -162,7 +162,7 @@ The `Game Window` should appear with its tab next to the `Level Window` tab:
 
 
 * Close the `Game Window` by pressing the `X button` on the Game tab
-* You can also press `Esc` or use [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/commands.markdown): [StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
+* You can also press `Esc` or use [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.markdown): [StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#stopgame)
 
 WARNING:
 It is a good practice to close the game window while editing levels.  There are some assets in the Zilch Engine that can be changed by scripts running in the game session.
@@ -190,7 +190,7 @@ In order to find out more about the function of each button, you can hover over 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47750.png)
 
 
-All Tool Bar buttons have equivalent commands in the `Zero Search Window`.
+All Tool Bar buttons have equivalent commands in the `Zilch Search Window`.
 
 
 
@@ -211,7 +211,7 @@ The menu bar includes a catagorized set of commands in the form of drop-down men
 
 ## Reopening Windows & Docking
 
-The `Zero Search Window` can be used to reopen closed windows and tabs.  Once reopened, a window can dragged onto another location, a process known as "docking". Docking location options are indicated by the editor with light blue regions as another window is hovered over that location.
+The `Zilch Search Window` can be used to reopen closed windows and tabs.  Once reopened, a window can dragged onto another location, a process known as "docking". Docking location options are indicated by the editor with light blue regions as another window is hovered over that location.
 
 
 
@@ -220,9 +220,9 @@ The `Zero Search Window` can be used to reopen closed windows and tabs.  Once re
 
  ## Related Materials
  ### Manual
-- [The Zero Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/launcher.markdown)
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/components.markdown)
-- [Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown)
+- [The Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.markdown)
+- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.markdown)
+- [Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown)
 
  ### Code Reference
 - [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.markdown#createspritetext)

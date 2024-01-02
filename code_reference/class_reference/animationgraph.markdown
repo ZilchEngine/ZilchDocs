@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#animationgraph-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#active-zero-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-|[ CreateBasicNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createbasicnode-zero-eng)|[ ActiveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#activenode-zero-engine-d)| | |
-|[ CreateChainNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createchainnode-zero-eng)|[ TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#timescale-zero-engine-do)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#animationgraph-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ CreateBasicNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createbasicnode-zilch-eng)|[ ActiveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#activenode-zilch-engine-d)| | |
+|[ CreateChainNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createchainnode-zilch-eng)|[ TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#timescale-zilch-engine-do)| | |
 |[ CreateCrossBlendNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createcrossblendnode-zer)| | | |
 |[ CreateDirectBlendNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createdirectblendnode-ze)| | | |
 |[ CreateSelectiveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#createselectivenode-zero)| | | |
-|[ IsPlayingInGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#isplayingingraph-zero-en)| | | |
+|[ IsPlayingInGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#isplayingingraph-zilch-en)| | | |
 |[ PrintGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#printgraph-void)| | | |
 |[ Update](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.markdown#update-void)| | | |
 

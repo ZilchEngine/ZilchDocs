@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.markdown#editorconfig-void)|[ ZeroHubUsername](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.markdown#zerohubusername-zero-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.markdown#editorconfig-void)|[ ZilchHubUsername](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.markdown#zerohubusername-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
 
 
  #  Properties
 
 
 ---  
- #  ZeroHubUsername : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown)
+ #  ZilchHubUsername : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.markdown)
 
 > 
 > ``` lang=cpp, name=Nada
-> var ZeroHubUsername : String
+> var ZilchHubUsername : String
 
 
 ---  

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CogInitializer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializerevent.markdown#coginitializer-zero-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ CogInitializer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializerevent.markdown#coginitializer-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

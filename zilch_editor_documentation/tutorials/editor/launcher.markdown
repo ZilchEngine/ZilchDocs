@@ -1,9 +1,9 @@
-This lesson introduces the **Zero Launcher** and explains how to use it.
+This lesson introduces the **Zilch Launcher** and explains how to use it.
 
 
- #  [Download the Engine](https://builds.zeroengine.io/ZeroLauncherSetup.exe )
+ #  [Download the Engine](https://builds.zeroengine.io/ZilchLauncherSetup.exe )
 
-(IMPORTANT)**Restricted Launcher Download**: Currently only registered DigiPen students with a valid DigiPen login can download the Zero Launcher.
+(IMPORTANT)**Restricted Launcher Download**: Currently only registered DigiPen students with a valid DigiPen login can download the Zilch Launcher.
 
 
 
@@ -21,7 +21,7 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 
 
 
-#  The **ZeroHub** link opens the  Zilch Engine open source development site.
+#  The **ZilchHub** link opens the  Zilch Engine open source development site.
 
 # The **Documentation** link opens the Zilch Engine documentation website
 
@@ -29,7 +29,7 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 
 # The **Roadmap** link shows you the Zilch Engine's long term roadmap workboard
 
-#  The **Market** opens the Zero Market where you can find free and commercial assets for you projects.
+#  The **Market** opens the Zilch Market where you can find free and commercial assets for you projects.
 
 # The **Q&A** link connects you to the Zilch Engine's Q&A page, where you can ask questions about the engine, the editor, Nada, etc.
 
@@ -43,7 +43,7 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90326.png)
 
 1. Choose a template to start with:
- - Empty **2D Project** and **Empty 3D Project** will both result in an empty Zero project, but with a few differences in in editor settings and initial project configuration.
+ - Empty **2D Project** and **Empty 3D Project** will both result in an empty Zilch project, but with a few differences in in editor settings and initial project configuration.
  - **Networked Project** is an empty 3D project with some pre-configured elements to facilitate proper architecture for a networked project.
 
 | New Project Default Settings by Template |
@@ -75,7 +75,7 @@ Clicking the **Recent** button will bring up the Recent Projects subtab.
  # Recent Projects
 
 
-Here, you will see a list of the latest Zero projects that you have worked on.
+Here, you will see a list of the latest Zilch projects that you have worked on.
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90330.png)
@@ -99,7 +99,7 @@ When you click on a recent project, you will see this:
 Finally, in the Projects tab, there's the **Browse** button.
 
  # Browse Projects
-Click Browse to find a Zero project through your operating system's Open dialog.
+Click Browse to find a Zilch project through your operating system's Open dialog.
 
 
  # The Builds Tab
@@ -144,7 +144,7 @@ Finally, there's the **Settings** tab, found by clicking the little orange horiz
 
 4. The `Max Recent Projects` field sets how many recent projects will appear in the Recent Projects subtab.
 
-5. The `Auto Check for Major Updates` field allows the launcher to periodically check the ZeroHub server to see if a new major version of the Zilch Engine has been released.
+5. The `Auto Check for Major Updates` field allows the launcher to periodically check the ZilchHub server to see if a new major version of the Zilch Engine has been released.
 
 6. The `Show Development Builds` causes all public builds built off the **develop** branch in rZCORE to be seen in the Builds Tab. Many of these builds will be simple bug fixes and minor functionality changes. HOwever, these builds are usually not guarenteed to be stabled and as such most users should stick to builds tagged **stable**.
 

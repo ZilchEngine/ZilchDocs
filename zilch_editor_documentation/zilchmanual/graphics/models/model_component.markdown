@@ -1,8 +1,8 @@
-The Model component allows the user to assign a [Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown) and a [ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/graphics/materials/materials_overview.markdown) to an object.
+The Model component allows the user to assign a [Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown) and a [ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.markdown) to an object.
 
  # Material and Mesh
 
-These properties are where the Material and Mesh resources for the model are set. If a model has been imported using a scene asset file,  the archetype for the object will have the Mesh associated with a specific object already set. By default, the Material will be set to the ZeroMaterial until changed by the user.  If using the SkinnedModel component, the Mesh resource should be a skinned mesh. 
+These properties are where the Material and Mesh resources for the model are set. If a model has been imported using a scene asset file,  the archetype for the object will have the Mesh associated with a specific object already set. By default, the Material will be set to the ZilchMaterial until changed by the user.  If using the SkinnedModel component, the Mesh resource should be a skinned mesh. 
 
  # Skinned Model
 

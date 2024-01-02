@@ -7,9 +7,9 @@ Band pass filters are a combination of low pass and high pass filtering which al
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/soudnode_overview.markdown)
-- [lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/lowpassnode.markdown)
-- [highpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/audio/soundnode/highpassnode.markdown)
+- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.markdown)
+- [lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/lowpassnode.markdown)
+- [highpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/highpassnode.markdown)
 
  ## Code Reference
 - [ BandPassNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.markdown) 

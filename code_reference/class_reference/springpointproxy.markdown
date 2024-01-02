@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Anchor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.markdown#anchor-zero-engine-docum)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
-| |[ Fixed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.markdown#fixed-zero-engine-docume)| | |
-| |[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.markdown#mass-zero-engine-documen)| | |
+| |[ Anchor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.markdown#anchor-zilch-engine-docum)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+| |[ Fixed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.markdown#fixed-zilch-engine-docume)| | |
+| |[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.markdown#mass-zilch-engine-documen)| | |
 
 
  #  Properties

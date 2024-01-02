@@ -1,6 +1,6 @@
 Custom Cursors are a great way to add a level of professionalism and polish to any project. A Cursor created specifically for a project can be used for player feedback and fits into the project universe better than the normal  [Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/mouse.markdown)  icon in most situations. There are several methods that can be used to add this functionality, all of which come with their own strengths and weaknesses. 
 
-NOTE: **Recommended Reading** This section covers topics that may not have been encountered yet. To learn or review those topics, please see: [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/mouseinput.markdown) and  {icon university}[[zilch_engine_documentation/zilch_editor_documentation/ZeroManual/Graphics/CamerasViewportsRenderers/|Cameras, Viewports and Renderers]]
+NOTE: **Recommended Reading** This section covers topics that may not have been encountered yet. To learn or review those topics, please see: [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/mouseinput.markdown) and  {icon university}[[zilch_engine_documentation/zilch_editor_documentation/ZilchManual/Graphics/CamerasViewportsRenderers/|Cameras, Viewports and Renderers]]
 
  # Using a Custom Cursor
  ## Hiding the Mouse
@@ -28,7 +28,7 @@ class HiddenMouseExample : NadaComponent
 ```
 
 
-This would be the start of a component attached to the object that will act as the Custom Cursor. After making sure the object has a [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/transform.markdown) Component using the Dependency [-](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/codereference/reference/transform.markdown) Component using the Dependency [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/attributes.markdown), it then sets the Mouse Cursor to be invisible. The final part of the code-block connects to the MouseMove event, which is fleshed out in the following code-block: 
+This would be the start of a component attached to the object that will act as the Custom Cursor. After making sure the object has a [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/transform.markdown) Component using the Dependency [-](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/codereference/reference/transform.markdown) Component using the Dependency [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/attributes.markdown), it then sets the Mouse Cursor to be invisible. The final part of the code-block connects to the MouseMove event, which is fleshed out in the following code-block: 
 
 ```
     // continued from above
@@ -111,9 +111,9 @@ class LockedMouseExample : NadaComponent
 
 Just from the initial setup it becomes obvious that this method is much more complex than simply making the Mouse invisible and having an Object follow it, but it also offers benefits.
 
-NOTE: **Get-Sets** In order to reduce the amount of repetitive typing, a number of `getters` have been used to hold references to other functions. For further explanation of get-sets, see [Get-Sets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/properties.markdown).
+NOTE: **Get-Sets** In order to reduce the amount of repetitive typing, a number of `getters` have been used to hold references to other functions. For further explanation of get-sets, see [Get-Sets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/properties.markdown).
 
-When this component is attached to the current level's [LevelSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/objects/levelsettings.markdown)  object, it will create an Object in a new  [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/space.markdown)  that is built on top of the GameSpace. This object allows it to function properly in a 3D game. As the getters have defined most of the variables, much of the script is ready to be used. 
+When this component is attached to the current level's [LevelSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/objects/levelsettings.markdown)  object, it will create an Object in a new  [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/space.markdown)  that is built on top of the GameSpace. This object allows it to function properly in a 3D game. As the getters have defined most of the variables, much of the script is ready to be used. 
 
 ```
 ...
@@ -177,8 +177,8 @@ Below is an example of this script attached to the `LevelSettings` object of an 
  # Related Materials
  ## Manual
 - [Mouse Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation.markdown)
-- [Getters and Setters](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/nada_in_zero/properties.markdown)
-- {icon university}[[zilch_engine_documentation/zilch_editor_documentation/ZeroManual/Graphics/CamerasViewportsRenderers/|Cameras, Viewports and Renderers]]
+- [Getters and Setters](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/properties.markdown)
+- {icon university}[[zilch_engine_documentation/zilch_editor_documentation/ZilchManual/Graphics/CamerasViewportsRenderers/|Cameras, Viewports and Renderers]]
 
  ## Code Reference
 - [Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/mouse.markdown) 

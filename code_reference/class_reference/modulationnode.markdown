@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Frequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#frequency-zero-engine-do)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ Frequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#frequency-zilch-engine-do)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
 | |[ UseAmplitudeModulation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#useamplitudemodulation-z)| | |
-| |[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#wetpercent-zero-engine-d)| | |
-| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#wetvalue-zero-engine-doc)| | |
+| |[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#wetpercent-zilch-engine-d)| | |
+| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.markdown#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties

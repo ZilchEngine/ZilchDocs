@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Button](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#button-zero-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ FlickDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#flickdirection-zero-engi)| | |
-| |[ FlickedStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#flickedstick-zero-engine)| | |
-| |[ Gamepad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#gamepad-zero-engine-docu)| | |
+| |[ Button](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#button-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ FlickDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#flickdirection-zilch-engi)| | |
+| |[ FlickedStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#flickedstick-zilch-engine)| | |
+| |[ Gamepad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepadevent.markdown#gamepad-zilch-engine-docu)| | |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ WebBrowser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown#webbrowser-zero-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)|[webbrowserconsoleevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserconsoleevent.markdown)|
+| |[ WebBrowser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.markdown#webbrowser-zilch-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)|[webbrowserconsoleevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserconsoleevent.markdown)|
 | | | |[webbrowsercursorevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsercursorevent.markdown)|
 | | | |[webbrowserdownloadevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.markdown)|
 | | | |[webbrowserpointqueryevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpointqueryevent.markdown)|

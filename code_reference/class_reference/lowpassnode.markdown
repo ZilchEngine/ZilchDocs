@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CutoffFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/lowpassnode.markdown#cutofffrequency-zero-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ CutoffFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/lowpassnode.markdown#cutofffrequency-zilch-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
 
 
  #  Properties

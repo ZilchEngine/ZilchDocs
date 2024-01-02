@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#getchildren-zero-engine)|[ ChildCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#childcount-zero-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.markdown)|
-|[ IsAncestorOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#isancestorof-zero-engine)|[ LastDeepestChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#lastdeepestchild-zero-en)| | |
-|[ IsDescendantOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#isdescendantof-zero-engi)|[ LastDirectChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#lastdirectchild-zero-eng)| | |
+|[ GetChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#getchildren-zilch-engine)|[ ChildCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#childcount-zilch-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.markdown)|
+|[ IsAncestorOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#isancestorof-zilch-engine)|[ LastDeepestChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#lastdeepestchild-zilch-en)| | |
+|[ IsDescendantOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#isdescendantof-zilch-engi)|[ LastDirectChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#lastdirectchild-zilch-eng)| | |
 | |[ NextInHierarchyOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#nextinhierarchyorder-zer)| | |
-| |[ NextSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#nextsibling-zero-engine)| | |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#parent-zero-engine-docum)| | |
+| |[ NextSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#nextsibling-zilch-engine)| | |
+| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#parent-zilch-engine-docum)| | |
 | |[ PreviousInHierarchyOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#previousinhierarchyorder)| | |
-| |[ PreviousSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#previoussibling-zero-eng)| | |
-| |[ Root](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#root-zero-engine-documen)| | |
+| |[ PreviousSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#previoussibling-zilch-eng)| | |
+| |[ Root](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.markdown#root-zilch-engine-documen)| | |
 
 
  #  Properties

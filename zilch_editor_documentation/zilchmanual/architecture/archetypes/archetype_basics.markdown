@@ -1,4 +1,4 @@
-An Archetype [ Resource ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown) is the serialized definition of a Cog (Game Object Composition) which can be used as a template from which to create new cogs from. The core benefit of Archetypes is that any changes made to the Archetype affect each object created from the Archetype. These objects are called **instances** of the Archetype.
+An Archetype [ Resource ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown) is the serialized definition of a Cog (Game Object Composition) which can be used as a template from which to create new cogs from. The core benefit of Archetypes is that any changes made to the Archetype affect each object created from the Archetype. These objects are called **instances** of the Archetype.
 
 
  #  Advantages of Archetypes
@@ -13,7 +13,7 @@ Creating an Archetype is fairly simple.
 
 
 
-![2017_07_07_11_34_28_Zero_Editor_ArchetypeDocumentation](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46803.png)
+![2017_07_07_11_34_28_Zilch_Editor_ArchetypeDocumentation](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46803.png)
 
 
 Simply provide an name for the new Archetype in the Archetype field and press Enter or the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46805.png) button. This will create the new Archetype resource from the selected object causing to to appear under the Archetype tag in the Resource Window.
@@ -234,6 +234,6 @@ Once again let's think back to the army of characters all created from the same 
 
  # Related Materials
  ## Manual
-- [ Resource ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/architecture/resources.markdown) 
+- [ Resource ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.markdown) 
 
  

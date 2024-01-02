@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.markdown#all-zero-engine-document)| | | |
+|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.markdown#all-zilch-engine-document)| | | |
 |[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.markdown#clear-void)| | | |
-|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.markdown#empty-zero-engine-docume)| | | |
+|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.markdown#empty-zilch-engine-docume)| | | |
 
 
  #  Properties

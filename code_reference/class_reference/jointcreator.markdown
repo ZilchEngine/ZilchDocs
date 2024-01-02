@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddJointLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#addjointlimit-zero-engin)|[ AttachToCommonParent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#attachtocommonparent-zer)| | |
-|[ AddJointMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#addjointmotor-zero-engin)|[ AttachToWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#attachtoworld-zero-engin)| | |
-|[ AddJointSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#addjointspring-zero-engi)|[ AutoSnaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#autosnaps-zero-engine-do)| | |
-|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#create-zero-engine-docum)|[ OverrideLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#overridelength-zero-engi)| | |
-|[ CreateLocalPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#createlocalpoints-zero-e)|[ UseCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#usecenter-zero-engine-do)| | |
-|[ CreateWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#createworldpoints-zero-e)| | | |
+|[ AddJointLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#addjointlimit-zilch-engin)|[ AttachToCommonParent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#attachtocommonparent-zer)| | |
+|[ AddJointMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#addjointmotor-zilch-engin)|[ AttachToWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#attachtoworld-zilch-engin)| | |
+|[ AddJointSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#addjointspring-zilch-engi)|[ AutoSnaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#autosnaps-zilch-engine-do)| | |
+|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#create-zilch-engine-docum)|[ OverrideLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#overridelength-zilch-engi)| | |
+|[ CreateLocalPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#createlocalpoints-zilch-e)|[ UseCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#usecenter-zilch-engine-do)| | |
+|[ CreateWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#createworldpoints-zilch-e)| | | |
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointcreator.markdown#jointcreator-void)| | | |
 
 

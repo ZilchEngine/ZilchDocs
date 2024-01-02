@@ -15,6 +15,6 @@ Export your game and your new icon will replace the default.
 
  ## Related Materials
  ### Manual
-- [exporting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/editor/editorcommands/exporting.markdown) 
+- [exporting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/exporting.markdown) 
 
  

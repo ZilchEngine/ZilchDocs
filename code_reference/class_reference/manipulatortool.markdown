@@ -5,13 +5,13 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#manipulatortool-void)|[ DuplicateOnCtrlDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#duplicateonctrldrag-zero)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ GrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#grabmode-zero-engine-doc)| | |
-| |[ HoverColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#hovercolor-zero-engine-d)| | |
-| |[ IncludeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#includemode-zero-engine)| | |
-| |[ SizeBoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#sizeboxcollider-zero-eng)| | |
-| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#snapdistance-zero-engine)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#snapping-zero-engine-doc)| | |
-| |[ ToolColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#toolcolor-zero-engine-do)| | |
+| |[ GrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#grabmode-zilch-engine-doc)| | |
+| |[ HoverColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#hovercolor-zilch-engine-d)| | |
+| |[ IncludeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#includemode-zilch-engine)| | |
+| |[ SizeBoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#sizeboxcollider-zilch-eng)| | |
+| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#snapdistance-zilch-engine)| | |
+| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#snapping-zilch-engine-doc)| | |
+| |[ ToolColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.markdown#toolcolor-zilch-engine-do)| | |
 
 
  #  Properties

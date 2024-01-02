@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Preview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#preview-void)|[ CrossFadeLoopTail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#crossfadelooptail-zero-e)|Object| |
-|[ StopPreview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#stoppreview-void)|[ EndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#endtime-zero-engine-docu)| | |
-| |[ LoopEndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#loopendtime-zero-engine)| | |
-| |[ LoopStartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#loopstarttime-zero-engin)| | |
-| |[ LoopTailLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#looptaillength-zero-engi)| | |
-| |[ Sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#sound-zero-engine-docume)| | |
-| |[ StartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#starttime-zero-engine-do)| | |
-| |[ Weight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#weight-zero-engine-docum)| | |
+|[ Preview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#preview-void)|[ CrossFadeLoopTail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#crossfadelooptail-zilch-e)|Object| |
+|[ StopPreview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#stoppreview-void)|[ EndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#endtime-zilch-engine-docu)| | |
+| |[ LoopEndTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#loopendtime-zilch-engine)| | |
+| |[ LoopStartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#loopstarttime-zilch-engin)| | |
+| |[ LoopTailLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#looptaillength-zilch-engi)| | |
+| |[ Sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#sound-zilch-engine-docume)| | |
+| |[ StartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#starttime-zilch-engine-do)| | |
+| |[ Weight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.markdown#weight-zilch-engine-docum)| | |
 
 
  #  Properties

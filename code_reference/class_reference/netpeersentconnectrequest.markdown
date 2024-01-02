@@ -7,8 +7,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[ OurPendingUserAddRequestCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectrequest.markdown#ourpendinguseraddrequest)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
-| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectrequest.markdown#ourrequestbundle-zero-en)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectrequest.markdown#theiripaddress-zero-engi)| | |
+| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectrequest.markdown#ourrequestbundle-zilch-en)| | |
+| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeersentconnectrequest.markdown#theiripaddress-zilch-engi)| | |
 
 
  #  Properties

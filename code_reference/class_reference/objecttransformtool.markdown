@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#objecttransformtool-void)|[ Basis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#basis-zero-engine-docume)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[objectrotatetool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown)|
-| |[ Grab](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#grab-zero-engine-documen)| |[objectscaletool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown)|
-| |[ Pivot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#pivot-zero-engine-docume)| |[objecttranslatetool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown)|
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#objecttransformtool-void)|[ Basis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#basis-zilch-engine-docume)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)|[objectrotatetool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.markdown)|
+| |[ Grab](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#grab-zilch-engine-documen)| |[objectscaletool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscaletool.markdown)|
+| |[ Pivot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.markdown#pivot-zilch-engine-docume)| |[objecttranslatetool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslatetool.markdown)|
 
 
  #  Properties

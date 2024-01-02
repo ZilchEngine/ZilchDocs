@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateLeftVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#interpolateleftvolume-vo)|[ LeftVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#leftvolume-zero-engine-d)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-|[ InterpolateRightVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#interpolaterightvolume-v)|[ RightVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#rightvolume-zero-engine)| | |
-|[ InterpolateVolumes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#interpolatevolumes-void)|[ SumToMono](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#sumtomono-zero-engine-do)| | |
+|[ InterpolateLeftVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#interpolateleftvolume-vo)|[ LeftVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#leftvolume-zilch-engine-d)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+|[ InterpolateRightVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#interpolaterightvolume-v)|[ RightVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#rightvolume-zilch-engine)| | |
+|[ InterpolateVolumes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#interpolatevolumes-void)|[ SumToMono](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.markdown#sumtomono-zilch-engine-do)| | |
 
 
  #  Properties

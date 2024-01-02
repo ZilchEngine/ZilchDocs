@@ -3,7 +3,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/events.markdown#connect-void)| | | |
-|[ Send](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/events.markdown#send-zero-engine-documen)| | | |
+|[ Send](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/events.markdown#send-zilch-engine-documen)| | | |
 
 
  #  Properties

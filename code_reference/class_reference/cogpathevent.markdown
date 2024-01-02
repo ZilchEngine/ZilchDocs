@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CogPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpathevent.markdown#cogpath-zero-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ CogPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpathevent.markdown#cogpath-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

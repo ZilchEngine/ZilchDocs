@@ -14,7 +14,7 @@ When performing collision resolution, physics has to distinguish between collisi
 Physics solvers are typically iterative in how they solve constraints (contacts, joints, etc...). The more iterations used the more stable a scene tends to be, but at the cost of decreased performance. Independent iteration counts are exposed for impulse solving and position solving (if configured to solve positions).
 
  #  Position Correction Type
-Physics typically solves with discrete time-steps which allows position error to appear in joints. Zero's physics system provides two methods to fix position error:
+Physics typically solves with discrete time-steps which allows position error to appear in joints. Zilch's physics system provides two methods to fix position error:
  - **Baumgarte** fixes position error by applying a "penalty force". This typically produces constraints that feel soft and spongy.
  - **PostStabilization** fixes position error by solving the position constraints directly. This makes stiffer constraints but often at the cost of speed and occasionally stability.
  
@@ -30,9 +30,9 @@ A configuration block can be added for any joint type that determines how the ph
 
  #  Related Materials
  ##  Manual
-- [joints.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/joints.markdown)
-- [collisionoverview.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/collisionoverview.markdown)
-- [physicsspace.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/physicsspace.markdown)
+- [joints.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/joints.markdown)
+- [collisionoverview.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview.markdown)
+- [physicsspace.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsspace.markdown)
 
  ##  Code Reference
 - [Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.markdown)

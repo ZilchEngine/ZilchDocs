@@ -1,4 +1,4 @@
-Along with the keyboard and gamepads, the mouse is a common channel of providing user input to a Zero project. Mouse controls are easy to set up, but there are a few different input styles to consider.
+Along with the keyboard and gamepads, the mouse is a common channel of providing user input to a Zilch project. Mouse controls are easy to set up, but there are a few different input styles to consider.
 
  #  Using the Mouse
 
@@ -224,7 +224,7 @@ function OnMouseUp(event : ViewportMouseEvent)
 }
 ```
 
-Zero also has specific events for [ LeftMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#leftmousedown) and [ LeftMouseUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#leftmouseup), [ RightMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#rightmousedown) and [ RightMouseUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#rightmouseup), and [ MiddleMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#middlemousedown) and [ MiddleMouseUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#middlemouseup), which are dispatched only when the corresponding button is pressed or released:
+Zilch also has specific events for [ LeftMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#leftmousedown) and [ LeftMouseUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#leftmouseup), [ RightMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#rightmousedown) and [ RightMouseUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#rightmouseup), and [ MiddleMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#middlemousedown) and [ MiddleMouseUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#middlemouseup), which are dispatched only when the corresponding button is pressed or released:
 
 ```lang=csharp, name="Other Down and Up Examples"
 function OnLeftMouseDown(event : ViewportMouseEvent)
@@ -245,7 +245,7 @@ function OnMiddleMouseDown(event : ViewportMouseEvent)
 
  ####  Click Events
 
-When a mouse button is both **pressed** and **released** over the same object, that object is said to have been //clicked//. Click events are commonly used for UI elements, such as buttons. Zero dispatches [ LeftClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#leftclick), [ RightClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#rightclick), and [ MiddleClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#middleclick) events:
+When a mouse button is both **pressed** and **released** over the same object, that object is said to have been //clicked//. Click events are commonly used for UI elements, such as buttons. Zilch dispatches [ LeftClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#leftclick), [ RightClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#rightclick), and [ MiddleClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.markdown#middleclick) events:
 
 ```lang=csharp, name="Click Examples"
 function OnLeftClick(event : ViewportMouseEvent)
@@ -305,7 +305,7 @@ The mouse may be polled via the global [ Mouse](https://github.com/ZilchEngine/Z
 
  ###  CursorMovement, RawMovement, and ClientPosition
 
-[ RawMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#rawmovement-zero-engine) represents the amount of movement detected this frame by the mousing device. [ ClientPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#clientposition-zero-engi) gives the screen-space cursor position in pixels, as computed by the OS. ClientPosition is relative to the upper left pixel of the Zero client (application), which is (0, 0), with X and Y increasing to the right and down respectively. The [ CursorMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#cursormovement-zero-engi) property is computed by Zero as the difference in the ClientPosition between the current frame and the previous frame.
+[ RawMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#rawmovement-zilch-engine) represents the amount of movement detected this frame by the mousing device. [ ClientPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#clientposition-zilch-engi) gives the screen-space cursor position in pixels, as computed by the OS. ClientPosition is relative to the upper left pixel of the Zilch client (application), which is (0, 0), with X and Y increasing to the right and down respectively. The [ CursorMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#cursormovement-zilch-engi) property is computed by Zilch as the difference in the ClientPosition between the current frame and the previous frame.
 
 NOTE: CursorMovement and RawMovement often differ because the final position of the cursor depends on OS settings.
 
@@ -326,7 +326,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
  ###  IsButtonDown
 
-The [ IsButtonDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#isbuttondown-zero-engine) function returns whether the given mouse button is down on the current frame. It closely parallels the [ KeyIsDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zero-engine-do) function on the [ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown) object:
+The [ IsButtonDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown#isbuttondown-zilch-engine) function returns whether the given mouse button is down on the current frame. It closely parallels the [ KeyIsDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown#keyisdown-zilch-engine-do) function on the [ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.markdown) object:
 
 ```lang=csharp, name="IsButtonDown Example"
 function OnLogicUpdate(event : UpdateEvent)
@@ -341,14 +341,14 @@ function OnLogicUpdate(event : UpdateEvent)
 
  #  What to Use
 
-Whether direct control or cursor control is used, event-based input and polling-based input may have performance differences. As is the case with [ Keyboard Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/keyboardinput.markdown#what-to-use), the difference will often be very small, so sometimes it is best to use whichever method is easiest for the developer, but knowing how to decide which input method to use is always important.
+Whether direct control or cursor control is used, event-based input and polling-based input may have performance differences. As is the case with [ Keyboard Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/keyboardinput.markdown#what-to-use), the difference will often be very small, so sometimes it is best to use whichever method is easiest for the developer, but knowing how to decide which input method to use is always important.
 
 To decide whether a component should use event-based mouse input or polling-based mouse input, begin by answering these guideline questions:
 
 **Is the mouse being used for cursor control or direct mouse control?**
 
-- **[Cursor control](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/mouseinput/.markdown#cursor-control)**: mouse events are probably better
-- **[direct mouse control](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/mouseinput/.markdown#direct-mouse-control)**: either may work
+- **[Cursor control](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/mouseinput/.markdown#cursor-control)**: mouse events are probably better
+- **[direct mouse control](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/mouseinput/.markdown#direct-mouse-control)**: either may work
 
 The nature of a cursor-driven interface is well-suited to being controlled by mouse events, and is often awkward and impractical to implement with polling.
 
@@ -372,7 +372,7 @@ Because mouse events are only dispatched when the mouse is used (other than [ Mo
 
  #  Related Materials
  ##  Manual
-- [ Keyboard Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/gameplay/input/keyboardinput.markdown#what-to-use)
+- [ Keyboard Input](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/input/keyboardinput.markdown#what-to-use)
 
  ##  Code Reference
 - [ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.markdown)

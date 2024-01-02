@@ -18,7 +18,7 @@ Commands
 
 Commands from Data
 ---
-Commands are loaded from the Data\Commands.data file in the Zero repository. These commands are then bound in C++ to specific functions on the editor.
+Commands are loaded from the Data\Commands.data file in the Zilch repository. These commands are then bound in C++ to specific functions on the editor.
 
 Cog Commands
 ---

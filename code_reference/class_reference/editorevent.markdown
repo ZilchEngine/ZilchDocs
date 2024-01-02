@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorevent.markdown#editor-zero-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorevent.markdown#editor-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

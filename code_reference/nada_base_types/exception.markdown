@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/exception.markdown#exception-void)|[ Message](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/exception.markdown#message-zero-engine-docu)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/exception.markdown#exception-void)|[ Message](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/exception.markdown#message-zilch-engine-docu)| | |
 
 
  #  Properties

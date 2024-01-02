@@ -7,8 +7,8 @@ Another common use of MassOverride is to manually set the mass. Sometimes the us
 ---
  #  Related Materials
  ##  Manual
-- [rigidbody.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/rigidbody.markdown)
-- [colliders.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zeromanual/physics/colliders.markdown)
+- [rigidbody.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/rigidbody.markdown)
+- [colliders.markdown](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.markdown)
  ##  Reference
 - [MassOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.markdown)
 - [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.markdown)

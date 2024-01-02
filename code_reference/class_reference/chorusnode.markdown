@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeedbackPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#feedbackpercent-zero-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ FeedbackValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#feedbackvalue-zero-engin)| | |
-| |[ MaxDelayMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#maxdelaymillisec-zero-en)| | |
-| |[ MinDelayMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#mindelaymillisec-zero-en)| | |
+| |[ FeedbackPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#feedbackpercent-zilch-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ FeedbackValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#feedbackvalue-zilch-engin)| | |
+| |[ MaxDelayMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#maxdelaymillisec-zilch-en)| | |
+| |[ MinDelayMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#mindelaymillisec-zilch-en)| | |
 | |[ ModulationFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#modulationfrequency-zero)| | |
-| |[ OffsetMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#offsetmillisec-zero-engi)| | |
+| |[ OffsetMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.markdown#offsetmillisec-zilch-engi)| | |
 
 
  #  Properties

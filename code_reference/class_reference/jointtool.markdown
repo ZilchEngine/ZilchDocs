@@ -5,13 +5,13 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 |[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#jointtool-void)|[ AttachToCommonParent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#attachtocommonparent-zer)|[objectconnectingtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectconnectingtool.markdown)| |
-| |[ AttachToWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#attachtoworld-zero-engin)| | |
-| |[ AutoSnaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#autosnaps-zero-engine-do)| | |
-| |[ JointType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#jointtype-zero-engine-do)| | |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#length-zero-engine-docum)| | |
-| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#maximpulse-zero-engine-d)| | |
-| |[ OverrideLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#overridelength-zero-engi)| | |
-| |[ UseCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#usecenter-zero-engine-do)| | |
+| |[ AttachToWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#attachtoworld-zilch-engin)| | |
+| |[ AutoSnaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#autosnaps-zilch-engine-do)| | |
+| |[ JointType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#jointtype-zilch-engine-do)| | |
+| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#length-zilch-engine-docum)| | |
+| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#maximpulse-zilch-engine-d)| | |
+| |[ OverrideLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#overridelength-zilch-engi)| | |
+| |[ UseCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.markdown#usecenter-zilch-engine-do)| | |
 
 
  #  Properties

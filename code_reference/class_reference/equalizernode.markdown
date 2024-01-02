@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateAllBands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#interpolateallbands-void)|[ Band1Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#band1gain-zero-engine-do)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
-| |[ Band2Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#band2gain-zero-engine-do)| | |
-| |[ Band3Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#band3gain-zero-engine-do)| | |
-| |[ HighPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#highpassgain-zero-engine)| | |
-| |[ LowPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#lowpassgain-zero-engine)| | |
+|[ InterpolateAllBands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#interpolateallbands-void)|[ Band1Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#band1gain-zilch-engine-do)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.markdown)| |
+| |[ Band2Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#band2gain-zilch-engine-do)| | |
+| |[ Band3Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#band3gain-zilch-engine-do)| | |
+| |[ HighPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#highpassgain-zilch-engine)| | |
+| |[ LowPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.markdown#lowpassgain-zilch-engine)| | |
 
 
  #  Properties

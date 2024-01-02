@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AudioOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#audiooptions-zero-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
-| |[ ConflictOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#conflictoptions-zero-eng)| | |
-| |[ GeometryOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#geometryoptions-zero-eng)| | |
-| |[ ImageOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#imageoptions-zero-engine)| | |
+| |[ AudioOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#audiooptions-zilch-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.markdown)| |
+| |[ ConflictOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#conflictoptions-zilch-eng)| | |
+| |[ GeometryOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#geometryoptions-zilch-eng)| | |
+| |[ ImageOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.markdown#imageoptions-zilch-engine)| | |
 
 
  #  Properties

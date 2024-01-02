@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ IntData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmoinitializationevent.markdown#intdata-zero-engine-docu)|[objectevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectevent.markdown)| |
+| |[ IntData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmoinitializationevent.markdown#intdata-zilch-engine-docu)|[objectevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectevent.markdown)| |
 
 
  #  Properties

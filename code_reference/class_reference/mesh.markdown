@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#createruntime-zero-engin)|[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#indices-zero-engine-docu)|Resource| |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#runtimeclone-zero-engine)|[ PrimitiveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#primitivetype-zero-engin)| | |
-|[ Upload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#upload-void)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#vertices-zero-engine-doc)| | |
+|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#createruntime-zilch-engin)|[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#indices-zilch-engine-docu)|Resource| |
+|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#runtimeclone-zilch-engine)|[ PrimitiveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#primitivetype-zilch-engin)| | |
+|[ Upload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#upload-void)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#vertices-zilch-engine-doc)| | |
 |[ UploadNoRayCastInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#uploadnoraycastinfo-void)| | | |
 |[ UploadNoRayCastInfoOrAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.markdown#uploadnoraycastinfooraab)| | | |
 

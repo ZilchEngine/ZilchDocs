@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/areaevent.markdown#area-zero-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
+| |[ Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/areaevent.markdown#area-zilch-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.markdown)| |
 
 
  #  Properties

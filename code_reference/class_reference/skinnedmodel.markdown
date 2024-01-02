@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown#skinnedmodel-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown#mesh-zero-engine-documen)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown)| |
-| |[ SkeletonPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown#skeletonpath-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown#skinnedmodel-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown#mesh-zilch-engine-documen)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.markdown)| |
+| |[ SkeletonPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.markdown#skeletonpath-zilch-engine)| | |
 
 
  #  Properties

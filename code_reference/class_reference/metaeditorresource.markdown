@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AllowAdd](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#allowadd-zero-engine-doc)|[editorpropertyextension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorpropertyextension.markdown)| |
-| |[ AllowNone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#allownone-zero-engine-do)| | |
-| |[ FilterTag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#filtertag-zero-engine-do)| | |
-| |[ SearchPreview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#searchpreview-zero-engin)| | |
+| |[ AllowAdd](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#allowadd-zilch-engine-doc)|[editorpropertyextension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorpropertyextension.markdown)| |
+| |[ AllowNone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#allownone-zilch-engine-do)| | |
+| |[ FilterTag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#filtertag-zilch-engine-do)| | |
+| |[ SearchPreview](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaeditorresource.markdown#searchpreview-zilch-engin)| | |
 
 
  #  Properties

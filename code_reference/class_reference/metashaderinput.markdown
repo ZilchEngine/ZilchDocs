@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FragmentName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metashaderinput.markdown#fragmentname-zero-engine)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
-| |[ InputName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metashaderinput.markdown#inputname-zero-engine-do)| | |
+| |[ FragmentName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metashaderinput.markdown#fragmentname-zilch-engine)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.markdown)| |
+| |[ InputName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metashaderinput.markdown#inputname-zilch-engine-do)| | |
 
 
  #  Properties

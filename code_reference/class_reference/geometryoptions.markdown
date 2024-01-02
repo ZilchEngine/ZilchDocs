@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChangeBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#changebasis-zero-engine)|Object| |
-| |[ CollapsePivots](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#collapsepivots-zero-engi)| | |
-| |[ CreateArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#createarchetype-zero-eng)| | |
-| |[ FlipWindingOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#flipwindingorder-zero-en)| | |
+| |[ ChangeBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#changebasis-zilch-engine)|Object| |
+| |[ CollapsePivots](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#collapsepivots-zilch-engi)| | |
+| |[ CreateArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#createarchetype-zilch-eng)| | |
+| |[ FlipWindingOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#flipwindingorder-zilch-en)| | |
 | |[ GenerateSmoothNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#generatesmoothnormals-ze)| | |
 | |[ GenerateTangentSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#generatetangentspace-zer)| | |
-| |[ ImportAnimations](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#importanimations-zero-en)| | |
-| |[ ImportMeshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#importmeshes-zero-engine)| | |
-| |[ ImportTextures](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#importtextures-zero-engi)| | |
-| |[ InvertUvYAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#invertuvyaxis-zero-engin)| | |
-| |[ OriginOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#originoffset-zero-engine)| | |
-| |[ PhysicsImport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#physicsimport-zero-engin)| | |
-| |[ ScaleConversion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#scaleconversion-zero-eng)| | |
-| |[ ScaleFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#scalefactor-zero-engine)| | |
+| |[ ImportAnimations](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#importanimations-zilch-en)| | |
+| |[ ImportMeshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#importmeshes-zilch-engine)| | |
+| |[ ImportTextures](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#importtextures-zilch-engi)| | |
+| |[ InvertUvYAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#invertuvyaxis-zilch-engin)| | |
+| |[ OriginOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#originoffset-zilch-engine)| | |
+| |[ PhysicsImport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#physicsimport-zilch-engin)| | |
+| |[ ScaleConversion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#scaleconversion-zilch-eng)| | |
+| |[ ScaleFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#scalefactor-zilch-engine)| | |
 | |[ SmoothingAngleDegreesThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#smoothingangledegreesthr)| | |
-| |[ XBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#xbasisto-zero-engine-doc)| | |
-| |[ YBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#ybasisto-zero-engine-doc)| | |
-| |[ ZBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#zbasisto-zero-engine-doc)| | |
+| |[ XBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#xbasisto-zilch-engine-doc)| | |
+| |[ YBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#ybasisto-zilch-engine-doc)| | |
+| |[ ZBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.markdown#zbasisto-zilch-engine-doc)| | |
 
 
  #  Properties

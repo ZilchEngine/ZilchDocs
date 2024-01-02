@@ -1,13 +1,13 @@
 Component Example
  ################# 
 
-The following example guides you through making a component in C++ and exposing it to Zero so that it can be added to a Cog, serialized, and interact with other components.
+The following example guides you through making a component in C++ and exposing it to Zilch so that it can be added to a Cog, serialized, and interact with other components.
 
 The bare minimum requirements for making a component are as follows:
 - You must publicly inherit from Component
-- You must use the ZeroDeclareType macro within the public section of the class
+- You must use the ZilchDeclareType macro within the public section of the class
 - You must implement the InitializeMeta function and bind the base Component class
-- Our macros currently expect the component to be within the Zero namespace
+- Our macros currently expect the component to be within the Zilch namespace
 
 Within the `CustomComponent.hpp` header file:
 
@@ -16,12 +16,12 @@ Within the `CustomComponent.hpp` header file:
 # pragma once
 
 
-namespace Zero
+namespace Zilch
 {
   class CustomComponent : public Component
   {
   public:
-    ZeroDeclareType(CustomComponent);
+    ZilchDeclareType(CustomComponent);
     static void InitializeMeta(MetaType* meta);
   };
 }
@@ -36,9 +36,9 @@ Within the `CustomComponent.cpp` file:
 
 #include "CustomComponent.hpp"
 
-namespace Zero
+namespace Zilch
 {
-  ZeroDefineType(CustomComponent);
+  ZilchDefineType(CustomComponent);
   void CustomComponent::InitializeMeta(MetaType* meta)
   {
     BindBase(Component);
@@ -47,9 +47,9 @@ namespace Zero
 }
 ```
 
-The inclusion of `Precompiled.hpp` is only required if your project is using precompiled headers. All projects within Zero have this option enabled.
+The inclusion of `Precompiled.hpp` is only required if your project is using precompiled headers. All projects within Zilch have this option enabled.
 
-The `ZeroDeclareType` macro within the hpp file must be matched by `ZeroDefineType` in the cpp file. These macros create a reflection `MetaType` for your class so that we can use it within script, create it via a factory, and display it in a property grid. For more information on meta binding, visit the [meta_binding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_source_documentation/meta_binding.markdown) section.
+The `ZilchDeclareType` macro within the hpp file must be matched by `ZilchDefineType` in the cpp file. These macros create a reflection `MetaType` for your class so that we can use it within script, create it via a factory, and display it in a property grid. For more information on meta binding, visit the [meta_binding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_source_documentation/meta_binding.markdown) section.
 
 `InitializeMeta` is called once when your component's `MetaType` gets initialized. `BindBase` tells your type that it inherits from the Component class. The `BindSetup` call with `DefaultSerialization` lets the engine know that when we create your component from a factory we'll immediately set all your member variables to their default values via the SerializeNameDefault macro (see Serialization below).
 

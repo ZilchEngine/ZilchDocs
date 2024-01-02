@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#gizmodrag-void)|[ AutoDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#autodrag-zero-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
-| |[ DragActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#dragactive-zero-engine-d)| | |
-| |[ DragDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#dragdistance-zero-engine)| | |
-| |[ DragMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#dragmode-zero-engine-doc)| | |
-| |[ GrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#grabmode-zero-engine-doc)| | |
-| |[ GrabPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#grabpoint-zero-engine-do)| | |
-| |[ LineDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#linedirection-zero-engin)| | |
-| |[ NormalInWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#normalinworld-zero-engin)| | |
-| |[ PlaneNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#planenormal-zero-engine)| | |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#gizmodrag-void)|[ AutoDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#autodrag-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.markdown)| |
+| |[ DragActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#dragactive-zilch-engine-d)| | |
+| |[ DragDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#dragdistance-zilch-engine)| | |
+| |[ DragMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#dragmode-zilch-engine-doc)| | |
+| |[ GrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#grabmode-zilch-engine-doc)| | |
+| |[ GrabPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#grabpoint-zilch-engine-do)| | |
+| |[ LineDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#linedirection-zilch-engin)| | |
+| |[ NormalInWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#normalinworld-zilch-engin)| | |
+| |[ PlaneNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.markdown#planenormal-zilch-engine)| | |
 
 
  #  Properties

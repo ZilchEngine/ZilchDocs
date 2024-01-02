@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FileLoadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#fileloadtype-zero-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
-| |[ MaxVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#maxvolume-zero-engine-do)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#name-zero-engine-documen)| | |
-| |[ Normalize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#normalize-zero-engine-do)| | |
+| |[ FileLoadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#fileloadtype-zilch-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.markdown)| |
+| |[ MaxVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#maxvolume-zilch-engine-do)| | |
+| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#name-zilch-engine-documen)| | |
+| |[ Normalize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuilder.markdown#normalize-zilch-engine-do)| | |
 
 
  #  Properties
