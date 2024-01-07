@@ -1,2 +1,83 @@
-- name: Docs
-  href: docs/
+- name: Getting Started
+  href: getting_started.md
+  items:
+  - name: Features
+    href: getting_started/features.md
+  - name: Mimimum Specs
+    href: getting_started/min_specs.md
+
+- name: Manual 
+  href: zilch_editor_documentation/zilchmanual.md
+  items:
+    - name: Editor
+      href: zilch_editor_documentation/zilchmanual/editor.md
+    - name: Scripting
+      href: zilch_editor_documentation/zilchmanual/scripting.md
+    - name: Architecture
+      href: zilch_editor_documentation/zilchmanual/architecture.md
+    - name: Graphics
+      href: zilch_editor_documentation/zilchmanual/graphics.md
+    - name: Physics
+      href: zilch_editor_documentation/zilchmanual/physics.md
+    - name: Audio
+      href: zilch_editor_documentation/zilchmanual/audio.md
+    - name: Gameplay
+      href: zilch_editor_documentation/zilchmanual/gameplay.md
+    - name: Nada in Zilch
+      href: zilch_editor_documentation/zilchmanual/nada_in_zilch.md
+    - name: Animator
+      href: zilch_editor_documentation/zilchmanual/animator.md
+    - name: Networking
+      href: zilch_editor_documentation/zilchmanual/networking.md
+
+- name: Tutorials 
+  href: zilch_editor_documentation/tutorials.md
+  items:
+    - name: Tutorial Sequences
+      href: zilch_editor_documentation/tutorials/tutorial_sequences.md
+    - name: Editor
+      href: zilch_editor_documentation/tutorials/editor.md
+    - name: Scripting
+      href: zilch_editor_documentation/tutorials/scripting.md
+    - name: Architecture
+      href: zilch_editor_documentation/tutorials/architecture.md
+    - name: Gameplay
+      href: zilch_editor_documentation/tutorials/gameplay.md
+    - name: Graphics
+      href: zilch_editor_documentation/tutorials/graphics.md
+    - name: Physics
+      href: zilch_editor_documentation/tutorials/physics.md
+    - name: Audio
+      href: zilch_editor_documentation/tutorials/audio.md
+    - name: UI
+      href: zilch_editor_documentation/tutorials/ui.md
+    - name: Tools
+      href: zilch_editor_documentation/tutorials/external_zilch_engine_tools.md
+
+- name: Zilch Source 
+  href: zilch_source_documentation.md
+  items:
+    - name: Getting Started
+      href: zilch_source_documentation/getting_started.md
+    - name: Zilch Overview
+      href: zilch_source_documentation/zilch_overview.md
+    - name: Engine
+      href: zilch_source_documentation/engine.md
+    - name: Editor
+      href: zilch_source_documentation/editor.md
+    - name: Code
+      href: zilch_source_documentation/zilch_code.md
+    - name: Enums
+      href: zilch_source_documentation/enums.md
+    - name: Meta binding
+      href: zilch_source_documentation/meta_binding.md
+    - name: Platform
+      href: zilch_source_documentation/platform.md
+    - name: Components
+      href: zilch_source_documentation/components.md
+    - name: Custom Event Names
+      href: zilch_source_documentation/custom_event_names.md
+    - name: Crashes
+      href: zilch_source_documentation/crashes.md
+    - name: Making an installer
+      href: zilch_source_documentation/making_an_installer.md
